@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>FIFA 월드컵 2026 · 북중미 LIVE 센터</title>
+<meta name="description" content="2026 FIFA 북중미 월드컵 현황 · 경기 결과 · 일정 · 하이라이트 · 조별 순위 · 득점왕" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Archivo:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+:root{
+  --bg-0:#070b14; --bg-1:#0d1424; --bg-2:#141d33; --surface:#16203a;
+  --line:rgba(255,255,255,.08); --line-2:rgba(255,255,255,.14);
+  --accent:#00ff87; --accent-2:#00d4ff; --accent-3:#ff2d6f; --gold:#ffd24a;
+  --text:#eaf1ff; --text-dim:#9fb0cf; --text-faint:#6b7ba0;
+  --grad-hero:linear-gradient(115deg,#00ff87 0%,#00d4ff 55%,#7a5cff 100%);
+  --grad-card:linear-gradient(160deg,rgba(0,255,135,.06),rgba(0,212,255,.025));
+  --shadow:0 18px 50px rgba(0,0,0,.55);
+  --radius:16px;
+  --disp:'Archivo','Oswald',system-ui,sans-serif;
+  --cond:'Oswald',system-ui,sans-serif;
+  --body:'Inter',system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--body); color:var(--text); background:var(--bg-0);
+  line-height:1.5; overflow-x:hidden;
+  background-image:
+    radial-gradient(1200px 600px at 80% -10%, rgba(0,212,255,.10), transparent 60%),
+    radial-gradient(1000px 500px at 0% 0%, rgba(0,255,135,.08), transparent 55%),
+    repeating-linear-gradient(90deg, rgba(255,255,255,.018) 0 2px, transparent 2px 80px);
+  background-attachment:fixed;
+}
+.wrap{max-width:1240px;margin:0 auto;padding:0 22px}
+h1,h2,h3{font-family:var(--disp);letter-spacing:.5px;line-height:1.05}
+.tabnum{font-variant-numeric:tabular-nums}
+.section{padding:54px 0 10px}
+.section-head{display:flex;align-items:baseline;gap:14px;margin-bottom:22px;flex-wrap:wrap}
+.section-head h2{font-size:clamp(22px,3vw,34px);text-transform:uppercase}
+.section-head .accentbar{width:46px;height:5px;border-radius:3px;background:var(--grad-hero);align-self:center}
+.section-head .sub{color:var(--text-dim);font-size:13px;letter-spacing:.4px}
+
+/* ---------- TOP TICKER ---------- */
+.ticker{position:relative;background:linear-gradient(90deg,var(--accent-3),#b8003f);overflow:hidden;border-bottom:1px solid rgba(0,0,0,.3)}
+.ticker .track{display:inline-flex;white-space:nowrap;padding:7px 0;animation:scroll 48s linear infinite;font-family:var(--cond);font-size:13px;letter-spacing:.6px;text-transform:uppercase;font-weight:500}
+.ticker .track span{padding:0 26px;color:#fff}
+.ticker .track .dot{color:rgba(255,255,255,.6)}
+.ticker:hover .track{animation-play-state:paused}
+@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ---------- HERO ---------- */
+.hero{position:relative;padding:46px 0 30px;border-bottom:1px solid var(--line)}
+.hero::before{content:"";position:absolute;inset:0;background:
+  radial-gradient(700px 320px at 78% 30%,rgba(122,92,255,.18),transparent 60%);
+  pointer-events:none}
+.badge-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:16px}
+.tag{font-family:var(--cond);font-size:12px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;
+  padding:5px 12px;border-radius:999px;border:1px solid var(--line-2);color:var(--text-dim);background:rgba(255,255,255,.03)}
+.tag.live{color:#fff;border-color:transparent;background:var(--accent-3);
+  box-shadow:0 0 0 0 rgba(255,45,111,.55);animation:pulse 2s infinite}
+.hero h1{font-size:clamp(40px,8vw,92px);font-weight:900;text-transform:uppercase;line-height:.92;letter-spacing:-1px}
+.hero h1 .grad{background:var(--grad-hero);-webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(0 4px 30px rgba(0,212,255,.25))}
+.hero .meta{margin-top:14px;display:flex;gap:18px 28px;flex-wrap:wrap;align-items:center;color:var(--text-dim);font-size:15px}
+.hero .meta b{color:var(--text);font-weight:600}
+.hosts{font-size:26px;letter-spacing:2px}
+.countdown{margin-top:26px;display:flex;gap:14px;flex-wrap:wrap;align-items:flex-end}
+.countdown .cd-label{font-family:var(--cond);text-transform:uppercase;letter-spacing:1px;color:var(--text-dim);font-size:13px;width:100%;margin-bottom:2px}
+.cd-unit{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 14px;min-width:74px;text-align:center;box-shadow:var(--shadow)}
+.cd-unit .num{font-family:var(--disp);font-weight:900;font-size:34px;line-height:1;color:var(--accent)}
+.cd-unit .u{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--text-faint);margin-top:6px}
+.cd-next{font-family:var(--cond);color:var(--text);font-size:15px;align-self:center;padding-left:6px;border-left:2px solid var(--accent);margin-left:4px;padding-left:14px}
+.cd-next small{display:block;color:var(--text-dim);font-size:12px;letter-spacing:.4px}
+.cd-next-list{display:flex;flex-direction:column;gap:8px;align-self:center}
+
+/* ---------- STATS ---------- */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:30px}
+.stat{background:var(--grad-card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 18px 16px;position:relative;overflow:hidden}
+.stat::after{content:"";position:absolute;right:-20px;top:-20px;width:90px;height:90px;border-radius:50%;background:radial-gradient(circle,rgba(0,255,135,.10),transparent 70%)}
+.stat .v{font-family:var(--disp);font-weight:900;font-size:clamp(26px,4vw,40px);line-height:1;color:var(--text)}
+.stat .v .small{font-size:.5em;color:var(--text-dim);font-weight:700}
+.stat .k{margin-top:8px;font-family:var(--cond);text-transform:uppercase;letter-spacing:.8px;color:var(--text-dim);font-size:12px}
+
+/* ---------- FILTER TABS ---------- */
+.controls{position:sticky;top:0;z-index:30;background:rgba(7,11,20,.82);backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line);padding:12px 0;margin-top:34px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tab{font-family:var(--cond);font-weight:600;font-size:14px;letter-spacing:.4px;color:var(--text-dim);
+  background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:999px;padding:8px 16px;cursor:pointer;
+  transition:all .2s cubic-bezier(.2,.7,.2,1);white-space:nowrap}
+.tab:hover{color:var(--text);border-color:var(--line-2);transform:translateY(-1px)}
+.tab[aria-pressed="true"]{color:#04120b;background:var(--accent);border-color:transparent;box-shadow:0 6px 20px rgba(0,255,135,.25)}
+.tab.live-tab[aria-pressed="true"]{background:var(--accent-3);color:#fff;box-shadow:0 6px 20px rgba(255,45,111,.3)}
+.groups-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.gchip{font-family:var(--cond);font-weight:600;font-size:13px;min-width:34px;text-align:center;color:var(--text-dim);
+  background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:8px;padding:5px 9px;cursor:pointer;transition:all .18s}
+.gchip:hover{color:var(--text);border-color:var(--line-2)}
+.gchip[aria-pressed="true"]{color:var(--bg-0);background:var(--accent-2);border-color:transparent;font-weight:700}
+
+/* ---------- MATCH CARDS ---------- */
+.matches{display:grid;grid-template-columns:repeat(auto-fill,minmax(316px,1fr));gap:16px;margin-top:22px}
+.card{background:var(--grad-card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 16px 14px;
+  position:relative;overflow:hidden;transition:transform .25s cubic-bezier(.2,.7,.2,1),border-color .25s,box-shadow .25s;
+  opacity:0;transform:translateY(16px)}
+.card.in{opacity:1;transform:none}
+.card:hover{transform:translateY(-5px);border-color:var(--line-2);box-shadow:var(--shadow)}
+.card .ctop{display:flex;justify-content:space-between;align-items:center;font-family:var(--cond);font-size:11px;
+  letter-spacing:.6px;text-transform:uppercase;color:var(--text-faint);margin-bottom:14px}
+.card .stage{color:var(--accent-2);font-weight:600}
+.statuschip{font-family:var(--cond);font-weight:600;font-size:10.5px;letter-spacing:.8px;padding:3px 9px;border-radius:999px;text-transform:uppercase}
+.statuschip.finished{background:rgba(0,255,135,.12);color:var(--accent);border:1px solid rgba(0,255,135,.25)}
+.statuschip.scheduled{background:rgba(159,176,207,.1);color:var(--text-dim);border:1px solid var(--line-2)}
+.statuschip.live{background:var(--accent-3);color:#fff;border:1px solid transparent;animation:pulse 2s infinite}
+.statuschip .pip{display:inline-block;width:6px;height:6px;border-radius:50%;background:#fff;margin-right:5px;vertical-align:middle}
+.matchrow{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:8px}
+.team{display:flex;flex-direction:column;align-items:center;gap:7px;text-align:center;min-width:0}
+.team .flag{font-size:38px;line-height:1;filter:drop-shadow(0 3px 8px rgba(0,0,0,.45))}
+.team .code{font-family:var(--disp);font-weight:900;font-size:19px;letter-spacing:.5px}
+.team .name{font-size:12px;color:var(--text-dim);max-width:128px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.team.win .code{color:var(--accent)}
+.team.win .flag{filter:drop-shadow(0 0 14px rgba(0,255,135,.55))}
+.score{font-family:var(--disp);font-weight:900;font-size:40px;line-height:1;letter-spacing:1px;white-space:nowrap}
+.score .sep{color:var(--text-faint);margin:0 4px;font-size:26px;vertical-align:middle}
+.score.vs{font-size:22px;color:var(--text-dim);letter-spacing:2px}
+.kick{display:flex;flex-direction:column;align-items:center;gap:2px}
+.kick .t{font-family:var(--disp);font-weight:800;font-size:22px;color:var(--accent-2)}
+.kick .d{font-size:10.5px;color:var(--text-faint);font-family:var(--cond);letter-spacing:.5px}
+.card .venue{margin-top:13px;font-size:11.5px;color:var(--text-faint);display:flex;align-items:center;gap:6px}
+.card .venue::before{content:"📍";font-size:11px}
+.hl-toggle{margin-top:12px;width:100%;font-family:var(--cond);font-weight:600;font-size:12px;letter-spacing:.6px;text-transform:uppercase;
+  color:var(--gold);background:rgba(255,210,74,.08);border:1px solid rgba(255,210,74,.22);border-radius:10px;padding:8px;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;gap:6px;transition:all .2s}
+.hl-toggle:hover{background:rgba(255,210,74,.16)}
+.hl-toggle .arr{transition:transform .25s}
+.hl-toggle[aria-expanded="true"] .arr{transform:rotate(180deg)}
+.hl-body{max-height:0;overflow:hidden;transition:max-height .35s cubic-bezier(.2,.7,.2,1)}
+.hl-body ul{list-style:none;padding:12px 4px 2px;display:flex;flex-direction:column;gap:9px}
+.hl-body li{font-size:12.5px;color:var(--text-dim);padding-left:18px;position:relative;line-height:1.45}
+.hl-body li::before{content:"⚽";position:absolute;left:0;top:0;font-size:11px}
+.winner-glow{position:absolute;bottom:0;height:3px;background:var(--grad-hero);transition:all .3s}
+.yt-link{display:flex;align-items:center;justify-content:center;gap:7px;margin-top:8px;width:100%;
+  font-family:var(--cond);font-weight:600;font-size:12px;letter-spacing:.5px;text-transform:uppercase;
+  color:#fff;background:rgba(255,45,111,.13);border:1px solid rgba(255,45,111,.32);border-radius:10px;padding:8px;
+  text-decoration:none;transition:all .2s}
+.yt-link:hover{background:#ff2d6f;border-color:transparent;box-shadow:0 6px 18px rgba(255,45,111,.32)}
+.yt-link .ytic{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:5px;
+  background:#ff2d6f;color:#fff;font-size:9px}
+.yt-link:hover .ytic{background:#fff;color:#ff2d6f}
+
+/* ---- 토너먼트 로드맵 ---- */
+.bracket{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:6px}
+.kr-card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 16px 14px;position:relative;overflow:hidden;transition:all .2s}
+.kr-card:hover{border-color:var(--line-2);transform:translateY(-3px)}
+.kr-card.done{border-color:rgba(0,255,135,.3)}
+.kr-card .rname{font-family:var(--disp);font-weight:900;font-size:20px;letter-spacing:.5px}
+.kr-card.final .rname{background:var(--grad-hero);-webkit-background-clip:text;background-clip:text;color:transparent}
+.kr-card .rmeta{font-size:11.5px;color:var(--text-dim);margin-top:6px;line-height:1.5}
+.kr-card .rprog{margin-top:11px;display:flex;align-items:center;gap:8px}
+.kr-card .rprog .bar{flex:1;height:5px;border-radius:3px;background:rgba(255,255,255,.07);overflow:hidden}
+.kr-card .rprog .bar i{display:block;height:100%;background:var(--grad-hero);border-radius:3px;transition:width .6s}
+.kr-card .rprog .pc{font-family:var(--cond);font-size:11px;color:var(--text-dim);white-space:nowrap}
+.kr-card .rstatus{margin-top:9px;font-family:var(--cond);font-size:10.5px;letter-spacing:.7px;text-transform:uppercase;
+  display:inline-block;padding:3px 9px;border-radius:999px}
+.kr-card .rstatus.pending{background:rgba(159,176,207,.1);color:var(--text-dim);border:1px solid var(--line-2)}
+.kr-card .rstatus.live{background:var(--accent-3);color:#fff}
+.kr-card .rstatus.done{background:rgba(0,255,135,.12);color:var(--accent);border:1px solid rgba(0,255,135,.25)}
+.kr-card .trophy{position:absolute;right:10px;top:8px;font-size:26px;opacity:.18}
+
+/* ---------- STANDINGS ---------- */
+.groups-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;margin-top:8px}
+.gcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.gcard .gh{display:flex;align-items:center;gap:10px;padding:13px 16px;border-bottom:1px solid var(--line);
+  background:linear-gradient(90deg,rgba(0,212,255,.08),transparent)}
+.gcard .gh .gl{font-family:var(--disp);font-weight:900;font-size:18px;background:var(--grad-hero);
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.gcard .gh .gt{font-family:var(--cond);text-transform:uppercase;letter-spacing:1px;font-size:12px;color:var(--text-dim)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+thead th{font-family:var(--cond);text-transform:uppercase;font-size:10.5px;letter-spacing:.6px;color:var(--text-faint);
+  font-weight:600;padding:9px 6px;text-align:center}
+thead th.tl{text-align:left;padding-left:14px}
+tbody td{padding:9px 6px;text-align:center;border-top:1px solid var(--line);color:var(--text-dim)}
+tbody td.tl{text-align:left;padding-left:14px;color:var(--text);font-weight:500;position:relative}
+tbody td .tflag{margin-right:7px}
+tbody td .tcode{color:var(--text-faint);font-size:11px;margin-left:5px}
+tbody td.pts{color:var(--text);font-weight:700;font-family:var(--disp)}
+tbody tr.qual td.tl::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:3px;border-radius:2px;background:var(--accent)}
+tbody tr.qual td.tl{color:#fff}
+.gcard .legend{padding:9px 14px;font-size:10.5px;color:var(--text-faint);display:flex;align-items:center;gap:7px}
+.gcard .legend i{width:3px;height:13px;border-radius:2px;background:var(--accent);display:inline-block}
+
+/* ---------- TOP SCORERS ---------- */
+.scorers{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:11px;margin-top:6px}
+.scorer{display:flex;align-items:center;gap:13px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:11px 14px;transition:all .2s}
+.scorer:hover{border-color:var(--line-2);transform:translateY(-2px)}
+.scorer .rk{font-family:var(--disp);font-weight:900;font-size:17px;color:var(--text-faint);width:24px;text-align:center}
+.scorer.lead{background:linear-gradient(120deg,rgba(255,210,74,.14),rgba(255,210,74,.03));border-color:rgba(255,210,74,.3)}
+.scorer.lead .rk{color:var(--gold)}
+.scorer .who{flex:1;min-width:0}
+.scorer .who .nm{font-weight:600;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.scorer .who .tm{font-size:11px;color:var(--text-dim)}
+.scorer .goals{font-family:var(--disp);font-weight:900;font-size:22px;color:var(--accent)}
+.scorer.lead .goals{color:var(--gold)}
+.scorer .goals small{font-size:11px;color:var(--text-faint);font-weight:600;margin-left:2px}
+
+/* ---------- STORYLINES ---------- */
+.stories{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:6px}
+.story{background:var(--grad-card);border:1px solid var(--line);border-left:3px solid var(--accent-2);border-radius:12px;padding:16px 18px;
+  font-size:14px;color:var(--text-dim);line-height:1.55;transition:all .2s}
+.story:hover{border-left-color:var(--accent);transform:translateY(-3px);box-shadow:var(--shadow)}
+.story .em{font-size:22px;display:block;margin-bottom:8px}
+
+/* ---------- FOOTER ---------- */
+footer{margin-top:60px;border-top:1px solid var(--line);padding:30px 0 50px;color:var(--text-faint);font-size:12.5px;text-align:center;line-height:1.7}
+footer b{color:var(--text-dim)}
+.empty{grid-column:1/-1;text-align:center;color:var(--text-dim);padding:40px;font-family:var(--cond);letter-spacing:.5px}
+
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,45,111,.5)}70%{box-shadow:0 0 0 9px rgba(255,45,111,0)}100%{box-shadow:0 0 0 0 rgba(255,45,111,0)}}
+
+@media (max-width:760px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .hero h1{font-size:46px}
+  .section{padding:40px 0 8px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .card{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<!-- 상단 스토리라인 티커 -->
+<div class="ticker" aria-hidden="true"><div class="track" id="ticker"></div></div>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap">
+    <div class="badge-row" id="badge-row"></div>
+    <h1>FIFA 월드컵<br><span class="grad">2026 북중미</span></h1>
+    <div class="meta">
+      <span class="hosts" title="미국 · 캐나다 · 멕시코">🇺🇸 🇨🇦 🇲🇽</span>
+      <span><b id="m-dates"></b></span>
+      <span><b id="m-format"></b></span>
+    </div>
+    <div class="countdown" id="countdown"></div>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<!-- 필터 컨트롤 -->
+<div class="controls">
+  <div class="wrap">
+    <div class="tabs" id="tabs" role="group" aria-label="경기 상태 필터">
+      <button class="tab" data-status="all" aria-pressed="true">전체</button>
+      <button class="tab live-tab" data-status="live" aria-pressed="false">🔴 진행중</button>
+      <button class="tab" data-status="scheduled" aria-pressed="false">⏰ 예정</button>
+      <button class="tab" data-status="finished" aria-pressed="false">✅ 종료</button>
+    </div>
+    <div class="groups-row" id="groups-row" role="group" aria-label="조별 필터"></div>
+  </div>
+</div>
+
+<!-- 경기 -->
+<section class="section" id="fixtures">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="accentbar"></span>
+      <h2>경기 일정 &amp; 결과</h2>
+      <span class="sub">🇰🇷 한국시간(KST) · <span id="match-count"></span></span>
+    </div>
+    <div class="matches" id="matches"></div>
+  </div>
+</section>
+
+<!-- 조별 순위 -->
+<section class="section" id="standings">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="accentbar"></span>
+      <h2>조별 순위표</h2>
+      <span class="sub">각 조 상위 2팀 + 성적 우수 3위 8팀 → 32강 진출</span>
+    </div>
+    <div class="groups-grid" id="groups-grid"></div>
+  </div>
+</section>
+
+<!-- 토너먼트 로드맵 -->
+<section class="section" id="knockout-sec">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="accentbar"></span>
+      <h2>토너먼트 로드맵</h2>
+      <span class="sub">조별리그 종료 후 대진 확정 · 결과가 입력되면 자동 반영 (시각 KST)</span>
+    </div>
+    <div class="bracket" id="bracket"></div>
+  </div>
+</section>
+
+<!-- 득점왕 -->
+<section class="section" id="scorers-sec">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="accentbar"></span>
+      <h2>골든부트 레이스 🏆</h2>
+      <span class="sub">대회 득점 순위</span>
+    </div>
+    <div class="scorers" id="scorers"></div>
+  </div>
+</section>
+
+<!-- 스토리라인 -->
+<section class="section" id="stories-sec">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="accentbar"></span>
+      <h2>대회 하이라이트 &amp; 화제</h2>
+      <span class="sub">이번 월드컵을 뜨겁게 달군 순간들</span>
+    </div>
+    <div class="stories" id="stories"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>⚽ <b>FIFA 월드컵 2026 북중미 LIVE 센터</b> · 데이터 최종 갱신 <b id="f-updated"></b></div>
+    <div style="margin-top:8px">데이터는 <code>index.html</code> 상단의 <b>WORLD_CUP_DATA</b> 블록에서 직접 수정·갱신할 수 있습니다. 예정 경기가 끝나면 status를 <b>finished</b>로 바꾸고 스코어·하이라이트를 채우면 화면이 자동 갱신됩니다.</div>
+    <div style="margin-top:8px;color:var(--text-faint)" id="f-notes"></div>
+  </div>
+</footer>
+
+<script>
+/* =========================================================
+   WORLD_CUP_DATA — 단일 데이터 소스. 이 객체만 수정하면 전체 화면이 갱신됩니다.
+   ========================================================= */
+const WORLD_CUP_DATA = {
+  "lastUpdated": "2026-06-17",
+  "_dataNotes": "2026년 6월 17일 기준 수집. A~I조는 1차전 종료(6/11~6/16). J조: 아르헨티나 3-0 알제리(6/16) 완료, 오스트리아 vs 요르단(6/17) 예정. K·L조는 6/17 개막(결과 미반영). 일부 득점 시각은 추정치.",
+  "tournament": {
+    "name": "FIFA World Cup 2026",
+    "hosts": ["United States", "Canada", "Mexico"],
+    "dates": "2026년 6월 11일 – 7월 19일",
+    "format": "48개국 · 12개 조 · 32강 토너먼트",
+    "teamCount": 48,
+    "totalMatches": 104
+  },
+  "groups": [
+    {"name":"A","teams":[{"name":"Mexico","code":"MEX","flag":"🇲🇽"},{"name":"South Korea","code":"KOR","flag":"🇰🇷"},{"name":"Czech Republic","code":"CZE","flag":"🇨🇿"},{"name":"South Africa","code":"RSA","flag":"🇿🇦"}],"standings":[{"team":"Mexico","code":"MEX","played":1,"won":1,"drawn":0,"lost":0,"gf":2,"ga":0,"points":3},{"team":"South Korea","code":"KOR","played":1,"won":1,"drawn":0,"lost":0,"gf":2,"ga":1,"points":3},{"team":"Czech Republic","code":"CZE","played":1,"won":0,"drawn":0,"lost":1,"gf":1,"ga":2,"points":0},{"team":"South Africa","code":"RSA","played":1,"won":0,"drawn":0,"lost":1,"gf":0,"ga":2,"points":0}]},
+    {"name":"B","teams":[{"name":"Canada","code":"CAN","flag":"🇨🇦"},{"name":"Switzerland","code":"SUI","flag":"🇨🇭"},{"name":"Bosnia and Herzegovina","code":"BIH","flag":"🇧🇦"},{"name":"Qatar","code":"QAT","flag":"🇶🇦"}],"standings":[{"team":"Canada","code":"CAN","played":1,"won":0,"drawn":1,"lost":0,"gf":1,"ga":1,"points":1},{"team":"Switzerland","code":"SUI","played":1,"won":0,"drawn":1,"lost":0,"gf":1,"ga":1,"points":1},{"team":"Bosnia and Herzegovina","code":"BIH","played":1,"won":0,"drawn":1,"lost":0,"gf":1,"ga":1,"points":1},{"team":"Qatar","code":"QAT","played":1,"won":0,"drawn":1,"lost":0,"gf":1,"ga":1,"points":1}]},
+    {"name":"C","teams":[{"name":"Brazil","code":"BRA","flag":"🇧🇷"},{"name":"Morocco","code":"MAR","flag":"🇲🇦"},{"name":"Scotland","code":"SCO","flag":"🏴󠁧󠁢󠁳󠁣󠁴󠁿"},{"name":"Haiti","code":"HAI","flag":"🇭🇹"}],"standings":[{"team":"Scotland","code":"SCO","played":1,"won":1,"drawn":0,"lost":0,"gf":1,"ga":0,"points":3},{"team":"Morocco","code":"MAR","played":1,"won":0,"drawn":1,"lost":0,"gf":1,"ga":1,"points":1},{"team":"Brazil","code":"BRA","played":1,"won":0,"drawn":1,"lost":0,"gf":1,"ga":1,"points":1},{"team":"Haiti","code":"HAI","played":1,"won":0,"drawn":0,"lost":1,"gf":0,"ga":1,"points":0}]},
+    {"name":"D","teams":[{"name":"United States","code":"USA","flag":"🇺🇸"},{"name":"Australia","code":"AUS","flag":"🇦🇺"},{"name":"Turkey","code":"TUR","flag":"🇹🇷"},{"name":"Paraguay","code":"PAR","flag":"🇵🇾"}],"standings":[{"team":"United States","code":"USA","played":1,"won":1,"drawn":0,"lost":0,"gf":4,"ga":1,"points":3},{"team":"Australia","code":"AUS","played":1,"won":1,"drawn":0,"lost":0,"gf":2,"ga":0,"points":3},{"team":"Turkey","code":"TUR","played":1,"won":0,"drawn":0,"lost":1,"gf":0,"ga":2,"points":0},{"team":"Paraguay","code":"PAR","played":1,"won":0,"drawn":0,"lost":1,"gf":1,"ga":4,"points":0}]},
+    {"name":"E","teams":[{"name":"Germany","code":"GER","flag":"🇩🇪"},{"name":"Ivory Coast","code":"CIV","flag":"🇨🇮"},{"name":"Ecuador","code":"ECU","flag":"🇪🇨"},{"name":"Curacao","code":"CUW","flag":"🇨🇼"}],"standings":[{"team":"Germany","code":"GER","played":1,"won":1,"drawn":0,"lost":0,"gf":7,"ga":1,"points":3},{"team":"Ivory Coast","code":"CIV","played":1,"won":1,"drawn":0,"lost":0,"gf":1,"ga":0,"points":3},{"team":"Ecuador","code":"ECU","played":1,"won":0,"drawn":0,"lost":1,"gf":0,"ga":1,"points":0},{"team":"Curacao","code":"CUW","played":1,"won":0,"drawn":0,"lost":1,"gf":1,"ga":7,"points":0}]},
+    {"name":"F","teams":[{"name":"Netherlands","code":"NED","flag":"🇳🇱"},{"name":"Japan","code":"JPN","flag":"🇯🇵"},{"name":"Sweden","code":"SWE","flag":"🇸🇪"},{"name":"Tunisia","code":"TUN","flag":"🇹🇳"}],"standings":[{"team":"Sweden","code":"SWE","played":1,"won":1,"drawn":0,"lost":0,"gf":5,"ga":1,"points":3},{"team":"Japan","code":"JPN","played":1,"won":0,"drawn":1,"lost":0,"gf":2,"ga":2,"points":1},{"team":"Netherlands","code":"NED","played":1,"won":0,"drawn":1,"lost":0,"gf":2,"ga":2,"points":1},{"team":"Tunisia","code":"TUN","played":1,"won":0,"drawn":0,"lost":1,"gf":1,"ga":5,"points":0}]},
+    {"name":"G","teams":[{"name":"Belgium","code":"BEL","flag":"🇧🇪"},{"name":"Iran","code":"IRN","flag":"🇮🇷"},{"name":"Egypt","code":"EGY","flag":"🇪🇬"},{"name":"New Zealand","code":"NZL","flag":"🇳🇿"}],"standings":[{"team":"Belgium","code":"BEL","played":1,"won":0,"drawn":1,"lost":0,"gf":1,"ga":1,"points":1},{"team":"Egypt","code":"EGY","played":1,"won":0,"drawn":1,"lost":0,"gf":1,"ga":1,"points":1},{"team":"Iran","code":"IRN","played":1,"won":0,"drawn":1,"lost":0,"gf":2,"ga":2,"points":1},{"team":"New Zealand","code":"NZL","played":1,"won":0,"drawn":1,"lost":0,"gf":2,"ga":2,"points":1}]},
+    {"name":"H","teams":[{"name":"Spain","code":"ESP","flag":"🇪🇸"},{"name":"Uruguay","code":"URU","flag":"🇺🇾"},{"name":"Saudi Arabia","code":"KSA","flag":"🇸🇦"},{"name":"Cabo Verde","code":"CPV","flag":"🇨🇻"}],"standings":[{"team":"Uruguay","code":"URU","played":1,"won":0,"drawn":1,"lost":0,"gf":1,"ga":1,"points":1},{"team":"Saudi Arabia","code":"KSA","played":1,"won":0,"drawn":1,"lost":0,"gf":1,"ga":1,"points":1},{"team":"Spain","code":"ESP","played":1,"won":0,"drawn":1,"lost":0,"gf":0,"ga":0,"points":1},{"team":"Cabo Verde","code":"CPV","played":1,"won":0,"drawn":1,"lost":0,"gf":0,"ga":0,"points":1}]},
+    {"name":"I","teams":[{"name":"France","code":"FRA","flag":"🇫🇷"},{"name":"Norway","code":"NOR","flag":"🇳🇴"},{"name":"Senegal","code":"SEN","flag":"🇸🇳"},{"name":"Iraq","code":"IRQ","flag":"🇮🇶"}],"standings":[{"team":"Norway","code":"NOR","played":1,"won":1,"drawn":0,"lost":0,"gf":4,"ga":1,"points":3},{"team":"France","code":"FRA","played":1,"won":1,"drawn":0,"lost":0,"gf":3,"ga":1,"points":3},{"team":"Senegal","code":"SEN","played":1,"won":0,"drawn":0,"lost":1,"gf":1,"ga":3,"points":0},{"team":"Iraq","code":"IRQ","played":1,"won":0,"drawn":0,"lost":1,"gf":1,"ga":4,"points":0}]},
+    {"name":"J","teams":[{"name":"Argentina","code":"ARG","flag":"🇦🇷"},{"name":"Austria","code":"AUT","flag":"🇦🇹"},{"name":"Algeria","code":"ALG","flag":"🇩🇿"},{"name":"Jordan","code":"JOR","flag":"🇯🇴"}],"standings":[{"team":"Argentina","code":"ARG","played":1,"won":1,"drawn":0,"lost":0,"gf":3,"ga":0,"points":3},{"team":"Austria","code":"AUT","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"points":0},{"team":"Jordan","code":"JOR","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"points":0},{"team":"Algeria","code":"ALG","played":1,"won":0,"drawn":0,"lost":1,"gf":0,"ga":3,"points":0}]},
+    {"name":"K","teams":[{"name":"Portugal","code":"POR","flag":"🇵🇹"},{"name":"Colombia","code":"COL","flag":"🇨🇴"},{"name":"Uzbekistan","code":"UZB","flag":"🇺🇿"},{"name":"DR Congo","code":"COD","flag":"🇨🇩"}],"standings":[{"team":"Portugal","code":"POR","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"points":0},{"team":"Colombia","code":"COL","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"points":0},{"team":"Uzbekistan","code":"UZB","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"points":0},{"team":"DR Congo","code":"COD","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"points":0}]},
+    {"name":"L","teams":[{"name":"England","code":"ENG","flag":"🏴󠁧󠁢󠁥󠁮󠁧󠁿"},{"name":"Croatia","code":"CRO","flag":"🇭🇷"},{"name":"Ghana","code":"GHA","flag":"🇬🇭"},{"name":"Panama","code":"PAN","flag":"🇵🇦"}],"standings":[{"team":"England","code":"ENG","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"points":0},{"team":"Croatia","code":"CRO","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"points":0},{"team":"Ghana","code":"GHA","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"points":0},{"team":"Panama","code":"PAN","played":0,"won":0,"drawn":0,"lost":0,"gf":0,"ga":0,"points":0}]}
+  ],
+  "matches": [
+    {"id":1,"date":"2026-06-11","time":"18:00 ET","stage":"Group A","home":"Mexico","homeCode":"MEX","away":"South Africa","awayCode":"RSA","homeScore":2,"awayScore":0,"venue":"Estadio Azteca, Mexico City","status":"finished","highlights":["훌리안 키뇨네스가 9분 대회 개막골 — CONCACAF 선수 최초의 월드컵 개막골","라울 히메네스가 67분 추가골","공동 개최국 멕시코가 만원 아스테카에서 산뜻한 출발"]},
+    {"id":2,"date":"2026-06-11","time":"21:00 ET","stage":"Group A","home":"South Korea","homeCode":"KOR","away":"Czech Republic","awayCode":"CZE","homeScore":2,"awayScore":1,"venue":"Estadio Akron, Zapopan","status":"finished","highlights":["59분 크레이치가 체코 선제골","67분 황인범 동점골","80분 오현규 역전 결승골"]},
+    {"id":3,"date":"2026-06-12","time":"15:00 ET","stage":"Group D","home":"United States","homeCode":"USA","away":"Paraguay","awayCode":"PAR","homeScore":4,"awayScore":1,"venue":"SoFi Stadium, Inglewood","status":"finished","highlights":["7분 풀리식·맥케니 압박 끝 자책골로 선제","발로건 멀티골 — 1930년 이후 미국 선수 첫 월드컵 1경기 2골","73분 마우리시오가 파라과이 만회골","조 레이나가 추가시간 환상적인 쐐기골"]},
+    {"id":4,"date":"2026-06-13","time":"12:00 ET","stage":"Group D","home":"Australia","homeCode":"AUS","away":"Turkey","awayCode":"TUR","homeScore":2,"awayScore":0,"venue":"BC Place, Vancouver","status":"finished","highlights":["호주가 경기 내내 주도","터키는 유효슈팅 0개에 그침"]},
+    {"id":5,"date":"2026-06-12","time":"21:00 ET","stage":"Group B","home":"Canada","homeCode":"CAN","away":"Bosnia and Herzegovina","awayCode":"BIH","homeScore":1,"awayScore":1,"venue":"BMO Field, Toronto","status":"finished","highlights":["공동 개최국 캐나다가 토론토 홈 개막전 무승부"]},
+    {"id":6,"date":"2026-06-13","time":"21:00 ET","stage":"Group C","home":"Brazil","homeCode":"BRA","away":"Morocco","awayCode":"MAR","homeScore":1,"awayScore":1,"venue":"MetLife Stadium, East Rutherford","status":"finished","highlights":["비니시우스 주니오르가 브라질 골","우승후보 브라질이 모로코에 발목","이 결과로 스코틀랜드가 C조 선두로"]},
+    {"id":7,"date":"2026-06-13","time":"15:00 ET","stage":"Group C","home":"Haiti","homeCode":"HAI","away":"Scotland","awayCode":"SCO","homeScore":0,"awayScore":1,"venue":"Gillette Stadium, Foxborough","status":"finished","highlights":["스코틀랜드, 1974년 이후 첫 월드컵 승리","28년 만의 월드컵 본선(1998년 이후)","브라질·모로코 제치고 C조 선두 등극"]},
+    {"id":8,"date":"2026-06-13","time":"18:00 ET","stage":"Group B","home":"Qatar","homeCode":"QAT","away":"Switzerland","awayCode":"SUI","homeScore":1,"awayScore":1,"venue":"Levi's Stadium, Santa Clara","status":"finished","highlights":["카타르 월드컵 사상 첫 승점 획득","2022년 개최국으로 3전 전패 후 첫 승점"]},
+    {"id":9,"date":"2026-06-14","time":"13:00 ET","stage":"Group E","home":"Germany","homeCode":"GER","away":"Curacao","awayCode":"CUW","homeScore":7,"awayScore":1,"venue":"NRG Stadium, Houston","status":"finished","highlights":["독일이 월드컵 통산 최다 득점국 등극(239골)으로 브라질 추월","역대 최소 인구 본선국 쿠라사오(약 15.5만)가 사상 첫 월드컵 골","하베르츠 멀티골, 무시알라도 득점"]},
+    {"id":10,"date":"2026-06-14","time":"19:00 ET","stage":"Group E","home":"Ivory Coast","homeCode":"CIV","away":"Ecuador","awayCode":"ECU","homeScore":1,"awayScore":0,"venue":"Lincoln Financial Field, Philadelphia","status":"finished","highlights":["90분 아마드 디알로 결승골(싱고 도움)","에콰도르는 전반 골대만 두 차례","추가시간 극장골로 코트디부아르 승점 3"]},
+    {"id":11,"date":"2026-06-14","time":"13:00 ET","stage":"Group F","home":"Netherlands","homeCode":"NED","away":"Japan","awayCode":"JPN","homeScore":2,"awayScore":2,"venue":"AT&T Stadium, Arlington","status":"finished","highlights":["판 다이크(50분)·서머빌(64분) 네덜란드 골","나카무라(57분)·카마다(88분) 일본 골","카마다의 88분 동점골로 일본 극적 무승부","관중 69,285명"]},
+    {"id":12,"date":"2026-06-14","time":"19:00 ET","stage":"Group F","home":"Sweden","homeCode":"SWE","away":"Tunisia","awayCode":"TUN","homeScore":5,"awayScore":1,"venue":"Estadio BBVA, Guadalupe","status":"finished","highlights":["야신 아야리 멀티골(후반 중거리 대포 포함)","요케레스·이사크 맹활약","스반베리 골은 84분 VAR 판독 끝 인정"]},
+    {"id":13,"date":"2026-06-15","time":"12:00 ET","stage":"Group H","home":"Spain","homeCode":"ESP","away":"Cabo Verde","awayCode":"CPV","homeScore":0,"awayScore":0,"venue":"Mercedes-Benz Stadium, Atlanta","status":"finished","highlights":["우승후보 스페인이 데뷔국 카보베르데에 0-0 충격 무승부","인구 약 53만 카보베르데의 값진 결과","관중 67,640명"]},
+    {"id":14,"date":"2026-06-15","time":"18:00 ET","stage":"Group H","home":"Saudi Arabia","homeCode":"KSA","away":"Uruguay","awayCode":"URU","homeScore":1,"awayScore":1,"venue":"Hard Rock Stadium, Miami Gardens","status":"finished","highlights":["41분 알 암리 사우디 선제골","80분 아라우호 우루과이 동점골","관중 62,764명"]},
+    {"id":15,"date":"2026-06-15","time":"12:00 ET","stage":"Group G","home":"Belgium","homeCode":"BEL","away":"Egypt","awayCode":"EGY","homeScore":1,"awayScore":1,"venue":"Lumen Field, Seattle","status":"finished","highlights":["벨기에와 이집트 1-1 무승부"]},
+    {"id":16,"date":"2026-06-15","time":"18:00 ET","stage":"Group G","home":"Iran","homeCode":"IRN","away":"New Zealand","awayCode":"NZL","homeScore":2,"awayScore":2,"venue":"SoFi Stadium, Inglewood","status":"finished","highlights":["이란-뉴질랜드 2-2 난타전","일라이자 저스트가 뉴질랜드 골"]},
+    {"id":17,"date":"2026-06-16","time":"12:00 ET","stage":"Group I","home":"France","homeCode":"FRA","away":"Senegal","awayCode":"SEN","homeScore":3,"awayScore":1,"venue":"MetLife Stadium, East Rutherford","status":"finished","highlights":["음바페가 지루 넘어 프랑스 역대 최다 득점자로(99경기 58골)","음바페 멀티골(66분·90+6분), 바르콜라(82분) 추가골","올리세 2도움","세네갈은 음바예가 막판 만회골(90+5분)"]},
+    {"id":18,"date":"2026-06-16","time":"18:00 ET","stage":"Group I","home":"Iraq","homeCode":"IRQ","away":"Norway","awayCode":"NOR","homeScore":1,"awayScore":4,"venue":"Gillette Stadium, Foxborough","status":"finished","highlights":["홀란드 월드컵 데뷔전 멀티골 — 노르웨이 1998년 이후 첫 본선","이라크 GK가 걷어낸 공이 홀란드에 맞고 두 번째 골","이라크는 1986년 이후 첫 월드컵 골"]},
+    {"id":19,"date":"2026-06-16","time":"21:00 ET","stage":"Group J","home":"Argentina","homeCode":"ARG","away":"Algeria","awayCode":"ALG","homeScore":3,"awayScore":0,"venue":"Arrowhead Stadium, Kansas City","status":"finished","highlights":["메시 커리어 첫 월드컵 해트트릭 — 클로제의 월드컵 통산 최다 16골과 타이","최고령 월드컵 해트트릭 기록(38세)","디펜딩 챔피언 아르헨티나의 압도적 출발","메시는 해트트릭 후 80분 교체"]},
+    {"id":20,"date":"2026-06-17","time":"00:00 ET","stage":"Group J","home":"Austria","homeCode":"AUT","away":"Jordan","awayCode":"JOR","homeScore":null,"awayScore":null,"venue":"Levi's Stadium, Santa Clara","status":"scheduled","highlights":[]},
+    {"id":21,"date":"2026-06-17","time":"13:00 ET","stage":"Group K","home":"Portugal","homeCode":"POR","away":"DR Congo","awayCode":"COD","homeScore":null,"awayScore":null,"venue":"NRG Stadium, Houston","status":"scheduled","highlights":[]},
+    {"id":22,"date":"2026-06-17","time":"13:00 ET","stage":"Group K","home":"Uzbekistan","homeCode":"UZB","away":"Colombia","awayCode":"COL","homeScore":null,"awayScore":null,"venue":"Estadio Azteca, Mexico City","status":"scheduled","highlights":[]},
+    {"id":23,"date":"2026-06-17","time":"16:00 ET","stage":"Group L","home":"England","homeCode":"ENG","away":"Croatia","awayCode":"CRO","homeScore":null,"awayScore":null,"venue":"AT&T Stadium, Arlington","status":"scheduled","highlights":[]},
+    {"id":24,"date":"2026-06-17","time":"19:00 ET","stage":"Group L","home":"Ghana","homeCode":"GHA","away":"Panama","awayCode":"PAN","homeScore":null,"awayScore":null,"venue":"BMO Field, Toronto","status":"scheduled","highlights":[]}
+  ],
+  "storylines": [
+    "리오넬 메시가 알제리전(6/16) 해트트릭 — 커리어 첫 월드컵 해트트릭이자 클로제의 통산 16골과 타이. 38세, 역대 최고령 월드컵 해트트릭.",
+    "킬리안 음바페가 세네갈전 멀티골로 지루를 넘어 프랑스 역대 최다 득점자 등극(99경기 58골).",
+    "스코틀랜드가 1998년 이후 28년 만의 본선에서 하이티를 1-0으로 꺾고 브라질·모로코를 제친 C조 선두.",
+    "인구 약 53만의 카보베르데가 데뷔전에서 우승후보 스페인을 0-0으로 막아내며 개막 주 최대 이변.",
+    "쿠라사오(인구 약 15.5만)가 남자 월드컵 역대 최소 인구 본선국으로 독일에 0-7 패배 속 사상 첫 골.",
+    "엘링 홀란드가 월드컵 데뷔전 멀티골로 노르웨이의 1998년 이후 첫 본선을 4-1 승리로 장식.",
+    "독일이 쿠라사오 7-1 대파로 월드컵 통산 최다 득점국(239골) 등극, 브라질 추월.",
+    "발로건이 1930년 초대 대회 이후 미국 선수 최초로 한 경기 2골(파라과이전 4-1 승).",
+    "카타르가 스위스전 1-1로 사상 첫 월드컵 승점 — 2022년 개최국 3전 전패의 설움 씻어.",
+    "이탈리아가 본선 진출 실패 — 역대 우승국 최초로 3개 대회 연속 불참.",
+    "사상 첫 3개국 공동 개최, 첫 48개국 체제, 1994년 이후 첫 북중미 월드컵."
+  ],
+  "topScorers": [
+    {"player":"Lionel Messi","team":"Argentina","goals":3},
+    {"player":"Folarin Balogun","team":"United States","goals":2},
+    {"player":"Kai Havertz","team":"Germany","goals":2},
+    {"player":"Yasin Ayari","team":"Sweden","goals":2},
+    {"player":"Elijah Just","team":"New Zealand","goals":2},
+    {"player":"Kylian Mbappé","team":"France","goals":2},
+    {"player":"Erling Haaland","team":"Norway","goals":2},
+    {"player":"Raúl Jiménez","team":"Mexico","goals":1},
+    {"player":"Julián Quiñones","team":"Mexico","goals":1},
+    {"player":"Alexander Isak","team":"Sweden","goals":1},
+    {"player":"Viktor Gyökeres","team":"Sweden","goals":1},
+    {"player":"Mattias Svanberg","team":"Sweden","goals":1},
+    {"player":"Virgil van Dijk","team":"Netherlands","goals":1},
+    {"player":"Crysencio Summerville","team":"Netherlands","goals":1},
+    {"player":"Bradley Barcola","team":"France","goals":1},
+    {"player":"Amad Diallo","team":"Ivory Coast","goals":1},
+    {"player":"Vinicius Junior","team":"Brazil","goals":1}
+  ],
+  "knockoutRounds": [
+    {"round":"32강","stage":"Round of 32","dates":"6/28 ~ 7/3","matchCount":16},
+    {"round":"16강","stage":"Round of 16","dates":"7/4 ~ 7/7","matchCount":8},
+    {"round":"8강","stage":"Quarter-final","dates":"7/9 ~ 7/11","matchCount":4},
+    {"round":"4강","stage":"Semi-final","dates":"7/14 ~ 7/15","matchCount":2},
+    {"round":"3·4위전","stage":"Third place","dates":"7/18","matchCount":1},
+    {"round":"결승","stage":"Final","dates":"7/19 · MetLife Stadium","matchCount":1}
+  ]
+};
+
+/* ========================= 렌더링 로직 ========================= */
+const D = WORLD_CUP_DATA;
+const $ = (s, p=document)=>p.querySelector(s);
+const el = (t, c, h)=>{const e=document.createElement(t); if(c)e.className=c; if(h!=null)e.innerHTML=h; return e;};
+const esc = s => String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+
+// code -> flag / name 룩업 (조 데이터에서 생성)
+const flagOf = {}, nameOf = {};
+D.groups.forEach(g => g.teams.forEach(t => { flagOf[t.code]=t.flag; nameOf[t.code]=t.name; }));
+const FLAG = c => flagOf[c] || '🏴';
+
+// 팀 코드 → 한글 국가명 (이 표만 고치면 전체 화면의 팀명이 바뀝니다)
+const TEAM_KO = {
+  MEX:'멕시코', KOR:'대한민국', CZE:'체코', RSA:'남아공',
+  CAN:'캐나다', SUI:'스위스', BIH:'보스니아', QAT:'카타르',
+  BRA:'브라질', MAR:'모로코', SCO:'스코틀랜드', HAI:'아이티',
+  USA:'미국', AUS:'호주', TUR:'튀르키예', PAR:'파라과이',
+  GER:'독일', CIV:'코트디부아르', ECU:'에콰도르', CUW:'쿠라사오',
+  NED:'네덜란드', JPN:'일본', SWE:'스웨덴', TUN:'튀니지',
+  BEL:'벨기에', IRN:'이란', EGY:'이집트', NZL:'뉴질랜드',
+  ESP:'스페인', URU:'우루과이', KSA:'사우디', CPV:'카보베르데',
+  FRA:'프랑스', NOR:'노르웨이', SEN:'세네갈', IRQ:'이라크',
+  ARG:'아르헨티나', AUT:'오스트리아', ALG:'알제리', JOR:'요르단',
+  POR:'포르투갈', COL:'콜롬비아', UZB:'우즈베키스탄', COD:'DR콩고',
+  ENG:'잉글랜드', CRO:'크로아티아', GHA:'가나', PAN:'파나마'
+};
+const koOf = c => TEAM_KO[c] || nameOf[c] || c || '미정';
+const koByName = {};
+D.groups.forEach(g => g.teams.forEach(t => { koByName[t.name] = TEAM_KO[t.code] || t.name; }));
+const KOname = n => koByName[n] || n;
+
+// ET 시간 → 절대 시각(Date). 6월=EDT(-04:00).
+function matchDate(m){
+  const hm = (m.time||'00:00').match(/(\d{1,2}):(\d{2})/);
+  const t = hm ? `${hm[1].padStart(2,'0')}:${hm[2]}` : '00:00';
+  return new Date(`${m.date}T${t}:00-04:00`);
+}
+// 한국 시간(KST)로 변환해 표기. 보는 사람의 PC 시간대와 무관하게 항상 Asia/Seoul 기준.
+const WD_KO = {Mon:'월',Tue:'화',Wed:'수',Thu:'목',Fri:'금',Sat:'토',Sun:'일'};
+function kstParts(m){
+  const d = matchDate(m);
+  const parts = new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Seoul',month:'numeric',day:'numeric',
+    hour:'2-digit',minute:'2-digit',hourCycle:'h23',weekday:'short'}).formatToParts(d);
+  const g = t => { const x = parts.find(z=>z.type===t); return x ? x.value : ''; };
+  return {mon:g('month'), day:g('day'), hour:g('hour'), min:g('minute'), wd:WD_KO[g('weekday')]||''};
+}
+function fmtDate(m){ const k=kstParts(m); return `${k.mon}.${k.day}(${k.wd}) ${k.hour}:${k.min}`; }
+function fmtTime(m){ const k=kstParts(m); return `${k.hour}:${k.min}`; }
+
+/* ---- HERO 메타 ---- */
+$('#m-dates').textContent = D.tournament.dates;
+$('#m-format').textContent = D.tournament.format;
+$('#f-updated').textContent = D.lastUpdated;
+$('#f-notes').textContent = D._dataNotes || '';
+
+/* ---- 티커 ---- */
+(function(){
+  const items = D.storylines.slice(0,8);
+  const seg = items.map(s=>`<span>${esc(s)}</span><span class="dot">◆</span>`).join('');
+  $('#ticker').innerHTML = seg + seg; // 무한 루프용 2배
+})();
+
+/* ---- 통계 ---- */
+(function(){
+  const finished = D.matches.filter(m=>m.status==='finished');
+  const goals = finished.reduce((a,m)=>a+(m.homeScore||0)+(m.awayScore||0),0);
+  const avg = finished.length ? (goals/finished.length).toFixed(2) : '0.00';
+  const stats = [
+    {v:D.tournament.teamCount, k:'참가국'},
+    {v:`${finished.length}<span class="small">/${D.tournament.totalMatches}</span>`, k:'경기 진행 / 전체'},
+    {v:goals, k:'총 득점'},
+    {v:avg, k:'경기당 평균 득점'}
+  ];
+  const box = $('#stats');
+  stats.forEach(s=>{ const c=el('div','stat'); c.innerHTML=`<div class="v tabnum">${s.v}</div><div class="k">${s.k}</div>`; box.appendChild(c); });
+
+  // 헤더 뱃지 — 실제 데이터 기반의 의미 있는 상태만 노출 (가짜 LIVE 제거)
+  $('#badge-row').innerHTML = [
+    `🏟️ 조별리그 진행중`,
+    `✅ ${finished.length} / ${D.tournament.totalMatches} 경기 종료`,
+    `🇰🇷 모든 시각 한국시간(KST)`
+  ].map(t=>`<span class="tag">${t}</span>`).join('');
+})();
+
+/* ---- 카운트다운 ---- */
+(function(){
+  const box = $('#countdown');
+  const upcoming = D.matches.filter(m=>m.status==='scheduled').sort((a,b)=>matchDate(a)-matchDate(b));
+  if(!upcoming.length){ box.innerHTML = `<div class="cd-label">다음 라운드</div><div class="cd-next">일정이 곧 공개됩니다 ⚽</div>`; return; }
+  // 아직 시작 안 한(미래) 경기 우선, 없으면 가장 이른 예정 경기. 같은 킥오프 시각이면 동시 다발로 모두 표시.
+  const now0 = new Date();
+  const future = upcoming.filter(m=>matchDate(m) > now0);
+  const pool = future.length ? future : upcoming;
+  const target = matchDate(pool[0]);
+  const nextMatches = pool.filter(m => matchDate(m).getTime() === target.getTime());
+  const head = nextMatches.length > 1 ? `다음 경기까지 ⏱ <b style="color:var(--accent)">동시 ${nextMatches.length}경기</b>` : `다음 경기까지 ⏱`;
+  const nextHtml = nextMatches.map(m=>{
+    const label = `${FLAG(m.homeCode)} ${esc(koOf(m.homeCode))} <span style="color:var(--text-faint)">vs</span> ${esc(koOf(m.awayCode))} ${FLAG(m.awayCode)}`;
+    return `<div class="cd-next">${label}<small>${esc(m.stage)} · ${fmtDate(m)} KST · ${esc(m.venue)}</small></div>`;
+  }).join('');
+  box.innerHTML = `
+    <div class="cd-label">${head}</div>
+    <div class="cd-unit"><div class="num" id="cd-d">--</div><div class="u">Days</div></div>
+    <div class="cd-unit"><div class="num" id="cd-h">--</div><div class="u">Hrs</div></div>
+    <div class="cd-unit"><div class="num" id="cd-m">--</div><div class="u">Min</div></div>
+    <div class="cd-unit"><div class="num" id="cd-s">--</div><div class="u">Sec</div></div>
+    <div class="cd-next-list">${nextHtml}</div>`;
+  function tick(){
+    let diff = target - new Date();
+    const past = diff <= 0;
+    if(past) diff = 0;
+    const d=Math.floor(diff/864e5), h=Math.floor(diff%864e5/36e5), mn=Math.floor(diff%36e5/6e4), s=Math.floor(diff%6e4/1e3);
+    const set=(id,v)=>{const e=$('#'+id); if(e)e.textContent=String(v).padStart(2,'0');};
+    set('cd-d',d);set('cd-h',h);set('cd-m',mn);set('cd-s',s);
+    if(past){ const lbl=$('.cd-label'); if(lbl) lbl.textContent='곧 킥오프 ⚽'; }
+  }
+  tick(); setInterval(tick,1000);
+})();
+
+/* ---- 경기 카드 ---- */
+const STATUS_KR = {finished:'종료', live:'LIVE', scheduled:'예정'};
+function matchCard(m){
+  const c = el('article','card');
+  c.dataset.status = m.status;
+  c.dataset.group = (m.stage.match(/Group ([A-L])/)||[])[1] || '';
+  const homeWin = m.status==='finished' && m.homeScore>m.awayScore;
+  const awayWin = m.status==='finished' && m.awayScore>m.homeScore;
+  const sc = m.status==='scheduled';
+  const center = sc
+    ? `<div class="kick"><span class="score vs">VS</span><span class="d">${esc(fmtTime(m))} KST</span></div>`
+    : `<div class="score tabnum">${m.homeScore}<span class="sep">:</span>${m.awayScore}</div>`;
+  const chip = m.status==='live'
+    ? `<span class="statuschip live"><span class="pip"></span>LIVE</span>`
+    : `<span class="statuschip ${m.status}">${STATUS_KR[m.status]||m.status}</span>`;
+  c.innerHTML = `
+    <div class="ctop"><span class="stage">${esc(m.stage)}</span><span>${esc(fmtDate(m))} ${chip}</span></div>
+    <div class="matchrow">
+      <div class="team ${homeWin?'win':''}">
+        <span class="flag">${FLAG(m.homeCode)}</span>
+        <span class="code">${esc(m.homeCode)}</span>
+        <span class="name">${esc(koOf(m.homeCode))}</span>
+      </div>
+      ${center}
+      <div class="team ${awayWin?'win':''}">
+        <span class="flag">${FLAG(m.awayCode)}</span>
+        <span class="code">${esc(m.awayCode)}</span>
+        <span class="name">${esc(koOf(m.awayCode))}</span>
+      </div>
+    </div>
+    <div class="venue">${esc(m.venue)}</div>`;
+  if(m.highlights && m.highlights.length){
+    const btn = el('button','hl-toggle');
+    btn.setAttribute('aria-expanded','false');
+    btn.innerHTML = `하이라이트 ${m.highlights.length} <span class="arr">▾</span>`;
+    const body = el('div','hl-body');
+    body.innerHTML = `<ul>${m.highlights.map(h=>`<li>${esc(h)}</li>`).join('')}</ul>`;
+    btn.addEventListener('click',()=>{
+      const open = btn.getAttribute('aria-expanded')==='true';
+      btn.setAttribute('aria-expanded', String(!open));
+      body.style.maxHeight = open ? '0' : body.scrollHeight+'px';
+    });
+    c.appendChild(btn); c.appendChild(body);
+  }
+  if(m.status==='finished'){
+    // 유튜브 하이라이트: 경기별 검색 딥링크. 직접 영상ID를 박으면 삭제/오링크 위험이 커서,
+    // 항상 해당 경기의 최신 하이라이트로 연결되는 검색 링크를 사용한다. (m.youtube 지정 시 그 URL 우선)
+    const q = encodeURIComponent(`${m.home} vs ${m.away} ${m.stage} 2026 World Cup highlights`);
+    const yt = el('a','yt-link');
+    yt.href = m.youtube || `https://www.youtube.com/results?search_query=${q}`;
+    yt.target = '_blank'; yt.rel = 'noopener noreferrer';
+    yt.innerHTML = `<span class="ytic">▶</span> 유튜브 하이라이트`;
+    c.appendChild(yt);
+  }
+  if(homeWin||awayWin){
+    const g=el('div','winner-glow'); g.style.left=homeWin?'0':'50%'; g.style.width='50%'; c.appendChild(g);
+  }
+  return c;
+}
+
+let activeStatus='all', activeGroup='all';
+function renderMatches(){
+  const box = $('#matches'); box.innerHTML='';
+  const list = D.matches
+    .filter(m=>activeStatus==='all'||m.status===activeStatus)
+    .filter(m=>activeGroup==='all'|| (m.stage.match(/Group ([A-L])/)||[])[1]===activeGroup)
+    .sort((a,b)=>matchDate(a)-matchDate(b) || a.id-b.id);
+  $('#match-count').textContent = `${list.length}경기`;
+  if(!list.length){ box.appendChild(el('div','empty','조건에 맞는 경기가 없습니다.')); return; }
+  list.forEach((m,i)=>{ const card=matchCard(m); box.appendChild(card); observeCard(card,i); });
+}
+
+/* ---- 조별 순위표 ---- */
+(function(){
+  const grid = $('#groups-grid');
+  D.groups.forEach(g=>{
+    const rows = g.standings.slice().sort((a,b)=>
+      b.points-a.points || (b.gf-b.ga)-(a.gf-a.ga) || b.gf-a.gf || a.team.localeCompare(b.team));
+    const played = rows.some(r=>r.played>0);
+    const card = el('div','gcard');
+    card.innerHTML = `
+      <div class="gh"><span class="gl">GROUP ${g.name}</span><span class="gt">${played?'1차전 종료':'개막 대기'}</span></div>
+      <table>
+        <thead><tr><th class="tl">팀</th><th>경기</th><th>승</th><th>무</th><th>패</th><th>득실</th><th>승점</th></tr></thead>
+        <tbody>
+          ${rows.map((r,i)=>{
+            const gd=r.gf-r.ga, gds=gd>0?'+'+gd:gd;
+            return `<tr class="${i<2?'qual':''}">
+              <td class="tl"><span class="tflag">${FLAG(r.code)}</span>${esc(koOf(r.code))}<span class="tcode">${esc(r.code)}</span></td>
+              <td class="tabnum">${r.played}</td><td class="tabnum">${r.won}</td><td class="tabnum">${r.drawn}</td><td class="tabnum">${r.lost}</td>
+              <td class="tabnum">${gds}</td><td class="pts tabnum">${r.points}</td></tr>`;
+          }).join('')}
+        </tbody>
+      </table>
+      <div class="legend"><i></i> 32강 진출권 (조 1·2위)</div>`;
+    grid.appendChild(card);
+  });
+})();
+
+/* ---- 토너먼트 로드맵 ---- */
+(function(){
+  const box = $('#bracket'); if(!box || !D.knockoutRounds) return;
+  D.knockoutRounds.forEach(r=>{
+    const total = r.matchCount || 0;
+    const ms = D.matches.filter(m=>m.stage===r.stage);
+    const done = ms.filter(m=>m.status==='finished').length;
+    const pct = total ? Math.round(done/total*100) : 0;
+    const isFinal = r.stage==='Final';
+    let stCls='pending', stTxt='대진 확정 예정';
+    if(total>0 && done===total){ stCls='done'; stTxt='종료'; }
+    else if(done>0){ stCls='live'; stTxt='진행중'; }
+    else if(ms.length>0){ stCls='live'; stTxt='대진 확정'; }
+    const c = el('div','kr-card'+(isFinal?' final':'')+(stCls==='done'?' done':''));
+    c.innerHTML = `${isFinal?'<span class="trophy">🏆</span>':''}
+      <div class="rname">${esc(r.round)}</div>
+      <div class="rmeta">${esc(r.dates)}<br>${total}경기</div>
+      <div class="rprog"><div class="bar"><i style="width:${pct}%"></i></div><span class="pc">${done}/${total}</span></div>
+      <span class="rstatus ${stCls}">${esc(stTxt)}</span>`;
+    box.appendChild(c);
+  });
+})();
+
+/* ---- 득점왕 ---- */
+(function(){
+  const box = $('#scorers');
+  const list = D.topScorers.slice().sort((a,b)=>b.goals-a.goals);
+  const top = list.length?list[0].goals:0;
+  list.forEach((s,i)=>{
+    const lead = s.goals===top && top>0;
+    const c = el('div','scorer'+(lead?' lead':''));
+    c.innerHTML = `<div class="rk">${i+1}</div>
+      <div class="who"><div class="nm">${lead?'👑 ':''}${esc(s.player)}</div><div class="tm">${esc(KOname(s.team))}</div></div>
+      <div class="goals tabnum">${s.goals}<small>골</small></div>`;
+    box.appendChild(c);
+  });
+})();
+
+/* ---- 스토리라인 ---- */
+(function(){
+  const box = $('#stories');
+  const ems = ['🔥','⚡','🌟','💥','🎯','🚀','🏟️','⚽','📈','🥅','🌍'];
+  D.storylines.forEach((s,i)=>{
+    const c = el('div','story');
+    c.innerHTML = `<span class="em">${ems[i%ems.length]}</span>${esc(s)}`;
+    box.appendChild(c);
+  });
+})();
+
+/* ---- 필터 탭 동작 ---- */
+$('#tabs').addEventListener('click',e=>{
+  const b=e.target.closest('.tab'); if(!b)return;
+  activeStatus=b.dataset.status;
+  [...$('#tabs').children].forEach(t=>t.setAttribute('aria-pressed', String(t===b)));
+  renderMatches();
+});
+(function(){
+  const row=$('#groups-row');
+  const mk=(label,val)=>{const c=el('button','gchip',label); c.dataset.g=val; c.setAttribute('aria-pressed',String(val==='all')); return c;};
+  row.appendChild(mk('전체 조','all'));
+  D.groups.forEach(g=>row.appendChild(mk(g.name,g.name)));
+  row.addEventListener('click',e=>{
+    const b=e.target.closest('.gchip'); if(!b)return;
+    activeGroup=b.dataset.g;
+    [...row.children].forEach(t=>t.setAttribute('aria-pressed',String(t===b)));
+    renderMatches();
+  });
+})();
+
+/* ---- 스크롤 등장 애니메이션 ---- */
+let io=null;
+if('IntersectionObserver' in window){
+  io = new IntersectionObserver(es=>es.forEach(en=>{ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target);} }),{threshold:.08});
+}
+function observeCard(card,i){
+  if(io){ card.style.transitionDelay=Math.min(i*40,300)+'ms'; io.observe(card); }
+  else card.classList.add('in');
+}
+
+/* 초기 렌더 */
+renderMatches();
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+.DS_Store
+_workspace_prev/
+*.log
+.gstack/
