@@ -588,7 +588,7 @@ $('#f-notes').textContent = D._dataNotes || '';
 
 /* ---- 티커 ---- */
 (function(){
-  const items = D.storylines.slice(0,8);
+  const items = D.storylines.slice(-10).reverse(); // 최신 10개를 최신순으로
   const seg = items.map(s=>`<span>${esc(s)}</span><span class="dot">◆</span>`).join('');
   $('#ticker').innerHTML = seg + seg; // 무한 루프용 2배
 })();
