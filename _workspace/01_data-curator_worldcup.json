@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-23",
-  "_dataNotes": "Data updated June 23, 2026. Matches 1–44 confirmed through June 22 (I & J groups matchday 2 all reflected). All four June 23 matchday-2 matches still scheduled: Portugal vs Uzbekistan (13:00 ET), England vs Ghana (16:00 ET), Panama vs Croatia (19:00 ET), Colombia vs DR Congo (22:00 ET). Group K and L standings reflect matchday 1 only. Matchday 3 schedule (June 24–27, Groups A–L final round) added in full.",
+  "lastUpdated": "2026-06-24",
+  "_dataNotes": "Data updated June 24, 2026. Matches 1–48 confirmed through June 23 (K & L groups matchday 2 all reflected). June 23 results: Portugal 5-0 Uzbekistan (Ronaldo 6',39'; Mendes 17'; Nematov OG 60'; Leão 87'), England 0-0 Ghana, Panama 0-1 Croatia (Budimir 54'), Colombia 1-0 DR Congo (Muñoz 76'). Group K and L standings updated to matchday 2. Matchday 3 schedule (June 24–27, Groups A–L final round) in full.",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "hosts": [
@@ -834,45 +834,45 @@
         {
           "team": "Colombia",
           "code": "COL",
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "gf": 3,
+          "gf": 4,
           "ga": 1,
-          "points": 3
+          "points": 6
         },
         {
           "team": "Portugal",
           "code": "POR",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 1,
           "lost": 0,
-          "gf": 1,
+          "gf": 6,
           "ga": 1,
-          "points": 1
+          "points": 4
         },
         {
           "team": "DR Congo",
           "code": "COD",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 1,
-          "lost": 0,
+          "lost": 1,
           "gf": 1,
-          "ga": 1,
+          "ga": 2,
           "points": 1
         },
         {
           "team": "Uzbekistan",
           "code": "UZB",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 1,
-          "ga": 3,
+          "ga": 8,
           "points": 0
         }
       ]
@@ -905,45 +905,45 @@
         {
           "team": "England",
           "code": "ENG",
-          "played": 1,
+          "played": 2,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
           "gf": 4,
           "ga": 2,
-          "points": 3
+          "points": 4
         },
         {
           "team": "Ghana",
           "code": "GHA",
-          "played": 1,
+          "played": 2,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
           "gf": 1,
           "ga": 0,
-          "points": 3
+          "points": 4
         },
         {
           "team": "Croatia",
           "code": "CRO",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "gf": 2,
+          "gf": 3,
           "ga": 4,
-          "points": 0
+          "points": 3
         },
         {
           "team": "Panama",
           "code": "PAN",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 0,
-          "ga": 1,
+          "ga": 2,
           "points": 0
         }
       ]
@@ -1814,11 +1814,16 @@
       "homeCode": "POR",
       "away": "Uzbekistan",
       "awayCode": "UZB",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 5,
+      "awayScore": 0,
       "venue": "NRG Stadium, Houston",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "Cristiano Ronaldo scored in the 6th minute — becoming the first player ever to score at six different FIFA World Cups",
+        "Nuno Mendes doubled the lead in the 17th minute with a stunning free-kick",
+        "Ronaldo added his second in the 39th minute from Bruno Fernandes' pass — his 10th career World Cup goal; at 41 the oldest player to score twice in a World Cup game",
+        "Abduvohid Nematov own goal (60') made it 4-0; Rafael Leão sealed it in the 87th minute — Portugal advance to the Round of 32"
+      ]
     },
     {
       "id": 46,
@@ -1829,11 +1834,15 @@
       "homeCode": "ENG",
       "away": "Ghana",
       "awayCode": "GHA",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "venue": "Gillette Stadium, Foxborough",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "England dominated with 79% possession but failed to score — the highest possession total for a goalless team in a World Cup match in the last 60 years",
+        "England had 19 shots to Ghana's 2; Nico O'Reilly and Harry Kane spurned the best chances",
+        "England and Ghana both finish on 4 points, level at the top of Group L heading into the decisive matchday 3"
+      ]
     },
     {
       "id": 47,
@@ -1844,11 +1853,15 @@
       "homeCode": "PAN",
       "away": "Croatia",
       "awayCode": "CRO",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 1,
       "venue": "BMO Field, Toronto",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "Ante Budimir headed home from Josip Stanišić's cross in the 54th minute to give Croatia their first win of the tournament",
+        "Panama eliminated from the 2026 World Cup — their debut tournament ended without a single goal scored in two games",
+        "Croatia climb to 3 points in Group L and remain in knockout contention heading into matchday 3"
+      ]
     },
     {
       "id": 48,
@@ -1859,11 +1872,15 @@
       "homeCode": "COL",
       "away": "DR Congo",
       "awayCode": "COD",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 0,
       "venue": "Estadio Akron, Guadalajara",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "Daniel Muñoz's deflected shot in the 76th minute (Quintero assist) gave Colombia the vital breakthrough",
+        "Colombia qualified for the Round of 32 — top of Group K with 6 points from 2 games",
+        "DR Congo remain on 1 point and must beat Uzbekistan in their final group game to have any chance of advancing"
+      ]
     },
     {
       "id": 49,
@@ -2263,7 +2280,11 @@
     "Lionel Messi scored twice vs Austria on June 22 (38' & 90+2') to reach 18 World Cup goals — the most by any player in men's or women's World Cup history. His 17th goal broke Miroslav Klose's men's record; his 18th surpassed the overall record. Argentina advance to Round of 32 with 6 points.",
     "France and Norway both advance from Group I after June 22 matchday-2 wins: France beat Iraq 3-0 (Mbappé 14' & 54', Dembélé 66'; match delayed ~2 hours by lightning), Norway edged Senegal 3-2 (Pedersen 43', Haaland 48' & 58'; Sarr 53' & 90+3').",
     "Kylian Mbappé and Erling Haaland are tied on 4 tournament goals each after June 22 matchday 2 — both chasing Messi (5 goals) in the Golden Boot race.",
-    "Algeria came from behind to beat Jordan 2-1 on June 22 (Al-Rashdan first half for Jordan; Benbouali 68', Gouiri 82') — Algeria stay in contention in Group J with 3 points."
+    "Algeria came from behind to beat Jordan 2-1 on June 22 (Al-Rashdan first half for Jordan; Benbouali 68', Gouiri 82') — Algeria stay in contention in Group J with 3 points.",
+    "Cristiano Ronaldo scored twice vs Uzbekistan on June 23 (6' & 39') to become the first player ever to score at six different FIFA World Cups. Nuno Mendes (17' FK), Nematov OG (60') and Leão (87') completed Portugal's 5-0 rout. Portugal advance to the Round of 32.",
+    "England and Ghana drew 0-0 on June 23 in Foxborough — England dominated with 79% possession and 19 shots but could not score. Both teams on 4 points at the top of Group L ahead of the decisive final matchday.",
+    "Croatia beat Panama 1-0 on June 23 (Budimir 54' header) — Croatia's first win of the tournament. Panama eliminated after failing to score in either of their two matches at their debut World Cup.",
+    "Colombia beat DR Congo 1-0 on June 23 (Muñoz 76') to seal their place in the Round of 32 as Group K winners with 6 points. DR Congo must beat Uzbekistan in the final group game to have any chance of advancing."
   ],
   "topScorers": [
     {
@@ -2414,7 +2435,7 @@
     {
       "player": "Daniel Muñoz",
       "team": "Colombia",
-      "goals": 1
+      "goals": 2
     },
     {
       "player": "Luis Díaz",
@@ -2619,6 +2640,26 @@
     {
       "player": "Al-Rashdan",
       "team": "Jordan",
+      "goals": 1
+    },
+    {
+      "player": "Cristiano Ronaldo",
+      "team": "Portugal",
+      "goals": 2
+    },
+    {
+      "player": "Nuno Mendes",
+      "team": "Portugal",
+      "goals": 1
+    },
+    {
+      "player": "Rafael Leão",
+      "team": "Portugal",
+      "goals": 1
+    },
+    {
+      "player": "Ante Budimir",
+      "team": "Croatia",
       "goals": 1
     }
   ],
