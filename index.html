@@ -335,103 +335,2198 @@ footer b{color:var(--text-dim)}
    WORLD_CUP_DATA — 단일 데이터 소스. 이 객체만 수정하면 전체 화면이 갱신됩니다.
    ========================================================= */
 const WORLD_CUP_DATA = {
-  "lastUpdated": "2026-06-24",
-  "_dataNotes": "2026년 6월 24일 기준 업데이트. 1~48경기(6/23까지) 전체 반영 완료. 6/23 2차전 4경기 결과 반영: 포르투갈 5-0 우즈베키스탄(호날두 2골, WC 6개 대회 득점), 잉글랜드 0-0 가나, 파나마 0-1 크로아티아, 콜롬비아 1-0 DR콩고. K·L조 2차전 순위 갱신 완료. 6/24~6/27 3차전 전체 일정(A~L조 최종전) 유지.",
+  "lastUpdated": "2026-06-25",
+  "_dataNotes": "2026년 6월 25일 기준 업데이트. 1~54경기(6/24 A·B·C조 3차전) 전체 반영 완료. 6/24 결과: 스위스 2-1 캐나다(바르가스 46', 만잠비 57'; J.다비드 76'), 보스니아 3-1 카타르(알라이베고비치 30', OG 35'; 알-하이도스; 마미치 80'), 스코틀랜드 0-3 브라질(비니시우스 7'·38'; 쿠냐 65'), 모로코 4-2 아이티(레니 조셉 10', 이시도르 43'; 하키미 39', 사이바리 45+1', 라히미 78', 야신 89'), 체코 0-3 멕시코(차베스 55', 키뇨네스 61', 피달고 90+'), 남아공 1-0 한국(마세코 63'). A·B·C조 최종 순위 갱신 완료. D/E/F조(6/25) 결과 대기 중.",
   "tournament": {
     "name": "FIFA World Cup 2026",
-    "hosts": ["United States", "Canada", "Mexico"],
+    "hosts": [
+      "United States",
+      "Canada",
+      "Mexico"
+    ],
     "dates": "2026년 6월 11일 – 7월 19일",
     "format": "48개국 · 12개 조 · 32강 토너먼트",
     "teamCount": 48,
     "totalMatches": 104
   },
   "groups": [
-    {"name":"A","teams":[{"name":"Mexico","code":"MEX","flag":"🇲🇽"},{"name":"South Korea","code":"KOR","flag":"🇰🇷"},{"name":"Czech Republic","code":"CZE","flag":"🇨🇿"},{"name":"South Africa","code":"RSA","flag":"🇿🇦"}],"standings":[{"team":"Mexico","code":"MEX","played":2,"won":2,"drawn":0,"lost":0,"gf":3,"ga":0,"points":6},{"team":"South Korea","code":"KOR","played":2,"won":1,"drawn":0,"lost":1,"gf":2,"ga":2,"points":3},{"team":"Czech Republic","code":"CZE","played":2,"won":0,"drawn":1,"lost":1,"gf":2,"ga":3,"points":1},{"team":"South Africa","code":"RSA","played":2,"won":0,"drawn":1,"lost":1,"gf":1,"ga":3,"points":1}]},
-    {"name":"B","teams":[{"name":"Canada","code":"CAN","flag":"🇨🇦"},{"name":"Switzerland","code":"SUI","flag":"🇨🇭"},{"name":"Bosnia and Herzegovina","code":"BIH","flag":"🇧🇦"},{"name":"Qatar","code":"QAT","flag":"🇶🇦"}],"standings":[{"team":"Canada","code":"CAN","played":2,"won":1,"drawn":1,"lost":0,"gf":7,"ga":1,"points":4},{"team":"Switzerland","code":"SUI","played":2,"won":1,"drawn":1,"lost":0,"gf":5,"ga":2,"points":4},{"team":"Bosnia and Herzegovina","code":"BIH","played":2,"won":0,"drawn":1,"lost":1,"gf":2,"ga":5,"points":1},{"team":"Qatar","code":"QAT","played":2,"won":0,"drawn":1,"lost":1,"gf":1,"ga":7,"points":1}]},
-    {"name":"C","teams":[{"name":"Brazil","code":"BRA","flag":"🇧🇷"},{"name":"Morocco","code":"MAR","flag":"🇲🇦"},{"name":"Scotland","code":"SCO","flag":"🏴󠁧󠁢󠁳󠁣󠁴󠁿"},{"name":"Haiti","code":"HAI","flag":"🇭🇹"}],"standings":[{"team":"Brazil","code":"BRA","played":2,"won":1,"drawn":1,"lost":0,"gf":4,"ga":1,"points":4},{"team":"Morocco","code":"MAR","played":2,"won":1,"drawn":1,"lost":0,"gf":2,"ga":1,"points":4},{"team":"Scotland","code":"SCO","played":2,"won":1,"drawn":0,"lost":1,"gf":1,"ga":1,"points":3},{"team":"Haiti","code":"HAI","played":2,"won":0,"drawn":0,"lost":2,"gf":0,"ga":4,"points":0}]},
-    {"name":"D","teams":[{"name":"United States","code":"USA","flag":"🇺🇸"},{"name":"Australia","code":"AUS","flag":"🇦🇺"},{"name":"Turkey","code":"TUR","flag":"🇹🇷"},{"name":"Paraguay","code":"PAR","flag":"🇵🇾"}],"standings":[{"team":"United States","code":"USA","played":2,"won":2,"drawn":0,"lost":0,"gf":6,"ga":1,"points":6},{"team":"Australia","code":"AUS","played":2,"won":1,"drawn":0,"lost":1,"gf":2,"ga":2,"points":3},{"team":"Paraguay","code":"PAR","played":2,"won":1,"drawn":0,"lost":1,"gf":2,"ga":4,"points":3},{"team":"Turkey","code":"TUR","played":2,"won":0,"drawn":0,"lost":2,"gf":0,"ga":3,"points":0}]},
-    {"name":"E","teams":[{"name":"Germany","code":"GER","flag":"🇩🇪"},{"name":"Ivory Coast","code":"CIV","flag":"🇨🇮"},{"name":"Ecuador","code":"ECU","flag":"🇪🇨"},{"name":"Curacao","code":"CUW","flag":"🇨🇼"}],"standings":[{"team":"Germany","code":"GER","played":2,"won":2,"drawn":0,"lost":0,"gf":9,"ga":2,"points":6},{"team":"Ivory Coast","code":"CIV","played":2,"won":1,"drawn":0,"lost":1,"gf":2,"ga":2,"points":3},{"team":"Ecuador","code":"ECU","played":2,"won":0,"drawn":1,"lost":1,"gf":0,"ga":1,"points":1},{"team":"Curacao","code":"CUW","played":2,"won":0,"drawn":1,"lost":1,"gf":1,"ga":7,"points":1}]},
-    {"name":"F","teams":[{"name":"Netherlands","code":"NED","flag":"🇳🇱"},{"name":"Japan","code":"JPN","flag":"🇯🇵"},{"name":"Sweden","code":"SWE","flag":"🇸🇪"},{"name":"Tunisia","code":"TUN","flag":"🇹🇳"}],"standings":[{"team":"Netherlands","code":"NED","played":2,"won":1,"drawn":1,"lost":0,"gf":7,"ga":3,"points":4},{"team":"Japan","code":"JPN","played":2,"won":1,"drawn":1,"lost":0,"gf":6,"ga":2,"points":4},{"team":"Sweden","code":"SWE","played":2,"won":1,"drawn":0,"lost":1,"gf":6,"ga":6,"points":3},{"team":"Tunisia","code":"TUN","played":2,"won":0,"drawn":0,"lost":2,"gf":1,"ga":9,"points":0}]},
-    {"name":"G","teams":[{"name":"Belgium","code":"BEL","flag":"🇧🇪"},{"name":"Iran","code":"IRN","flag":"🇮🇷"},{"name":"Egypt","code":"EGY","flag":"🇪🇬"},{"name":"New Zealand","code":"NZL","flag":"🇳🇿"}],"standings":[{"team":"Egypt","code":"EGY","played":2,"won":1,"drawn":1,"lost":0,"gf":4,"ga":2,"points":4},{"team":"Iran","code":"IRN","played":2,"won":0,"drawn":2,"lost":0,"gf":2,"ga":2,"points":2},{"team":"Belgium","code":"BEL","played":2,"won":0,"drawn":2,"lost":0,"gf":1,"ga":1,"points":2},{"team":"New Zealand","code":"NZL","played":2,"won":0,"drawn":1,"lost":1,"gf":3,"ga":5,"points":1}]},
-    {"name":"H","teams":[{"name":"Spain","code":"ESP","flag":"🇪🇸"},{"name":"Uruguay","code":"URU","flag":"🇺🇾"},{"name":"Saudi Arabia","code":"KSA","flag":"🇸🇦"},{"name":"Cabo Verde","code":"CPV","flag":"🇨🇻"}],"standings":[{"team":"Spain","code":"ESP","played":2,"won":1,"drawn":1,"lost":0,"gf":4,"ga":0,"points":4},{"team":"Uruguay","code":"URU","played":2,"won":0,"drawn":2,"lost":0,"gf":3,"ga":3,"points":2},{"team":"Cabo Verde","code":"CPV","played":2,"won":0,"drawn":2,"lost":0,"gf":2,"ga":2,"points":2},{"team":"Saudi Arabia","code":"KSA","played":2,"won":0,"drawn":1,"lost":1,"gf":1,"ga":5,"points":1}]},
-    {"name":"I","teams":[{"name":"France","code":"FRA","flag":"🇫🇷"},{"name":"Norway","code":"NOR","flag":"🇳🇴"},{"name":"Senegal","code":"SEN","flag":"🇸🇳"},{"name":"Iraq","code":"IRQ","flag":"🇮🇶"}],"standings":[{"team":"France","code":"FRA","played":2,"won":2,"drawn":0,"lost":0,"gf":6,"ga":1,"points":6},{"team":"Norway","code":"NOR","played":2,"won":2,"drawn":0,"lost":0,"gf":7,"ga":3,"points":6},{"team":"Senegal","code":"SEN","played":2,"won":0,"drawn":0,"lost":2,"gf":3,"ga":6,"points":0},{"team":"Iraq","code":"IRQ","played":2,"won":0,"drawn":0,"lost":2,"gf":1,"ga":7,"points":0}]},
-    {"name":"J","teams":[{"name":"Argentina","code":"ARG","flag":"🇦🇷"},{"name":"Austria","code":"AUT","flag":"🇦🇹"},{"name":"Algeria","code":"ALG","flag":"🇩🇿"},{"name":"Jordan","code":"JOR","flag":"🇯🇴"}],"standings":[{"team":"Argentina","code":"ARG","played":2,"won":2,"drawn":0,"lost":0,"gf":5,"ga":0,"points":6},{"team":"Austria","code":"AUT","played":2,"won":1,"drawn":0,"lost":1,"gf":3,"ga":3,"points":3},{"team":"Algeria","code":"ALG","played":2,"won":1,"drawn":0,"lost":1,"gf":2,"ga":4,"points":3},{"team":"Jordan","code":"JOR","played":2,"won":0,"drawn":0,"lost":2,"gf":2,"ga":5,"points":0}]},
-    {"name":"K","teams":[{"name":"Portugal","code":"POR","flag":"🇵🇹"},{"name":"Colombia","code":"COL","flag":"🇨🇴"},{"name":"Uzbekistan","code":"UZB","flag":"🇺🇿"},{"name":"DR Congo","code":"COD","flag":"🇨🇩"}],"standings":[{"team":"Colombia","code":"COL","played":2,"won":2,"drawn":0,"lost":0,"gf":4,"ga":1,"points":6},{"team":"Portugal","code":"POR","played":2,"won":1,"drawn":1,"lost":0,"gf":6,"ga":1,"points":4},{"team":"DR Congo","code":"COD","played":2,"won":0,"drawn":1,"lost":1,"gf":1,"ga":2,"points":1},{"team":"Uzbekistan","code":"UZB","played":2,"won":0,"drawn":0,"lost":2,"gf":1,"ga":8,"points":0}]},
-    {"name":"L","teams":[{"name":"England","code":"ENG","flag":"🏴󠁧󠁢󠁥󠁮󠁧󠁿"},{"name":"Croatia","code":"CRO","flag":"🇭🇷"},{"name":"Ghana","code":"GHA","flag":"🇬🇭"},{"name":"Panama","code":"PAN","flag":"🇵🇦"}],"standings":[{"team":"England","code":"ENG","played":2,"won":1,"drawn":1,"lost":0,"gf":4,"ga":2,"points":4},{"team":"Ghana","code":"GHA","played":2,"won":1,"drawn":1,"lost":0,"gf":1,"ga":0,"points":4},{"team":"Croatia","code":"CRO","played":2,"won":1,"drawn":0,"lost":1,"gf":3,"ga":4,"points":3},{"team":"Panama","code":"PAN","played":2,"won":0,"drawn":0,"lost":2,"gf":0,"ga":2,"points":0}]}
+    {
+      "name": "A",
+      "teams": [
+        {
+          "name": "Mexico",
+          "code": "MEX",
+          "flag": "🇲🇽"
+        },
+        {
+          "name": "South Korea",
+          "code": "KOR",
+          "flag": "🇰🇷"
+        },
+        {
+          "name": "Czech Republic",
+          "code": "CZE",
+          "flag": "🇨🇿"
+        },
+        {
+          "name": "South Africa",
+          "code": "RSA",
+          "flag": "🇿🇦"
+        }
+      ],
+      "standings": [
+        {
+          "team": "Mexico",
+          "code": "MEX",
+          "played": 3,
+          "won": 3,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 6,
+          "ga": 0,
+          "points": 9
+        },
+        {
+          "team": "South Africa",
+          "code": "RSA",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 2,
+          "ga": 3,
+          "points": 4
+        },
+        {
+          "team": "South Korea",
+          "code": "KOR",
+          "played": 3,
+          "won": 1,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 2,
+          "ga": 3,
+          "points": 3
+        },
+        {
+          "team": "Czech Republic",
+          "code": "CZE",
+          "played": 3,
+          "won": 0,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 2,
+          "ga": 6,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "B",
+      "teams": [
+        {
+          "name": "Canada",
+          "code": "CAN",
+          "flag": "🇨🇦"
+        },
+        {
+          "name": "Switzerland",
+          "code": "SUI",
+          "flag": "🇨🇭"
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "code": "BIH",
+          "flag": "🇧🇦"
+        },
+        {
+          "name": "Qatar",
+          "code": "QAT",
+          "flag": "🇶🇦"
+        }
+      ],
+      "standings": [
+        {
+          "team": "Switzerland",
+          "code": "SUI",
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 7,
+          "ga": 3,
+          "points": 7
+        },
+        {
+          "team": "Canada",
+          "code": "CAN",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 8,
+          "ga": 3,
+          "points": 4
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "code": "BIH",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 5,
+          "ga": 6,
+          "points": 4
+        },
+        {
+          "team": "Qatar",
+          "code": "QAT",
+          "played": 3,
+          "won": 0,
+          "drawn": 1,
+          "lost": 2,
+          "gf": 2,
+          "ga": 10,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "C",
+      "teams": [
+        {
+          "name": "Brazil",
+          "code": "BRA",
+          "flag": "🇧🇷"
+        },
+        {
+          "name": "Morocco",
+          "code": "MAR",
+          "flag": "🇲🇦"
+        },
+        {
+          "name": "Scotland",
+          "code": "SCO",
+          "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+        },
+        {
+          "name": "Haiti",
+          "code": "HAI",
+          "flag": "🇭🇹"
+        }
+      ],
+      "standings": [
+        {
+          "team": "Brazil",
+          "code": "BRA",
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 7,
+          "ga": 1,
+          "points": 7
+        },
+        {
+          "team": "Morocco",
+          "code": "MAR",
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 6,
+          "ga": 3,
+          "points": 7
+        },
+        {
+          "team": "Scotland",
+          "code": "SCO",
+          "played": 3,
+          "won": 1,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 1,
+          "ga": 4,
+          "points": 3
+        },
+        {
+          "team": "Haiti",
+          "code": "HAI",
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "gf": 2,
+          "ga": 8,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "name": "D",
+      "teams": [
+        {
+          "name": "United States",
+          "code": "USA",
+          "flag": "🇺🇸"
+        },
+        {
+          "name": "Australia",
+          "code": "AUS",
+          "flag": "🇦🇺"
+        },
+        {
+          "name": "Turkey",
+          "code": "TUR",
+          "flag": "🇹🇷"
+        },
+        {
+          "name": "Paraguay",
+          "code": "PAR",
+          "flag": "🇵🇾"
+        }
+      ],
+      "standings": [
+        {
+          "team": "United States",
+          "code": "USA",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 6,
+          "ga": 1,
+          "points": 6
+        },
+        {
+          "team": "Australia",
+          "code": "AUS",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 2,
+          "ga": 2,
+          "points": 3
+        },
+        {
+          "team": "Paraguay",
+          "code": "PAR",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 2,
+          "ga": 4,
+          "points": 3
+        },
+        {
+          "team": "Turkey",
+          "code": "TUR",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 0,
+          "ga": 3,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "name": "E",
+      "teams": [
+        {
+          "name": "Germany",
+          "code": "GER",
+          "flag": "🇩🇪"
+        },
+        {
+          "name": "Ivory Coast",
+          "code": "CIV",
+          "flag": "🇨🇮"
+        },
+        {
+          "name": "Ecuador",
+          "code": "ECU",
+          "flag": "🇪🇨"
+        },
+        {
+          "name": "Curacao",
+          "code": "CUW",
+          "flag": "🇨🇼"
+        }
+      ],
+      "standings": [
+        {
+          "team": "Germany",
+          "code": "GER",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 9,
+          "ga": 2,
+          "points": 6
+        },
+        {
+          "team": "Ivory Coast",
+          "code": "CIV",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 2,
+          "ga": 2,
+          "points": 3
+        },
+        {
+          "team": "Ecuador",
+          "code": "ECU",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 0,
+          "ga": 1,
+          "points": 1
+        },
+        {
+          "team": "Curacao",
+          "code": "CUW",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 1,
+          "ga": 7,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "F",
+      "teams": [
+        {
+          "name": "Netherlands",
+          "code": "NED",
+          "flag": "🇳🇱"
+        },
+        {
+          "name": "Japan",
+          "code": "JPN",
+          "flag": "🇯🇵"
+        },
+        {
+          "name": "Sweden",
+          "code": "SWE",
+          "flag": "🇸🇪"
+        },
+        {
+          "name": "Tunisia",
+          "code": "TUN",
+          "flag": "🇹🇳"
+        }
+      ],
+      "standings": [
+        {
+          "team": "Netherlands",
+          "code": "NED",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 7,
+          "ga": 3,
+          "points": 4
+        },
+        {
+          "team": "Japan",
+          "code": "JPN",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 6,
+          "ga": 2,
+          "points": 4
+        },
+        {
+          "team": "Sweden",
+          "code": "SWE",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 6,
+          "ga": 6,
+          "points": 3
+        },
+        {
+          "team": "Tunisia",
+          "code": "TUN",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 1,
+          "ga": 9,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "name": "G",
+      "teams": [
+        {
+          "name": "Belgium",
+          "code": "BEL",
+          "flag": "🇧🇪"
+        },
+        {
+          "name": "Iran",
+          "code": "IRN",
+          "flag": "🇮🇷"
+        },
+        {
+          "name": "Egypt",
+          "code": "EGY",
+          "flag": "🇪🇬"
+        },
+        {
+          "name": "New Zealand",
+          "code": "NZL",
+          "flag": "🇳🇿"
+        }
+      ],
+      "standings": [
+        {
+          "team": "Egypt",
+          "code": "EGY",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 4,
+          "ga": 2,
+          "points": 4
+        },
+        {
+          "team": "Iran",
+          "code": "IRN",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "points": 2
+        },
+        {
+          "team": "Belgium",
+          "code": "BEL",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "points": 2
+        },
+        {
+          "team": "New Zealand",
+          "code": "NZL",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 3,
+          "ga": 5,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "H",
+      "teams": [
+        {
+          "name": "Spain",
+          "code": "ESP",
+          "flag": "🇪🇸"
+        },
+        {
+          "name": "Uruguay",
+          "code": "URU",
+          "flag": "🇺🇾"
+        },
+        {
+          "name": "Saudi Arabia",
+          "code": "KSA",
+          "flag": "🇸🇦"
+        },
+        {
+          "name": "Cabo Verde",
+          "code": "CPV",
+          "flag": "🇨🇻"
+        }
+      ],
+      "standings": [
+        {
+          "team": "Spain",
+          "code": "ESP",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 4,
+          "ga": 0,
+          "points": 4
+        },
+        {
+          "team": "Uruguay",
+          "code": "URU",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "gf": 3,
+          "ga": 3,
+          "points": 2
+        },
+        {
+          "team": "Cabo Verde",
+          "code": "CPV",
+          "played": 2,
+          "won": 0,
+          "drawn": 2,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "points": 2
+        },
+        {
+          "team": "Saudi Arabia",
+          "code": "KSA",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 1,
+          "ga": 5,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "I",
+      "teams": [
+        {
+          "name": "France",
+          "code": "FRA",
+          "flag": "🇫🇷"
+        },
+        {
+          "name": "Norway",
+          "code": "NOR",
+          "flag": "🇳🇴"
+        },
+        {
+          "name": "Senegal",
+          "code": "SEN",
+          "flag": "🇸🇳"
+        },
+        {
+          "name": "Iraq",
+          "code": "IRQ",
+          "flag": "🇮🇶"
+        }
+      ],
+      "standings": [
+        {
+          "team": "France",
+          "code": "FRA",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 6,
+          "ga": 1,
+          "points": 6
+        },
+        {
+          "team": "Norway",
+          "code": "NOR",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 7,
+          "ga": 3,
+          "points": 6
+        },
+        {
+          "team": "Senegal",
+          "code": "SEN",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 3,
+          "ga": 6,
+          "points": 0
+        },
+        {
+          "team": "Iraq",
+          "code": "IRQ",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 1,
+          "ga": 7,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "name": "J",
+      "teams": [
+        {
+          "name": "Argentina",
+          "code": "ARG",
+          "flag": "🇦🇷"
+        },
+        {
+          "name": "Austria",
+          "code": "AUT",
+          "flag": "🇦🇹"
+        },
+        {
+          "name": "Algeria",
+          "code": "ALG",
+          "flag": "🇩🇿"
+        },
+        {
+          "name": "Jordan",
+          "code": "JOR",
+          "flag": "🇯🇴"
+        }
+      ],
+      "standings": [
+        {
+          "team": "Argentina",
+          "code": "ARG",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 5,
+          "ga": 0,
+          "points": 6
+        },
+        {
+          "team": "Austria",
+          "code": "AUT",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 3,
+          "ga": 3,
+          "points": 3
+        },
+        {
+          "team": "Algeria",
+          "code": "ALG",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 2,
+          "ga": 4,
+          "points": 3
+        },
+        {
+          "team": "Jordan",
+          "code": "JOR",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 2,
+          "ga": 5,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "name": "K",
+      "teams": [
+        {
+          "name": "Portugal",
+          "code": "POR",
+          "flag": "🇵🇹"
+        },
+        {
+          "name": "Colombia",
+          "code": "COL",
+          "flag": "🇨🇴"
+        },
+        {
+          "name": "Uzbekistan",
+          "code": "UZB",
+          "flag": "🇺🇿"
+        },
+        {
+          "name": "DR Congo",
+          "code": "COD",
+          "flag": "🇨🇩"
+        }
+      ],
+      "standings": [
+        {
+          "team": "Colombia",
+          "code": "COL",
+          "played": 2,
+          "won": 2,
+          "drawn": 0,
+          "lost": 0,
+          "gf": 4,
+          "ga": 1,
+          "points": 6
+        },
+        {
+          "team": "Portugal",
+          "code": "POR",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 6,
+          "ga": 1,
+          "points": 4
+        },
+        {
+          "team": "DR Congo",
+          "code": "COD",
+          "played": 2,
+          "won": 0,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 1,
+          "ga": 2,
+          "points": 1
+        },
+        {
+          "team": "Uzbekistan",
+          "code": "UZB",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 1,
+          "ga": 8,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "name": "L",
+      "teams": [
+        {
+          "name": "England",
+          "code": "ENG",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+        },
+        {
+          "name": "Croatia",
+          "code": "CRO",
+          "flag": "🇭🇷"
+        },
+        {
+          "name": "Ghana",
+          "code": "GHA",
+          "flag": "🇬🇭"
+        },
+        {
+          "name": "Panama",
+          "code": "PAN",
+          "flag": "🇵🇦"
+        }
+      ],
+      "standings": [
+        {
+          "team": "England",
+          "code": "ENG",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 4,
+          "ga": 2,
+          "points": 4
+        },
+        {
+          "team": "Ghana",
+          "code": "GHA",
+          "played": 2,
+          "won": 1,
+          "drawn": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 0,
+          "points": 4
+        },
+        {
+          "team": "Croatia",
+          "code": "CRO",
+          "played": 2,
+          "won": 1,
+          "drawn": 0,
+          "lost": 1,
+          "gf": 3,
+          "ga": 4,
+          "points": 3
+        },
+        {
+          "team": "Panama",
+          "code": "PAN",
+          "played": 2,
+          "won": 0,
+          "drawn": 0,
+          "lost": 2,
+          "gf": 0,
+          "ga": 2,
+          "points": 0
+        }
+      ]
+    }
   ],
   "matches": [
-    {"id":1,"date":"2026-06-11","time":"18:00 ET","stage":"Group A","home":"Mexico","homeCode":"MEX","away":"South Africa","awayCode":"RSA","homeScore":2,"awayScore":0,"venue":"Estadio Azteca, Mexico City","status":"finished","highlights":["훌리안 키뇨네스가 9분 대회 개막골 — CONCACAF 선수 최초의 월드컵 개막골","라울 히메네스가 67분 추가골","공동 개최국 멕시코가 만원 아스테카에서 산뜻한 출발"]},
-    {"id":2,"date":"2026-06-11","time":"21:00 ET","stage":"Group A","home":"South Korea","homeCode":"KOR","away":"Czech Republic","awayCode":"CZE","homeScore":2,"awayScore":1,"venue":"Estadio Akron, Zapopan","status":"finished","highlights":["59분 크레이치가 체코 선제골","67분 황인범 동점골","80분 오현규 역전 결승골"]},
-    {"id":3,"date":"2026-06-12","time":"15:00 ET","stage":"Group D","home":"United States","homeCode":"USA","away":"Paraguay","awayCode":"PAR","homeScore":4,"awayScore":1,"venue":"SoFi Stadium, Inglewood","status":"finished","highlights":["7분 풀리식·맥케니 압박 끝 자책골로 선제","발로건 멀티골 — 1930년 이후 미국 선수 첫 월드컵 1경기 2골","73분 마우리시오가 파라과이 만회골","조 레이나가 추가시간 환상적인 쐐기골"]},
-    {"id":4,"date":"2026-06-13","time":"12:00 ET","stage":"Group D","home":"Australia","homeCode":"AUS","away":"Turkey","awayCode":"TUR","homeScore":2,"awayScore":0,"venue":"BC Place, Vancouver","status":"finished","highlights":["호주가 경기 내내 주도","터키는 유효슈팅 0개에 그침"]},
-    {"id":5,"date":"2026-06-12","time":"21:00 ET","stage":"Group B","home":"Canada","homeCode":"CAN","away":"Bosnia and Herzegovina","awayCode":"BIH","homeScore":1,"awayScore":1,"venue":"BMO Field, Toronto","status":"finished","highlights":["공동 개최국 캐나다가 토론토 홈 개막전 무승부"]},
-    {"id":6,"date":"2026-06-13","time":"21:00 ET","stage":"Group C","home":"Brazil","homeCode":"BRA","away":"Morocco","awayCode":"MAR","homeScore":1,"awayScore":1,"venue":"MetLife Stadium, East Rutherford","status":"finished","highlights":["비니시우스 주니오르가 브라질 골","우승후보 브라질이 모로코에 발목","이 결과로 스코틀랜드가 C조 선두로"]},
-    {"id":7,"date":"2026-06-13","time":"15:00 ET","stage":"Group C","home":"Haiti","homeCode":"HAI","away":"Scotland","awayCode":"SCO","homeScore":0,"awayScore":1,"venue":"Gillette Stadium, Foxborough","status":"finished","highlights":["스코틀랜드, 1974년 이후 첫 월드컵 승리","28년 만의 월드컵 본선(1998년 이후)","브라질·모로코 제치고 C조 선두 등극"]},
-    {"id":8,"date":"2026-06-13","time":"18:00 ET","stage":"Group B","home":"Qatar","homeCode":"QAT","away":"Switzerland","awayCode":"SUI","homeScore":1,"awayScore":1,"venue":"Levi's Stadium, Santa Clara","status":"finished","highlights":["카타르 월드컵 사상 첫 승점 획득","2022년 개최국으로 3전 전패 후 첫 승점"]},
-    {"id":9,"date":"2026-06-14","time":"13:00 ET","stage":"Group E","home":"Germany","homeCode":"GER","away":"Curacao","awayCode":"CUW","homeScore":7,"awayScore":1,"venue":"NRG Stadium, Houston","status":"finished","highlights":["독일이 월드컵 통산 최다 득점국 등극(239골)으로 브라질 추월","역대 최소 인구 본선국 쿠라사오(약 15.5만)가 사상 첫 월드컵 골","하베르츠 멀티골, 무시알라도 득점"]},
-    {"id":10,"date":"2026-06-14","time":"19:00 ET","stage":"Group E","home":"Ivory Coast","homeCode":"CIV","away":"Ecuador","awayCode":"ECU","homeScore":1,"awayScore":0,"venue":"Lincoln Financial Field, Philadelphia","status":"finished","highlights":["90분 아마드 디알로 결승골(싱고 도움)","에콰도르는 전반 골대만 두 차례","추가시간 극장골로 코트디부아르 승점 3"]},
-    {"id":11,"date":"2026-06-14","time":"13:00 ET","stage":"Group F","home":"Netherlands","homeCode":"NED","away":"Japan","awayCode":"JPN","homeScore":2,"awayScore":2,"venue":"AT&T Stadium, Arlington","status":"finished","highlights":["판 다이크(50분)·서머빌(64분) 네덜란드 골","나카무라(57분)·카마다(88분) 일본 골","카마다의 88분 동점골로 일본 극적 무승부","관중 69,285명"]},
-    {"id":12,"date":"2026-06-14","time":"19:00 ET","stage":"Group F","home":"Sweden","homeCode":"SWE","away":"Tunisia","awayCode":"TUN","homeScore":5,"awayScore":1,"venue":"Estadio BBVA, Guadalupe","status":"finished","highlights":["야신 아야리 멀티골(후반 중거리 대포 포함)","요케레스·이사크 맹활약","스반베리 골은 84분 VAR 판독 끝 인정"]},
-    {"id":13,"date":"2026-06-15","time":"12:00 ET","stage":"Group H","home":"Spain","homeCode":"ESP","away":"Cabo Verde","awayCode":"CPV","homeScore":0,"awayScore":0,"venue":"Mercedes-Benz Stadium, Atlanta","status":"finished","highlights":["우승후보 스페인이 데뷔국 카보베르데에 0-0 충격 무승부","인구 약 53만 카보베르데의 값진 결과","관중 67,640명"]},
-    {"id":14,"date":"2026-06-15","time":"18:00 ET","stage":"Group H","home":"Saudi Arabia","homeCode":"KSA","away":"Uruguay","awayCode":"URU","homeScore":1,"awayScore":1,"venue":"Hard Rock Stadium, Miami Gardens","status":"finished","highlights":["41분 알 암리 사우디 선제골","80분 아라우호 우루과이 동점골","관중 62,764명"]},
-    {"id":15,"date":"2026-06-15","time":"12:00 ET","stage":"Group G","home":"Belgium","homeCode":"BEL","away":"Egypt","awayCode":"EGY","homeScore":1,"awayScore":1,"venue":"Lumen Field, Seattle","status":"finished","highlights":["벨기에와 이집트 1-1 무승부"]},
-    {"id":16,"date":"2026-06-15","time":"18:00 ET","stage":"Group G","home":"Iran","homeCode":"IRN","away":"New Zealand","awayCode":"NZL","homeScore":2,"awayScore":2,"venue":"SoFi Stadium, Inglewood","status":"finished","highlights":["이란-뉴질랜드 2-2 난타전","일라이자 저스트가 뉴질랜드 골"]},
-    {"id":17,"date":"2026-06-16","time":"12:00 ET","stage":"Group I","home":"France","homeCode":"FRA","away":"Senegal","awayCode":"SEN","homeScore":3,"awayScore":1,"venue":"MetLife Stadium, East Rutherford","status":"finished","highlights":["음바페가 지루 넘어 프랑스 역대 최다 득점자로(99경기 58골)","음바페 멀티골(66분·90+6분), 바르콜라(82분) 추가골","올리세 2도움","세네갈은 음바예가 막판 만회골(90+5분)"]},
-    {"id":18,"date":"2026-06-16","time":"18:00 ET","stage":"Group I","home":"Iraq","homeCode":"IRQ","away":"Norway","awayCode":"NOR","homeScore":1,"awayScore":4,"venue":"Gillette Stadium, Foxborough","status":"finished","highlights":["홀란드 월드컵 데뷔전 멀티골 — 노르웨이 1998년 이후 첫 본선","이라크 GK가 걷어낸 공이 홀란드에 맞고 두 번째 골","이라크는 1986년 이후 첫 월드컵 골"]},
-    {"id":19,"date":"2026-06-16","time":"21:00 ET","stage":"Group J","home":"Argentina","homeCode":"ARG","away":"Algeria","awayCode":"ALG","homeScore":3,"awayScore":0,"venue":"Arrowhead Stadium, Kansas City","status":"finished","highlights":["메시 커리어 첫 월드컵 해트트릭 — 클로제의 월드컵 통산 최다 16골과 타이","최고령 월드컵 해트트릭 기록(38세)","디펜딩 챔피언 아르헨티나의 압도적 출발","메시는 해트트릭 후 80분 교체"]},
-    {"id":20,"date":"2026-06-17","time":"00:00 ET","stage":"Group J","home":"Austria","homeCode":"AUT","away":"Jordan","awayCode":"JOR","homeScore":3,"awayScore":1,"venue":"Levi's Stadium, Santa Clara","status":"finished","highlights":["로마노 슈미트가 21분 중거리 슛으로 오스트리아 선제골","알리 이야드 올완 50분 동점골 — 요르단 월드컵 사상 첫 득점","야잔 알아랍 코너킥 자책골(76분)로 오스트리아 재역전","아르나우토비치 추가시간 PK 마무리 — 오스트리아 36년 만의 월드컵 승리"]},
-    {"id":21,"date":"2026-06-17","time":"13:00 ET","stage":"Group K","home":"Portugal","homeCode":"POR","away":"DR Congo","awayCode":"COD","homeScore":1,"awayScore":1,"venue":"NRG Stadium, Houston","status":"finished","highlights":["주앙 네베스 6분 선제골로 포르투갈 앞서나가","와이사 45+5분 동점골 — DR콩고 1974년 이후 첫 본선 복귀에서 월드컵 첫 승점","칸첼로 55분 환상 오버헤드킥 VAR 오프사이드 취소","접전 끝 무승부, K조 포인트 분배"]},
-    {"id":22,"date":"2026-06-17","time":"13:00 ET","stage":"Group K","home":"Uzbekistan","homeCode":"UZB","away":"Colombia","awayCode":"COL","homeScore":1,"awayScore":3,"venue":"Estadio Azteca, Mexico City","status":"finished","highlights":["무뇨스 40분 선제골로 콜롬비아 앞서나가","파이줄라예프 60분 — 우즈베키스탄 월드컵 역대 첫 골","루이스 디아스 65분 재역전 뒤 캄파스 90+9분 쐐기골","콜롬비아 3-1 완승으로 K조 선두"]},
-    {"id":23,"date":"2026-06-17","time":"16:00 ET","stage":"Group L","home":"England","homeCode":"ENG","away":"Croatia","awayCode":"CRO","homeScore":4,"awayScore":2,"venue":"AT&T Stadium, Arlington","status":"finished","highlights":["케인 12분 PK·42분 헤딩 — WC 10골로 린에커 타이(잉글랜드 WC 공동 최다)","바투리나(36분)·무사(45+5분) 크로아티아 전반 2골 응수","벨링엄 47분 재역전 후 라시포드 85분 쐐기골","혼란스러운 전반 딛고 후반 압도, 잉글랜드 4-2 완승"]},
-    {"id":24,"date":"2026-06-17","time":"19:00 ET","stage":"Group L","home":"Ghana","homeCode":"GHA","away":"Panama","awayCode":"PAN","homeScore":1,"awayScore":0,"venue":"BMO Field, Toronto","status":"finished","highlights":["이렌키 95분 극장골 — 토마스-아산테 도움으로 완성","파나마 수비 잘 버텼으나 막판 실점으로 사상 첫 WC 승점 좌절","가나가 잉글랜드와 함께 L조 공동 선두(3점)"]},
-    {"id":25,"date":"2026-06-18","time":"12:00 ET","stage":"Group A","home":"Czech Republic","homeCode":"CZE","away":"South Africa","awayCode":"RSA","homeScore":1,"awayScore":1,"venue":"Mercedes-Benz Stadium, Atlanta","status":"finished","highlights":["사디렉이 6분 선제골로 체코 리드","파울 슐츠의 페널티 박스 내 핸드볼로 남아공 PK 획득","모코에나가 83분 PK 동점골 — 남아공 A조 첫 승점 획득","체코 첫 승 놓치며 무승부, 두 팀 모두 A조 하위권 경쟁"]},
-    {"id":26,"date":"2026-06-18","time":"15:00 ET","stage":"Group B","home":"Switzerland","homeCode":"SUI","away":"Bosnia and Herzegovina","awayCode":"BIH","homeScore":4,"awayScore":1,"venue":"SoFi Stadium, Inglewood","status":"finished","highlights":["만잠비가 교체 투입 171초 만에 71분 선제골","무하레모비치 레드카드 이후 10인 보스니아 무너져","만잠비 멀티골(71분·90분), 바르가스(84분), 샤카 PK(90+7분)","후반 4골 폭발 — 스위스 B조 단독 선두 도약"]},
-    {"id":27,"date":"2026-06-18","time":"18:00 ET","stage":"Group B","home":"Canada","homeCode":"CAN","away":"Qatar","awayCode":"QAT","homeScore":6,"awayScore":0,"venue":"BC Place, Vancouver","status":"finished","highlights":["조나단 다비드 해트트릭 — 캐나다 사상 첫 월드컵 승리 견인","라린(16분), 다비드(29분·45+3분·90+2분), 살리바(64분), 알마나이 자책골(75분)","카타르 선수 2명 퇴장, 9인 경기로 마무리","CONCACAF 사상 월드컵 단일 경기 최다 득점 경신"]},
-    {"id":28,"date":"2026-06-18","time":"23:00 ET","stage":"Group A","home":"Mexico","homeCode":"MEX","away":"South Korea","awayCode":"KOR","homeScore":1,"awayScore":0,"venue":"Estadio Akron, Zapopan","status":"finished","highlights":["루이스 로모가 50분 선제골 — 한국 GK 김승규의 치명적 실수에서 기인","멕시코, 대회 최초로 32강 진출 확정(2전 전승·6점)","랑헬의 87분 조규성·양현준 연속 선방으로 한국의 동점 차단","A조 1위 멕시코 조기 확정"]},
-    {"id":29,"date":"2026-06-19","time":"15:00 ET","stage":"Group D","home":"United States","homeCode":"USA","away":"Australia","awayCode":"AUS","homeScore":2,"awayScore":0,"venue":"Lumen Field, Seattle","status":"finished","highlights":["캐머런 버게스 자책골(11분) — 발로건의 크로스를 호주 수비수가 그대로 밀어 넣음","알렉스 프리먼이 43분 데스트 프리킥 후 헤더골 — VAR 검토 끝에 최종 인정","풀리식 부상 결장에도 미국 완봉승, 2전 전승(6점)으로 D조 1위 확정·32강 진출"]},
-    {"id":30,"date":"2026-06-19","time":"18:00 ET","stage":"Group C","home":"Scotland","homeCode":"SCO","away":"Morocco","awayCode":"MAR","homeScore":0,"awayScore":1,"venue":"Gillette Stadium, Foxborough","status":"finished","highlights":["이스마일 사이바리가 킥오프 70초 만에 결승골 — 2026 월드컵 최단 시간 득점 기록 수립","브라힘 디아스의 스루패스를 받아 사이바리가 앙구스 군 머리 위로 꽂아넣음","맥토미네이의 페널티 판정 불인정 논란 — 스코틀랜드 동점 기회 살리지 못함","모로코 득실차로 C조 선두 도약, 스코틀랜드 2위로 내려앉아"]},
-    {"id":31,"date":"2026-06-19","time":"21:00 ET","stage":"Group C","home":"Brazil","homeCode":"BRA","away":"Haiti","awayCode":"HAI","homeScore":3,"awayScore":0,"venue":"Lincoln Financial Field, Philadelphia","status":"finished","highlights":["마테우스 쿠냐가 23분 비니시우스의 슈팅 리바운드를 밀어넣으며 선제골","쿠냐가 36분 왼발 정확도 높은 슛으로 추가골 — 전반에만 두 골","비니시우스 주니오르가 45+3분 파케타 스루패스 받아 세 번째 골로 마무리","아이티 2연패로 대회 첫 탈락, 브라질은 4점으로 모로코와 공동 선두(득실차 우위)"]},
-    {"id":32,"date":"2026-06-19","time":"23:00 ET","stage":"Group D","home":"Turkey","homeCode":"TUR","away":"Paraguay","awayCode":"PAR","homeScore":0,"awayScore":1,"venue":"Levi's Stadium, Santa Clara","status":"finished","highlights":["마티아스 갈라르사가 킥오프 2분 만에 선제골 — 이번 대회 최단 시간 득점","미겔 알미론, FIFA 새 입막기 규정 위반으로 전반 추가 시간 레드카드 퇴장","10명의 파라과이가 터키의 맹공을 끝까지 막아내며 1-0 값진 승리","터키 2연패로 탈락 확정, 파라과이의 32강 진출 희망은 살아있어"]},
-    {"id":33,"date":"2026-06-20","time":"16:00 ET","stage":"Group E","home":"Germany","homeCode":"GER","away":"Ivory Coast","awayCode":"CIV","homeScore":2,"awayScore":1,"venue":"BMO Field, Toronto","status":"finished","highlights":["프랑크 케시에가 30분 코트디부아르 선제골 — 최다 득점 독일을 상대로 충격 리드","교체 투입된 데니스 운다브가 68분 아미리 크로스를 발리로 마무리해 독일 동점","운다브가 94분 결승골로 역전 완성 — 독일 劇的 역전으로 32강 확정","코트디부아르도 분전했으나 독일의 후반 역전을 막지 못해"]},
-    {"id":34,"date":"2026-06-20","time":"20:00 ET","stage":"Group E","home":"Ecuador","homeCode":"ECU","away":"Curacao","awayCode":"CUW","homeScore":0,"awayScore":0,"venue":"Arrowhead Stadium, Kansas City","status":"finished","highlights":["GK 엘로이 룸이 15차례 선방으로 쿠라사오에 사상 첫 월드컵 승점 선사","에콰도르는 15개의 유효슈팅에도 무득점 — 1966년 이후 WC 단일 경기 최다 유효슈팅 무득점","룸의 역사적 활약 — 이번 대회 최고의 개인 골키퍼 퍼포먼스","에콰도르 E조 조별 탈락 위기, 쿠라사오는 1승점으로 팀 역사의 새 페이지"]},
-    {"id":35,"date":"2026-06-20","time":"13:00 ET","stage":"Group F","home":"Netherlands","homeCode":"NED","away":"Sweden","awayCode":"SWE","homeScore":5,"awayScore":1,"venue":"NRG Stadium, Houston","status":"finished","highlights":["브라이언 브로비가 5분·17분 멀티골 — 월드컵 역대 4번째로 빠른 두 골 기록","가크포도 47분·54분 연속 추가골, 앤서니 엘랑아(스웨덴)가 59분 만회골","서머빌이 89분 다섯 번째 골로 마무리 — 네덜란드 역대 최대 WC 승리","네덜란드 F조 선두 등극(일본과 공동 4점)"]},
-    {"id":36,"date":"2026-06-21","time":"00:00 ET","stage":"Group F","home":"Tunisia","homeCode":"TUN","away":"Japan","awayCode":"JPN","homeScore":0,"awayScore":4,"venue":"Estadio BBVA, Guadalupe","status":"finished","highlights":["카마다가 4분 선제골로 일본 기선 제압","우에다가 30분·83분 멀티골, 이토가 69분 세 번째 골 — 일본 월드컵 역대 최대 득점 차 승리","이 경기는 FIFA 월드컵 사상 1000번째 경기로 기록됨","튀니지 2연패로 탈락, 일본은 네덜란드와 함께 F조 공동 선두(4점)"]},
-    {"id":37,"date":"2026-06-21","time":"12:00 ET","stage":"Group H","home":"Spain","homeCode":"ESP","away":"Saudi Arabia","awayCode":"KSA","homeScore":4,"awayScore":0,"venue":"Mercedes-Benz Stadium, Atlanta","status":"finished","highlights":["라미네 야말이 10분 월드컵 첫 골 — 17세에 달성, WC 역대 8번째 최연소 득점자(메시·음바페·호날두보다 어린 나이에 첫 WC 골)","미켈 오야르사발이 21분·24분 연속 2골로 전반에만 3-0 리드","야말·오야르사발 하프타임 교체 투입, 스페인 이미 경기 결정","알-탐박티 자책골(51분)로 4-0 완승 — 스페인 H조 1위, 32강 진출 확정"]},
-    {"id":38,"date":"2026-06-21","time":"15:00 ET","stage":"Group G","home":"Belgium","homeCode":"BEL","away":"Iran","awayCode":"IRN","homeScore":0,"awayScore":0,"venue":"SoFi Stadium, Inglewood","status":"finished","highlights":["타레미의 전반 프리킥 빌드업 후 골은 VAR 오프사이드로 취소","응고이가 66분 레드카드 — 백패스 실수 후 타레미 파울(결정적 득점 기회 저지)","10인 벨기에로 경기 마무리, 점유율 70%·xG 1.82에도 무득점","베이란반드의 선방으로 이란 버텨내 — G조 4팀 모두 최종전까지 16강 진출 가능"]},
-    {"id":39,"date":"2026-06-21","time":"18:00 ET","stage":"Group H","home":"Uruguay","homeCode":"URU","away":"Cabo Verde","awayCode":"CPV","homeScore":2,"awayScore":2,"venue":"Hard Rock Stadium, Miami Gardens","status":"finished","highlights":["피나가 21분 강력한 프리킥으로 카보베르데 선제골","아라우호(44분)·카노비오(45+6분) 연속 골로 우루과이가 역전해 2-1로 전반 마감","H. 바렐라가 61분 수비 실수를 틈타 카보베르데 동점골(2-2)","카보베르데 2026 월드컵 2전 무패(2무) — 양 팀 모두 3차전까지 진출 가능"]},
-    {"id":40,"date":"2026-06-21","time":"21:00 ET","stage":"Group G","home":"New Zealand","homeCode":"NZL","away":"Egypt","awayCode":"EGY","homeScore":1,"awayScore":3,"venue":"BC Place, Vancouver","status":"finished","highlights":["피론 서먼이 15분 코너킥 헤딩 선제골로 뉴질랜드 리드","지코가 58분 근거리 헤딩으로 이집트 동점","모하메드 살라가 67분 결정적인 역전골 — 이집트 2-1 앞서","트레제게가 82분 다이빙 헤더 쐐기골 — 이집트 역사상 사상 첫 월드컵 승리(3-1), G조 선두 등극"]},
-    {"id":41,"date":"2026-06-22","time":"12:00 ET","stage":"Group I","home":"France","homeCode":"FRA","away":"Iraq","awayCode":"IRQ","homeScore":3,"awayScore":0,"venue":"Lincoln Financial Field, Philadelphia","status":"finished","highlights":["음바페가 14분 박스 외곽에서 왼발 강슈팅으로 선제골 — 올리스 어시스트, 커리어 WC 15번째 골","경기 도중 2시간 폭우·번개 기상 지연 발생 — 대회 최초 기상 중단","음바페가 54분 이라크 GK의 짧은 골킥 실수를 냉정하게 마무리 — 16번째 커리어 WC 골","들랑브레가 66분 올리스 패스를 받아 낮은 오른발 슛으로 마무리 — 프랑스 I조 1위 확정·32강 진출"]},
-    {"id":42,"date":"2026-06-22","time":"16:00 ET","stage":"Group I","home":"Norway","homeCode":"NOR","away":"Senegal","awayCode":"SEN","homeScore":3,"awayScore":2,"venue":"MetLife Stadium, East Rutherford","status":"finished","highlights":["마르쿠스 홀름그렌 페데르센이 43분 수비 실수를 찌르며 선제골","엘링 홀란드가 48분·58분 멀티골 — 2경기 연속 2골로 대회 총 4골(2위권 경쟁)","이스마일라 사르가 53분·90+3분 두 골로 세네갈 3-2 맹추격 — 극적 긴장감","노르웨이가 3-2로 버텨내며 I조 2위 확정, 32강 진출"]},
-    {"id":43,"date":"2026-06-22","time":"20:00 ET","stage":"Group J","home":"Argentina","homeCode":"ARG","away":"Austria","awayCode":"AUT","homeScore":2,"awayScore":0,"venue":"AT&T Stadium, Arlington","status":"finished","highlights":["메시가 38분 박스 좌측에서 왼발 침착하게 왼쪽 하단 코너에 꽂아 — 클로제(16골) 추월, 남자 WC 역대 단독 최다 득점(17골)","메시가 90+2분 슐라거가 막은 알바레스 슈팅 리바운드 밀어 넣어 18번째 WC 골 — 마르타(17골) 넘어 남녀 통틀어 FIFA WC 역대 최다 득점자 등극","아르헨티나 J조 2연승·6점으로 1위 확정, 32강 진출","메시의 대회 5번째 골, 골든부트 단독 선두"]},
-    {"id":44,"date":"2026-06-22","time":"23:00 ET","stage":"Group J","home":"Algeria","homeCode":"ALG","away":"Jordan","awayCode":"JOR","homeScore":2,"awayScore":1,"venue":"Levi's Stadium, Santa Clara","status":"finished","highlights":["요르단의 니자르 알라시단이 전반 선제골 — 알제리 독점 점유에도 요르단 1-0 하프타임 리드","나디르 벤부알리가 68분 마레즈 코너킥 헤딩으로 알제리 동점","교체 투입 아민 구이리가 82분 아지 하지 무사의 코너킥 헤딩으로 역전 결승골","알제리가 후반 역전승 — 두 팀 모두 J조 3차전 생존 경쟁"]},
-    {"id":45,"date":"2026-06-23","time":"13:00 ET","stage":"Group K","home":"Portugal","homeCode":"POR","away":"Uzbekistan","awayCode":"UZB","homeScore":5,"awayScore":0,"venue":"NRG Stadium, Houston","status":"finished","highlights":["호날두가 6분 선제골 — 사상 최초로 6개 FIFA 월드컵에서 득점한 선수가 됨(41세 최고령 WC 득점 기록도 경신)","누누 멘데스가 17분 프리킥 환상 슛으로 2-0 리드","호날두가 39분 브루노 페르난데스 패스를 받아 두 번째 골 — 커리어 WC 10번째 득점이자 41세 최고령 WC 멀티골","네마토프 자책골(60분)로 4-0, 하파엘 레앙이 87분 마무리 — 포르투갈 32강 진출 확정"]},
-    {"id":46,"date":"2026-06-23","time":"16:00 ET","stage":"Group L","home":"England","homeCode":"ENG","away":"Ghana","awayCode":"GHA","homeScore":0,"awayScore":0,"venue":"Gillette Stadium, Foxborough","status":"finished","highlights":["잉글랜드 79% 점유율로 경기 지배했지만 득점 실패 — 지난 60년간 WC 무득점 경기 중 역대 최고 점유율","잉글랜드 19개 슈팅 대 가나 2개, 오라일리와 케인의 결정적 기회가 모두 불발","두 팀 모두 4점으로 L조 공동 선두, 6/27 최종전에서 진출 여부 결정"]},
-    {"id":47,"date":"2026-06-23","time":"19:00 ET","stage":"Group L","home":"Panama","homeCode":"PAN","away":"Croatia","awayCode":"CRO","homeScore":0,"awayScore":1,"venue":"BMO Field, Toronto","status":"finished","highlights":["스타니시치의 크로스를 부디미르가 54분 헤딩으로 마무리 — 크로아티아 대회 첫 승리","파나마 2연패로 탈락 확정 — 사상 첫 월드컵에서 단 한 골도 넣지 못한 채 조별리그 마감","크로아티아가 3점으로 L조 3위로 올라 최종전에 32강 진출 가능성 유지"]},
-    {"id":48,"date":"2026-06-23","time":"22:00 ET","stage":"Group K","home":"Colombia","homeCode":"COL","away":"DR Congo","awayCode":"COD","homeScore":1,"awayScore":0,"venue":"Estadio Akron, Guadalajara","status":"finished","highlights":["무뇨스가 킨테로의 스루패스를 받아 76분 디플렉션 슛으로 결승골","콜롬비아 K조 2연승(6점)으로 32강 진출 확정, 조 1위 자리 굳혀","DR콩고는 1점으로 탈락 위기 — 최종전 우즈베키스탄에 반드시 승리해야 생존"]},
-    {"id":49,"date":"2026-06-24","time":"15:00 ET","stage":"Group B","home":"Switzerland","homeCode":"SUI","away":"Canada","awayCode":"CAN","homeScore":null,"awayScore":null,"venue":"BC Place, Vancouver","status":"scheduled","highlights":[]},
-    {"id":50,"date":"2026-06-24","time":"15:00 ET","stage":"Group B","home":"Bosnia and Herzegovina","homeCode":"BIH","away":"Qatar","awayCode":"QAT","homeScore":null,"awayScore":null,"venue":"Lumen Field, Seattle","status":"scheduled","highlights":[]},
-    {"id":51,"date":"2026-06-24","time":"18:00 ET","stage":"Group C","home":"Scotland","homeCode":"SCO","away":"Brazil","awayCode":"BRA","homeScore":null,"awayScore":null,"venue":"Hard Rock Stadium, Miami Gardens","status":"scheduled","highlights":[]},
-    {"id":52,"date":"2026-06-24","time":"18:00 ET","stage":"Group C","home":"Morocco","homeCode":"MAR","away":"Haiti","awayCode":"HAI","homeScore":null,"awayScore":null,"venue":"Mercedes-Benz Stadium, Atlanta","status":"scheduled","highlights":[]},
-    {"id":53,"date":"2026-06-24","time":"21:00 ET","stage":"Group A","home":"Czech Republic","homeCode":"CZE","away":"Mexico","awayCode":"MEX","homeScore":null,"awayScore":null,"venue":"Estadio Azteca, Mexico City","status":"scheduled","highlights":[]},
-    {"id":54,"date":"2026-06-24","time":"21:00 ET","stage":"Group A","home":"South Africa","homeCode":"RSA","away":"South Korea","awayCode":"KOR","homeScore":null,"awayScore":null,"venue":"Estadio BBVA, Guadalupe","status":"scheduled","highlights":[]},
-    {"id":55,"date":"2026-06-25","time":"16:00 ET","stage":"Group E","home":"Ecuador","homeCode":"ECU","away":"Germany","awayCode":"GER","homeScore":null,"awayScore":null,"venue":"MetLife Stadium, East Rutherford","status":"scheduled","highlights":[]},
-    {"id":56,"date":"2026-06-25","time":"16:00 ET","stage":"Group E","home":"Curacao","homeCode":"CUW","away":"Ivory Coast","awayCode":"CIV","homeScore":null,"awayScore":null,"venue":"Lincoln Financial Field, Philadelphia","status":"scheduled","highlights":[]},
-    {"id":57,"date":"2026-06-25","time":"19:00 ET","stage":"Group F","home":"Japan","homeCode":"JPN","away":"Sweden","awayCode":"SWE","homeScore":null,"awayScore":null,"venue":"AT&T Stadium, Arlington","status":"scheduled","highlights":[]},
-    {"id":58,"date":"2026-06-25","time":"19:00 ET","stage":"Group F","home":"Tunisia","homeCode":"TUN","away":"Netherlands","awayCode":"NED","homeScore":null,"awayScore":null,"venue":"Arrowhead Stadium, Kansas City","status":"scheduled","highlights":[]},
-    {"id":59,"date":"2026-06-25","time":"22:00 ET","stage":"Group D","home":"Turkey","homeCode":"TUR","away":"United States","awayCode":"USA","homeScore":null,"awayScore":null,"venue":"SoFi Stadium, Inglewood","status":"scheduled","highlights":[]},
-    {"id":60,"date":"2026-06-25","time":"22:00 ET","stage":"Group D","home":"Paraguay","homeCode":"PAR","away":"Australia","awayCode":"AUS","homeScore":null,"awayScore":null,"venue":"Levi's Stadium, Santa Clara","status":"scheduled","highlights":[]},
-    {"id":61,"date":"2026-06-26","time":"15:00 ET","stage":"Group I","home":"Norway","homeCode":"NOR","away":"France","awayCode":"FRA","homeScore":null,"awayScore":null,"venue":"Gillette Stadium, Foxborough","status":"scheduled","highlights":[]},
-    {"id":62,"date":"2026-06-26","time":"15:00 ET","stage":"Group I","home":"Senegal","homeCode":"SEN","away":"Iraq","awayCode":"IRQ","homeScore":null,"awayScore":null,"venue":"BMO Field, Toronto","status":"scheduled","highlights":[]},
-    {"id":63,"date":"2026-06-26","time":"20:00 ET","stage":"Group H","home":"Cabo Verde","homeCode":"CPV","away":"Saudi Arabia","awayCode":"KSA","homeScore":null,"awayScore":null,"venue":"NRG Stadium, Houston","status":"scheduled","highlights":[]},
-    {"id":64,"date":"2026-06-26","time":"20:00 ET","stage":"Group H","home":"Uruguay","homeCode":"URU","away":"Spain","awayCode":"ESP","homeScore":null,"awayScore":null,"venue":"Estadio Akron, Guadalajara","status":"scheduled","highlights":[]},
-    {"id":65,"date":"2026-06-26","time":"23:00 ET","stage":"Group G","home":"Egypt","homeCode":"EGY","away":"Iran","awayCode":"IRN","homeScore":null,"awayScore":null,"venue":"Lumen Field, Seattle","status":"scheduled","highlights":[]},
-    {"id":66,"date":"2026-06-26","time":"23:00 ET","stage":"Group G","home":"New Zealand","homeCode":"NZL","away":"Belgium","awayCode":"BEL","homeScore":null,"awayScore":null,"venue":"BC Place, Vancouver","status":"scheduled","highlights":[]},
-    {"id":67,"date":"2026-06-27","time":"17:00 ET","stage":"Group L","home":"Panama","homeCode":"PAN","away":"England","awayCode":"ENG","homeScore":null,"awayScore":null,"venue":"MetLife Stadium, East Rutherford","status":"scheduled","highlights":[]},
-    {"id":68,"date":"2026-06-27","time":"17:00 ET","stage":"Group L","home":"Croatia","homeCode":"CRO","away":"Ghana","awayCode":"GHA","homeScore":null,"awayScore":null,"venue":"Lincoln Financial Field, Philadelphia","status":"scheduled","highlights":[]},
-    {"id":69,"date":"2026-06-27","time":"19:30 ET","stage":"Group K","home":"Colombia","homeCode":"COL","away":"Portugal","awayCode":"POR","homeScore":null,"awayScore":null,"venue":"Hard Rock Stadium, Miami Gardens","status":"scheduled","highlights":[]},
-    {"id":70,"date":"2026-06-27","time":"19:30 ET","stage":"Group K","home":"DR Congo","homeCode":"COD","away":"Uzbekistan","awayCode":"UZB","homeScore":null,"awayScore":null,"venue":"Mercedes-Benz Stadium, Atlanta","status":"scheduled","highlights":[]},
-    {"id":71,"date":"2026-06-27","time":"22:00 ET","stage":"Group J","home":"Algeria","homeCode":"ALG","away":"Austria","awayCode":"AUT","homeScore":null,"awayScore":null,"venue":"Arrowhead Stadium, Kansas City","status":"scheduled","highlights":[]},
-    {"id":72,"date":"2026-06-27","time":"22:00 ET","stage":"Group J","home":"Jordan","homeCode":"JOR","away":"Argentina","awayCode":"ARG","homeScore":null,"awayScore":null,"venue":"AT&T Stadium, Arlington","status":"scheduled","highlights":[]}
+    {
+      "id": 1,
+      "date": "2026-06-11",
+      "time": "18:00 ET",
+      "stage": "Group A",
+      "home": "Mexico",
+      "homeCode": "MEX",
+      "away": "South Africa",
+      "awayCode": "RSA",
+      "homeScore": 2,
+      "awayScore": 0,
+      "venue": "Estadio Azteca, Mexico City",
+      "status": "finished",
+      "highlights": [
+        "훌리안 키뇨네스가 9분 대회 개막골 — CONCACAF 선수 최초의 월드컵 개막골",
+        "라울 히메네스가 67분 추가골",
+        "공동 개최국 멕시코가 만원 아스테카에서 산뜻한 출발"
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2026-06-11",
+      "time": "21:00 ET",
+      "stage": "Group A",
+      "home": "South Korea",
+      "homeCode": "KOR",
+      "away": "Czech Republic",
+      "awayCode": "CZE",
+      "homeScore": 2,
+      "awayScore": 1,
+      "venue": "Estadio Akron, Zapopan",
+      "status": "finished",
+      "highlights": [
+        "59분 크레이치가 체코 선제골",
+        "67분 황인범 동점골",
+        "80분 오현규 역전 결승골"
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2026-06-12",
+      "time": "15:00 ET",
+      "stage": "Group D",
+      "home": "United States",
+      "homeCode": "USA",
+      "away": "Paraguay",
+      "awayCode": "PAR",
+      "homeScore": 4,
+      "awayScore": 1,
+      "venue": "SoFi Stadium, Inglewood",
+      "status": "finished",
+      "highlights": [
+        "7분 풀리식·맥케니 압박 끝 자책골로 선제",
+        "발로건 멀티골 — 1930년 이후 미국 선수 첫 월드컵 1경기 2골",
+        "73분 마우리시오가 파라과이 만회골",
+        "조 레이나가 추가시간 환상적인 쐐기골"
+      ]
+    },
+    {
+      "id": 4,
+      "date": "2026-06-13",
+      "time": "12:00 ET",
+      "stage": "Group D",
+      "home": "Australia",
+      "homeCode": "AUS",
+      "away": "Turkey",
+      "awayCode": "TUR",
+      "homeScore": 2,
+      "awayScore": 0,
+      "venue": "BC Place, Vancouver",
+      "status": "finished",
+      "highlights": [
+        "호주가 경기 내내 주도",
+        "터키는 유효슈팅 0개에 그침"
+      ]
+    },
+    {
+      "id": 5,
+      "date": "2026-06-12",
+      "time": "21:00 ET",
+      "stage": "Group B",
+      "home": "Canada",
+      "homeCode": "CAN",
+      "away": "Bosnia and Herzegovina",
+      "awayCode": "BIH",
+      "homeScore": 1,
+      "awayScore": 1,
+      "venue": "BMO Field, Toronto",
+      "status": "finished",
+      "highlights": [
+        "공동 개최국 캐나다가 토론토 홈 개막전 무승부"
+      ]
+    },
+    {
+      "id": 6,
+      "date": "2026-06-13",
+      "time": "21:00 ET",
+      "stage": "Group C",
+      "home": "Brazil",
+      "homeCode": "BRA",
+      "away": "Morocco",
+      "awayCode": "MAR",
+      "homeScore": 1,
+      "awayScore": 1,
+      "venue": "MetLife Stadium, East Rutherford",
+      "status": "finished",
+      "highlights": [
+        "비니시우스 주니오르가 브라질 골",
+        "우승후보 브라질이 모로코에 발목",
+        "이 결과로 스코틀랜드가 C조 선두로"
+      ]
+    },
+    {
+      "id": 7,
+      "date": "2026-06-13",
+      "time": "15:00 ET",
+      "stage": "Group C",
+      "home": "Haiti",
+      "homeCode": "HAI",
+      "away": "Scotland",
+      "awayCode": "SCO",
+      "homeScore": 0,
+      "awayScore": 1,
+      "venue": "Gillette Stadium, Foxborough",
+      "status": "finished",
+      "highlights": [
+        "스코틀랜드, 1974년 이후 첫 월드컵 승리",
+        "28년 만의 월드컵 본선(1998년 이후)",
+        "브라질·모로코 제치고 C조 선두 등극"
+      ]
+    },
+    {
+      "id": 8,
+      "date": "2026-06-13",
+      "time": "18:00 ET",
+      "stage": "Group B",
+      "home": "Qatar",
+      "homeCode": "QAT",
+      "away": "Switzerland",
+      "awayCode": "SUI",
+      "homeScore": 1,
+      "awayScore": 1,
+      "venue": "Levi's Stadium, Santa Clara",
+      "status": "finished",
+      "highlights": [
+        "카타르 월드컵 사상 첫 승점 획득",
+        "2022년 개최국으로 3전 전패 후 첫 승점"
+      ]
+    },
+    {
+      "id": 9,
+      "date": "2026-06-14",
+      "time": "13:00 ET",
+      "stage": "Group E",
+      "home": "Germany",
+      "homeCode": "GER",
+      "away": "Curacao",
+      "awayCode": "CUW",
+      "homeScore": 7,
+      "awayScore": 1,
+      "venue": "NRG Stadium, Houston",
+      "status": "finished",
+      "highlights": [
+        "독일이 월드컵 통산 최다 득점국 등극(239골)으로 브라질 추월",
+        "역대 최소 인구 본선국 쿠라사오(약 15.5만)가 사상 첫 월드컵 골",
+        "하베르츠 멀티골, 무시알라도 득점"
+      ]
+    },
+    {
+      "id": 10,
+      "date": "2026-06-14",
+      "time": "19:00 ET",
+      "stage": "Group E",
+      "home": "Ivory Coast",
+      "homeCode": "CIV",
+      "away": "Ecuador",
+      "awayCode": "ECU",
+      "homeScore": 1,
+      "awayScore": 0,
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "status": "finished",
+      "highlights": [
+        "90분 아마드 디알로 결승골(싱고 도움)",
+        "에콰도르는 전반 골대만 두 차례",
+        "추가시간 극장골로 코트디부아르 승점 3"
+      ]
+    },
+    {
+      "id": 11,
+      "date": "2026-06-14",
+      "time": "13:00 ET",
+      "stage": "Group F",
+      "home": "Netherlands",
+      "homeCode": "NED",
+      "away": "Japan",
+      "awayCode": "JPN",
+      "homeScore": 2,
+      "awayScore": 2,
+      "venue": "AT&T Stadium, Arlington",
+      "status": "finished",
+      "highlights": [
+        "판 다이크(50분)·서머빌(64분) 네덜란드 골",
+        "나카무라(57분)·카마다(88분) 일본 골",
+        "카마다의 88분 동점골로 일본 극적 무승부",
+        "관중 69,285명"
+      ]
+    },
+    {
+      "id": 12,
+      "date": "2026-06-14",
+      "time": "19:00 ET",
+      "stage": "Group F",
+      "home": "Sweden",
+      "homeCode": "SWE",
+      "away": "Tunisia",
+      "awayCode": "TUN",
+      "homeScore": 5,
+      "awayScore": 1,
+      "venue": "Estadio BBVA, Guadalupe",
+      "status": "finished",
+      "highlights": [
+        "야신 아야리 멀티골(후반 중거리 대포 포함)",
+        "요케레스·이사크 맹활약",
+        "스반베리 골은 84분 VAR 판독 끝 인정"
+      ]
+    },
+    {
+      "id": 13,
+      "date": "2026-06-15",
+      "time": "12:00 ET",
+      "stage": "Group H",
+      "home": "Spain",
+      "homeCode": "ESP",
+      "away": "Cabo Verde",
+      "awayCode": "CPV",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "status": "finished",
+      "highlights": [
+        "우승후보 스페인이 데뷔국 카보베르데에 0-0 충격 무승부",
+        "인구 약 53만 카보베르데의 값진 결과",
+        "관중 67,640명"
+      ]
+    },
+    {
+      "id": 14,
+      "date": "2026-06-15",
+      "time": "18:00 ET",
+      "stage": "Group H",
+      "home": "Saudi Arabia",
+      "homeCode": "KSA",
+      "away": "Uruguay",
+      "awayCode": "URU",
+      "homeScore": 1,
+      "awayScore": 1,
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "status": "finished",
+      "highlights": [
+        "41분 알 암리 사우디 선제골",
+        "80분 아라우호 우루과이 동점골",
+        "관중 62,764명"
+      ]
+    },
+    {
+      "id": 15,
+      "date": "2026-06-15",
+      "time": "12:00 ET",
+      "stage": "Group G",
+      "home": "Belgium",
+      "homeCode": "BEL",
+      "away": "Egypt",
+      "awayCode": "EGY",
+      "homeScore": 1,
+      "awayScore": 1,
+      "venue": "Lumen Field, Seattle",
+      "status": "finished",
+      "highlights": [
+        "벨기에와 이집트 1-1 무승부"
+      ]
+    },
+    {
+      "id": 16,
+      "date": "2026-06-15",
+      "time": "18:00 ET",
+      "stage": "Group G",
+      "home": "Iran",
+      "homeCode": "IRN",
+      "away": "New Zealand",
+      "awayCode": "NZL",
+      "homeScore": 2,
+      "awayScore": 2,
+      "venue": "SoFi Stadium, Inglewood",
+      "status": "finished",
+      "highlights": [
+        "이란-뉴질랜드 2-2 난타전",
+        "일라이자 저스트가 뉴질랜드 골"
+      ]
+    },
+    {
+      "id": 17,
+      "date": "2026-06-16",
+      "time": "12:00 ET",
+      "stage": "Group I",
+      "home": "France",
+      "homeCode": "FRA",
+      "away": "Senegal",
+      "awayCode": "SEN",
+      "homeScore": 3,
+      "awayScore": 1,
+      "venue": "MetLife Stadium, East Rutherford",
+      "status": "finished",
+      "highlights": [
+        "음바페가 지루 넘어 프랑스 역대 최다 득점자로(99경기 58골)",
+        "음바페 멀티골(66분·90+6분), 바르콜라(82분) 추가골",
+        "올리세 2도움",
+        "세네갈은 음바예가 막판 만회골(90+5분)"
+      ]
+    },
+    {
+      "id": 18,
+      "date": "2026-06-16",
+      "time": "18:00 ET",
+      "stage": "Group I",
+      "home": "Iraq",
+      "homeCode": "IRQ",
+      "away": "Norway",
+      "awayCode": "NOR",
+      "homeScore": 1,
+      "awayScore": 4,
+      "venue": "Gillette Stadium, Foxborough",
+      "status": "finished",
+      "highlights": [
+        "홀란드 월드컵 데뷔전 멀티골 — 노르웨이 1998년 이후 첫 본선",
+        "이라크 GK가 걷어낸 공이 홀란드에 맞고 두 번째 골",
+        "이라크는 1986년 이후 첫 월드컵 골"
+      ]
+    },
+    {
+      "id": 19,
+      "date": "2026-06-16",
+      "time": "21:00 ET",
+      "stage": "Group J",
+      "home": "Argentina",
+      "homeCode": "ARG",
+      "away": "Algeria",
+      "awayCode": "ALG",
+      "homeScore": 3,
+      "awayScore": 0,
+      "venue": "Arrowhead Stadium, Kansas City",
+      "status": "finished",
+      "highlights": [
+        "메시 커리어 첫 월드컵 해트트릭 — 클로제의 월드컵 통산 최다 16골과 타이",
+        "최고령 월드컵 해트트릭 기록(38세)",
+        "디펜딩 챔피언 아르헨티나의 압도적 출발",
+        "메시는 해트트릭 후 80분 교체"
+      ]
+    },
+    {
+      "id": 20,
+      "date": "2026-06-17",
+      "time": "00:00 ET",
+      "stage": "Group J",
+      "home": "Austria",
+      "homeCode": "AUT",
+      "away": "Jordan",
+      "awayCode": "JOR",
+      "homeScore": 3,
+      "awayScore": 1,
+      "venue": "Levi's Stadium, Santa Clara",
+      "status": "finished",
+      "highlights": [
+        "로마노 슈미트가 21분 중거리 슛으로 오스트리아 선제골",
+        "알리 이야드 올완 50분 동점골 — 요르단 월드컵 사상 첫 득점",
+        "야잔 알아랍 코너킥 자책골(76분)로 오스트리아 재역전",
+        "아르나우토비치 추가시간 PK 마무리 — 오스트리아 36년 만의 월드컵 승리"
+      ]
+    },
+    {
+      "id": 21,
+      "date": "2026-06-17",
+      "time": "13:00 ET",
+      "stage": "Group K",
+      "home": "Portugal",
+      "homeCode": "POR",
+      "away": "DR Congo",
+      "awayCode": "COD",
+      "homeScore": 1,
+      "awayScore": 1,
+      "venue": "NRG Stadium, Houston",
+      "status": "finished",
+      "highlights": [
+        "주앙 네베스 6분 선제골로 포르투갈 앞서나가",
+        "와이사 45+5분 동점골 — DR콩고 1974년 이후 첫 본선 복귀에서 월드컵 첫 승점",
+        "칸첼로 55분 환상 오버헤드킥 VAR 오프사이드 취소",
+        "접전 끝 무승부, K조 포인트 분배"
+      ]
+    },
+    {
+      "id": 22,
+      "date": "2026-06-17",
+      "time": "13:00 ET",
+      "stage": "Group K",
+      "home": "Uzbekistan",
+      "homeCode": "UZB",
+      "away": "Colombia",
+      "awayCode": "COL",
+      "homeScore": 1,
+      "awayScore": 3,
+      "venue": "Estadio Azteca, Mexico City",
+      "status": "finished",
+      "highlights": [
+        "무뇨스 40분 선제골로 콜롬비아 앞서나가",
+        "파이줄라예프 60분 — 우즈베키스탄 월드컵 역대 첫 골",
+        "루이스 디아스 65분 재역전 뒤 캄파스 90+9분 쐐기골",
+        "콜롬비아 3-1 완승으로 K조 선두"
+      ]
+    },
+    {
+      "id": 23,
+      "date": "2026-06-17",
+      "time": "16:00 ET",
+      "stage": "Group L",
+      "home": "England",
+      "homeCode": "ENG",
+      "away": "Croatia",
+      "awayCode": "CRO",
+      "homeScore": 4,
+      "awayScore": 2,
+      "venue": "AT&T Stadium, Arlington",
+      "status": "finished",
+      "highlights": [
+        "케인 12분 PK·42분 헤딩 — WC 10골로 린에커 타이(잉글랜드 WC 공동 최다)",
+        "바투리나(36분)·무사(45+5분) 크로아티아 전반 2골 응수",
+        "벨링엄 47분 재역전 후 라시포드 85분 쐐기골",
+        "혼란스러운 전반 딛고 후반 압도, 잉글랜드 4-2 완승"
+      ]
+    },
+    {
+      "id": 24,
+      "date": "2026-06-17",
+      "time": "19:00 ET",
+      "stage": "Group L",
+      "home": "Ghana",
+      "homeCode": "GHA",
+      "away": "Panama",
+      "awayCode": "PAN",
+      "homeScore": 1,
+      "awayScore": 0,
+      "venue": "BMO Field, Toronto",
+      "status": "finished",
+      "highlights": [
+        "이렌키 95분 극장골 — 토마스-아산테 도움으로 완성",
+        "파나마 수비 잘 버텼으나 막판 실점으로 사상 첫 WC 승점 좌절",
+        "가나가 잉글랜드와 함께 L조 공동 선두(3점)"
+      ]
+    },
+    {
+      "id": 25,
+      "date": "2026-06-18",
+      "time": "12:00 ET",
+      "stage": "Group A",
+      "home": "Czech Republic",
+      "homeCode": "CZE",
+      "away": "South Africa",
+      "awayCode": "RSA",
+      "homeScore": 1,
+      "awayScore": 1,
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "status": "finished",
+      "highlights": [
+        "사디렉이 6분 선제골로 체코 리드",
+        "파울 슐츠의 페널티 박스 내 핸드볼로 남아공 PK 획득",
+        "모코에나가 83분 PK 동점골 — 남아공 A조 첫 승점 획득",
+        "체코 첫 승 놓치며 무승부, 두 팀 모두 A조 하위권 경쟁"
+      ]
+    },
+    {
+      "id": 26,
+      "date": "2026-06-18",
+      "time": "15:00 ET",
+      "stage": "Group B",
+      "home": "Switzerland",
+      "homeCode": "SUI",
+      "away": "Bosnia and Herzegovina",
+      "awayCode": "BIH",
+      "homeScore": 4,
+      "awayScore": 1,
+      "venue": "SoFi Stadium, Inglewood",
+      "status": "finished",
+      "highlights": [
+        "만잠비가 교체 투입 171초 만에 71분 선제골",
+        "무하레모비치 레드카드 이후 10인 보스니아 무너져",
+        "만잠비 멀티골(71분·90분), 바르가스(84분), 샤카 PK(90+7분)",
+        "후반 4골 폭발 — 스위스 B조 단독 선두 도약"
+      ]
+    },
+    {
+      "id": 27,
+      "date": "2026-06-18",
+      "time": "18:00 ET",
+      "stage": "Group B",
+      "home": "Canada",
+      "homeCode": "CAN",
+      "away": "Qatar",
+      "awayCode": "QAT",
+      "homeScore": 6,
+      "awayScore": 0,
+      "venue": "BC Place, Vancouver",
+      "status": "finished",
+      "highlights": [
+        "조나단 다비드 해트트릭 — 캐나다 사상 첫 월드컵 승리 견인",
+        "라린(16분), 다비드(29분·45+3분·90+2분), 살리바(64분), 알마나이 자책골(75분)",
+        "카타르 선수 2명 퇴장, 9인 경기로 마무리",
+        "CONCACAF 사상 월드컵 단일 경기 최다 득점 경신"
+      ]
+    },
+    {
+      "id": 28,
+      "date": "2026-06-18",
+      "time": "23:00 ET",
+      "stage": "Group A",
+      "home": "Mexico",
+      "homeCode": "MEX",
+      "away": "South Korea",
+      "awayCode": "KOR",
+      "homeScore": 1,
+      "awayScore": 0,
+      "venue": "Estadio Akron, Zapopan",
+      "status": "finished",
+      "highlights": [
+        "루이스 로모가 50분 선제골 — 한국 GK 김승규의 치명적 실수에서 기인",
+        "멕시코, 대회 최초로 32강 진출 확정(2전 전승·6점)",
+        "랑헬의 87분 조규성·양현준 연속 선방으로 한국의 동점 차단",
+        "A조 1위 멕시코 조기 확정"
+      ]
+    },
+    {
+      "id": 29,
+      "date": "2026-06-19",
+      "time": "15:00 ET",
+      "stage": "Group D",
+      "home": "United States",
+      "homeCode": "USA",
+      "away": "Australia",
+      "awayCode": "AUS",
+      "homeScore": 2,
+      "awayScore": 0,
+      "venue": "Lumen Field, Seattle",
+      "status": "finished",
+      "highlights": [
+        "캐머런 버게스 자책골(11분) — 발로건의 크로스를 호주 수비수가 그대로 밀어 넣음",
+        "알렉스 프리먼이 43분 데스트 프리킥 후 헤더골 — VAR 검토 끝에 최종 인정",
+        "풀리식 부상 결장에도 미국 완봉승, 2전 전승(6점)으로 D조 1위 확정·32강 진출"
+      ]
+    },
+    {
+      "id": 30,
+      "date": "2026-06-19",
+      "time": "18:00 ET",
+      "stage": "Group C",
+      "home": "Scotland",
+      "homeCode": "SCO",
+      "away": "Morocco",
+      "awayCode": "MAR",
+      "homeScore": 0,
+      "awayScore": 1,
+      "venue": "Gillette Stadium, Foxborough",
+      "status": "finished",
+      "highlights": [
+        "이스마일 사이바리가 킥오프 70초 만에 결승골 — 2026 월드컵 최단 시간 득점 기록 수립",
+        "브라힘 디아스의 스루패스를 받아 사이바리가 앙구스 군 머리 위로 꽂아넣음",
+        "맥토미네이의 페널티 판정 불인정 논란 — 스코틀랜드 동점 기회 살리지 못함",
+        "모로코 득실차로 C조 선두 도약, 스코틀랜드 2위로 내려앉아"
+      ]
+    },
+    {
+      "id": 31,
+      "date": "2026-06-19",
+      "time": "21:00 ET",
+      "stage": "Group C",
+      "home": "Brazil",
+      "homeCode": "BRA",
+      "away": "Haiti",
+      "awayCode": "HAI",
+      "homeScore": 3,
+      "awayScore": 0,
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "status": "finished",
+      "highlights": [
+        "마테우스 쿠냐가 23분 비니시우스의 슈팅 리바운드를 밀어넣으며 선제골",
+        "쿠냐가 36분 왼발 정확도 높은 슛으로 추가골 — 전반에만 두 골",
+        "비니시우스 주니오르가 45+3분 파케타 스루패스 받아 세 번째 골로 마무리",
+        "아이티 2연패로 대회 첫 탈락, 브라질은 4점으로 모로코와 공동 선두(득실차 우위)"
+      ]
+    },
+    {
+      "id": 32,
+      "date": "2026-06-19",
+      "time": "23:00 ET",
+      "stage": "Group D",
+      "home": "Turkey",
+      "homeCode": "TUR",
+      "away": "Paraguay",
+      "awayCode": "PAR",
+      "homeScore": 0,
+      "awayScore": 1,
+      "venue": "Levi's Stadium, Santa Clara",
+      "status": "finished",
+      "highlights": [
+        "마티아스 갈라르사가 킥오프 2분 만에 선제골 — 이번 대회 최단 시간 득점",
+        "미겔 알미론, FIFA 새 입막기 규정 위반으로 전반 추가 시간 레드카드 퇴장",
+        "10명의 파라과이가 터키의 맹공을 끝까지 막아내며 1-0 값진 승리",
+        "터키 2연패로 탈락 확정, 파라과이의 32강 진출 희망은 살아있어"
+      ]
+    },
+    {
+      "id": 33,
+      "date": "2026-06-20",
+      "time": "16:00 ET",
+      "stage": "Group E",
+      "home": "Germany",
+      "homeCode": "GER",
+      "away": "Ivory Coast",
+      "awayCode": "CIV",
+      "homeScore": 2,
+      "awayScore": 1,
+      "venue": "BMO Field, Toronto",
+      "status": "finished",
+      "highlights": [
+        "프랑크 케시에가 30분 코트디부아르 선제골 — 최다 득점 독일을 상대로 충격 리드",
+        "교체 투입된 데니스 운다브가 68분 아미리 크로스를 발리로 마무리해 독일 동점",
+        "운다브가 94분 결승골로 역전 완성 — 독일 劇的 역전으로 32강 확정",
+        "코트디부아르도 분전했으나 독일의 후반 역전을 막지 못해"
+      ]
+    },
+    {
+      "id": 34,
+      "date": "2026-06-20",
+      "time": "20:00 ET",
+      "stage": "Group E",
+      "home": "Ecuador",
+      "homeCode": "ECU",
+      "away": "Curacao",
+      "awayCode": "CUW",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Arrowhead Stadium, Kansas City",
+      "status": "finished",
+      "highlights": [
+        "GK 엘로이 룸이 15차례 선방으로 쿠라사오에 사상 첫 월드컵 승점 선사",
+        "에콰도르는 15개의 유효슈팅에도 무득점 — 1966년 이후 WC 단일 경기 최다 유효슈팅 무득점",
+        "룸의 역사적 활약 — 이번 대회 최고의 개인 골키퍼 퍼포먼스",
+        "에콰도르 E조 조별 탈락 위기, 쿠라사오는 1승점으로 팀 역사의 새 페이지"
+      ]
+    },
+    {
+      "id": 35,
+      "date": "2026-06-20",
+      "time": "13:00 ET",
+      "stage": "Group F",
+      "home": "Netherlands",
+      "homeCode": "NED",
+      "away": "Sweden",
+      "awayCode": "SWE",
+      "homeScore": 5,
+      "awayScore": 1,
+      "venue": "NRG Stadium, Houston",
+      "status": "finished",
+      "highlights": [
+        "브라이언 브로비가 5분·17분 멀티골 — 월드컵 역대 4번째로 빠른 두 골 기록",
+        "가크포도 47분·54분 연속 추가골, 앤서니 엘랑아(스웨덴)가 59분 만회골",
+        "서머빌이 89분 다섯 번째 골로 마무리 — 네덜란드 역대 최대 WC 승리",
+        "네덜란드 F조 선두 등극(일본과 공동 4점)"
+      ]
+    },
+    {
+      "id": 36,
+      "date": "2026-06-21",
+      "time": "00:00 ET",
+      "stage": "Group F",
+      "home": "Tunisia",
+      "homeCode": "TUN",
+      "away": "Japan",
+      "awayCode": "JPN",
+      "homeScore": 0,
+      "awayScore": 4,
+      "venue": "Estadio BBVA, Guadalupe",
+      "status": "finished",
+      "highlights": [
+        "카마다가 4분 선제골로 일본 기선 제압",
+        "우에다가 30분·83분 멀티골, 이토가 69분 세 번째 골 — 일본 월드컵 역대 최대 득점 차 승리",
+        "이 경기는 FIFA 월드컵 사상 1000번째 경기로 기록됨",
+        "튀니지 2연패로 탈락, 일본은 네덜란드와 함께 F조 공동 선두(4점)"
+      ]
+    },
+    {
+      "id": 37,
+      "date": "2026-06-21",
+      "time": "12:00 ET",
+      "stage": "Group H",
+      "home": "Spain",
+      "homeCode": "ESP",
+      "away": "Saudi Arabia",
+      "awayCode": "KSA",
+      "homeScore": 4,
+      "awayScore": 0,
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "status": "finished",
+      "highlights": [
+        "라미네 야말이 10분 월드컵 첫 골 — 17세에 달성, WC 역대 8번째 최연소 득점자(메시·음바페·호날두보다 어린 나이에 첫 WC 골)",
+        "미켈 오야르사발이 21분·24분 연속 2골로 전반에만 3-0 리드",
+        "야말·오야르사발 하프타임 교체 투입, 스페인 이미 경기 결정",
+        "알-탐박티 자책골(51분)로 4-0 완승 — 스페인 H조 1위, 32강 진출 확정"
+      ]
+    },
+    {
+      "id": 38,
+      "date": "2026-06-21",
+      "time": "15:00 ET",
+      "stage": "Group G",
+      "home": "Belgium",
+      "homeCode": "BEL",
+      "away": "Iran",
+      "awayCode": "IRN",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "SoFi Stadium, Inglewood",
+      "status": "finished",
+      "highlights": [
+        "타레미의 전반 프리킥 빌드업 후 골은 VAR 오프사이드로 취소",
+        "응고이가 66분 레드카드 — 백패스 실수 후 타레미 파울(결정적 득점 기회 저지)",
+        "10인 벨기에로 경기 마무리, 점유율 70%·xG 1.82에도 무득점",
+        "베이란반드의 선방으로 이란 버텨내 — G조 4팀 모두 최종전까지 16강 진출 가능"
+      ]
+    },
+    {
+      "id": 39,
+      "date": "2026-06-21",
+      "time": "18:00 ET",
+      "stage": "Group H",
+      "home": "Uruguay",
+      "homeCode": "URU",
+      "away": "Cabo Verde",
+      "awayCode": "CPV",
+      "homeScore": 2,
+      "awayScore": 2,
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "status": "finished",
+      "highlights": [
+        "피나가 21분 강력한 프리킥으로 카보베르데 선제골",
+        "아라우호(44분)·카노비오(45+6분) 연속 골로 우루과이가 역전해 2-1로 전반 마감",
+        "H. 바렐라가 61분 수비 실수를 틈타 카보베르데 동점골(2-2)",
+        "카보베르데 2026 월드컵 2전 무패(2무) — 양 팀 모두 3차전까지 진출 가능"
+      ]
+    },
+    {
+      "id": 40,
+      "date": "2026-06-21",
+      "time": "21:00 ET",
+      "stage": "Group G",
+      "home": "New Zealand",
+      "homeCode": "NZL",
+      "away": "Egypt",
+      "awayCode": "EGY",
+      "homeScore": 1,
+      "awayScore": 3,
+      "venue": "BC Place, Vancouver",
+      "status": "finished",
+      "highlights": [
+        "피론 서먼이 15분 코너킥 헤딩 선제골로 뉴질랜드 리드",
+        "지코가 58분 근거리 헤딩으로 이집트 동점",
+        "모하메드 살라가 67분 결정적인 역전골 — 이집트 2-1 앞서",
+        "트레제게가 82분 다이빙 헤더 쐐기골 — 이집트 역사상 사상 첫 월드컵 승리(3-1), G조 선두 등극"
+      ]
+    },
+    {
+      "id": 41,
+      "date": "2026-06-22",
+      "time": "12:00 ET",
+      "stage": "Group I",
+      "home": "France",
+      "homeCode": "FRA",
+      "away": "Iraq",
+      "awayCode": "IRQ",
+      "homeScore": 3,
+      "awayScore": 0,
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "status": "finished",
+      "highlights": [
+        "음바페가 14분 박스 외곽에서 왼발 강슈팅으로 선제골 — 올리스 어시스트, 커리어 WC 15번째 골",
+        "경기 도중 2시간 폭우·번개 기상 지연 발생 — 대회 최초 기상 중단",
+        "음바페가 54분 이라크 GK의 짧은 골킥 실수를 냉정하게 마무리 — 16번째 커리어 WC 골",
+        "들랑브레가 66분 올리스 패스를 받아 낮은 오른발 슛으로 마무리 — 프랑스 I조 1위 확정·32강 진출"
+      ]
+    },
+    {
+      "id": 42,
+      "date": "2026-06-22",
+      "time": "16:00 ET",
+      "stage": "Group I",
+      "home": "Norway",
+      "homeCode": "NOR",
+      "away": "Senegal",
+      "awayCode": "SEN",
+      "homeScore": 3,
+      "awayScore": 2,
+      "venue": "MetLife Stadium, East Rutherford",
+      "status": "finished",
+      "highlights": [
+        "마르쿠스 홀름그렌 페데르센이 43분 수비 실수를 찌르며 선제골",
+        "엘링 홀란드가 48분·58분 멀티골 — 2경기 연속 2골로 대회 총 4골(2위권 경쟁)",
+        "이스마일라 사르가 53분·90+3분 두 골로 세네갈 3-2 맹추격 — 극적 긴장감",
+        "노르웨이가 3-2로 버텨내며 I조 2위 확정, 32강 진출"
+      ]
+    },
+    {
+      "id": 43,
+      "date": "2026-06-22",
+      "time": "20:00 ET",
+      "stage": "Group J",
+      "home": "Argentina",
+      "homeCode": "ARG",
+      "away": "Austria",
+      "awayCode": "AUT",
+      "homeScore": 2,
+      "awayScore": 0,
+      "venue": "AT&T Stadium, Arlington",
+      "status": "finished",
+      "highlights": [
+        "메시가 38분 박스 좌측에서 왼발 침착하게 왼쪽 하단 코너에 꽂아 — 클로제(16골) 추월, 남자 WC 역대 단독 최다 득점(17골)",
+        "메시가 90+2분 슐라거가 막은 알바레스 슈팅 리바운드 밀어 넣어 18번째 WC 골 — 마르타(17골) 넘어 남녀 통틀어 FIFA WC 역대 최다 득점자 등극",
+        "아르헨티나 J조 2연승·6점으로 1위 확정, 32강 진출",
+        "메시의 대회 5번째 골, 골든부트 단독 선두"
+      ]
+    },
+    {
+      "id": 44,
+      "date": "2026-06-22",
+      "time": "23:00 ET",
+      "stage": "Group J",
+      "home": "Algeria",
+      "homeCode": "ALG",
+      "away": "Jordan",
+      "awayCode": "JOR",
+      "homeScore": 2,
+      "awayScore": 1,
+      "venue": "Levi's Stadium, Santa Clara",
+      "status": "finished",
+      "highlights": [
+        "요르단의 니자르 알라시단이 전반 선제골 — 알제리 독점 점유에도 요르단 1-0 하프타임 리드",
+        "나디르 벤부알리가 68분 마레즈 코너킥 헤딩으로 알제리 동점",
+        "교체 투입 아민 구이리가 82분 아지 하지 무사의 코너킥 헤딩으로 역전 결승골",
+        "알제리가 후반 역전승 — 두 팀 모두 J조 3차전 생존 경쟁"
+      ]
+    },
+    {
+      "id": 45,
+      "date": "2026-06-23",
+      "time": "13:00 ET",
+      "stage": "Group K",
+      "home": "Portugal",
+      "homeCode": "POR",
+      "away": "Uzbekistan",
+      "awayCode": "UZB",
+      "homeScore": 5,
+      "awayScore": 0,
+      "venue": "NRG Stadium, Houston",
+      "status": "finished",
+      "highlights": [
+        "호날두가 6분 선제골 — 사상 최초로 6개 FIFA 월드컵에서 득점한 선수가 됨(41세 최고령 WC 득점 기록도 경신)",
+        "누누 멘데스가 17분 프리킥 환상 슛으로 2-0 리드",
+        "호날두가 39분 브루노 페르난데스 패스를 받아 두 번째 골 — 커리어 WC 10번째 득점이자 41세 최고령 WC 멀티골",
+        "네마토프 자책골(60분)로 4-0, 하파엘 레앙이 87분 마무리 — 포르투갈 32강 진출 확정"
+      ]
+    },
+    {
+      "id": 46,
+      "date": "2026-06-23",
+      "time": "16:00 ET",
+      "stage": "Group L",
+      "home": "England",
+      "homeCode": "ENG",
+      "away": "Ghana",
+      "awayCode": "GHA",
+      "homeScore": 0,
+      "awayScore": 0,
+      "venue": "Gillette Stadium, Foxborough",
+      "status": "finished",
+      "highlights": [
+        "잉글랜드 79% 점유율로 경기 지배했지만 득점 실패 — 지난 60년간 WC 무득점 경기 중 역대 최고 점유율",
+        "잉글랜드 19개 슈팅 대 가나 2개, 오라일리와 케인의 결정적 기회가 모두 불발",
+        "두 팀 모두 4점으로 L조 공동 선두, 6/27 최종전에서 진출 여부 결정"
+      ]
+    },
+    {
+      "id": 47,
+      "date": "2026-06-23",
+      "time": "19:00 ET",
+      "stage": "Group L",
+      "home": "Panama",
+      "homeCode": "PAN",
+      "away": "Croatia",
+      "awayCode": "CRO",
+      "homeScore": 0,
+      "awayScore": 1,
+      "venue": "BMO Field, Toronto",
+      "status": "finished",
+      "highlights": [
+        "스타니시치의 크로스를 부디미르가 54분 헤딩으로 마무리 — 크로아티아 대회 첫 승리",
+        "파나마 2연패로 탈락 확정 — 사상 첫 월드컵에서 단 한 골도 넣지 못한 채 조별리그 마감",
+        "크로아티아가 3점으로 L조 3위로 올라 최종전에 32강 진출 가능성 유지"
+      ]
+    },
+    {
+      "id": 48,
+      "date": "2026-06-23",
+      "time": "22:00 ET",
+      "stage": "Group K",
+      "home": "Colombia",
+      "homeCode": "COL",
+      "away": "DR Congo",
+      "awayCode": "COD",
+      "homeScore": 1,
+      "awayScore": 0,
+      "venue": "Estadio Akron, Guadalajara",
+      "status": "finished",
+      "highlights": [
+        "무뇨스가 킨테로의 스루패스를 받아 76분 디플렉션 슛으로 결승골",
+        "콜롬비아 K조 2연승(6점)으로 32강 진출 확정, 조 1위 자리 굳혀",
+        "DR콩고는 1점으로 탈락 위기 — 최종전 우즈베키스탄에 반드시 승리해야 생존"
+      ]
+    },
+    {
+      "id": 49,
+      "date": "2026-06-24",
+      "time": "15:00 ET",
+      "stage": "Group B",
+      "home": "Switzerland",
+      "homeCode": "SUI",
+      "away": "Canada",
+      "awayCode": "CAN",
+      "homeScore": 2,
+      "awayScore": 1,
+      "venue": "BC Place, Vancouver",
+      "status": "finished",
+      "highlights": [
+        "Ruben Vargas broke the deadlock just after half-time (46') with a crisp finish to give Switzerland the lead",
+        "Johan Manzambi doubled Switzerland's advantage in the 57th minute — his third goal of the tournament",
+        "Jonathan David pulled one back for Canada in the 76th minute but the Swiss held on to win 2-1",
+        "Switzerland top Group B with 7 points; Canada advance as runners-up — both teams through to the Round of 32"
+      ]
+    },
+    {
+      "id": 50,
+      "date": "2026-06-24",
+      "time": "15:00 ET",
+      "stage": "Group B",
+      "home": "Bosnia and Herzegovina",
+      "homeCode": "BIH",
+      "away": "Qatar",
+      "awayCode": "QAT",
+      "homeScore": 3,
+      "awayScore": 1,
+      "venue": "Lumen Field, Seattle",
+      "status": "finished",
+      "highlights": [
+        "Kerim Alajbegovic opened the scoring for Bosnia with a stunning long-range strike in the 30th minute",
+        "An Al Brake own goal doubled Bosnia's lead in the 35th minute",
+        "Hassan Al-Haydos pulled one back for Qatar before half-time to make it 2-1",
+        "Ermin Mahmic sealed Bosnia's victory in the 80th minute — Bosnia's first-ever World Cup win boosts their 3rd-place qualification hopes"
+      ]
+    },
+    {
+      "id": 51,
+      "date": "2026-06-24",
+      "time": "18:00 ET",
+      "stage": "Group C",
+      "home": "Scotland",
+      "homeCode": "SCO",
+      "away": "Brazil",
+      "awayCode": "BRA",
+      "homeScore": 0,
+      "awayScore": 3,
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "status": "finished",
+      "highlights": [
+        "Vinícius Júnior pounced on a Scott McKenna error in the 7th minute to give Brazil an early lead",
+        "Vinícius headed home from a Bruno Guimarães cross before half-time to make it 2-0 — his 4th goal of the tournament",
+        "Matheus Cunha added Brazil's third goal midway through the second half to complete Scotland's heavy defeat",
+        "Brazil top Group C with 7 points; Scotland eliminated with 3 points from 3 games"
+      ]
+    },
+    {
+      "id": 52,
+      "date": "2026-06-24",
+      "time": "18:00 ET",
+      "stage": "Group C",
+      "home": "Morocco",
+      "homeCode": "MAR",
+      "away": "Haiti",
+      "awayCode": "HAI",
+      "homeScore": 4,
+      "awayScore": 2,
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "status": "finished",
+      "highlights": [
+        "Lenny Joseph scored with a back-heeled flick in the 10th minute — Haiti's first World Cup goal since Emmanuel Sanon in 1974",
+        "Achraf Hakimi equalized for Morocco (39'); Wilson Isidor put Haiti back in front (43') — an incredible first half",
+        "Ismael Saibari levelled again for Morocco (45+1') from Hakimi's cross to make it 2-2 at half-time",
+        "Soufiane Rahimi (78') and Gessime Yassine (89') sealed Morocco's dramatic comeback — Morocco finish 2nd in Group C"
+      ]
+    },
+    {
+      "id": 53,
+      "date": "2026-06-24",
+      "time": "21:00 ET",
+      "stage": "Group A",
+      "home": "Czech Republic",
+      "homeCode": "CZE",
+      "away": "Mexico",
+      "awayCode": "MEX",
+      "homeScore": 0,
+      "awayScore": 3,
+      "venue": "Estadio Azteca, Mexico City",
+      "status": "finished",
+      "highlights": [
+        "Mateo Chávez broke the deadlock 10 minutes after half-time (55'), set up by Luis Romo, with a composed finish into the bottom corner",
+        "Julián Quiñones added Mexico's second in the 61st minute — his second goal of the tournament",
+        "Álvaro Fidalgo completed the rout in stoppage time; legendary goalkeeper Guillermo Ochoa made a special late cameo",
+        "Mexico finish Group A with a perfect record: 9 points, 6 goals scored, zero conceded — first team to go 3-for-3 at the 2026 World Cup"
+      ]
+    },
+    {
+      "id": 54,
+      "date": "2026-06-24",
+      "time": "21:00 ET",
+      "stage": "Group A",
+      "home": "South Africa",
+      "homeCode": "RSA",
+      "away": "South Korea",
+      "awayCode": "KOR",
+      "homeScore": 1,
+      "awayScore": 0,
+      "venue": "Estadio BBVA, Guadalupe",
+      "status": "finished",
+      "highlights": [
+        "Thapelo Maseko's powerful strike in the 63rd minute was the only goal — a moment of history for South Africa",
+        "South Africa qualify for the knockout stage for the first time ever — a landmark moment for Bafana Bafana and African football",
+        "South Korea eliminated — despite one win in three games, not enough to advance",
+        "South Africa finish 2nd in Group A with 4 points and will face Canada in the Round of 32"
+      ]
+    },
+    {
+      "id": 55,
+      "date": "2026-06-25",
+      "time": "16:00 ET",
+      "stage": "Group E",
+      "home": "Ecuador",
+      "homeCode": "ECU",
+      "away": "Germany",
+      "awayCode": "GER",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "MetLife Stadium, East Rutherford",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 56,
+      "date": "2026-06-25",
+      "time": "16:00 ET",
+      "stage": "Group E",
+      "home": "Curacao",
+      "homeCode": "CUW",
+      "away": "Ivory Coast",
+      "awayCode": "CIV",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 57,
+      "date": "2026-06-25",
+      "time": "19:00 ET",
+      "stage": "Group F",
+      "home": "Japan",
+      "homeCode": "JPN",
+      "away": "Sweden",
+      "awayCode": "SWE",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "AT&T Stadium, Arlington",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 58,
+      "date": "2026-06-25",
+      "time": "19:00 ET",
+      "stage": "Group F",
+      "home": "Tunisia",
+      "homeCode": "TUN",
+      "away": "Netherlands",
+      "awayCode": "NED",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "Arrowhead Stadium, Kansas City",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 59,
+      "date": "2026-06-25",
+      "time": "22:00 ET",
+      "stage": "Group D",
+      "home": "Turkey",
+      "homeCode": "TUR",
+      "away": "United States",
+      "awayCode": "USA",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "SoFi Stadium, Inglewood",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 60,
+      "date": "2026-06-25",
+      "time": "22:00 ET",
+      "stage": "Group D",
+      "home": "Paraguay",
+      "homeCode": "PAR",
+      "away": "Australia",
+      "awayCode": "AUS",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "Levi's Stadium, Santa Clara",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 61,
+      "date": "2026-06-26",
+      "time": "15:00 ET",
+      "stage": "Group I",
+      "home": "Norway",
+      "homeCode": "NOR",
+      "away": "France",
+      "awayCode": "FRA",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "Gillette Stadium, Foxborough",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 62,
+      "date": "2026-06-26",
+      "time": "15:00 ET",
+      "stage": "Group I",
+      "home": "Senegal",
+      "homeCode": "SEN",
+      "away": "Iraq",
+      "awayCode": "IRQ",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "BMO Field, Toronto",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 63,
+      "date": "2026-06-26",
+      "time": "20:00 ET",
+      "stage": "Group H",
+      "home": "Cabo Verde",
+      "homeCode": "CPV",
+      "away": "Saudi Arabia",
+      "awayCode": "KSA",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "NRG Stadium, Houston",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 64,
+      "date": "2026-06-26",
+      "time": "20:00 ET",
+      "stage": "Group H",
+      "home": "Uruguay",
+      "homeCode": "URU",
+      "away": "Spain",
+      "awayCode": "ESP",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "Estadio Akron, Guadalajara",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 65,
+      "date": "2026-06-26",
+      "time": "23:00 ET",
+      "stage": "Group G",
+      "home": "Egypt",
+      "homeCode": "EGY",
+      "away": "Iran",
+      "awayCode": "IRN",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "Lumen Field, Seattle",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 66,
+      "date": "2026-06-26",
+      "time": "23:00 ET",
+      "stage": "Group G",
+      "home": "New Zealand",
+      "homeCode": "NZL",
+      "away": "Belgium",
+      "awayCode": "BEL",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "BC Place, Vancouver",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 67,
+      "date": "2026-06-27",
+      "time": "17:00 ET",
+      "stage": "Group L",
+      "home": "Panama",
+      "homeCode": "PAN",
+      "away": "England",
+      "awayCode": "ENG",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "MetLife Stadium, East Rutherford",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 68,
+      "date": "2026-06-27",
+      "time": "17:00 ET",
+      "stage": "Group L",
+      "home": "Croatia",
+      "homeCode": "CRO",
+      "away": "Ghana",
+      "awayCode": "GHA",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 69,
+      "date": "2026-06-27",
+      "time": "19:30 ET",
+      "stage": "Group K",
+      "home": "Colombia",
+      "homeCode": "COL",
+      "away": "Portugal",
+      "awayCode": "POR",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 70,
+      "date": "2026-06-27",
+      "time": "19:30 ET",
+      "stage": "Group K",
+      "home": "DR Congo",
+      "homeCode": "COD",
+      "away": "Uzbekistan",
+      "awayCode": "UZB",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 71,
+      "date": "2026-06-27",
+      "time": "22:00 ET",
+      "stage": "Group J",
+      "home": "Algeria",
+      "homeCode": "ALG",
+      "away": "Austria",
+      "awayCode": "AUT",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "Arrowhead Stadium, Kansas City",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 72,
+      "date": "2026-06-27",
+      "time": "22:00 ET",
+      "stage": "Group J",
+      "home": "Jordan",
+      "homeCode": "JOR",
+      "away": "Argentina",
+      "awayCode": "ARG",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "AT&T Stadium, Arlington",
+      "status": "scheduled",
+      "highlights": []
+    }
   ],
   "storylines": [
     "리오넬 메시가 알제리전(6/16) 해트트릭 — 커리어 첫 월드컵 해트트릭이자 클로제의 통산 16골과 타이. 38세, 역대 최고령 월드컵 해트트릭.",
@@ -472,92 +2567,483 @@ const WORLD_CUP_DATA = {
     "호날두가 포르투갈의 우즈베키스탄 5-0 대승에서 2골(6분·39분) — 사상 최초로 6개 FIFA 월드컵에서 득점한 선수 기록(6/23). 누누 멘데스 FK(17분), 네마토프 자책골(60분), 레앙(87분). 포르투갈 K조 32강 진출 확정.",
     "잉글랜드가 가나와 0-0 무승부(6/23) — 잉글랜드 79% 점유율에 19개 슈팅을 날렸지만 무득점. 두 팀 모두 4점으로 L조 공동 선두, 6/27 최종전이 진출 여부 결정.",
     "파나마가 크로아티아에 0-1 패배(6/23, 부디미르 54분 결승골)로 대회 탈락 확정 — 사상 첫 월드컵에서 단 한 골도 넣지 못했다. 크로아티아 3점으로 L조 3위 생존.",
-    "콜롬비아가 DR콩고를 1-0으로 꺾으며(6/23, 무뇨스 76분) K조 2연승·6점으로 32강 진출 확정. DR콩고는 최종전 우즈베키스탄전 반드시 이겨야 생존 가능."
+    "콜롬비아가 DR콩고를 1-0으로 꺾으며(6/23, 무뇨스 76분) K조 2연승·6점으로 32강 진출 확정. DR콩고는 최종전 우즈베키스탄전 반드시 이겨야 생존 가능.",
+    "멕시코, 그룹 A 전승(9점) 마감 — 6골 무실점으로 완벽한 조별리그를 기록한 첫 팀. 6월 24일 체코 3-0 완파, 오초아 전설적 카메오 출전.",
+    "남아공, 6월 24일 한국을 1-0(마세코 63')으로 꺾고 월드컵 사상 최초 16강(32강) 진출 — 아프리카 축구 역사에 남을 이변.",
+    "스위스, 캐나다를 2-1(바르가스 46', 만잠비 57')로 꺾고 그룹 B 1위 — 만잠비 이번 대회 3골째; 캐나다도 2위로 32강 통과.",
+    "보스니아, 카타르를 3-1로 격파(알라이베고비치 30', OG 35', 마미치 80') — 보스니아 첫 월드컵 승리; 3위권 탈락 경쟁 생존.",
+    "브라질, 스코틀랜드 3-0 대파(비니시우스 7'·38', 쿠냐 65')로 그룹 C 1위 — 비니시우스 주니오르 이번 대회 4골 메시 추격.",
+    "모로코, 아이티에게 두 차례 리드를 내줬지만 劇的 역전 4-2 승리. 아이티 레니 조셉이 1974년 이후 첫 월드컵 골 기록."
   ],
   "topScorers": [
-    {"player":"Lionel Messi","team":"Argentina","goals":5},
-    {"player":"Jonathan David","team":"Canada","goals":3},
-    {"player":"Folarin Balogun","team":"United States","goals":2},
-    {"player":"Kai Havertz","team":"Germany","goals":2},
-    {"player":"Yasin Ayari","team":"Sweden","goals":2},
-    {"player":"Elijah Just","team":"New Zealand","goals":2},
-    {"player":"Kylian Mbappé","team":"France","goals":4},
-    {"player":"Erling Haaland","team":"Norway","goals":4},
-    {"player":"Harry Kane","team":"England","goals":2},
-    {"player":"Johan Manzambi","team":"Switzerland","goals":2},
-    {"player":"Raúl Jiménez","team":"Mexico","goals":1},
-    {"player":"Julián Quiñones","team":"Mexico","goals":1},
-    {"player":"Alexander Isak","team":"Sweden","goals":1},
-    {"player":"Viktor Gyökeres","team":"Sweden","goals":1},
-    {"player":"Mattias Svanberg","team":"Sweden","goals":1},
-    {"player":"Virgil van Dijk","team":"Netherlands","goals":1},
-    {"player":"Crysencio Summerville","team":"Netherlands","goals":2},
-    {"player":"Bradley Barcola","team":"France","goals":1},
-    {"player":"Amad Diallo","team":"Ivory Coast","goals":1},
-    {"player":"Matheus Cunha","team":"Brazil","goals":2},
-    {"player":"Vinicius Junior","team":"Brazil","goals":2},
-    {"player":"Romano Schmid","team":"Austria","goals":1},
-    {"player":"Marco Arnautović","team":"Austria","goals":1},
-    {"player":"Ali Iyad Olwan","team":"Jordan","goals":1},
-    {"player":"Jude Bellingham","team":"England","goals":1},
-    {"player":"Marcus Rashford","team":"England","goals":1},
-    {"player":"Martin Baturina","team":"Croatia","goals":1},
-    {"player":"Petar Musa","team":"Croatia","goals":1},
-    {"player":"Caleb Yirenkyi","team":"Ghana","goals":1},
-    {"player":"João Neves","team":"Portugal","goals":1},
-    {"player":"Yoane Wissa","team":"DR Congo","goals":1},
-    {"player":"Daniel Muñoz","team":"Colombia","goals":2},
-    {"player":"Luis Díaz","team":"Colombia","goals":1},
-    {"player":"Jáminton Campaz","team":"Colombia","goals":1},
-    {"player":"Abbosbek Fayzullaev","team":"Uzbekistan","goals":1},
-    {"player":"Cyle Larin","team":"Canada","goals":1},
-    {"player":"Nathan Saliba","team":"Canada","goals":1},
-    {"player":"Luis Romo","team":"Mexico","goals":1},
-    {"player":"Michal Sadilek","team":"Czech Republic","goals":1},
-    {"player":"Teboho Mokoena","team":"South Africa","goals":1},
-    {"player":"Ruben Vargas","team":"Switzerland","goals":1},
-    {"player":"Granit Xhaka","team":"Switzerland","goals":1},
-    {"player":"Ismael Saibari","team":"Morocco","goals":1},
-    {"player":"Alex Freeman","team":"United States","goals":1},
-    {"player":"Matías Galarza","team":"Paraguay","goals":1},
-    {"player":"Deniz Undav","team":"Germany","goals":2},
-    {"player":"Brian Brobbey","team":"Netherlands","goals":2},
-    {"player":"Cody Gakpo","team":"Netherlands","goals":2},
-    {"player":"Ayase Ueda","team":"Japan","goals":2},
-    {"player":"Daichi Kamada","team":"Japan","goals":2},
-    {"player":"Keito Nakamura","team":"Japan","goals":1},
-    {"player":"Anthony Elanga","team":"Sweden","goals":1},
-    {"player":"Franck Kessié","team":"Ivory Coast","goals":1},
-    {"player":"Junya Ito","team":"Japan","goals":1},
-    {"player":"Lamine Yamal","team":"Spain","goals":1},
-    {"player":"Mikel Oyarzabal","team":"Spain","goals":2},
-    {"player":"Mohamed Salah","team":"Egypt","goals":1},
-    {"player":"Ziko","team":"Egypt","goals":1},
-    {"player":"Trezeguet","team":"Egypt","goals":1},
-    {"player":"Finn Surman","team":"New Zealand","goals":1},
-    {"player":"Kevin Pina","team":"Cabo Verde","goals":1},
-    {"player":"Maximiliano Araújo","team":"Uruguay","goals":2},
-    {"player":"Agustín Canobbio","team":"Uruguay","goals":1},
-    {"player":"Hélio Varela","team":"Cabo Verde","goals":1},
-    {"player":"Al-Amri","team":"Saudi Arabia","goals":1},
-    {"player":"Ismaïla Sarr","team":"Senegal","goals":2},
-    {"player":"Marcus Holmgren Pedersen","team":"Norway","goals":1},
-    {"player":"Nadhir Benbouali","team":"Algeria","goals":1},
-    {"player":"Amine Gouiri","team":"Algeria","goals":1},
-    {"player":"Nizar Al-Rashdan","team":"Jordan","goals":1},
-    {"player":"Ousmane Dembélé","team":"France","goals":1},
-    {"player":"Cristiano Ronaldo","team":"Portugal","goals":2},
-    {"player":"Nuno Mendes","team":"Portugal","goals":1},
-    {"player":"Rafael Leão","team":"Portugal","goals":1},
-    {"player":"Ante Budimir","team":"Croatia","goals":1}
+    {
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "goals": 5
+    },
+    {
+      "player": "Jonathan David",
+      "team": "Canada",
+      "goals": 4
+    },
+    {
+      "player": "Folarin Balogun",
+      "team": "United States",
+      "goals": 2
+    },
+    {
+      "player": "Kai Havertz",
+      "team": "Germany",
+      "goals": 2
+    },
+    {
+      "player": "Yasin Ayari",
+      "team": "Sweden",
+      "goals": 2
+    },
+    {
+      "player": "Elijah Just",
+      "team": "New Zealand",
+      "goals": 2
+    },
+    {
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 4
+    },
+    {
+      "player": "Erling Haaland",
+      "team": "Norway",
+      "goals": 4
+    },
+    {
+      "player": "Harry Kane",
+      "team": "England",
+      "goals": 2
+    },
+    {
+      "player": "Johan Manzambi",
+      "team": "Switzerland",
+      "goals": 3
+    },
+    {
+      "player": "Raúl Jiménez",
+      "team": "Mexico",
+      "goals": 1
+    },
+    {
+      "player": "Julián Quiñones",
+      "team": "Mexico",
+      "goals": 2
+    },
+    {
+      "player": "Alexander Isak",
+      "team": "Sweden",
+      "goals": 1
+    },
+    {
+      "player": "Viktor Gyökeres",
+      "team": "Sweden",
+      "goals": 1
+    },
+    {
+      "player": "Mattias Svanberg",
+      "team": "Sweden",
+      "goals": 1
+    },
+    {
+      "player": "Virgil van Dijk",
+      "team": "Netherlands",
+      "goals": 1
+    },
+    {
+      "player": "Crysencio Summerville",
+      "team": "Netherlands",
+      "goals": 2
+    },
+    {
+      "player": "Bradley Barcola",
+      "team": "France",
+      "goals": 1
+    },
+    {
+      "player": "Amad Diallo",
+      "team": "Ivory Coast",
+      "goals": 1
+    },
+    {
+      "player": "Matheus Cunha",
+      "team": "Brazil",
+      "goals": 3
+    },
+    {
+      "player": "Vinicius Junior",
+      "team": "Brazil",
+      "goals": 4
+    },
+    {
+      "player": "Romano Schmid",
+      "team": "Austria",
+      "goals": 1
+    },
+    {
+      "player": "Marco Arnautović",
+      "team": "Austria",
+      "goals": 1
+    },
+    {
+      "player": "Ali Iyad Olwan",
+      "team": "Jordan",
+      "goals": 1
+    },
+    {
+      "player": "Jude Bellingham",
+      "team": "England",
+      "goals": 1
+    },
+    {
+      "player": "Marcus Rashford",
+      "team": "England",
+      "goals": 1
+    },
+    {
+      "player": "Martin Baturina",
+      "team": "Croatia",
+      "goals": 1
+    },
+    {
+      "player": "Petar Musa",
+      "team": "Croatia",
+      "goals": 1
+    },
+    {
+      "player": "Caleb Yirenkyi",
+      "team": "Ghana",
+      "goals": 1
+    },
+    {
+      "player": "João Neves",
+      "team": "Portugal",
+      "goals": 1
+    },
+    {
+      "player": "Yoane Wissa",
+      "team": "DR Congo",
+      "goals": 1
+    },
+    {
+      "player": "Daniel Muñoz",
+      "team": "Colombia",
+      "goals": 2
+    },
+    {
+      "player": "Luis Díaz",
+      "team": "Colombia",
+      "goals": 1
+    },
+    {
+      "player": "Jáminton Campaz",
+      "team": "Colombia",
+      "goals": 1
+    },
+    {
+      "player": "Abbosbek Fayzullaev",
+      "team": "Uzbekistan",
+      "goals": 1
+    },
+    {
+      "player": "Cyle Larin",
+      "team": "Canada",
+      "goals": 1
+    },
+    {
+      "player": "Nathan Saliba",
+      "team": "Canada",
+      "goals": 1
+    },
+    {
+      "player": "Luis Romo",
+      "team": "Mexico",
+      "goals": 1
+    },
+    {
+      "player": "Michal Sadilek",
+      "team": "Czech Republic",
+      "goals": 1
+    },
+    {
+      "player": "Teboho Mokoena",
+      "team": "South Africa",
+      "goals": 1
+    },
+    {
+      "player": "Ruben Vargas",
+      "team": "Switzerland",
+      "goals": 2
+    },
+    {
+      "player": "Granit Xhaka",
+      "team": "Switzerland",
+      "goals": 1
+    },
+    {
+      "player": "Ismael Saibari",
+      "team": "Morocco",
+      "goals": 2
+    },
+    {
+      "player": "Alex Freeman",
+      "team": "United States",
+      "goals": 1
+    },
+    {
+      "player": "Matías Galarza",
+      "team": "Paraguay",
+      "goals": 1
+    },
+    {
+      "player": "Deniz Undav",
+      "team": "Germany",
+      "goals": 2
+    },
+    {
+      "player": "Brian Brobbey",
+      "team": "Netherlands",
+      "goals": 2
+    },
+    {
+      "player": "Cody Gakpo",
+      "team": "Netherlands",
+      "goals": 2
+    },
+    {
+      "player": "Ayase Ueda",
+      "team": "Japan",
+      "goals": 2
+    },
+    {
+      "player": "Daichi Kamada",
+      "team": "Japan",
+      "goals": 2
+    },
+    {
+      "player": "Keito Nakamura",
+      "team": "Japan",
+      "goals": 1
+    },
+    {
+      "player": "Anthony Elanga",
+      "team": "Sweden",
+      "goals": 1
+    },
+    {
+      "player": "Franck Kessié",
+      "team": "Ivory Coast",
+      "goals": 1
+    },
+    {
+      "player": "Junya Ito",
+      "team": "Japan",
+      "goals": 1
+    },
+    {
+      "player": "Lamine Yamal",
+      "team": "Spain",
+      "goals": 1
+    },
+    {
+      "player": "Mikel Oyarzabal",
+      "team": "Spain",
+      "goals": 2
+    },
+    {
+      "player": "Mohamed Salah",
+      "team": "Egypt",
+      "goals": 1
+    },
+    {
+      "player": "Ziko",
+      "team": "Egypt",
+      "goals": 1
+    },
+    {
+      "player": "Trezeguet",
+      "team": "Egypt",
+      "goals": 1
+    },
+    {
+      "player": "Finn Surman",
+      "team": "New Zealand",
+      "goals": 1
+    },
+    {
+      "player": "Kevin Pina",
+      "team": "Cabo Verde",
+      "goals": 1
+    },
+    {
+      "player": "Maximiliano Araújo",
+      "team": "Uruguay",
+      "goals": 2
+    },
+    {
+      "player": "Agustín Canobbio",
+      "team": "Uruguay",
+      "goals": 1
+    },
+    {
+      "player": "Hélio Varela",
+      "team": "Cabo Verde",
+      "goals": 1
+    },
+    {
+      "player": "Al-Amri",
+      "team": "Saudi Arabia",
+      "goals": 1
+    },
+    {
+      "player": "Ismaïla Sarr",
+      "team": "Senegal",
+      "goals": 2
+    },
+    {
+      "player": "Marcus Holmgren Pedersen",
+      "team": "Norway",
+      "goals": 1
+    },
+    {
+      "player": "Nadhir Benbouali",
+      "team": "Algeria",
+      "goals": 1
+    },
+    {
+      "player": "Amine Gouiri",
+      "team": "Algeria",
+      "goals": 1
+    },
+    {
+      "player": "Nizar Al-Rashdan",
+      "team": "Jordan",
+      "goals": 1
+    },
+    {
+      "player": "Ousmane Dembélé",
+      "team": "France",
+      "goals": 1
+    },
+    {
+      "player": "Cristiano Ronaldo",
+      "team": "Portugal",
+      "goals": 2
+    },
+    {
+      "player": "Nuno Mendes",
+      "team": "Portugal",
+      "goals": 1
+    },
+    {
+      "player": "Rafael Leão",
+      "team": "Portugal",
+      "goals": 1
+    },
+    {
+      "player": "Ante Budimir",
+      "team": "Croatia",
+      "goals": 1
+    },
+    {
+      "player": "Lenny Joseph",
+      "team": "Haiti",
+      "goals": 1
+    },
+    {
+      "player": "Wilson Isidor",
+      "team": "Haiti",
+      "goals": 1
+    },
+    {
+      "player": "Achraf Hakimi",
+      "team": "Morocco",
+      "goals": 1
+    },
+    {
+      "player": "Soufiane Rahimi",
+      "team": "Morocco",
+      "goals": 1
+    },
+    {
+      "player": "Gessime Yassine",
+      "team": "Morocco",
+      "goals": 1
+    },
+    {
+      "player": "Kerim Alajbegovic",
+      "team": "Bosnia and Herzegovina",
+      "goals": 1
+    },
+    {
+      "player": "Ermin Mahmic",
+      "team": "Bosnia and Herzegovina",
+      "goals": 1
+    },
+    {
+      "player": "Hassan Al-Haydos",
+      "team": "Qatar",
+      "goals": 1
+    },
+    {
+      "player": "Thapelo Maseko",
+      "team": "South Africa",
+      "goals": 1
+    },
+    {
+      "player": "Mateo Chávez",
+      "team": "Mexico",
+      "goals": 1
+    },
+    {
+      "player": "Álvaro Fidalgo",
+      "team": "Mexico",
+      "goals": 1
+    }
   ],
   "knockoutRounds": [
-    {"round":"32강","stage":"Round of 32","dates":"6/28 ~ 7/3","matchCount":16},
-    {"round":"16강","stage":"Round of 16","dates":"7/4 ~ 7/7","matchCount":8},
-    {"round":"8강","stage":"Quarter-final","dates":"7/9 ~ 7/11","matchCount":4},
-    {"round":"4강","stage":"Semi-final","dates":"7/14 ~ 7/15","matchCount":2},
-    {"round":"3·4위전","stage":"Third place","dates":"7/18","matchCount":1},
-    {"round":"결승","stage":"Final","dates":"7/19 · MetLife Stadium","matchCount":1}
+    {
+      "round": "32강",
+      "stage": "Round of 32",
+      "dates": "6/28 ~ 7/3",
+      "matchCount": 16
+    },
+    {
+      "round": "16강",
+      "stage": "Round of 16",
+      "dates": "7/4 ~ 7/7",
+      "matchCount": 8
+    },
+    {
+      "round": "8강",
+      "stage": "Quarter-final",
+      "dates": "7/9 ~ 7/11",
+      "matchCount": 4
+    },
+    {
+      "round": "4강",
+      "stage": "Semi-final",
+      "dates": "7/14 ~ 7/15",
+      "matchCount": 2
+    },
+    {
+      "round": "3·4위전",
+      "stage": "Third place",
+      "dates": "7/18",
+      "matchCount": 1
+    },
+    {
+      "round": "결승",
+      "stage": "Final",
+      "dates": "7/19 · MetLife Stadium",
+      "matchCount": 1
+    }
   ]
 };
 

@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-24",
-  "_dataNotes": "Data updated June 24, 2026. Matches 1–48 confirmed through June 23 (K & L groups matchday 2 all reflected). June 23 results: Portugal 5-0 Uzbekistan (Ronaldo 6',39'; Mendes 17'; Nematov OG 60'; Leão 87'), England 0-0 Ghana, Panama 0-1 Croatia (Budimir 54'), Colombia 1-0 DR Congo (Muñoz 76'). Group K and L standings updated to matchday 2. Matchday 3 schedule (June 24–27, Groups A–L final round) in full.",
+  "lastUpdated": "2026-06-25",
+  "_dataNotes": "Data updated June 25, 2026. Matches 1–54 confirmed through June 24 (Groups A, B, C matchday 3 all reflected). June 24 results: Switzerland 2-1 Canada (Vargas 46', Manzambi 57'; J.David 76'), Bosnia 3-1 Qatar (Alajbegovic 30', Al Brake OG 35'; Al-Haydos; Mahmic 80'), Scotland 0-3 Brazil (Vinicius 7' & ~38'; Cunha ~65'), Morocco 4-2 Haiti (Lenny Joseph 10', Isidor 43' for HAI; Hakimi 39', Saibari 45+1', Rahimi 78', G.Yassine 89' for MAR), Czech Republic 0-3 Mexico (Chávez 55', Quiñones 61', Fidalgo 90+'), South Africa 1-0 South Korea (Maseko 63'). Groups A, B, C final standings updated. Matchday 3 for Groups D/E/F (June 25), G/H/I (June 26), J/K/L (June 27) pending.",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "hosts": [
@@ -124,45 +124,45 @@
         {
           "team": "Mexico",
           "code": "MEX",
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "drawn": 0,
           "lost": 0,
-          "gf": 3,
+          "gf": 6,
           "ga": 0,
-          "points": 6
+          "points": 9
+        },
+        {
+          "team": "South Africa",
+          "code": "RSA",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "gf": 2,
+          "ga": 3,
+          "points": 4
         },
         {
           "team": "South Korea",
           "code": "KOR",
-          "played": 2,
+          "played": 3,
           "won": 1,
           "drawn": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 2,
-          "ga": 2,
+          "ga": 3,
           "points": 3
         },
         {
           "team": "Czech Republic",
           "code": "CZE",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 1,
-          "lost": 1,
+          "lost": 2,
           "gf": 2,
-          "ga": 3,
-          "points": 1
-        },
-        {
-          "team": "South Africa",
-          "code": "RSA",
-          "played": 2,
-          "won": 0,
-          "drawn": 1,
-          "lost": 1,
-          "gf": 1,
-          "ga": 3,
+          "ga": 6,
           "points": 1
         }
       ]
@@ -193,47 +193,47 @@
       ],
       "standings": [
         {
-          "team": "Canada",
-          "code": "CAN",
-          "played": 2,
-          "won": 1,
+          "team": "Switzerland",
+          "code": "SUI",
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
           "gf": 7,
-          "ga": 1,
-          "points": 4
+          "ga": 3,
+          "points": 7
         },
         {
-          "team": "Switzerland",
-          "code": "SUI",
-          "played": 2,
+          "team": "Canada",
+          "code": "CAN",
+          "played": 3,
           "won": 1,
           "drawn": 1,
-          "lost": 0,
-          "gf": 5,
-          "ga": 2,
+          "lost": 1,
+          "gf": 8,
+          "ga": 3,
           "points": 4
         },
         {
           "team": "Bosnia and Herzegovina",
           "code": "BIH",
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "drawn": 1,
           "lost": 1,
-          "gf": 2,
-          "ga": 5,
-          "points": 1
+          "gf": 5,
+          "ga": 6,
+          "points": 4
         },
         {
           "team": "Qatar",
           "code": "QAT",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 1,
-          "lost": 1,
-          "gf": 1,
-          "ga": 7,
+          "lost": 2,
+          "gf": 2,
+          "ga": 10,
           "points": 1
         }
       ]
@@ -266,45 +266,45 @@
         {
           "team": "Brazil",
           "code": "BRA",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
-          "gf": 4,
+          "gf": 7,
           "ga": 1,
-          "points": 4
+          "points": 7
         },
         {
           "team": "Morocco",
           "code": "MAR",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
-          "gf": 2,
-          "ga": 1,
-          "points": 4
+          "gf": 6,
+          "ga": 3,
+          "points": 7
         },
         {
           "team": "Scotland",
           "code": "SCO",
-          "played": 2,
+          "played": 3,
           "won": 1,
           "drawn": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 1,
-          "ga": 1,
+          "ga": 4,
           "points": 3
         },
         {
           "team": "Haiti",
           "code": "HAI",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
-          "gf": 0,
-          "ga": 4,
+          "lost": 3,
+          "gf": 2,
+          "ga": 8,
           "points": 0
         }
       ]
@@ -1891,11 +1891,16 @@
       "homeCode": "SUI",
       "away": "Canada",
       "awayCode": "CAN",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 1,
       "venue": "BC Place, Vancouver",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "Ruben Vargas broke the deadlock just after half-time (46') with a crisp finish to give Switzerland the lead",
+        "Johan Manzambi doubled Switzerland's advantage in the 57th minute — his third goal of the tournament",
+        "Jonathan David pulled one back for Canada in the 76th minute but the Swiss held on to win 2-1",
+        "Switzerland top Group B with 7 points; Canada advance as runners-up — both teams through to the Round of 32"
+      ]
     },
     {
       "id": 50,
@@ -1906,11 +1911,16 @@
       "homeCode": "BIH",
       "away": "Qatar",
       "awayCode": "QAT",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 3,
+      "awayScore": 1,
       "venue": "Lumen Field, Seattle",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "Kerim Alajbegovic opened the scoring for Bosnia with a stunning long-range strike in the 30th minute",
+        "An Al Brake own goal doubled Bosnia's lead in the 35th minute",
+        "Hassan Al-Haydos pulled one back for Qatar before half-time to make it 2-1",
+        "Ermin Mahmic sealed Bosnia's victory in the 80th minute — Bosnia's first-ever World Cup win boosts their 3rd-place qualification hopes"
+      ]
     },
     {
       "id": 51,
@@ -1921,11 +1931,16 @@
       "homeCode": "SCO",
       "away": "Brazil",
       "awayCode": "BRA",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 3,
       "venue": "Hard Rock Stadium, Miami Gardens",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "Vinícius Júnior pounced on a Scott McKenna error in the 7th minute to give Brazil an early lead",
+        "Vinícius headed home from a Bruno Guimarães cross before half-time to make it 2-0 — his 4th goal of the tournament",
+        "Matheus Cunha added Brazil's third goal midway through the second half to complete Scotland's heavy defeat",
+        "Brazil top Group C with 7 points; Scotland eliminated with 3 points from 3 games"
+      ]
     },
     {
       "id": 52,
@@ -1936,11 +1951,16 @@
       "homeCode": "MAR",
       "away": "Haiti",
       "awayCode": "HAI",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 4,
+      "awayScore": 2,
       "venue": "Mercedes-Benz Stadium, Atlanta",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "Lenny Joseph scored with a back-heeled flick in the 10th minute — Haiti's first World Cup goal since Emmanuel Sanon in 1974",
+        "Achraf Hakimi equalized for Morocco (39'); Wilson Isidor put Haiti back in front (43') — an incredible first half",
+        "Ismael Saibari levelled again for Morocco (45+1') from Hakimi's cross to make it 2-2 at half-time",
+        "Soufiane Rahimi (78') and Gessime Yassine (89') sealed Morocco's dramatic comeback — Morocco finish 2nd in Group C"
+      ]
     },
     {
       "id": 53,
@@ -1951,11 +1971,16 @@
       "homeCode": "CZE",
       "away": "Mexico",
       "awayCode": "MEX",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 3,
       "venue": "Estadio Azteca, Mexico City",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "Mateo Chávez broke the deadlock 10 minutes after half-time (55'), set up by Luis Romo, with a composed finish into the bottom corner",
+        "Julián Quiñones added Mexico's second in the 61st minute — his second goal of the tournament",
+        "Álvaro Fidalgo completed the rout in stoppage time; legendary goalkeeper Guillermo Ochoa made a special late cameo",
+        "Mexico finish Group A with a perfect record: 9 points, 6 goals scored, zero conceded — first team to win all three group games at the 2026 World Cup"
+      ]
     },
     {
       "id": 54,
@@ -1966,11 +1991,16 @@
       "homeCode": "RSA",
       "away": "South Korea",
       "awayCode": "KOR",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 0,
       "venue": "Estadio BBVA, Guadalupe",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "Thapelo Maseko's powerful strike in the 63rd minute was the only goal — a moment of history for South Africa",
+        "South Africa qualify for the knockout stage for the first time ever, finishing 2nd in Group A with 4 points",
+        "South Korea eliminated — despite 1W in 3 games, not enough to advance; a first World Cup exit in the group stage since 2010",
+        "Bafana Bafana set to face Canada in the Round of 32 — a landmark achievement for African football"
+      ]
     },
     {
       "id": 55,
@@ -2284,7 +2314,13 @@
     "Cristiano Ronaldo scored twice vs Uzbekistan on June 23 (6' & 39') to become the first player ever to score at six different FIFA World Cups. Nuno Mendes (17' FK), Nematov OG (60') and Leão (87') completed Portugal's 5-0 rout. Portugal advance to the Round of 32.",
     "England and Ghana drew 0-0 on June 23 in Foxborough — England dominated with 79% possession and 19 shots but could not score. Both teams on 4 points at the top of Group L ahead of the decisive final matchday.",
     "Croatia beat Panama 1-0 on June 23 (Budimir 54' header) — Croatia's first win of the tournament. Panama eliminated after failing to score in either of their two matches at their debut World Cup.",
-    "Colombia beat DR Congo 1-0 on June 23 (Muñoz 76') to seal their place in the Round of 32 as Group K winners with 6 points. DR Congo must beat Uzbekistan in the final group game to have any chance of advancing."
+    "Colombia beat DR Congo 1-0 on June 23 (Muñoz 76') to seal their place in the Round of 32 as Group K winners with 6 points. DR Congo must beat Uzbekistan in the final group game to have any chance of advancing.",
+    "멕시코, 그룹 A 전승(9점) 마감 — 6골 무실점으로 완벽한 조별리그를 기록한 첫 팀. 6월 24일 체코 3-0 완파, 오초아 전설적 카메오 출전.",
+    "남아공, 6월 24일 한국을 1-0(마세코 63')으로 꺾고 월드컵 사상 최초 16강(32강) 진출 — 아프리카 축구 역사에 남을 이변.",
+    "스위스, 캐나다를 2-1(바르가스 46', 만잠비 57')로 꺾고 그룹 B 1위 — 만잠비 이번 대회 3골째; 캐나다도 2위로 32강 통과.",
+    "보스니아, 카타르를 3-1로 격파(알라이베고비치 30', OG 35', 마미치 80') — 보스니아 첫 월드컵 승리; 3위권 탈락 경쟁 생존.",
+    "브라질, 스코틀랜드 3-0 대파(비니시우스 7'·38', 쿠냐 ~65')로 그룹 C 1위 — 비니시우스 주니오르 이번 대회 4골 메시 추격.",
+    "모로코, 아이티에게 두 차례 리드를 내줬지만 劇的 역전 4-2 승리. 아이티 레니 조셉이 1974년 엠마누엘 사논 이후 첫 월드컵 골을 넣어 역사적 순간 연출."
   ],
   "topScorers": [
     {
@@ -2335,7 +2371,7 @@
     {
       "player": "Julián Quiñones",
       "team": "Mexico",
-      "goals": 1
+      "goals": 2
     },
     {
       "player": "Alexander Isak",
@@ -2375,12 +2411,12 @@
     {
       "player": "Matheus Cunha",
       "team": "Brazil",
-      "goals": 2
+      "goals": 3
     },
     {
       "player": "Vinicius Junior",
       "team": "Brazil",
-      "goals": 2
+      "goals": 4
     },
     {
       "player": "Romano Schmid",
@@ -2455,12 +2491,12 @@
     {
       "player": "Jonathan David",
       "team": "Canada",
-      "goals": 3
+      "goals": 4
     },
     {
       "player": "Johan Manzambi",
       "team": "Switzerland",
-      "goals": 2
+      "goals": 3
     },
     {
       "player": "Cyle Larin",
@@ -2490,7 +2526,7 @@
     {
       "player": "Ruben Vargas",
       "team": "Switzerland",
-      "goals": 1
+      "goals": 2
     },
     {
       "player": "Granit Xhaka",
@@ -2500,7 +2536,7 @@
     {
       "player": "Ismael Saibari",
       "team": "Morocco",
-      "goals": 1
+      "goals": 2
     },
     {
       "player": "Alex Freeman",
@@ -2660,6 +2696,61 @@
     {
       "player": "Ante Budimir",
       "team": "Croatia",
+      "goals": 1
+    },
+    {
+      "player": "Lenny Joseph",
+      "team": "Haiti",
+      "goals": 1
+    },
+    {
+      "player": "Wilson Isidor",
+      "team": "Haiti",
+      "goals": 1
+    },
+    {
+      "player": "Achraf Hakimi",
+      "team": "Morocco",
+      "goals": 1
+    },
+    {
+      "player": "Soufiane Rahimi",
+      "team": "Morocco",
+      "goals": 1
+    },
+    {
+      "player": "Gessime Yassine",
+      "team": "Morocco",
+      "goals": 1
+    },
+    {
+      "player": "Kerim Alajbegovic",
+      "team": "Bosnia and Herzegovina",
+      "goals": 1
+    },
+    {
+      "player": "Ermin Mahmic",
+      "team": "Bosnia and Herzegovina",
+      "goals": 1
+    },
+    {
+      "player": "Hassan Al-Haydos",
+      "team": "Qatar",
+      "goals": 1
+    },
+    {
+      "player": "Thapelo Maseko",
+      "team": "South Africa",
+      "goals": 1
+    },
+    {
+      "player": "Mateo Chávez",
+      "team": "Mexico",
+      "goals": 1
+    },
+    {
+      "player": "Álvaro Fidalgo",
+      "team": "Mexico",
       "goals": 1
     }
   ],
