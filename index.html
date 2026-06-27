@@ -335,8 +335,8 @@ footer b{color:var(--text-dim)}
    WORLD_CUP_DATA — 단일 데이터 소스. 이 객체만 수정하면 전체 화면이 갱신됩니다.
    ========================================================= */
 const WORLD_CUP_DATA = {
-  "lastUpdated": "2026-06-26",
-  "_dataNotes": "2026년 6월 26일 기준 업데이트. 1~60경기(6/25 D·E·F조 3차전) 전체 반영 완료. 6/25 결과: 에콰도르 2-1 독일(앙굴로 9', 플라타 77'; 자네 2'), 퀴라소 0-2 코트디부아르(페페 7'·64'), 일본 1-1 스웨덴(마에다 56'; 엘란가 62'), 튀니지 1-3 네덜란드(스히리 OG 3', 브로비 7'; 마스투리 54'; 판헤케 62'), 터키 3-2 미국(귈레르 10', 코크추 31', 아얀 90+8'; 트러스티 3', 버할터 49'), 파라과이 0-0 호주. D·E·F조 최종 순위 갱신 완료. 확정된 32강 일정 추가. G/H/I조(6/26), J/K/L조(6/27) 대기 중.",
+  "lastUpdated": "2026-06-27",
+  "_dataNotes": "Data updated June 26, 2026. Matches 1–60 confirmed through June 25 (Groups D, E, F matchday 3 all reflected). June 25 results: Ecuador 2-1 Germany (Sané 2'; Angulo 9', Plata 77'), Curaçao 0-2 Ivory Coast (Pépé 7', 64'), Japan 1-1 Sweden (Maeda 56'; Elanga 62'), Tunisia 1-3 Netherlands (Skhiri OG 3', Brobbey 7'; Mastouri 54'; Van Hecke 62'), Turkey 3-2 USA (Trusty 3'; Güler 10', Kökçü 31'; Berhalter 49'; Ayhan 90+8'), Paraguay 0-0 Australia. Groups D, E, F final standings updated. Round of 32 fixtures partially confirmed. Matchday 3 for Groups G/H/I (June 26) and J/K/L (June 27) pending. | 2026-06-27 갱신: Match 61-66 확정(노르웨이1-4프랑스, 세네갈5-0이라크, 카보베르데0-0사우디, 우루과이0-1스페인, 이집트1-1이란, 뉴질랜드1-5벨기에). Match 67-72는 2026-06-27 저녁 경기로 미시작.",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "hosts": [
@@ -344,10 +344,92 @@ const WORLD_CUP_DATA = {
       "Canada",
       "Mexico"
     ],
-    "dates": "2026년 6월 11일 – 7월 19일",
-    "format": "48개국 · 12개 조 · 32강 토너먼트",
+    "dates": "June 11 – July 19, 2026",
+    "format": "48 teams, 12 groups of 4. Top 2 from each group plus 8 best 3rd-place teams advance to Round of 32. Then knockout rounds through to the Final.",
     "teamCount": 48,
-    "totalMatches": 104
+    "totalMatches": 104,
+    "venues": [
+      {
+        "city": "Mexico City",
+        "country": "Mexico",
+        "stadium": "Estadio Azteca"
+      },
+      {
+        "city": "Guadalajara (Zapopan)",
+        "country": "Mexico",
+        "stadium": "Estadio Akron"
+      },
+      {
+        "city": "Monterrey (Guadalupe)",
+        "country": "Mexico",
+        "stadium": "Estadio BBVA"
+      },
+      {
+        "city": "Los Angeles (Inglewood)",
+        "country": "USA",
+        "stadium": "SoFi Stadium"
+      },
+      {
+        "city": "Dallas (Arlington)",
+        "country": "USA",
+        "stadium": "AT&T Stadium"
+      },
+      {
+        "city": "Houston",
+        "country": "USA",
+        "stadium": "NRG Stadium"
+      },
+      {
+        "city": "New York/New Jersey (East Rutherford)",
+        "country": "USA",
+        "stadium": "MetLife Stadium"
+      },
+      {
+        "city": "San Francisco (Santa Clara)",
+        "country": "USA",
+        "stadium": "Levi's Stadium"
+      },
+      {
+        "city": "Miami (Miami Gardens)",
+        "country": "USA",
+        "stadium": "Hard Rock Stadium"
+      },
+      {
+        "city": "Atlanta",
+        "country": "USA",
+        "stadium": "Mercedes-Benz Stadium"
+      },
+      {
+        "city": "Seattle",
+        "country": "USA",
+        "stadium": "Lumen Field"
+      },
+      {
+        "city": "Kansas City",
+        "country": "USA",
+        "stadium": "Arrowhead Stadium"
+      },
+      {
+        "city": "Boston (Foxborough)",
+        "country": "USA",
+        "stadium": "Gillette Stadium"
+      },
+      {
+        "city": "Philadelphia",
+        "country": "USA",
+        "stadium": "Lincoln Financial Field"
+      },
+      {
+        "city": "Toronto",
+        "country": "Canada",
+        "stadium": "BMO Field"
+      },
+      {
+        "city": "Vancouver",
+        "country": "Canada",
+        "stadium": "BC Place"
+      }
+    ]
   },
   "groups": [
     {
@@ -802,47 +884,47 @@ const WORLD_CUP_DATA = {
       ],
       "standings": [
         {
+          "team": "Belgium",
+          "code": "BEL",
+          "played": 3,
+          "won": 1,
+          "drawn": 2,
+          "lost": 0,
+          "gf": 6,
+          "ga": 2,
+          "points": 5
+        },
+        {
           "team": "Egypt",
           "code": "EGY",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 0,
-          "gf": 4,
-          "ga": 2,
-          "points": 4
+          "gf": 5,
+          "ga": 3,
+          "points": 5
         },
         {
           "team": "Iran",
           "code": "IRN",
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "drawn": 2,
+          "drawn": 3,
           "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "points": 2
-        },
-        {
-          "team": "Belgium",
-          "code": "BEL",
-          "played": 2,
-          "won": 0,
-          "drawn": 2,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "points": 2
+          "gf": 3,
+          "ga": 3,
+          "points": 3
         },
         {
           "team": "New Zealand",
           "code": "NZL",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 1,
-          "lost": 1,
-          "gf": 3,
-          "ga": 5,
+          "lost": 2,
+          "gf": 4,
+          "ga": 10,
           "points": 1
         }
       ]
@@ -875,46 +957,46 @@ const WORLD_CUP_DATA = {
         {
           "team": "Spain",
           "code": "ESP",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
-          "gf": 4,
+          "gf": 5,
           "ga": 0,
-          "points": 4
-        },
-        {
-          "team": "Uruguay",
-          "code": "URU",
-          "played": 2,
-          "won": 0,
-          "drawn": 2,
-          "lost": 0,
-          "gf": 3,
-          "ga": 3,
-          "points": 2
+          "points": 7
         },
         {
           "team": "Cabo Verde",
           "code": "CPV",
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "drawn": 2,
+          "drawn": 3,
           "lost": 0,
           "gf": 2,
           "ga": 2,
+          "points": 3
+        },
+        {
+          "team": "Uruguay",
+          "code": "URU",
+          "played": 3,
+          "won": 0,
+          "drawn": 2,
+          "lost": 1,
+          "gf": 3,
+          "ga": 4,
           "points": 2
         },
         {
           "team": "Saudi Arabia",
           "code": "KSA",
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 1,
           "gf": 1,
           "ga": 5,
-          "points": 1
+          "points": 2
         }
       ]
     },
@@ -946,45 +1028,45 @@ const WORLD_CUP_DATA = {
         {
           "team": "France",
           "code": "FRA",
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "drawn": 0,
           "lost": 0,
-          "gf": 6,
-          "ga": 1,
-          "points": 6
+          "gf": 10,
+          "ga": 2,
+          "points": 9
         },
         {
           "team": "Norway",
           "code": "NOR",
-          "played": 2,
+          "played": 3,
           "won": 2,
           "drawn": 0,
-          "lost": 0,
-          "gf": 7,
-          "ga": 3,
+          "lost": 1,
+          "gf": 8,
+          "ga": 7,
           "points": 6
         },
         {
           "team": "Senegal",
           "code": "SEN",
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "drawn": 0,
           "lost": 2,
-          "gf": 3,
+          "gf": 8,
           "ga": 6,
-          "points": 0
+          "points": 3
         },
         {
           "team": "Iraq",
           "code": "IRQ",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
+          "lost": 3,
           "gf": 1,
-          "ga": 7,
+          "ga": 12,
           "points": 0
         }
       ]
@@ -1218,9 +1300,9 @@ const WORLD_CUP_DATA = {
       "venue": "Estadio Azteca, Mexico City",
       "status": "finished",
       "highlights": [
-        "훌리안 키뇨네스가 9분 대회 개막골 — CONCACAF 선수 최초의 월드컵 개막골",
-        "라울 히메네스가 67분 추가골",
-        "공동 개최국 멕시코가 만원 아스테카에서 산뜻한 출발"
+        "Julián Quiñones scored the tournament opening goal in the 9th minute — first CONCACAF player to score the opening goal of a World Cup",
+        "Raúl Jiménez added a second in the 67th minute",
+        "Mexico opened the tournament as co-host in front of a packed Azteca"
       ]
     },
     {
@@ -1237,9 +1319,9 @@ const WORLD_CUP_DATA = {
       "venue": "Estadio Akron, Zapopan",
       "status": "finished",
       "highlights": [
-        "59분 크레이치가 체코 선제골",
-        "67분 황인범 동점골",
-        "80분 오현규 역전 결승골"
+        "Krejčí gave Czechia the lead in the 59th minute",
+        "Hwang In-beom equalized for South Korea in the 67th minute",
+        "Oh Hyeon-gyu scored the winner in the 80th minute"
       ]
     },
     {
@@ -1256,10 +1338,10 @@ const WORLD_CUP_DATA = {
       "venue": "SoFi Stadium, Inglewood",
       "status": "finished",
       "highlights": [
-        "7분 풀리식·맥케니 압박 끝 자책골로 선제",
-        "발로건 멀티골 — 1930년 이후 미국 선수 첫 월드컵 1경기 2골",
-        "73분 마우리시오가 파라과이 만회골",
-        "조 레이나가 추가시간 환상적인 쐐기골"
+        "Own goal opened the scoring in the 7th minute after Pulisic and McKennie pressure",
+        "Folarin Balogun scored twice — first American with 2 WC goals in a game since 1930",
+        "Paraguay pulled one back through Mauricio in the 73rd minute",
+        "Gio Reyna sealed it with a stunning stoppage-time strike"
       ]
     },
     {
@@ -1276,8 +1358,8 @@ const WORLD_CUP_DATA = {
       "venue": "BC Place, Vancouver",
       "status": "finished",
       "highlights": [
-        "호주가 경기 내내 주도",
-        "터키는 유효슈팅 0개에 그침"
+        "Australia controlled the match throughout",
+        "Turkey failed to register a shot on target"
       ]
     },
     {
@@ -1294,7 +1376,7 @@ const WORLD_CUP_DATA = {
       "venue": "BMO Field, Toronto",
       "status": "finished",
       "highlights": [
-        "공동 개최국 캐나다가 토론토 홈 개막전 무승부"
+        "Canada drew their opening home World Cup match in front of a passionate Toronto crowd"
       ]
     },
     {
@@ -1311,9 +1393,9 @@ const WORLD_CUP_DATA = {
       "venue": "MetLife Stadium, East Rutherford",
       "status": "finished",
       "highlights": [
-        "비니시우스 주니오르가 브라질 골",
-        "우승후보 브라질이 모로코에 발목",
-        "이 결과로 스코틀랜드가 C조 선두로"
+        "Vinicius Junior scored for Brazil",
+        "Brazil held to a draw by Morocco in a heavyweight opening clash",
+        "Result let Scotland take the Group C lead"
       ]
     },
     {
@@ -1330,9 +1412,9 @@ const WORLD_CUP_DATA = {
       "venue": "Gillette Stadium, Foxborough",
       "status": "finished",
       "highlights": [
-        "스코틀랜드, 1974년 이후 첫 월드컵 승리",
-        "28년 만의 월드컵 본선(1998년 이후)",
-        "브라질·모로코 제치고 C조 선두 등극"
+        "Scotland won their first World Cup match since 1974",
+        "Scotland's first World Cup appearance in 28 years (since France 1998)",
+        "Shock result puts Scotland top of Group C above Brazil and Morocco"
       ]
     },
     {
@@ -1349,8 +1431,8 @@ const WORLD_CUP_DATA = {
       "venue": "Levi's Stadium, Santa Clara",
       "status": "finished",
       "highlights": [
-        "카타르 월드컵 사상 첫 승점 획득",
-        "2022년 개최국으로 3전 전패 후 첫 승점"
+        "Qatar earned their first-ever World Cup point",
+        "Qatar had gone winless as 2022 hosts, exiting in the group stage"
       ]
     },
     {
@@ -1367,9 +1449,9 @@ const WORLD_CUP_DATA = {
       "venue": "NRG Stadium, Houston",
       "status": "finished",
       "highlights": [
-        "독일이 월드컵 통산 최다 득점국 등극(239골)으로 브라질 추월",
-        "역대 최소 인구 본선국 쿠라사오(약 15.5만)가 사상 첫 월드컵 골",
-        "하베르츠 멀티골, 무시알라도 득점"
+        "Germany became the all-time top scorers in World Cup history (239 goals), surpassing Brazil",
+        "Curacao — smallest nation ever at a men's World Cup (pop. ~155,000) — scored their first-ever World Cup goal",
+        "Kai Havertz scored twice; Jamal Musiala also on the scoresheet"
       ]
     },
     {
@@ -1386,9 +1468,9 @@ const WORLD_CUP_DATA = {
       "venue": "Lincoln Financial Field, Philadelphia",
       "status": "finished",
       "highlights": [
-        "90분 아마드 디알로 결승골(싱고 도움)",
-        "에콰도르는 전반 골대만 두 차례",
-        "추가시간 극장골로 코트디부아르 승점 3"
+        "Amad Diallo scored the winner in the 90th minute from a Wilfried Singo assist",
+        "Ecuador hit the woodwork twice in the first half",
+        "Late drama as Ivory Coast snatched all three points in stoppage time"
       ]
     },
     {
@@ -1405,10 +1487,10 @@ const WORLD_CUP_DATA = {
       "venue": "AT&T Stadium, Arlington",
       "status": "finished",
       "highlights": [
-        "판 다이크(50분)·서머빌(64분) 네덜란드 골",
-        "나카무라(57분)·카마다(88분) 일본 골",
-        "카마다의 88분 동점골로 일본 극적 무승부",
-        "관중 69,285명"
+        "Van Dijk (50') and Summerville (64') scored for the Netherlands",
+        "Nakamura (57') and Kamada (88') scored for Japan",
+        "Japan equalized in the 88th minute through Daichi Kamada",
+        "Attendance: 69,285"
       ]
     },
     {
@@ -1425,9 +1507,9 @@ const WORLD_CUP_DATA = {
       "venue": "Estadio BBVA, Guadalupe",
       "status": "finished",
       "highlights": [
-        "야신 아야리 멀티골(후반 중거리 대포 포함)",
-        "요케레스·이사크 맹활약",
-        "스반베리 골은 84분 VAR 판독 끝 인정"
+        "Yasin Ayari scored twice including a late long-range stunner",
+        "Viktor Gyökeres and Alexander Isak starred for Sweden",
+        "Svanberg's goal confirmed by VAR after a lengthy review (84')"
       ]
     },
     {
@@ -1444,9 +1526,9 @@ const WORLD_CUP_DATA = {
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "status": "finished",
       "highlights": [
-        "우승후보 스페인이 데뷔국 카보베르데에 0-0 충격 무승부",
-        "인구 약 53만 카보베르데의 값진 결과",
-        "관중 67,640명"
+        "Spain held to a shock 0-0 draw by tournament debutants Cabo Verde",
+        "Cabo Verde (pop. ~530,000) earned a famous result against World Cup favorites Spain",
+        "Attendance: 67,640"
       ]
     },
     {
@@ -1463,9 +1545,9 @@ const WORLD_CUP_DATA = {
       "venue": "Hard Rock Stadium, Miami Gardens",
       "status": "finished",
       "highlights": [
-        "41분 알 암리 사우디 선제골",
-        "80분 아라우호 우루과이 동점골",
-        "관중 62,764명"
+        "Al-Amri scored for Saudi Arabia in the 41st minute",
+        "M. Araújo equalized for Uruguay in the 80th minute",
+        "Attendance: 62,764"
       ]
     },
     {
@@ -1482,7 +1564,7 @@ const WORLD_CUP_DATA = {
       "venue": "Lumen Field, Seattle",
       "status": "finished",
       "highlights": [
-        "벨기에와 이집트 1-1 무승부"
+        "Belgium and Egypt played out a 1-1 draw"
       ]
     },
     {
@@ -1499,8 +1581,8 @@ const WORLD_CUP_DATA = {
       "venue": "SoFi Stadium, Inglewood",
       "status": "finished",
       "highlights": [
-        "이란-뉴질랜드 2-2 난타전",
-        "일라이자 저스트가 뉴질랜드 골"
+        "Iran and New Zealand played out a 2-2 thriller",
+        "Elijah Just scored for New Zealand"
       ]
     },
     {
@@ -1517,10 +1599,10 @@ const WORLD_CUP_DATA = {
       "venue": "MetLife Stadium, East Rutherford",
       "status": "finished",
       "highlights": [
-        "음바페가 지루 넘어 프랑스 역대 최다 득점자로(99경기 58골)",
-        "음바페 멀티골(66분·90+6분), 바르콜라(82분) 추가골",
-        "올리세 2도움",
-        "세네갈은 음바예가 막판 만회골(90+5분)"
+        "Kylian Mbappé became France's all-time top scorer, surpassing Olivier Giroud (58 goals in 99 caps)",
+        "Mbappé scored twice (66', 90+6'); Bradley Barcola added one (82')",
+        "Michael Olise provided two assists",
+        "Ibrahim Mbaye scored a late consolation for Senegal (90+5')"
       ]
     },
     {
@@ -1537,9 +1619,9 @@ const WORLD_CUP_DATA = {
       "venue": "Gillette Stadium, Foxborough",
       "status": "finished",
       "highlights": [
-        "홀란드 월드컵 데뷔전 멀티골 — 노르웨이 1998년 이후 첫 본선",
-        "이라크 GK가 걷어낸 공이 홀란드에 맞고 두 번째 골",
-        "이라크는 1986년 이후 첫 월드컵 골"
+        "Erling Haaland scored a brace on his World Cup debut — Norway's first World Cup since 1998",
+        "Haaland's second came after the Iraqi keeper accidentally booted the ball into him",
+        "Iraq scored their first World Cup goal since 1986"
       ]
     },
     {
@@ -1556,10 +1638,10 @@ const WORLD_CUP_DATA = {
       "venue": "Arrowhead Stadium, Kansas City",
       "status": "finished",
       "highlights": [
-        "메시 커리어 첫 월드컵 해트트릭 — 클로제의 월드컵 통산 최다 16골과 타이",
-        "최고령 월드컵 해트트릭 기록(38세)",
-        "디펜딩 챔피언 아르헨티나의 압도적 출발",
-        "메시는 해트트릭 후 80분 교체"
+        "Lionel Messi scored a hat trick — his first career World Cup hat trick — tying Miroslav Klose's all-time WC record of 16 goals",
+        "Messi became the oldest player to score a World Cup hat trick (age 38)",
+        "Defending champions Argentina opened their title defense in dominant fashion",
+        "Messi was substituted off in the 80th minute after securing his hat trick"
       ]
     },
     {
@@ -1576,10 +1658,10 @@ const WORLD_CUP_DATA = {
       "venue": "Levi's Stadium, Santa Clara",
       "status": "finished",
       "highlights": [
-        "로마노 슈미트가 21분 중거리 슛으로 오스트리아 선제골",
-        "알리 이야드 올완 50분 동점골 — 요르단 월드컵 사상 첫 득점",
-        "야잔 알아랍 코너킥 자책골(76분)로 오스트리아 재역전",
-        "아르나우토비치 추가시간 PK 마무리 — 오스트리아 36년 만의 월드컵 승리"
+        "Romano Schmid opened the scoring in the 21st minute with a long-range right-foot strike",
+        "Ali Iyad Olwan equalized for Jordan in the 50th minute — Jordan's first-ever World Cup goal",
+        "Yazan Al-Arab own goal (76') restored Austria's lead after a corner deflection",
+        "Marco Arnautović converted a stoppage-time penalty to seal 3-1 — Austria's first World Cup win in 36 years"
       ]
     },
     {
@@ -1596,10 +1678,10 @@ const WORLD_CUP_DATA = {
       "venue": "NRG Stadium, Houston",
       "status": "finished",
       "highlights": [
-        "주앙 네베스 6분 선제골로 포르투갈 앞서나가",
-        "와이사 45+5분 동점골 — DR콩고 1974년 이후 첫 본선 복귀에서 월드컵 첫 승점",
-        "칸첼로 55분 환상 오버헤드킥 VAR 오프사이드 취소",
-        "접전 끝 무승부, K조 포인트 분배"
+        "João Neves opened the scoring for Portugal in the 6th minute",
+        "Yoane Wissa equalized for DR Congo in the 45+5th minute — DR Congo's first World Cup point since returning after 52 years (last appeared 1974)",
+        "João Cancelo's spectacular overhead kick in the 55th minute ruled out by VAR for offside",
+        "Portugal frustrated by debutants; Ronaldo started at age 41 as tournament's oldest outfield player"
       ]
     },
     {
@@ -1616,10 +1698,10 @@ const WORLD_CUP_DATA = {
       "venue": "Estadio Azteca, Mexico City",
       "status": "finished",
       "highlights": [
-        "무뇨스 40분 선제골로 콜롬비아 앞서나가",
-        "파이줄라예프 60분 — 우즈베키스탄 월드컵 역대 첫 골",
-        "루이스 디아스 65분 재역전 뒤 캄파스 90+9분 쐐기골",
-        "콜롬비아 3-1 완승으로 K조 선두"
+        "Daniel Muñoz scored for Colombia in the 40th minute",
+        "Abbosbek Fayzullaev equalized for Uzbekistan in the 60th minute — Uzbekistan's first-ever World Cup goal",
+        "Luis Díaz restored Colombia's lead in the 65th minute (goal and assist on the night)",
+        "Jáminton Campaz headed home in the 90+9th minute to seal 3-1 and put Colombia top of Group K"
       ]
     },
     {
@@ -1636,10 +1718,10 @@ const WORLD_CUP_DATA = {
       "venue": "AT&T Stadium, Arlington",
       "status": "finished",
       "highlights": [
-        "케인 12분 PK·42분 헤딩 — WC 10골로 린에커 타이(잉글랜드 WC 공동 최다)",
-        "바투리나(36분)·무사(45+5분) 크로아티아 전반 2골 응수",
-        "벨링엄 47분 재역전 후 라시포드 85분 쐐기골",
-        "혼란스러운 전반 딛고 후반 압도, 잉글랜드 4-2 완승"
+        "Harry Kane scored twice (12' pen, 42' header) to reach 10 England World Cup goals — equalling Gary Lineker's national record",
+        "Croatia hit back through Martin Baturina (36') and Petar Musa (45+5') to level 2-2 at half-time",
+        "Jude Bellingham drove in to restore England's lead immediately after the break (47')",
+        "Marcus Rashford sealed it with a composed finish (85'); England's dominant second half secured a 4-2 win"
       ]
     },
     {
@@ -1656,9 +1738,9 @@ const WORLD_CUP_DATA = {
       "venue": "BMO Field, Toronto",
       "status": "finished",
       "highlights": [
-        "이렌키 95분 극장골 — 토마스-아산테 도움으로 완성",
-        "파나마 수비 잘 버텼으나 막판 실점으로 사상 첫 WC 승점 좌절",
-        "가나가 잉글랜드와 함께 L조 공동 선두(3점)"
+        "Caleb Yirenkyi tapped home from Brandon Thomas-Asante's cross in the 95th minute for a dramatic winner",
+        "Panama's disciplined defensive display was undone in stoppage time, denying them a historic first World Cup point",
+        "Ghana join England at the top of Group L on 3 points after matchday 1"
       ]
     },
     {
@@ -1675,10 +1757,10 @@ const WORLD_CUP_DATA = {
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "status": "finished",
       "highlights": [
-        "사디렉이 6분 선제골로 체코 리드",
-        "파울 슐츠의 페널티 박스 내 핸드볼로 남아공 PK 획득",
-        "모코에나가 83분 PK 동점골 — 남아공 A조 첫 승점 획득",
-        "체코 첫 승 놓치며 무승부, 두 팀 모두 A조 하위권 경쟁"
+        "Michal Sadilek opened the scoring for Czech Republic in the 6th minute",
+        "Pavel Šulc's handball inside the box in the 81st minute conceded a penalty to South Africa",
+        "Teboho Mokoena converted the penalty in the 83rd minute to earn South Africa their first World Cup point",
+        "Czech Republic failed to win despite taking the lead, both teams level on 1 point in Group A"
       ]
     },
     {
@@ -1695,10 +1777,10 @@ const WORLD_CUP_DATA = {
       "venue": "SoFi Stadium, Inglewood",
       "status": "finished",
       "highlights": [
-        "만잠비가 교체 투입 171초 만에 71분 선제골",
-        "무하레모비치 레드카드 이후 10인 보스니아 무너져",
-        "만잠비 멀티골(71분·90분), 바르가스(84분), 샤카 PK(90+7분)",
-        "후반 4골 폭발 — 스위스 B조 단독 선두 도약"
+        "Johan Manzambi scored just 171 seconds after being introduced as a substitute in the 71st minute",
+        "Tarik Muharemovic was shown a straight red card, leaving Bosnia with 10 men",
+        "Manzambi added a second (90'), Ruben Vargas scored (84'), and Granit Xhaka converted a penalty (90+7')",
+        "Switzerland's four-goal second-half burst puts them top of Group B"
       ]
     },
     {
@@ -1715,10 +1797,10 @@ const WORLD_CUP_DATA = {
       "venue": "BC Place, Vancouver",
       "status": "finished",
       "highlights": [
-        "조나단 다비드 해트트릭 — 캐나다 사상 첫 월드컵 승리 견인",
-        "라린(16분), 다비드(29분·45+3분·90+2분), 살리바(64분), 알마나이 자책골(75분)",
-        "카타르 선수 2명 퇴장, 9인 경기로 마무리",
-        "CONCACAF 사상 월드컵 단일 경기 최다 득점 경신"
+        "Jonathan David scored a hat trick (29', 45+3', 90+2') — Canada's first-ever World Cup win",
+        "Cyle Larin (16'), Nathan Saliba (64'), and Mohamed Al Manai own goal (75') completed the rout",
+        "Qatar had two players sent off and finished with nine men",
+        "Biggest win by a CONCACAF team in men's World Cup history"
       ]
     },
     {
@@ -1735,10 +1817,10 @@ const WORLD_CUP_DATA = {
       "venue": "Estadio Akron, Zapopan",
       "status": "finished",
       "highlights": [
-        "루이스 로모가 50분 선제골 — 한국 GK 김승규의 치명적 실수에서 기인",
-        "멕시코, 대회 최초로 32강 진출 확정(2전 전승·6점)",
-        "랑헬의 87분 조규성·양현준 연속 선방으로 한국의 동점 차단",
-        "A조 1위 멕시코 조기 확정"
+        "Luis Romo scored in the 50th minute after South Korea goalkeeper Kim Seung-gyu collided with defender Lee Gi-hyuk and dropped the ball",
+        "Mexico became the first team to qualify for the Round of 32 — clinching Group A top spot with two wins",
+        "Goalkeeper Raúl Rangel made two outstanding saves in the 87th minute to deny Cho Gue-sung and Yang Hyun-jun",
+        "Mexico win Group A with 6 points from two games; South Korea drop to third-place battle"
       ]
     },
     {
@@ -1755,9 +1837,9 @@ const WORLD_CUP_DATA = {
       "venue": "Lumen Field, Seattle",
       "status": "finished",
       "highlights": [
-        "캐머런 버게스 자책골(11분) — 발로건의 크로스를 호주 수비수가 그대로 밀어 넣음",
-        "알렉스 프리먼이 43분 데스트 프리킥 후 헤더골 — VAR 검토 끝에 최종 인정",
-        "풀리식 부상 결장에도 미국 완봉승, 2전 전승(6점)으로 D조 1위 확정·32강 진출"
+        "Cameron Burgess own goal in the 11th minute — Balogun's cross forced the Australian defender to turn in",
+        "Alex Freeman headed home in the 43rd minute from Sergiño Dest's free-kick; VAR confirmed after a lengthy offside review",
+        "USMNT advance to Round of 32 with 6 points from two wins; Pulisic absent through injury"
       ]
     },
     {
@@ -1774,10 +1856,10 @@ const WORLD_CUP_DATA = {
       "venue": "Gillette Stadium, Foxborough",
       "status": "finished",
       "highlights": [
-        "이스마일 사이바리가 킥오프 70초 만에 결승골 — 2026 월드컵 최단 시간 득점 기록 수립",
-        "브라힘 디아스의 스루패스를 받아 사이바리가 앙구스 군 머리 위로 꽂아넣음",
-        "맥토미네이의 페널티 판정 불인정 논란 — 스코틀랜드 동점 기회 살리지 못함",
-        "모로코 득실차로 C조 선두 도약, 스코틀랜드 2위로 내려앉아"
+        "Ismael Saibari scored just 70 seconds after kick-off — the fastest winning goal in 2026 World Cup history",
+        "Saibari collected Brahim Diaz's through ball and slammed past Angus Gunn into the roof of the net",
+        "McTominay denied a controversial late penalty; Scotland unable to level",
+        "Morocco top Group C on goal difference ahead of Brazil; Scotland slip to 2nd"
       ]
     },
     {
@@ -1794,10 +1876,10 @@ const WORLD_CUP_DATA = {
       "venue": "Lincoln Financial Field, Philadelphia",
       "status": "finished",
       "highlights": [
-        "마테우스 쿠냐가 23분 비니시우스의 슈팅 리바운드를 밀어넣으며 선제골",
-        "쿠냐가 36분 왼발 정확도 높은 슛으로 추가골 — 전반에만 두 골",
-        "비니시우스 주니오르가 45+3분 파케타 스루패스 받아 세 번째 골로 마무리",
-        "아이티 2연패로 대회 첫 탈락, 브라질은 4점으로 모로코와 공동 선두(득실차 우위)"
+        "Matheus Cunha tapped home in the 23rd minute after Vinicius Jr's saved effort",
+        "Cunha added a composed left-footed finish in the 36th minute for his brace",
+        "Vinicius Junior completed the rout in the 45+3rd minute after Lucas Paquetá's through ball",
+        "Haiti become the first team eliminated from the 2026 World Cup; Brazil level with Morocco on 4 points, lead on GD"
       ]
     },
     {
@@ -1814,10 +1896,10 @@ const WORLD_CUP_DATA = {
       "venue": "Levi's Stadium, Santa Clara",
       "status": "finished",
       "highlights": [
-        "마티아스 갈라르사가 킥오프 2분 만에 선제골 — 이번 대회 최단 시간 득점",
-        "미겔 알미론, FIFA 새 입막기 규정 위반으로 전반 추가 시간 레드카드 퇴장",
-        "10명의 파라과이가 터키의 맹공을 끝까지 막아내며 1-0 값진 승리",
-        "터키 2연패로 탈락 확정, 파라과이의 32강 진출 희망은 살아있어"
+        "Matías Galarza struck two minutes in — the fastest goal of the tournament so far",
+        "Miguel Almirón received a straight red card in first-half stoppage time under FIFA's new mouth-covering rule",
+        "Ten-man Paraguay held firm through Turkey's relentless second-half pressure to claim a vital 1-0 win",
+        "Turkey eliminated after two consecutive defeats; Paraguay's Round of 32 hopes remain alive"
       ]
     },
     {
@@ -1834,10 +1916,10 @@ const WORLD_CUP_DATA = {
       "venue": "BMO Field, Toronto",
       "status": "finished",
       "highlights": [
-        "프랑크 케시에가 30분 코트디부아르 선제골 — 최다 득점 독일을 상대로 충격 리드",
-        "교체 투입된 데니스 운다브가 68분 아미리 크로스를 발리로 마무리해 독일 동점",
-        "운다브가 94분 결승골로 역전 완성 — 독일 劇的 역전으로 32강 확정",
-        "코트디부아르도 분전했으나 독일의 후반 역전을 막지 못해"
+        "Franck Kessié gave Ivory Coast a shock lead with a 30th-minute strike against the tournament's top scorers",
+        "Deniz Undav came off the bench to equalise in the 68th minute with a volley from Amiri's cross",
+        "Undav struck again in the 94th minute to complete a stunning comeback — Germany advance to the Round of 32",
+        "Ivory Coast remain in contention; a high-quality display despite the defeat"
       ]
     },
     {
@@ -1854,10 +1936,10 @@ const WORLD_CUP_DATA = {
       "venue": "Arrowhead Stadium, Kansas City",
       "status": "finished",
       "highlights": [
-        "GK 엘로이 룸이 15차례 선방으로 쿠라사오에 사상 첫 월드컵 승점 선사",
-        "에콰도르는 15개의 유효슈팅에도 무득점 — 1966년 이후 WC 단일 경기 최다 유효슈팅 무득점",
-        "룸의 역사적 활약 — 이번 대회 최고의 개인 골키퍼 퍼포먼스",
-        "에콰도르 E조 조별 탈락 위기, 쿠라사오는 1승점으로 팀 역사의 새 페이지"
+        "Goalkeeper Eloy Room made 15 saves to earn Curaçao their first-ever World Cup point",
+        "Ecuador had 15 shots on target without scoring — the most in a World Cup match without a goal since 1966",
+        "One of the great World Cup goalkeeping performances; Room was the undisputed man of the match",
+        "Curaçao earn a historic point; Ecuador's Group E knockout hopes now in serious doubt"
       ]
     },
     {
@@ -1874,10 +1956,10 @@ const WORLD_CUP_DATA = {
       "venue": "NRG Stadium, Houston",
       "status": "finished",
       "highlights": [
-        "브라이언 브로비가 5분·17분 멀티골 — 월드컵 역대 4번째로 빠른 두 골 기록",
-        "가크포도 47분·54분 연속 추가골, 앤서니 엘랑아(스웨덴)가 59분 만회골",
-        "서머빌이 89분 다섯 번째 골로 마무리 — 네덜란드 역대 최대 WC 승리",
-        "네덜란드 F조 선두 등극(일본과 공동 4점)"
+        "Brian Brobbey scored twice inside 17 minutes (5', 17') — the fourth-fastest brace in World Cup history",
+        "Cody Gakpo added two more in the second half (47', 54'); Anthony Elanga pulled one back for Sweden (59')",
+        "Crysencio Summerville completed the rout with a fifth in the 89th minute",
+        "Netherlands' biggest-ever World Cup win; they move joint-top of Group F with Japan"
       ]
     },
     {
@@ -1894,10 +1976,10 @@ const WORLD_CUP_DATA = {
       "venue": "Estadio BBVA, Guadalupe",
       "status": "finished",
       "highlights": [
-        "카마다가 4분 선제골로 일본 기선 제압",
-        "우에다가 30분·83분 멀티골, 이토가 69분 세 번째 골 — 일본 월드컵 역대 최대 득점 차 승리",
-        "이 경기는 FIFA 월드컵 사상 1000번째 경기로 기록됨",
-        "튀니지 2연패로 탈락, 일본은 네덜란드와 함께 F조 공동 선두(4점)"
+        "Daichi Kamada struck in the 4th minute to give Japan an immediate lead",
+        "Ayase Ueda scored twice (30', 83') and Junya Ito added Japan's third in the 69th minute",
+        "This was the 1,000th match in FIFA World Cup history — Japan marked it with their biggest-ever World Cup winning margin",
+        "Tunisia eliminated from the tournament; Japan join Netherlands at the top of Group F on 4 points"
       ]
     },
     {
@@ -1914,10 +1996,10 @@ const WORLD_CUP_DATA = {
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "status": "finished",
       "highlights": [
-        "라미네 야말이 10분 월드컵 첫 골 — 17세에 달성, WC 역대 8번째 최연소 득점자(메시·음바페·호날두보다 어린 나이에 첫 WC 골)",
-        "미켈 오야르사발이 21분·24분 연속 2골로 전반에만 3-0 리드",
-        "야말·오야르사발 하프타임 교체 투입, 스페인 이미 경기 결정",
-        "알-탐박티 자책골(51분)로 4-0 완승 — 스페인 H조 1위, 32강 진출 확정"
+        "Lamine Yamal scored his first World Cup goal in the 10th minute at age 17 — the 8th-youngest scorer in World Cup history, surpassing Messi, Mbappé and Ronaldo's age at their first WC goals",
+        "Mikel Oyarzabal added a brace in under three minutes (21' & 24') to make it 3-0 before half-time",
+        "Yamal and Oyarzabal were both substituted at half-time with Spain already in full control",
+        "Hassan Al-Tambakti scored an own goal just after the interval (51') to complete a 4-0 rout — Spain top Group H and advance to the Round of 32"
       ]
     },
     {
@@ -1934,10 +2016,10 @@ const WORLD_CUP_DATA = {
       "venue": "SoFi Stadium, Inglewood",
       "status": "finished",
       "highlights": [
-        "타레미의 전반 프리킥 빌드업 후 골은 VAR 오프사이드로 취소",
-        "응고이가 66분 레드카드 — 백패스 실수 후 타레미 파울(결정적 득점 기회 저지)",
-        "10인 벨기에로 경기 마무리, 점유율 70%·xG 1.82에도 무득점",
-        "베이란반드의 선방으로 이란 버텨내 — G조 4팀 모두 최종전까지 16강 진출 가능"
+        "Mehdi Taremi had a goal ruled out by VAR for offside after a well-worked free kick in the first half",
+        "Nathan Ngoy was sent off in the 66th minute after miskicking a back-pass then fouling Taremi who was clean through on goal",
+        "Belgium had 70% possession and 1.82 xG but could not break down Iran's resolute defense even with a man advantage",
+        "Alireza Beiranvand made crucial saves as Iran held 10-man Belgium to a goalless draw — all four Group G teams remain in knockout contention"
       ]
     },
     {
@@ -1954,10 +2036,10 @@ const WORLD_CUP_DATA = {
       "venue": "Hard Rock Stadium, Miami Gardens",
       "status": "finished",
       "highlights": [
-        "피나가 21분 강력한 프리킥으로 카보베르데 선제골",
-        "아라우호(44분)·카노비오(45+6분) 연속 골로 우루과이가 역전해 2-1로 전반 마감",
-        "H. 바렐라가 61분 수비 실수를 틈타 카보베르데 동점골(2-2)",
-        "카보베르데 2026 월드컵 2전 무패(2무) — 양 팀 모두 3차전까지 진출 가능"
+        "Kevin Pina opened the scoring for Cabo Verde with a powerful free kick in the 21st minute",
+        "Maximiliano Araújo equalized for Uruguay in the 44th minute and Agustín Canobbio struck in first-half stoppage time (45+6') to give Uruguay a 2-1 lead",
+        "Hélio Varela levelled for Cabo Verde in the 61st minute after a defensive error to make it 2-2",
+        "Cabo Verde remain unbeaten at the 2026 World Cup with two draws — both teams still in knockout contention heading into matchday 3"
       ]
     },
     {
@@ -1974,10 +2056,10 @@ const WORLD_CUP_DATA = {
       "venue": "BC Place, Vancouver",
       "status": "finished",
       "highlights": [
-        "피론 서먼이 15분 코너킥 헤딩 선제골로 뉴질랜드 리드",
-        "지코가 58분 근거리 헤딩으로 이집트 동점",
-        "모하메드 살라가 67분 결정적인 역전골 — 이집트 2-1 앞서",
-        "트레제게가 82분 다이빙 헤더 쐐기골 — 이집트 역사상 사상 첫 월드컵 승리(3-1), G조 선두 등극"
+        "Finn Surman headed in from a corner in the 15th minute to give New Zealand an early lead",
+        "Ziko equalized for Egypt with a close-range header in the 58th minute to level at 1-1",
+        "Mohamed Salah scored the go-ahead goal in the 67th minute as Egypt's comeback gathered momentum",
+        "Trezeguet sealed Egypt's first-ever World Cup win with a diving header in the 82nd minute — Egypt move top of Group G"
       ]
     },
     {
@@ -1994,10 +2076,10 @@ const WORLD_CUP_DATA = {
       "venue": "Lincoln Financial Field, Philadelphia",
       "status": "finished",
       "highlights": [
-        "음바페가 14분 박스 외곽에서 왼발 강슈팅으로 선제골 — 올리스 어시스트, 커리어 WC 15번째 골",
-        "경기 도중 2시간 폭우·번개 기상 지연 발생 — 대회 최초 기상 중단",
-        "음바페가 54분 이라크 GK의 짧은 골킥 실수를 냉정하게 마무리 — 16번째 커리어 WC 골",
-        "들랑브레가 66분 올리스 패스를 받아 낮은 오른발 슛으로 마무리 — 프랑스 I조 1위 확정·32강 진출"
+        "Kylian Mbappé opened the scoring in the 14th minute",
+        "The match was delayed for approximately 2 hours due to a severe lightning and thunderstorm",
+        "Mbappé added his second goal in the 54th minute after the weather delay",
+        "Ousmane Dembélé completed the scoring in the 66th minute — France 3-0 Iraq, through to Round of 32"
       ]
     },
     {
@@ -2014,10 +2096,10 @@ const WORLD_CUP_DATA = {
       "venue": "MetLife Stadium, East Rutherford",
       "status": "finished",
       "highlights": [
-        "마르쿠스 홀름그렌 페데르센이 43분 수비 실수를 찌르며 선제골",
-        "엘링 홀란드가 48분·58분 멀티골 — 2경기 연속 2골로 대회 총 4골(2위권 경쟁)",
-        "이스마일라 사르가 53분·90+3분 두 골로 세네갈 3-2 맹추격 — 극적 긴장감",
-        "노르웨이가 3-2로 버텨내며 I조 2위 확정, 32강 진출"
+        "Marcus Holmgren Pedersen gave Norway the lead with a 43rd-minute strike",
+        "Erling Haaland scored twice in quick succession (48' & 58') to make it 3-0",
+        "Ismaïla Sarr pulled two back for Senegal (53' & 90+3') in a frantic finish",
+        "Norway held on 3-2 to advance to the Round of 32 alongside France — both I-group teams through after matchday 2"
       ]
     },
     {
@@ -2034,10 +2116,10 @@ const WORLD_CUP_DATA = {
       "venue": "AT&T Stadium, Arlington",
       "status": "finished",
       "highlights": [
-        "메시가 38분 박스 좌측에서 왼발 침착하게 왼쪽 하단 코너에 꽂아 — 클로제(16골) 추월, 남자 WC 역대 단독 최다 득점(17골)",
-        "메시가 90+2분 슐라거가 막은 알바레스 슈팅 리바운드 밀어 넣어 18번째 WC 골 — 마르타(17골) 넘어 남녀 통틀어 FIFA WC 역대 최다 득점자 등극",
-        "아르헨티나 J조 2연승·6점으로 1위 확정, 32강 진출",
-        "메시의 대회 5번째 골, 골든부트 단독 선두"
+        "Lionel Messi scored in the 38th minute to become the outright all-time leading scorer in World Cup history — his 17th goal, surpassing Miroslav Klose",
+        "Messi added a second in stoppage time (90+2') — his 18th career World Cup goal, the most ever in men's or women's World Cup history",
+        "Argentina confirmed their place in the Round of 32 with six points from two games",
+        "Messi leads the Golden Boot race with 5 tournament goals"
       ]
     },
     {
@@ -2054,10 +2136,9 @@ const WORLD_CUP_DATA = {
       "venue": "Levi's Stadium, Santa Clara",
       "status": "finished",
       "highlights": [
-        "요르단의 니자르 알라시단이 전반 선제골 — 알제리 독점 점유에도 요르단 1-0 하프타임 리드",
-        "나디르 벤부알리가 68분 마레즈 코너킥 헤딩으로 알제리 동점",
-        "교체 투입 아민 구이리가 82분 아지 하지 무사의 코너킥 헤딩으로 역전 결승골",
-        "알제리가 후반 역전승 — 두 팀 모두 J조 3차전 생존 경쟁"
+        "Al-Rashdan gave Jordan the lead in the first half",
+        "Djamel Benbouali headed in from a Riyad Mahrez corner in the 68th minute to equalize for Algeria",
+        "Anis Gouiri struck the winner in the 82nd minute — Algeria comeback victory 2-1"
       ]
     },
     {
@@ -2074,10 +2155,10 @@ const WORLD_CUP_DATA = {
       "venue": "NRG Stadium, Houston",
       "status": "finished",
       "highlights": [
-        "호날두가 6분 선제골 — 사상 최초로 6개 FIFA 월드컵에서 득점한 선수가 됨(41세 최고령 WC 득점 기록도 경신)",
-        "누누 멘데스가 17분 프리킥 환상 슛으로 2-0 리드",
-        "호날두가 39분 브루노 페르난데스 패스를 받아 두 번째 골 — 커리어 WC 10번째 득점이자 41세 최고령 WC 멀티골",
-        "네마토프 자책골(60분)로 4-0, 하파엘 레앙이 87분 마무리 — 포르투갈 32강 진출 확정"
+        "Cristiano Ronaldo scored in the 6th minute — becoming the first player ever to score at six different FIFA World Cups",
+        "Nuno Mendes doubled the lead in the 17th minute with a stunning free-kick",
+        "Ronaldo added his second in the 39th minute from Bruno Fernandes' pass — his 10th career World Cup goal; at 41 the oldest player to score twice in a World Cup game",
+        "Abduvohid Nematov own goal (60') made it 4-0; Rafael Leão sealed it in the 87th minute — Portugal advance to the Round of 32"
       ]
     },
     {
@@ -2094,9 +2175,9 @@ const WORLD_CUP_DATA = {
       "venue": "Gillette Stadium, Foxborough",
       "status": "finished",
       "highlights": [
-        "잉글랜드 79% 점유율로 경기 지배했지만 득점 실패 — 지난 60년간 WC 무득점 경기 중 역대 최고 점유율",
-        "잉글랜드 19개 슈팅 대 가나 2개, 오라일리와 케인의 결정적 기회가 모두 불발",
-        "두 팀 모두 4점으로 L조 공동 선두, 6/27 최종전에서 진출 여부 결정"
+        "England dominated with 79% possession but failed to score — the highest possession total for a goalless team in a World Cup match in the last 60 years",
+        "England had 19 shots to Ghana's 2; Nico O'Reilly and Harry Kane spurned the best chances",
+        "England and Ghana both finish on 4 points, level at the top of Group L heading into the decisive matchday 3"
       ]
     },
     {
@@ -2113,9 +2194,9 @@ const WORLD_CUP_DATA = {
       "venue": "BMO Field, Toronto",
       "status": "finished",
       "highlights": [
-        "스타니시치의 크로스를 부디미르가 54분 헤딩으로 마무리 — 크로아티아 대회 첫 승리",
-        "파나마 2연패로 탈락 확정 — 사상 첫 월드컵에서 단 한 골도 넣지 못한 채 조별리그 마감",
-        "크로아티아가 3점으로 L조 3위로 올라 최종전에 32강 진출 가능성 유지"
+        "Ante Budimir headed home from Josip Stanišić's cross in the 54th minute to give Croatia their first win of the tournament",
+        "Panama eliminated from the 2026 World Cup — their debut tournament ended without a single goal scored in two games",
+        "Croatia climb to 3 points in Group L and remain in knockout contention heading into matchday 3"
       ]
     },
     {
@@ -2132,9 +2213,9 @@ const WORLD_CUP_DATA = {
       "venue": "Estadio Akron, Guadalajara",
       "status": "finished",
       "highlights": [
-        "무뇨스가 킨테로의 스루패스를 받아 76분 디플렉션 슛으로 결승골",
-        "콜롬비아 K조 2연승(6점)으로 32강 진출 확정, 조 1위 자리 굳혀",
-        "DR콩고는 1점으로 탈락 위기 — 최종전 우즈베키스탄에 반드시 승리해야 생존"
+        "Daniel Muñoz's deflected shot in the 76th minute (Quintero assist) gave Colombia the vital breakthrough",
+        "Colombia qualified for the Round of 32 — top of Group K with 6 points from 2 games",
+        "DR Congo remain on 1 point and must beat Uzbekistan in their final group game to have any chance of advancing"
       ]
     },
     {
@@ -2234,7 +2315,7 @@ const WORLD_CUP_DATA = {
         "Mateo Chávez broke the deadlock 10 minutes after half-time (55'), set up by Luis Romo, with a composed finish into the bottom corner",
         "Julián Quiñones added Mexico's second in the 61st minute — his second goal of the tournament",
         "Álvaro Fidalgo completed the rout in stoppage time; legendary goalkeeper Guillermo Ochoa made a special late cameo",
-        "Mexico finish Group A with a perfect record: 9 points, 6 goals scored, zero conceded — first team to go 3-for-3 at the 2026 World Cup"
+        "Mexico finish Group A with a perfect record: 9 points, 6 goals scored, zero conceded — first team to win all three group games at the 2026 World Cup"
       ]
     },
     {
@@ -2252,9 +2333,9 @@ const WORLD_CUP_DATA = {
       "status": "finished",
       "highlights": [
         "Thapelo Maseko's powerful strike in the 63rd minute was the only goal — a moment of history for South Africa",
-        "South Africa qualify for the knockout stage for the first time ever — a landmark moment for Bafana Bafana and African football",
-        "South Korea eliminated — despite one win in three games, not enough to advance",
-        "South Africa finish 2nd in Group A with 4 points and will face Canada in the Round of 32"
+        "South Africa qualify for the knockout stage for the first time ever, finishing 2nd in Group A with 4 points",
+        "South Korea eliminated — despite 1W in 3 games, not enough to advance; a first World Cup exit in the group stage since 2010",
+        "Bafana Bafana set to face Canada in the Round of 32 — a landmark achievement for African football"
       ]
     },
     {
@@ -2383,11 +2464,16 @@ const WORLD_CUP_DATA = {
       "homeCode": "NOR",
       "away": "France",
       "awayCode": "FRA",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 4,
       "venue": "Gillette Stadium, Foxborough",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "뎀벨레 전반 해트트릭(7'·20'·32') — 월드컵 역사상 가장 이른 해트트릭 중 하나",
+        "오스고르 21분 노르웨이 만회골",
+        "두에 90+4분 쐐기골로 최종 1-4 확정",
+        "프랑스 그룹 I 1위 확정(9점), 노르웨이 로테이션 출전"
+      ]
     },
     {
       "id": 62,
@@ -2398,11 +2484,16 @@ const WORLD_CUP_DATA = {
       "homeCode": "SEN",
       "away": "Iraq",
       "awayCode": "IRQ",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 5,
+      "awayScore": 0,
       "venue": "BMO Field, Toronto",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "아비브 디아라 4분 선제골, 이스마일라 사르 56분 추가골",
+        "이라크 수비수 레빈 술라카 10분 퇴장으로 10명 진행",
+        "파프 게예 멀티골, 일리만 은디아예 5번째 골 마무리",
+        "세네갈 최우수 3위 진출 희망 유지(득실 +5)"
+      ]
     },
     {
       "id": 63,
@@ -2413,11 +2504,15 @@ const WORLD_CUP_DATA = {
       "homeCode": "CPV",
       "away": "Saudi Arabia",
       "awayCode": "KSA",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 0,
       "venue": "NRG Stadium, Houston",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "카보베르데 데뷔 월드컵 16강 진출 확정 — 사상 최소 인구 국가의 녹아웃 진출",
+        "3경기 전부 무승부로 그룹 H 2위 마감",
+        "사우디아라비아 탈락 확정"
+      ]
     },
     {
       "id": 64,
@@ -2428,11 +2523,15 @@ const WORLD_CUP_DATA = {
       "homeCode": "URU",
       "away": "Spain",
       "awayCode": "ESP",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 1,
       "venue": "Estadio Akron, Guadalajara",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "알렉스 바에나 42분 결승골 — 우루과이 GK 무슬레라 실책 이용",
+        "스페인 그룹 H 1위 확정(9점)",
+        "우루과이(비엘사 감독) 탈락 확정"
+      ]
     },
     {
       "id": 65,
@@ -2443,11 +2542,16 @@ const WORLD_CUP_DATA = {
       "homeCode": "EGY",
       "away": "Iran",
       "awayCode": "IRN",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 1,
       "venue": "Lumen Field, Seattle",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "마흐무드 사베르 5분 선제골(살라 연계)",
+        "라민 레자에이안 14분 동점골",
+        "이란 칼릴자데 93분 결승골이 VAR 오프사이드로 취소되는 극적 마무리",
+        "이집트 그룹 G 2위로 16강 진출 확정"
+      ]
     },
     {
       "id": 66,
@@ -2458,11 +2562,16 @@ const WORLD_CUP_DATA = {
       "homeCode": "NZL",
       "away": "Belgium",
       "awayCode": "BEL",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 5,
       "venue": "BC Place, Vancouver",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "트로사르 멀티골, 더 브라위너 66분 중거리 강타",
+        "루카쿠 86분 헤더 추가 — 벨기에 압도적 승리",
+        "엘라이자 저스트 84분 뉴질랜드 만회골",
+        "벨기에 그룹 G 1위로 16강 진출, 뉴질랜드 탈락"
+      ]
     },
     {
       "id": 67,
@@ -2616,551 +2725,118 @@ const WORLD_CUP_DATA = {
     }
   ],
   "storylines": [
-    "리오넬 메시가 알제리전(6/16) 해트트릭 — 커리어 첫 월드컵 해트트릭이자 클로제의 통산 16골과 타이. 38세, 역대 최고령 월드컵 해트트릭.",
-    "킬리안 음바페가 세네갈전 멀티골로 지루를 넘어 프랑스 역대 최다 득점자 등극(99경기 58골).",
-    "스코틀랜드가 1998년 이후 28년 만의 본선에서 하이티를 1-0으로 꺾고 브라질·모로코를 제친 C조 선두.",
-    "인구 약 53만의 카보베르데가 데뷔전에서 우승후보 스페인을 0-0으로 막아내며 개막 주 최대 이변.",
-    "쿠라사오(인구 약 15.5만)가 남자 월드컵 역대 최소 인구 본선국으로 독일에 0-7 패배 속 사상 첫 골.",
-    "엘링 홀란드가 월드컵 데뷔전 멀티골로 노르웨이의 1998년 이후 첫 본선을 4-1 승리로 장식.",
-    "독일이 쿠라사오 7-1 대파로 월드컵 통산 최다 득점국(239골) 등극, 브라질 추월.",
-    "발로건이 1930년 초대 대회 이후 미국 선수 최초로 한 경기 2골(파라과이전 4-1 승).",
-    "카타르가 스위스전 1-1로 사상 첫 월드컵 승점 — 2022년 개최국 3전 전패의 설움 씻어.",
-    "이탈리아가 본선 진출 실패 — 역대 우승국 최초로 3개 대회 연속 불참.",
-    "사상 첫 3개국 공동 개최, 첫 48개국 체제, 1994년 이후 첫 북중미 월드컵.",
-    "오스트리아가 6/17 요르단을 3-1로 꺾으며 36년 만의 월드컵 승리(1990년 이후 첫 승). 요르단은 데뷔전에서 올완의 골로 월드컵 사상 첫 득점.",
-    "잉글랜드가 크로아티아를 4-2로 꺾고 L조 선두 출발 — 케인이 린에커의 잉글랜드 WC 최다 골 기록 타이(공동 10골).",
-    "콜롬비아가 아스테카에서 우즈베키스탄을 3-1로 꺾고 K조 선두 — 파이줄라예프가 우즈베키스탄 월드컵 역대 첫 골.",
-    "가나의 이렌키가 95분 극장골로 파나마를 1-0으로 꺾어 잉글랜드와 함께 L조 공동 선두.",
-    "포르투갈이 DR콩고와 1-1 무승부 — 1974년 이후 첫 본선인 DR콩고에 월드컵 첫 승점. 와이사의 45+5분 극적 동점골.",
-    "조나단 다비드가 카타르전 해트트릭으로 캐나다의 사상 첫 월드컵 승리(6-0) 이끌어 — CONCACAF 단일 경기 최다 득점 경신. 카타르 선수 2명 퇴장으로 9인 경기.",
-    "멕시코가 한국을 1-0으로 꺾고(6/18) 대회 최초로 32강 진출 확정 — A조 2전 전승(6점). 루이스 로모가 한국 GK 실수를 50분 놓치지 않았다.",
-    "스위스가 후반 4골 폭발로 보스니아를 4-1로 꺾고(6/18) B조 선두 진입. 만잠비가 교체 투입 3분 만에 선제골을 넣고 멀티골로 마감.",
-    "미국이 호주를 2-0으로 꺾으며(6/19) 2전 전승·6점으로 D조 1위 확정, 32강 진출. 버게스 자책골(11분)·프리먼 헤더(43분). 풀리식은 부상 결장.",
-    "모로코가 스코틀랜드를 1-0으로 꺾으며(6/19) 사이바리의 킥오프 70초 결승골로 2026 월드컵 최단 시간 득점 기록 수립. 득실차로 C조 선두.",
-    "브라질이 아이티를 3-0으로 대파(6/19, 쿠냐 2골·비니시우스 1골) — 아이티가 대회 첫 탈락팀으로 확정.",
-    "파라과이가 터키를 1-0으로 꺾으며(6/19) 미겔 알미론 퇴장 이후 10명으로 수비해 값진 승리. 갈라르사의 2분 골이 결승골. 터키 2연패로 탈락 확정.",
-    "데니스 운다브가 교체 투입 후 멀티골로 독일이 코트디부아르를 2-1로 역전(6/20) — 케시에의 선제골(30분)을 뒤집고 94분 운다브의 결승골로 독일 32강 진출.",
-    "쿠라사오 GK 엘로이 룸이 15선방으로 에콰도르를 0-0으로 막아내며(6/20) 쿠라사오 사상 첫 월드컵 승점 — 이번 대회 최고의 개인 골키퍼 퍼포먼스 중 하나.",
-    "네덜란드가 스웨덴을 5-1로 대파(6/20, 브로비 5분·17분, 가크포 47분·54분, 서머빌 89분) — 네덜란드 역대 최대 WC 승리. 브로비의 17분 이내 2골은 WC 역대 4번째로 빠른 멀티골.",
-    "일본이 튀니지를 4-0으로 꺾으며(6/21, 카마다·우에다 2골·이토) FIFA 월드컵 사상 1000번째 경기를 장식 — 일본 역대 WC 최대 득점 차 승리, 네덜란드와 F조 공동 선두(4점).",
-    "라미네 야말(17세)이 6/21 스페인 4-0 사우디 대승에서 월드컵 첫 골(10분) — WC 역대 8번째 최연소 득점자로 메시·음바페보다 어린 나이에 첫 WC 골 기록. 오야르사발 2골로 스페인이 H조 1위·32강 진출 확정.",
-    "이집트가 6/21 뉴질랜드를 3-1로 꺾으며 이집트 사상 첫 월드컵 승리 — 살라·트레제게가 이집트 공격을 이끌어 G조 선두(4점) 도약.",
-    "벨기에-이란이 6/21 LA에서 0-0 무승부 — 응고이 66분 퇴장(10인 벨기에), G조 4팀 모두 최종전까지 순위 미결정, 전원 16강 진출 가능.",
-    "우루과이-카보베르데가 6/21 마이애미에서 2-2로 무승부(피나·아라우호·카노비오·H.바렐라 골) — 카보베르데 2경기 연속 무패. H조 최하위 경쟁 최종전까지 이어져.",
-    "메시가 오스트리아전 멀티골(38분·90+2분)로 WC 통산 득점 18골 — 클로제(16골)를 추월한 데 이어 여자 월드컵 마르타(17골)까지 넘어 남녀 FIFA WC 역대 최다 득점자 등극(6/22). 아르헨티나 2-0 완승, 32강 진출 확정.",
-    "프랑스가 이라크를 3-0으로 꺾으며(6/22, 음바페 14·54분, 들랑브레 66분) I조 2연승(6점) 확정·32강 진출 — 폭우·번개로 2시간 중단된 대회 최초 기상 지연 속 승리. 음바페 커리어 WC 16골.",
-    "노르웨이가 세네갈을 3-2로 꺾으며(6/22, 페데르센 43분, 홀란드 48·58분; 사르 53·90+3분) I조 2위 확정·32강 진출 — 홀란드가 2경기 연속 멀티골로 대회 4골 기록.",
-    "알제리가 요르단을 2-1로 역전 승(6/22, 알라시단 전반 선제; 벤부알리 68분, 구이리 82분) — J조 생존 경쟁 계속.",
-    "호날두가 포르투갈의 우즈베키스탄 5-0 대승에서 2골(6분·39분) — 사상 최초로 6개 FIFA 월드컵에서 득점한 선수 기록(6/23). 누누 멘데스 FK(17분), 네마토프 자책골(60분), 레앙(87분). 포르투갈 K조 32강 진출 확정.",
-    "잉글랜드가 가나와 0-0 무승부(6/23) — 잉글랜드 79% 점유율에 19개 슈팅을 날렸지만 무득점. 두 팀 모두 4점으로 L조 공동 선두, 6/27 최종전이 진출 여부 결정.",
-    "파나마가 크로아티아에 0-1 패배(6/23, 부디미르 54분 결승골)로 대회 탈락 확정 — 사상 첫 월드컵에서 단 한 골도 넣지 못했다. 크로아티아 3점으로 L조 3위 생존.",
-    "콜롬비아가 DR콩고를 1-0으로 꺾으며(6/23, 무뇨스 76분) K조 2연승·6점으로 32강 진출 확정. DR콩고는 최종전 우즈베키스탄전 반드시 이겨야 생존 가능.",
+    "Lionel Messi scored a hat trick vs Algeria (June 16) — his first WC hat trick — tying Miroslav Klose's all-time record of 16 World Cup goals. At 38, he is the oldest player to score a WC hat trick.",
+    "Kylian Mbappé became France's all-time top international scorer (surpassing Olivier Giroud) with a brace vs Senegal, reaching 58 goals in 99 caps.",
+    "Scotland — back at the World Cup for the first time since 1998 — sit top of Group C above Brazil and Morocco after beating Haiti 1-0.",
+    "Cabo Verde (pop. ~530,000) held favorite Spain to a 0-0 draw on their tournament debut — one of the biggest shocks of the opening week.",
+    "Curacao became the smallest nation in men's World Cup history (pop. ~155,000) and scored their first-ever World Cup goal against Germany despite losing 7-1.",
+    "Erling Haaland made his World Cup debut with a brace in Norway's 4-1 win over Iraq — Norway's first World Cup since 1998.",
+    "Germany became the all-time top scorers in World Cup history (239 goals), surpassing Brazil, with their 7-1 rout of Curacao.",
+    "Folarin Balogun became the first American to score two goals in a World Cup game since the inaugural 1930 tournament, in the USMNT's 4-1 win over Paraguay.",
+    "Qatar earned their first-ever World Cup point with a 1-1 draw against Switzerland, having gone 0-3 as 2022 hosts.",
+    "Julián Quiñones scored the tournament's opening goal for Mexico — the first CONCACAF player to score a World Cup opener.",
+    "Italy missed out on the tournament — the first former champion to miss three consecutive World Cups.",
+    "This is the first World Cup co-hosted by three nations, the first with 48 teams, and the first in North America since 1994.",
+    "As of June 16, 19 matches had produced 58 goals (3.05 per match) with average attendance of 65,322.",
+    "Austria defeated Jordan 3-1 on June 17 — Austria's first World Cup win since 1990 (36 years). Jordan made their World Cup debut and scored their first-ever World Cup goal through Ali Iyad Olwan.",
+    "England beat Croatia 4-2 in their Group L opener on June 17 — Harry Kane scored twice to reach 10 England World Cup goals, equalling Gary Lineker's national record.",
+    "Colombia topped Group K after a 3-1 win over Uzbekistan at the Estadio Azteca on June 17. Abbosbek Fayzullaev scored Uzbekistan's first-ever World Cup goal.",
+    "Ghana's Caleb Yirenkyi scored a 95th-minute winner to beat Panama 1-0 in Group L on June 17 — Ghana join England at the top on 3 points.",
+    "Portugal were held to a 1-1 draw by DR Congo on June 17 — Yoane Wissa's 45+5 equalizer earned DR Congo their first World Cup point since their only previous appearance in 1974.",
+    "Jonathan David scored a hat trick as Canada beat Qatar 6-0 on June 18 — Canada's first-ever World Cup win and the biggest margin of victory by a CONCACAF team in men's World Cup history. Qatar had two players sent off.",
+    "Mexico became the first team to clinch a place in the Round of 32, defeating South Korea 1-0 on June 18 thanks to Luis Romo's 50th-minute goal after a goalkeeper error. Mexico top Group A with 6 points from 2 games.",
+    "Switzerland's Johan Manzambi scored twice as a substitute in a stunning 4-1 comeback win over Bosnia and Herzegovina on June 18 (trailing 0-0 at 70 mins). Switzerland top Group B level on points with Canada.",
+    "USA beat Australia 2-0 on June 19 (Burgess OG 11', Freeman header 43') — USMNT advance to Round of 32 with 6 points from two games. Christian Pulisic missed the match through injury.",
+    "Morocco beat Scotland 1-0 with Ismael Saibari's goal after just 70 seconds — the fastest winning goal in 2026 World Cup history. Morocco top Group C on goal difference ahead of Brazil.",
+    "Brazil crushed Haiti 3-0 on June 19 (Cunha 23', 36'; Vinicius Jr 45+3') — Haiti become the first team eliminated from the 2026 World Cup.",
+    "Paraguay beat Turkey 1-0 on June 19 despite having Miguel Almirón sent off under FIFA's new mouth-covering rule — Galarza's 2nd-minute strike was enough; Turkey eliminated after two straight defeats.",
+    "Deniz Undav scored twice off the bench as Germany came from behind to beat Ivory Coast 2-1 on June 20 (Kessié 30' for CIV; Undav 68', 94') — Germany advance to the Round of 32 with a 94th-minute winner.",
+    "Curaçao earned their first-ever World Cup point on June 20 with a 0-0 draw against Ecuador — goalkeeper Eloy Room made 15 saves in one of the great individual World Cup goalkeeping performances.",
+    "Netherlands crushed Sweden 5-1 on June 20 (Brobbey 5',17'; Gakpo 47',54'; Summerville 89') — their biggest-ever World Cup win. Brian Brobbey's two goals inside 17 minutes were the fourth-fastest brace in World Cup history.",
+    "Japan defeated Tunisia 4-0 on June 21 (Kamada 4'; Ueda 30',83'; Ito 69') in the 1,000th match in World Cup history — Japan's biggest-ever World Cup winning margin; they join Netherlands at the top of Group F.",
+    "Lamine Yamal (17) scored his first World Cup goal as Spain thrashed Saudi Arabia 4-0 on June 21 in Atlanta (Yamal 10', Oyarzabal 21'&24', Al-Tambakti OG 51'). Yamal becomes the 8th-youngest scorer in World Cup history, surpassing Messi, Mbappé and Ronaldo's debut WC goal ages. Spain top Group H and advance to the Round of 32.",
+    "Egypt claimed their first-ever World Cup win on June 21, beating New Zealand 3-1 in Vancouver (Surman 15' for NZL; Ziko 58', Salah 67', Trezeguet 82'). Mohamed Salah was decisive as Egypt move top of Group G with 4 points.",
+    "Belgium and Iran drew 0-0 on June 21 in Los Angeles — Belgium finished with 10 men after Nathan Ngoy's red card (66' for fouling Taremi). Taremi also had a goal chalked off by VAR. All four Group G teams remain in knockout contention heading into matchday 3.",
+    "Uruguay and Cabo Verde drew 2-2 on June 21 in Miami (Pina 21', Araújo 44', Canobbio 45+6', H. Varela 61'). Cabo Verde remain unbeaten at the 2026 World Cup; Group H's bottom three are separated by just one point.",
+    "Lionel Messi scored twice vs Austria on June 22 (38' & 90+2') to reach 18 World Cup goals — the most by any player in men's or women's World Cup history. His 17th goal broke Miroslav Klose's men's record; his 18th surpassed the overall record. Argentina advance to Round of 32 with 6 points.",
+    "France and Norway both advance from Group I after June 22 matchday-2 wins: France beat Iraq 3-0 (Mbappé 14' & 54', Dembélé 66'; match delayed ~2 hours by lightning), Norway edged Senegal 3-2 (Pedersen 43', Haaland 48' & 58'; Sarr 53' & 90+3').",
+    "Kylian Mbappé and Erling Haaland are tied on 4 tournament goals each after June 22 matchday 2 — both chasing Messi (5 goals) in the Golden Boot race.",
+    "Algeria came from behind to beat Jordan 2-1 on June 22 (Al-Rashdan first half for Jordan; Benbouali 68', Gouiri 82') — Algeria stay in contention in Group J with 3 points.",
+    "Cristiano Ronaldo scored twice vs Uzbekistan on June 23 (6' & 39') to become the first player ever to score at six different FIFA World Cups. Nuno Mendes (17' FK), Nematov OG (60') and Leão (87') completed Portugal's 5-0 rout. Portugal advance to the Round of 32.",
+    "England and Ghana drew 0-0 on June 23 in Foxborough — England dominated with 79% possession and 19 shots but could not score. Both teams on 4 points at the top of Group L ahead of the decisive final matchday.",
+    "Croatia beat Panama 1-0 on June 23 (Budimir 54' header) — Croatia's first win of the tournament. Panama eliminated after failing to score in either of their two matches at their debut World Cup.",
+    "Colombia beat DR Congo 1-0 on June 23 (Muñoz 76') to seal their place in the Round of 32 as Group K winners with 6 points. DR Congo must beat Uzbekistan in the final group game to have any chance of advancing.",
     "멕시코, 그룹 A 전승(9점) 마감 — 6골 무실점으로 완벽한 조별리그를 기록한 첫 팀. 6월 24일 체코 3-0 완파, 오초아 전설적 카메오 출전.",
     "남아공, 6월 24일 한국을 1-0(마세코 63')으로 꺾고 월드컵 사상 최초 16강(32강) 진출 — 아프리카 축구 역사에 남을 이변.",
     "스위스, 캐나다를 2-1(바르가스 46', 만잠비 57')로 꺾고 그룹 B 1위 — 만잠비 이번 대회 3골째; 캐나다도 2위로 32강 통과.",
     "보스니아, 카타르를 3-1로 격파(알라이베고비치 30', OG 35', 마미치 80') — 보스니아 첫 월드컵 승리; 3위권 탈락 경쟁 생존.",
-    "브라질, 스코틀랜드 3-0 대파(비니시우스 7'·38', 쿠냐 65')로 그룹 C 1위 — 비니시우스 주니오르 이번 대회 4골 메시 추격.",
-    "모로코, 아이티에게 두 차례 리드를 내줬지만 劇的 역전 4-2 승리. 아이티 레니 조셉이 1974년 이후 첫 월드컵 골 기록.",
+    "브라질, 스코틀랜드 3-0 대파(비니시우스 7'·38', 쿠냐 ~65')로 그룹 C 1위 — 비니시우스 주니오르 이번 대회 4골 메시 추격.",
+    "모로코, 아이티에게 두 차례 리드를 내줬지만 劇的 역전 4-2 승리. 아이티 레니 조셉이 1974년 엠마누엘 사논 이후 첫 월드컵 골을 넣어 역사적 순간 연출.",
     "에콰도르 2-1 독일 이변(6월 25일) — 앙굴로 9분·플라타 77분 역전으로 남미 팀이 8강 강호 독일을 탈락 일보 직전까지 몰았고, 에콰도르는 조 3위(4점)로 최우수 3위 팀 자격 32강 진출 확정.",
     "터키, 아얀 90+8분 결승골로 미국을 3-2 격파(6월 25일) — 대회 최후반 극적 역전극. 미국은 조 1위로 7월 1일 보스니아와 32강 맞대결 확정.",
     "페페, 퀴라소전 2골 폭발로 코트디부아르 그룹 E 2위 32강 진출(6월 25일) — 전 아스날 공격수가 7분·64분 두 골을 넣으며 역대 첫 32강 진출 이끌어.",
-    "그룹 F 최종 확정(6월 25일): 네덜란드 1위(7점)·일본 2위(5점)·스웨덴 3위(4점) 모두 32강 진출, 튀니지 3전 전패 탈락. 네덜란드 vs 모로코, 브라질 vs 일본 32강 맞대결 확정."
+    "그룹 F 최종 확정(6월 25일): 네덜란드 1위(7점)·일본 2위(5점)·스웨덴 3위(4점) 모두 32강 진출, 튀니지 3전 전패 탈락. 네덜란드 vs 모로코, 브라질 vs 일본 32강 맞대결 확정.",
+    "뎀벨레 노르웨이전 전반 해트트릭(6월 26일) — 총 4골로 골든부트 경쟁 합류. 메시(5골)·음바페·홀란·비니시우스(각 4골)와 초접전",
+    "카보베르데, 데뷔 월드컵 16강 진출 쾌거(6월 26일) — 인구 약 53만 명의 사상 최소 인구 국가 녹아웃 진출. 16강에서 강호와 맞대결 예정",
+    "스페인, 우루과이를 1-0으로 꺾고 그룹 H 1위 확정(6월 26일) — 비엘사 감독의 우루과이 조별리그 탈락",
+    "벨기에 뉴질랜드 5-1 대파, 이집트 이란과 1-1 무승부로 그룹 G 각각 1·2위 확정(6월 26일)"
   ],
   "topScorers": [
     {
       "player": "Lionel Messi",
       "team": "Argentina",
-      "goals": 5
-    },
-    {
-      "player": "Jonathan David",
-      "team": "Canada",
-      "goals": 4
-    },
-    {
-      "player": "Folarin Balogun",
-      "team": "United States",
-      "goals": 2
-    },
-    {
-      "player": "Kai Havertz",
-      "team": "Germany",
-      "goals": 2
-    },
-    {
-      "player": "Yasin Ayari",
-      "team": "Sweden",
-      "goals": 2
-    },
-    {
-      "player": "Elijah Just",
-      "team": "New Zealand",
-      "goals": 2
+      "teamCode": "ARG",
+      "goals": 5,
+      "assists": 0
     },
     {
       "player": "Kylian Mbappé",
       "team": "France",
-      "goals": 4
+      "teamCode": "FRA",
+      "goals": 4,
+      "assists": 0
     },
     {
       "player": "Erling Haaland",
       "team": "Norway",
-      "goals": 4
+      "teamCode": "NOR",
+      "goals": 4,
+      "assists": 0
     },
     {
-      "player": "Harry Kane",
-      "team": "England",
-      "goals": 2
-    },
-    {
-      "player": "Johan Manzambi",
-      "team": "Switzerland",
-      "goals": 3
-    },
-    {
-      "player": "Raúl Jiménez",
-      "team": "Mexico",
-      "goals": 1
-    },
-    {
-      "player": "Julián Quiñones",
-      "team": "Mexico",
-      "goals": 2
-    },
-    {
-      "player": "Alexander Isak",
-      "team": "Sweden",
-      "goals": 1
-    },
-    {
-      "player": "Viktor Gyökeres",
-      "team": "Sweden",
-      "goals": 1
-    },
-    {
-      "player": "Mattias Svanberg",
-      "team": "Sweden",
-      "goals": 1
-    },
-    {
-      "player": "Virgil van Dijk",
-      "team": "Netherlands",
-      "goals": 1
-    },
-    {
-      "player": "Crysencio Summerville",
-      "team": "Netherlands",
-      "goals": 2
-    },
-    {
-      "player": "Bradley Barcola",
-      "team": "France",
-      "goals": 1
-    },
-    {
-      "player": "Amad Diallo",
-      "team": "Ivory Coast",
-      "goals": 1
-    },
-    {
-      "player": "Matheus Cunha",
+      "player": "Vinícius Júnior",
       "team": "Brazil",
-      "goals": 3
-    },
-    {
-      "player": "Vinicius Junior",
-      "team": "Brazil",
-      "goals": 4
-    },
-    {
-      "player": "Romano Schmid",
-      "team": "Austria",
-      "goals": 1
-    },
-    {
-      "player": "Marco Arnautović",
-      "team": "Austria",
-      "goals": 1
-    },
-    {
-      "player": "Ali Iyad Olwan",
-      "team": "Jordan",
-      "goals": 1
-    },
-    {
-      "player": "Jude Bellingham",
-      "team": "England",
-      "goals": 1
-    },
-    {
-      "player": "Marcus Rashford",
-      "team": "England",
-      "goals": 1
-    },
-    {
-      "player": "Martin Baturina",
-      "team": "Croatia",
-      "goals": 1
-    },
-    {
-      "player": "Petar Musa",
-      "team": "Croatia",
-      "goals": 1
-    },
-    {
-      "player": "Caleb Yirenkyi",
-      "team": "Ghana",
-      "goals": 1
-    },
-    {
-      "player": "João Neves",
-      "team": "Portugal",
-      "goals": 1
-    },
-    {
-      "player": "Yoane Wissa",
-      "team": "DR Congo",
-      "goals": 1
-    },
-    {
-      "player": "Daniel Muñoz",
-      "team": "Colombia",
-      "goals": 2
-    },
-    {
-      "player": "Luis Díaz",
-      "team": "Colombia",
-      "goals": 1
-    },
-    {
-      "player": "Jáminton Campaz",
-      "team": "Colombia",
-      "goals": 1
-    },
-    {
-      "player": "Abbosbek Fayzullaev",
-      "team": "Uzbekistan",
-      "goals": 1
-    },
-    {
-      "player": "Cyle Larin",
-      "team": "Canada",
-      "goals": 1
-    },
-    {
-      "player": "Nathan Saliba",
-      "team": "Canada",
-      "goals": 1
-    },
-    {
-      "player": "Luis Romo",
-      "team": "Mexico",
-      "goals": 1
-    },
-    {
-      "player": "Michal Sadilek",
-      "team": "Czech Republic",
-      "goals": 1
-    },
-    {
-      "player": "Teboho Mokoena",
-      "team": "South Africa",
-      "goals": 1
-    },
-    {
-      "player": "Ruben Vargas",
-      "team": "Switzerland",
-      "goals": 2
-    },
-    {
-      "player": "Granit Xhaka",
-      "team": "Switzerland",
-      "goals": 1
-    },
-    {
-      "player": "Ismael Saibari",
-      "team": "Morocco",
-      "goals": 2
-    },
-    {
-      "player": "Alex Freeman",
-      "team": "United States",
-      "goals": 1
-    },
-    {
-      "player": "Matías Galarza",
-      "team": "Paraguay",
-      "goals": 1
-    },
-    {
-      "player": "Deniz Undav",
-      "team": "Germany",
-      "goals": 2
-    },
-    {
-      "player": "Brian Brobbey",
-      "team": "Netherlands",
-      "goals": 3
-    },
-    {
-      "player": "Cody Gakpo",
-      "team": "Netherlands",
-      "goals": 2
-    },
-    {
-      "player": "Ayase Ueda",
-      "team": "Japan",
-      "goals": 2
-    },
-    {
-      "player": "Daichi Kamada",
-      "team": "Japan",
-      "goals": 2
-    },
-    {
-      "player": "Keito Nakamura",
-      "team": "Japan",
-      "goals": 1
-    },
-    {
-      "player": "Anthony Elanga",
-      "team": "Sweden",
-      "goals": 2
-    },
-    {
-      "player": "Franck Kessié",
-      "team": "Ivory Coast",
-      "goals": 1
-    },
-    {
-      "player": "Junya Ito",
-      "team": "Japan",
-      "goals": 1
-    },
-    {
-      "player": "Lamine Yamal",
-      "team": "Spain",
-      "goals": 1
-    },
-    {
-      "player": "Mikel Oyarzabal",
-      "team": "Spain",
-      "goals": 2
-    },
-    {
-      "player": "Mohamed Salah",
-      "team": "Egypt",
-      "goals": 1
-    },
-    {
-      "player": "Ziko",
-      "team": "Egypt",
-      "goals": 1
-    },
-    {
-      "player": "Trezeguet",
-      "team": "Egypt",
-      "goals": 1
-    },
-    {
-      "player": "Finn Surman",
-      "team": "New Zealand",
-      "goals": 1
-    },
-    {
-      "player": "Kevin Pina",
-      "team": "Cabo Verde",
-      "goals": 1
-    },
-    {
-      "player": "Maximiliano Araújo",
-      "team": "Uruguay",
-      "goals": 2
-    },
-    {
-      "player": "Agustín Canobbio",
-      "team": "Uruguay",
-      "goals": 1
-    },
-    {
-      "player": "Hélio Varela",
-      "team": "Cabo Verde",
-      "goals": 1
-    },
-    {
-      "player": "Al-Amri",
-      "team": "Saudi Arabia",
-      "goals": 1
-    },
-    {
-      "player": "Ismaïla Sarr",
-      "team": "Senegal",
-      "goals": 2
-    },
-    {
-      "player": "Marcus Holmgren Pedersen",
-      "team": "Norway",
-      "goals": 1
-    },
-    {
-      "player": "Nadhir Benbouali",
-      "team": "Algeria",
-      "goals": 1
-    },
-    {
-      "player": "Amine Gouiri",
-      "team": "Algeria",
-      "goals": 1
-    },
-    {
-      "player": "Nizar Al-Rashdan",
-      "team": "Jordan",
-      "goals": 1
+      "teamCode": "BRA",
+      "goals": 4,
+      "assists": 0
     },
     {
       "player": "Ousmane Dembélé",
       "team": "France",
-      "goals": 1
+      "teamCode": "FRA",
+      "goals": 4,
+      "assists": 0
+    },
+    {
+      "player": "Deniz Undav",
+      "team": "Germany",
+      "teamCode": "GER",
+      "goals": 3,
+      "assists": 0
     },
     {
       "player": "Cristiano Ronaldo",
       "team": "Portugal",
-      "goals": 2
+      "teamCode": "POR",
+      "goals": 3,
+      "assists": 0
     },
     {
-      "player": "Nuno Mendes",
-      "team": "Portugal",
-      "goals": 1
-    },
-    {
-      "player": "Rafael Leão",
-      "team": "Portugal",
-      "goals": 1
-    },
-    {
-      "player": "Ante Budimir",
-      "team": "Croatia",
-      "goals": 1
-    },
-    {
-      "player": "Lenny Joseph",
-      "team": "Haiti",
-      "goals": 1
-    },
-    {
-      "player": "Wilson Isidor",
-      "team": "Haiti",
-      "goals": 1
-    },
-    {
-      "player": "Achraf Hakimi",
-      "team": "Morocco",
-      "goals": 1
-    },
-    {
-      "player": "Soufiane Rahimi",
-      "team": "Morocco",
-      "goals": 1
-    },
-    {
-      "player": "Gessime Yassine",
-      "team": "Morocco",
-      "goals": 1
-    },
-    {
-      "player": "Kerim Alajbegovic",
-      "team": "Bosnia and Herzegovina",
-      "goals": 1
-    },
-    {
-      "player": "Ermin Mahmic",
-      "team": "Bosnia and Herzegovina",
-      "goals": 1
-    },
-    {
-      "player": "Hassan Al-Haydos",
-      "team": "Qatar",
-      "goals": 1
-    },
-    {
-      "player": "Thapelo Maseko",
-      "team": "South Africa",
-      "goals": 1
-    },
-    {
-      "player": "Mateo Chávez",
-      "team": "Mexico",
-      "goals": 1
-    },
-    {
-      "player": "Álvaro Fidalgo",
-      "team": "Mexico",
-      "goals": 1
-    },
-    {
-      "player": "Leroy Sané",
-      "team": "Germany",
-      "goals": 1
-    },
-    {
-      "player": "Nilson Angulo",
-      "team": "Ecuador",
-      "goals": 1
-    },
-    {
-      "player": "Gonzalo Plata",
-      "team": "Ecuador",
-      "goals": 1
-    },
-    {
-      "player": "Nicolas Pépé",
-      "team": "Ivory Coast",
-      "goals": 2
-    },
-    {
-      "player": "Daizen Maeda",
-      "team": "Japan",
-      "goals": 1
-    },
-    {
-      "player": "Ellyes Skhiri",
-      "team": "Tunisia",
-      "goals": 1
-    },
-    {
-      "player": "Jan Paul van Hecke",
-      "team": "Netherlands",
-      "goals": 1
-    },
-    {
-      "player": "Hazem Mastouri",
-      "team": "Tunisia",
-      "goals": 1
-    },
-    {
-      "player": "Auston Trusty",
-      "team": "United States",
-      "goals": 1
-    },
-    {
-      "player": "Arda Güler",
-      "team": "Turkey",
-      "goals": 1
-    },
-    {
-      "player": "Leeshan Kökçü",
-      "team": "Turkey",
-      "goals": 1
-    },
-    {
-      "player": "Sebastian Berhalter",
-      "team": "United States",
-      "goals": 1
-    },
-    {
-      "player": "Kaan Ayhan",
-      "team": "Turkey",
-      "goals": 1
+      "player": "Robert Lewandowski",
+      "team": "Poland",
+      "teamCode": "POL",
+      "goals": 3,
+      "assists": 0
     }
   ],
   "knockoutRounds": [
