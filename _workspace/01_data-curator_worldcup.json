@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-30",
-  "_dataNotes": "2026-06-30 갱신: Match 76(브라질2-1일본, 사노29'·카세미루56'·마르티넬리96'), Match 74(독일1-1파라과이 PEN 3-4, 엔시소42'·하버츠54'), Match 75(네덜란드1-1모로코 PEN 2-3, 가크포72'·디오프90+1') 확정. 스코어 ESPN·Sky Sports·Al Jazeera·Yahoo·NBC 등 4개 이상 교차검증. PEN 결과 highlights에 기록, homeScore/awayScore는 규정+연장 스코어(1-1/1-1) 유지. 오늘(6/30) 경기 Match 77(코트디부아르-노르웨이 13:00 ET)·78(프랑스-스웨덴 16:00 ET)·79(멕시코-에콰도르 21:00 ET)는 현지 시각 미시작으로 scheduled 유지. 득점왕 순위 변동 없음(신규 득점 카세미루·마르티넬리·사노·엔시소·하버츠·가크포·디오프 모두 현재 톱10 미진입). 독일·네덜란드·일본 32강 탈락 확정.",
+  "lastUpdated": "2026-07-01",
+  "_dataNotes": "2026-07-01 갱신: Match 77(코트디부아르1-2노르웨이, 누사39'·디알로74'·홀란86'), Match 78(프랑스3-0스웨덴, 음바페45'·바르콜라53'·음바페74'), Match 79(멕시코2-0에콰도르, 키뇨네스22'·히메네스31') 확정. ESPN·Sky Sports·Al Jazeera·Yahoo 교차검증. 득점왕: 음바페 4→6골(메시 공동 선두), 홀란 4→5골. 16강 확정 대진 3경기(캐나다-모로코 7/4, 프랑스-파라과이 7/4, 브라질-노르웨이 7/5) 추가. 7/1 경기 Match 80(잉글랜드-DR콩고)·82(벨기에-세네갈)·81(미국-보스니아) scheduled 유지.",
   "tournament": {
     "name": "FIFA World Cup 2026",
     "hosts": [
@@ -2446,11 +2446,16 @@
       "homeCode": "CIV",
       "away": "Norway",
       "awayCode": "NOR",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 2,
       "venue": "AT&T Stadium, Arlington",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "안토니오 누사(NOR) 39분 오데고르 연계 왼발 감아찬 원더골로 선제 — 노르웨이의 88년 만의 첫 월드컵 녹아웃 골",
+        "아마드 디알로(CIV) 74분 솔로 드리블 동점골로 코트디부아르 추격",
+        "엘링 홀란(NOR) 86분 결승골 — 홀란 대회 5호골·노르웨이 사상 첫 월드컵 16강 진출 확정",
+        "노르웨이, 7월 5일 뉴저지 메트라이프 스타디움에서 브라질과 16강 맞대결"
+      ]
     },
     {
       "id": 78,
@@ -2461,11 +2466,16 @@
       "homeCode": "FRA",
       "away": "Sweden",
       "awayCode": "SWE",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 3,
+      "awayScore": 0,
       "venue": "MetLife Stadium, East Rutherford",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "킬리앙 음바페(FRA) 45분 선제골 — 기외케레스를 제치고 대각 마무리(올리스·뎀벨레 연계)",
+        "브래들리 바르콜라(FRA) 53분 추가골 — 올리스의 절묘한 컷백 패스를 받아 냉정 마무리",
+        "음바페 74분 쐐기골(올리스 스루패스) — 이번 대회 6호골, 메시와 공동 골든부트 선두",
+        "마이클 올리스 2도움 추가로 대회 통산 5도움 — 남자 월드컵 단일 대회 어시스트 기록 경신 기록"
+      ]
     },
     {
       "id": 79,
@@ -2476,11 +2486,16 @@
       "homeCode": "MEX",
       "away": "Ecuador",
       "awayCode": "ECU",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 0,
       "venue": "Estadio Azteca, Mexico City",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "훌리안 키뇨네스(MEX) 22분 선제골 — 박스 안으로 파고들어 상단 구석 강슛 마무리",
+        "라울 히메네스(MEX) 31분 추가골 — 에콰도르 GK 오르도녜스 실책을 키뇨네스와 연계해 마무리",
+        "피에로 힌카피에(ECU) 후반 추가시간 퇴장 — 골 마우스 가리기 규정 위반 적색 카드",
+        "멕시코, 40년 만의 첫 월드컵 녹아웃 승리 — 공동 개최국 자존심 회복, 7월 5일 아즈테카서 잉글랜드/DR콩고 승자와 16강"
+      ]
     },
     {
       "id": 80,
@@ -2616,6 +2631,51 @@
       "venue": "Arrowhead Stadium, Kansas City",
       "status": "scheduled",
       "highlights": []
+    },
+    {
+      "id": 90,
+      "date": "2026-07-04",
+      "time": "13:00 ET",
+      "stage": "Round of 16",
+      "home": "Canada",
+      "homeCode": "CAN",
+      "away": "Morocco",
+      "awayCode": "MAR",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "NRG Stadium, Houston",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 89,
+      "date": "2026-07-04",
+      "time": "17:00 ET",
+      "stage": "Round of 16",
+      "home": "France",
+      "homeCode": "FRA",
+      "away": "Paraguay",
+      "awayCode": "PAR",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 91,
+      "date": "2026-07-05",
+      "time": "16:00 ET",
+      "stage": "Round of 16",
+      "home": "Brazil",
+      "homeCode": "BRA",
+      "away": "Norway",
+      "awayCode": "NOR",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "MetLife Stadium, East Rutherford",
+      "status": "scheduled",
+      "highlights": []
     }
   ],
   "storylines": [
@@ -2683,7 +2743,10 @@
     "32강 골든부트 판도: 조별리그 종료 시점 메시(아르헨티나) 6골 단독 선두, 음바페·뎀벨레(프랑스)·홀란(노르웨이)·비니시우스(브라질)·조너선 데이비드(캐나다)가 4골로 추격. 6월 28일 에우스타키오의 결승골은 토너먼트 첫 녹아웃 골이었으나 1골로 상위권 변동은 없음.",
     "브라질, 일본에 0-1로 뒤지다 카세미루(56')·마르티넬리(96') 연속골로 극적 역전 2-1 승리(6월 29일) — 사상 첫 월드컵 탈락 위기에서 탈출한 브라질. 일본은 32강에서 역대 첫 WC 16강 진출 일보 직전 아쉽게 탈락.",
     "파라과이, 독일을 1-1 후 승부차기 4-3으로 격파(6월 29일) — 월드컵 역사상 최대 이변 중 하나. 4회 우승 독일 사상 첫 WC 승부차기 탈락. 힐 골키퍼 선방이 결정적; 타 VAR 취소 골도 논란. 파라과이 사상 첫 16강.",
-    "모로코, 디오프 90+1분 극적 동점 헤더 후 승부차기 3-2로 네덜란드 격파(6월 29일) — 아프리카 팀의 또 다른 기적. 부누 서머빌 PK 선방으로 결판. 6/29에만 독일·네덜란드 나란히 32강 탈락 — 대회 사상 최대 이변의 날."
+    "모로코, 디오프 90+1분 극적 동점 헤더 후 승부차기 3-2로 네덜란드 격파(6월 29일) — 아프리카 팀의 또 다른 기적. 부누 서머빌 PK 선방으로 결판. 6/29에만 독일·네덜란드 나란히 32강 탈락 — 대회 사상 최대 이변의 날.",
+    "노르웨이, 누사(39') 원더골·홀란(86') 결승골로 코트디부아르를 2-1 격파(6월 30일) — 노르웨이 사상 첫 월드컵 16강 진출 쾌거. 홀란 대회 5호골·누사 이번 대회 최고의 골 후보. 7/5 브라질과 메트라이프 스타디움 맞대결.",
+    "프랑스, 스웨덴을 3-0 대파(6월 30일) — 음바페 멀티골(45'·74')·바르콜라(53')·올리스 2도움. 음바페 이번 대회 6호골로 메시와 공동 골든부트 선두. 올리스 대회 통산 5도움 남자 월드컵 어시스트 신기록. 7/4 파라과이와 필라델피아 16강.",
+    "멕시코, 에콰도르를 2-0 격파(6월 30일) — 키뇨네스(22')·히메네스(31') 활약. 공동 개최국 40년 만의 첫 녹아웃 승리. 힌카피에 추가시간 퇴장. 7/5 아즈테카서 잉글랜드/DR콩고 승자와 16강."
   ],
   "topScorers": [
     {
@@ -2697,14 +2760,14 @@
       "player": "Kylian Mbappé",
       "team": "France",
       "teamCode": "FRA",
-      "goals": 4,
+      "goals": 6,
       "assists": 0
     },
     {
       "player": "Erling Haaland",
       "team": "Norway",
       "teamCode": "NOR",
-      "goals": 4,
+      "goals": 5,
       "assists": 0
     },
     {
