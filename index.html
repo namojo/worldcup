@@ -335,7 +335,7 @@ footer b{color:var(--text-dim)}
    WORLD_CUP_DATA — 단일 데이터 소스. 이 객체만 수정하면 전체 화면이 갱신됩니다.
    ========================================================= */
 const WORLD_CUP_DATA = {
-  "lastUpdated": "2026-07-01",
+  "lastUpdated": "2026-07-02",
   "_dataNotes": "Data updated June 26, 2026. Matches 1–60 confirmed through June 25 (Groups D, E, F matchday 3 all reflected). June 25 results: Ecuador 2-1 Germany (Sané 2'; Angulo 9', Plata 77'), Curaçao 0-2 Ivory Coast (Pépé 7', 64'), Japan 1-1 Sweden (Maeda 56'; Elanga 62'), Tunisia 1-3 Netherlands (Skhiri OG 3', Brobbey 7'; Mastouri 54'; Van Hecke 62'), Turkey 3-2 USA (Trusty 3'; Güler 10', Kökçü 31'; Berhalter 49'; Ayhan 90+8'), Paraguay 0-0 Australia. Groups D, E, F final standings updated. Round of 32 fixtures partially confirmed. Matchday 3 for Groups G/H/I (June 26) and J/K/L (June 27) pending. | 2026-06-27 갱신: Match 61-66 확정(노르웨이1-4프랑스, 세네갈5-0이라크, 카보베르데0-0사우디, 우루과이0-1스페인, 이집트1-1이란, 뉴질랜드1-5벨기에). Match 67-72는 2026-06-27 저녁 경기로 미시작. | 2026-06-28 갱신: Match 67-72 확정. 파나마0-2잉글랜드(벨링엄62'·케인67', 케인 월드컵 통산11골 잉글랜드 신기록), 크로아티아2-1가나(수치치31'·블라시치83'; 루카센73'), 콜롬비아0-0포르투갈, DR콩고3-1우즈베키스탄(쇼무로도프10'; 위사68'PK·마옐레78'·위사90+1'), 알제리3-3오스트리아(아르나우토비치28'·사비처55'·칼라이지치90+6'; 벨갈리45'·마흐레즈60'·90+3'), 요르단1-3아르헨티나(알타마리; 로셀소19'·라우타로PK·메시80'FK, 메시 7경기 연속골 신기록). 모든 스코어 2개 이상 출처(FIFA/ESPN/Sky/Wikipedia 등) 교차검증. 메시 득점왕 6골 선두. Match 73 남아공-캐나다(6/28 SoFi, 15:00 ET)는 오늘 경기로 미시작=scheduled 유지(킥오프 전 데이터 없음). | 2026-06-29 갱신: 32강 16경기 전체 일정·대진·시각(ET)·경기장을 다중 출처(FIFA 매치센터/ESPN/Sky Sports/Yahoo/Al Jazeera/NBC Sports 교차검증) 확정 추가(Match 73~88). Match 73 남아공0-1캐나다 종료 확정 — 스티븐 에우스타키오 90+5' 결승골, 양국 첫 월드컵 녹아웃 경기, 캐나다 사상 첫 16강(FIFA/ESPN/Al Jazeera 등 2곳 이상 교차검증). 6/29 당일 경기 Match 76(브라질-일본 13:00 ET)·74(독일-파라과이 16:30 ET)·75(네덜란드-모로코 21:00 ET)는 본 갱신 시점에 확정 종료 스코어가 다중 출처에서 확인되지 않아 scheduled 유지·스코어 null(스코어 추정·창작 금지 원칙 준수, 경기 종료 후 재갱신 필요). Match 77~88(6/30~7/3)은 일정만 확정·결과 미정. 득점왕 순위 R32 변동 없음(에우스타키오 1골로 톱10 미진입; 메시 6골 선두 유지). 주의: 일부 출처가 네덜란드-모로코 경기장을 'Estadio Monterrey, Monterrey'로 표기하나 venue 목록 일관성 위해 'Estadio BBVA, Guadalupe'(몬테레이 광역권 동일 경기장) 유지.",
   "tournament": {
     "name": "FIFA World Cup 2026",
@@ -2842,11 +2842,16 @@ const WORLD_CUP_DATA = {
       "homeCode": "ENG",
       "away": "DR Congo",
       "awayCode": "COD",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 1,
       "venue": "Mercedes-Benz Stadium, Atlanta",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "브라이언 시펭가(COD) 7분 선제골 — 찬셀 음벰바의 연결에 프리한 시펭가가 파킨더 근거리 슛으로 마무리",
+        "앤서니 고든 교체 투입 후 잉글랜드 반격 활성화 — 고든 크로스에 케인 75분 헤더 동점골",
+        "케인 86분 역전 결승골 — 잉글랜드 월드컵 사상 최초 하프타임 뒤진 상황서 역전 성공; 케인 대회 5호골",
+        "잉글랜드 16강 진출 — 7/6 멕시코시티 아즈테카에서 개최국 멕시코와 맞대결"
+      ]
     },
     {
       "id": 82,
@@ -2857,11 +2862,16 @@ const WORLD_CUP_DATA = {
       "homeCode": "BEL",
       "away": "Senegal",
       "awayCode": "SEN",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 3,
+      "awayScore": 2,
       "venue": "Lumen Field, Seattle",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "하빕 디아라(SEN) 25분 선제골·이스마일라 사르(SEN) 51분 추가골 — 세네갈 전반부터 2-0 완벽한 리드",
+        "루카쿠(BEL) 86분 만회골(뫼니에 어시스트)·틸레망스(BEL) 89분 헤더 동점골로 2-2 → 연장전 돌입",
+        "틸레망스(BEL) 125분 논란의 PK 결승골 — 남자 월드컵 역사상 가장 늦은 득점(124분 44초), VAR 7분 검토 끝 판정",
+        "벨기에 2골차 대역전 16강 진출 — 7/6 시애틀 루멘필드에서 미국과 맞대결"
+      ]
     },
     {
       "id": 81,
@@ -2872,11 +2882,16 @@ const WORLD_CUP_DATA = {
       "homeCode": "USA",
       "away": "Bosnia and Herzegovina",
       "awayCode": "BIH",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 0,
       "venue": "Levi's Stadium, Santa Clara",
-      "status": "scheduled",
-      "highlights": []
+      "status": "finished",
+      "highlights": [
+        "폴라린 발로건(USA) 45분 선제골 — 편향 슈팅이 정확히 골망으로, 미국 연속 선제 성공",
+        "발로건(USA) 64분 레드카드(태클 파울, VAR 판정 확정) — 10명 미국이 잔여 경기 소화",
+        "말릭 틸먼(USA) 82분 직접 프리킥 추가골 — 박스 바깥 정확한 FK로 쐐기",
+        "10명 미국 2-0 완승으로 2002년 이후 첫 월드컵 녹아웃 승리 — 7/6 시애틀서 벨기에와 16강"
+      ]
     },
     {
       "id": 83,
@@ -3012,6 +3027,36 @@ const WORLD_CUP_DATA = {
       "venue": "MetLife Stadium, East Rutherford",
       "status": "scheduled",
       "highlights": []
+    },
+    {
+      "id": 92,
+      "date": "2026-07-05",
+      "time": "20:00 ET",
+      "stage": "Round of 16",
+      "home": "Mexico",
+      "homeCode": "MEX",
+      "away": "England",
+      "awayCode": "ENG",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "Estadio Azteca, Mexico City",
+      "status": "scheduled",
+      "highlights": []
+    },
+    {
+      "id": 93,
+      "date": "2026-07-06",
+      "time": "20:00 ET",
+      "stage": "Round of 16",
+      "home": "United States",
+      "homeCode": "USA",
+      "away": "Belgium",
+      "awayCode": "BEL",
+      "homeScore": null,
+      "awayScore": null,
+      "venue": "Lumen Field, Seattle",
+      "status": "scheduled",
+      "highlights": []
     }
   ],
   "storylines": [
@@ -3082,9 +3127,19 @@ const WORLD_CUP_DATA = {
     "모로코, 디오프 90+1분 극적 동점 헤더 후 승부차기 3-2로 네덜란드 격파(6월 29일) — 아프리카 팀의 또 다른 기적. 부누 서머빌 PK 선방으로 결판. 6/29에만 독일·네덜란드 나란히 32강 탈락 — 대회 사상 최대 이변의 날.",
     "노르웨이, 누사(39') 원더골·홀란(86') 결승골로 코트디부아르를 2-1 격파(6월 30일) — 노르웨이 사상 첫 월드컵 16강 진출 쾌거. 홀란 대회 5호골·누사 이번 대회 최고의 골 후보. 7/5 브라질과 메트라이프 스타디움 맞대결.",
     "프랑스, 스웨덴을 3-0 대파(6월 30일) — 음바페 멀티골(45'·74')·바르콜라(53')·올리스 2도움. 음바페 이번 대회 6호골로 메시와 공동 골든부트 선두. 올리스 대회 통산 5도움 남자 월드컵 어시스트 신기록. 7/4 파라과이와 필라델피아 16강.",
-    "멕시코, 에콰도르를 2-0 격파(6월 30일) — 키뇨네스(22')·히메네스(31') 활약. 공동 개최국 40년 만의 첫 녹아웃 승리. 힌카피에 추가시간 퇴장. 7/5 아즈테카서 잉글랜드/DR콩고 승자와 16강."
+    "멕시코, 에콰도르를 2-0 격파(6월 30일) — 키뇨네스(22')·히메네스(31') 활약. 공동 개최국 40년 만의 첫 녹아웃 승리. 힌카피에 추가시간 퇴장. 7/5 아즈테카서 잉글랜드/DR콩고 승자와 16강.",
+    "잉글랜드, DR콩고에 7분 실점 후 케인 2골(75'·86')로 극적 2-1 역전 승리(7월 1일) — 월드컵 최초 하프타임 뒤지다 역전한 잉글랜드. 케인 대회 5호골, 16강에서 개최국 멕시코와 아즈테카 맞대결.",
+    "벨기에, 세네갈에 0-2 끌려다니다 루카쿠(86')·틸레망스(89') 연속골로 연장 후 틸레망스 125분 PK 결승골 — 남자 월드컵 역대 최후반 결승골(7월 1일). 2골차 대역전 드라마로 벨기에 16강.",
+    "10명 미국, 발로건 선제골(45') 후 발로건 퇴장(64') 위기에서도 틸먼 FK(82')로 보스니아 2-0 완파 16강 진출(7월 1일) — 2002년 이후 첫 WC 녹아웃 승리. 7/6 시애틀서 벨기에와 16강 미국 더비."
   ],
   "topScorers": [
+    {
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "teamCode": "FRA",
+      "goals": 6,
+      "assists": 2
+    },
     {
       "player": "Lionel Messi",
       "team": "Argentina",
@@ -3093,10 +3148,10 @@ const WORLD_CUP_DATA = {
       "assists": 0
     },
     {
-      "player": "Kylian Mbappé",
-      "team": "France",
-      "teamCode": "FRA",
-      "goals": 6,
+      "player": "Harry Kane",
+      "team": "England",
+      "teamCode": "ENG",
+      "goals": 5,
       "assists": 0
     },
     {
@@ -3128,13 +3183,6 @@ const WORLD_CUP_DATA = {
       "assists": 0
     },
     {
-      "player": "Deniz Undav",
-      "team": "Germany",
-      "teamCode": "GER",
-      "goals": 3,
-      "assists": 0
-    },
-    {
       "player": "Cristiano Ronaldo",
       "team": "Portugal",
       "teamCode": "POR",
@@ -3142,16 +3190,16 @@ const WORLD_CUP_DATA = {
       "assists": 0
     },
     {
-      "player": "Harry Kane",
-      "team": "England",
-      "teamCode": "ENG",
+      "player": "Yoane Wissa",
+      "team": "DR Congo",
+      "teamCode": "COD",
       "goals": 3,
       "assists": 0
     },
     {
-      "player": "Yoane Wissa",
-      "team": "DR Congo",
-      "teamCode": "COD",
+      "player": "Deniz Undav",
+      "team": "Germany",
+      "teamCode": "GER",
       "goals": 3,
       "assists": 0
     }

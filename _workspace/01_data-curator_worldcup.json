@@ -1,2861 +1,2911 @@
 {
-  "lastUpdated": "2026-07-01",
-  "_dataNotes": "2026-07-01 갱신: Match 77(코트디부아르1-2노르웨이, 누사39'·디알로74'·홀란86'), Match 78(프랑스3-0스웨덴, 음바페45'·바르콜라53'·음바페74'), Match 79(멕시코2-0에콰도르, 키뇨네스22'·히메네스31') 확정. ESPN·Sky Sports·Al Jazeera·Yahoo 교차검증. 득점왕: 음바페 4→6골(메시 공동 선두), 홀란 4→5골. 16강 확정 대진 3경기(캐나다-모로코 7/4, 프랑스-파라과이 7/4, 브라질-노르웨이 7/5) 추가. 7/1 경기 Match 80(잉글랜드-DR콩고)·82(벨기에-세네갈)·81(미국-보스니아) scheduled 유지.",
-  "tournament": {
-    "name": "FIFA World Cup 2026",
-    "hosts": [
-      "United States",
-      "Canada",
-      "Mexico"
-    ],
-    "dates": "June 11 – July 19, 2026",
-    "format": "48 teams, 12 groups of 4. Top 2 from each group plus 8 best 3rd-place teams advance to Round of 32. Then knockout rounds through to the Final.",
-    "teamCount": 48,
-    "totalMatches": 104,
-    "venues": [
-      {
-        "city": "Mexico City",
-        "country": "Mexico",
-        "stadium": "Estadio Azteca"
-      },
-      {
-        "city": "Guadalajara (Zapopan)",
-        "country": "Mexico",
-        "stadium": "Estadio Akron"
-      },
-      {
-        "city": "Monterrey (Guadalupe)",
-        "country": "Mexico",
-        "stadium": "Estadio BBVA"
-      },
-      {
-        "city": "Los Angeles (Inglewood)",
-        "country": "USA",
-        "stadium": "SoFi Stadium"
-      },
-      {
-        "city": "Dallas (Arlington)",
-        "country": "USA",
-        "stadium": "AT&T Stadium"
-      },
-      {
-        "city": "Houston",
-        "country": "USA",
-        "stadium": "NRG Stadium"
-      },
-      {
-        "city": "New York/New Jersey (East Rutherford)",
-        "country": "USA",
-        "stadium": "MetLife Stadium"
-      },
-      {
-        "city": "San Francisco (Santa Clara)",
-        "country": "USA",
-        "stadium": "Levi's Stadium"
-      },
-      {
-        "city": "Miami (Miami Gardens)",
-        "country": "USA",
-        "stadium": "Hard Rock Stadium"
-      },
-      {
-        "city": "Atlanta",
-        "country": "USA",
-        "stadium": "Mercedes-Benz Stadium"
-      },
-      {
-        "city": "Seattle",
-        "country": "USA",
-        "stadium": "Lumen Field"
-      },
-      {
-        "city": "Kansas City",
-        "country": "USA",
-        "stadium": "Arrowhead Stadium"
-      },
-      {
-        "city": "Boston (Foxborough)",
-        "country": "USA",
-        "stadium": "Gillette Stadium"
-      },
-      {
-        "city": "Philadelphia",
-        "country": "USA",
-        "stadium": "Lincoln Financial Field"
-      },
-      {
-        "city": "Toronto",
-        "country": "Canada",
-        "stadium": "BMO Field"
-      },
-      {
-        "city": "Vancouver",
-        "country": "Canada",
-        "stadium": "BC Place"
-      }
-    ]
-  },
-  "groups": [
-    {
-      "name": "A",
-      "teams": [
-        {
-          "name": "Mexico",
-          "code": "MEX",
-          "flag": "🇲🇽"
-        },
-        {
-          "name": "South Korea",
-          "code": "KOR",
-          "flag": "🇰🇷"
-        },
-        {
-          "name": "Czech Republic",
-          "code": "CZE",
-          "flag": "🇨🇿"
-        },
-        {
-          "name": "South Africa",
-          "code": "RSA",
-          "flag": "🇿🇦"
-        }
-      ],
-      "standings": [
-        {
-          "team": "Mexico",
-          "code": "MEX",
-          "played": 3,
-          "won": 3,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 6,
-          "ga": 0,
-          "points": 9
-        },
-        {
-          "team": "South Africa",
-          "code": "RSA",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gf": 2,
-          "ga": 3,
-          "points": 4
-        },
-        {
-          "team": "South Korea",
-          "code": "KOR",
-          "played": 3,
-          "won": 1,
-          "drawn": 0,
-          "lost": 2,
-          "gf": 2,
-          "ga": 3,
-          "points": 3
-        },
-        {
-          "team": "Czech Republic",
-          "code": "CZE",
-          "played": 3,
-          "won": 0,
-          "drawn": 1,
-          "lost": 2,
-          "gf": 2,
-          "ga": 6,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "name": "B",
-      "teams": [
-        {
-          "name": "Canada",
-          "code": "CAN",
-          "flag": "🇨🇦"
-        },
-        {
-          "name": "Switzerland",
-          "code": "SUI",
-          "flag": "🇨🇭"
-        },
-        {
-          "name": "Bosnia and Herzegovina",
-          "code": "BIH",
-          "flag": "🇧🇦"
-        },
-        {
-          "name": "Qatar",
-          "code": "QAT",
-          "flag": "🇶🇦"
-        }
-      ],
-      "standings": [
-        {
-          "team": "Switzerland",
-          "code": "SUI",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 7,
-          "ga": 3,
-          "points": 7
-        },
-        {
-          "team": "Canada",
-          "code": "CAN",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gf": 8,
-          "ga": 3,
-          "points": 4
-        },
-        {
-          "team": "Bosnia and Herzegovina",
-          "code": "BIH",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gf": 5,
-          "ga": 6,
-          "points": 4
-        },
-        {
-          "team": "Qatar",
-          "code": "QAT",
-          "played": 3,
-          "won": 0,
-          "drawn": 1,
-          "lost": 2,
-          "gf": 2,
-          "ga": 10,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "name": "C",
-      "teams": [
-        {
-          "name": "Brazil",
-          "code": "BRA",
-          "flag": "🇧🇷"
-        },
-        {
-          "name": "Morocco",
-          "code": "MAR",
-          "flag": "🇲🇦"
-        },
-        {
-          "name": "Scotland",
-          "code": "SCO",
-          "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
-        },
-        {
-          "name": "Haiti",
-          "code": "HAI",
-          "flag": "🇭🇹"
-        }
-      ],
-      "standings": [
-        {
-          "team": "Brazil",
-          "code": "BRA",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 7,
-          "ga": 1,
-          "points": 7
-        },
-        {
-          "team": "Morocco",
-          "code": "MAR",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 6,
-          "ga": 3,
-          "points": 7
-        },
-        {
-          "team": "Scotland",
-          "code": "SCO",
-          "played": 3,
-          "won": 1,
-          "drawn": 0,
-          "lost": 2,
-          "gf": 1,
-          "ga": 4,
-          "points": 3
-        },
-        {
-          "team": "Haiti",
-          "code": "HAI",
-          "played": 3,
-          "won": 0,
-          "drawn": 0,
-          "lost": 3,
-          "gf": 2,
-          "ga": 8,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "name": "D",
-      "teams": [
-        {
-          "name": "United States",
-          "code": "USA",
-          "flag": "🇺🇸"
-        },
-        {
-          "name": "Australia",
-          "code": "AUS",
-          "flag": "🇦🇺"
-        },
-        {
-          "name": "Turkey",
-          "code": "TUR",
-          "flag": "🇹🇷"
-        },
-        {
-          "name": "Paraguay",
-          "code": "PAR",
-          "flag": "🇵🇾"
-        }
-      ],
-      "standings": [
-        {
-          "team": "United States",
-          "code": "USA",
-          "played": 3,
-          "won": 2,
-          "drawn": 0,
-          "lost": 1,
-          "gf": 8,
-          "ga": 4,
-          "points": 6
-        },
-        {
-          "team": "Australia",
-          "code": "AUS",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gf": 2,
-          "ga": 2,
-          "points": 4
-        },
-        {
-          "team": "Paraguay",
-          "code": "PAR",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gf": 2,
-          "ga": 4,
-          "points": 4
-        },
-        {
-          "team": "Turkey",
-          "code": "TUR",
-          "played": 3,
-          "won": 1,
-          "drawn": 0,
-          "lost": 2,
-          "gf": 3,
-          "ga": 5,
-          "points": 3
-        }
-      ]
-    },
-    {
-      "name": "E",
-      "teams": [
-        {
-          "name": "Germany",
-          "code": "GER",
-          "flag": "🇩🇪"
-        },
-        {
-          "name": "Ivory Coast",
-          "code": "CIV",
-          "flag": "🇨🇮"
-        },
-        {
-          "name": "Ecuador",
-          "code": "ECU",
-          "flag": "🇪🇨"
-        },
-        {
-          "name": "Curacao",
-          "code": "CUW",
-          "flag": "🇨🇼"
-        }
-      ],
-      "standings": [
-        {
-          "team": "Germany",
-          "code": "GER",
-          "played": 3,
-          "won": 2,
-          "drawn": 0,
-          "lost": 1,
-          "gf": 10,
-          "ga": 4,
-          "points": 6
-        },
-        {
-          "team": "Ivory Coast",
-          "code": "CIV",
-          "played": 3,
-          "won": 2,
-          "drawn": 0,
-          "lost": 1,
-          "gf": 4,
-          "ga": 3,
-          "points": 6
-        },
-        {
-          "team": "Ecuador",
-          "code": "ECU",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gf": 2,
-          "ga": 2,
-          "points": 4
-        },
-        {
-          "team": "Curacao",
-          "code": "CUW",
-          "played": 3,
-          "won": 0,
-          "drawn": 1,
-          "lost": 2,
-          "gf": 1,
-          "ga": 9,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "name": "F",
-      "teams": [
-        {
-          "name": "Netherlands",
-          "code": "NED",
-          "flag": "🇳🇱"
-        },
-        {
-          "name": "Japan",
-          "code": "JPN",
-          "flag": "🇯🇵"
-        },
-        {
-          "name": "Sweden",
-          "code": "SWE",
-          "flag": "🇸🇪"
-        },
-        {
-          "name": "Tunisia",
-          "code": "TUN",
-          "flag": "🇹🇳"
-        }
-      ],
-      "standings": [
-        {
-          "team": "Netherlands",
-          "code": "NED",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 10,
-          "ga": 4,
-          "points": 7
-        },
-        {
-          "team": "Japan",
-          "code": "JPN",
-          "played": 3,
-          "won": 1,
-          "drawn": 2,
-          "lost": 0,
-          "gf": 7,
-          "ga": 3,
-          "points": 5
-        },
-        {
-          "team": "Sweden",
-          "code": "SWE",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gf": 7,
-          "ga": 7,
-          "points": 4
-        },
-        {
-          "team": "Tunisia",
-          "code": "TUN",
-          "played": 3,
-          "won": 0,
-          "drawn": 0,
-          "lost": 3,
-          "gf": 2,
-          "ga": 12,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "name": "G",
-      "teams": [
-        {
-          "name": "Belgium",
-          "code": "BEL",
-          "flag": "🇧🇪"
-        },
-        {
-          "name": "Iran",
-          "code": "IRN",
-          "flag": "🇮🇷"
-        },
-        {
-          "name": "Egypt",
-          "code": "EGY",
-          "flag": "🇪🇬"
-        },
-        {
-          "name": "New Zealand",
-          "code": "NZL",
-          "flag": "🇳🇿"
-        }
-      ],
-      "standings": [
-        {
-          "team": "Belgium",
-          "code": "BEL",
-          "played": 3,
-          "won": 1,
-          "drawn": 2,
-          "lost": 0,
-          "gf": 6,
-          "ga": 2,
-          "points": 5
-        },
-        {
-          "team": "Egypt",
-          "code": "EGY",
-          "played": 3,
-          "won": 1,
-          "drawn": 2,
-          "lost": 0,
-          "gf": 5,
-          "ga": 3,
-          "points": 5
-        },
-        {
-          "team": "Iran",
-          "code": "IRN",
-          "played": 3,
-          "won": 0,
-          "drawn": 3,
-          "lost": 0,
-          "gf": 3,
-          "ga": 3,
-          "points": 3
-        },
-        {
-          "team": "New Zealand",
-          "code": "NZL",
-          "played": 3,
-          "won": 0,
-          "drawn": 1,
-          "lost": 2,
-          "gf": 4,
-          "ga": 10,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "name": "H",
-      "teams": [
-        {
-          "name": "Spain",
-          "code": "ESP",
-          "flag": "🇪🇸"
-        },
-        {
-          "name": "Uruguay",
-          "code": "URU",
-          "flag": "🇺🇾"
-        },
-        {
-          "name": "Saudi Arabia",
-          "code": "KSA",
-          "flag": "🇸🇦"
-        },
-        {
-          "name": "Cabo Verde",
-          "code": "CPV",
-          "flag": "🇨🇻"
-        }
-      ],
-      "standings": [
-        {
-          "team": "Spain",
-          "code": "ESP",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 5,
-          "ga": 0,
-          "points": 7
-        },
-        {
-          "team": "Cabo Verde",
-          "code": "CPV",
-          "played": 3,
-          "won": 0,
-          "drawn": 3,
-          "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "points": 3
-        },
-        {
-          "team": "Uruguay",
-          "code": "URU",
-          "played": 3,
-          "won": 0,
-          "drawn": 2,
-          "lost": 1,
-          "gf": 3,
-          "ga": 4,
-          "points": 2
-        },
-        {
-          "team": "Saudi Arabia",
-          "code": "KSA",
-          "played": 3,
-          "won": 0,
-          "drawn": 2,
-          "lost": 1,
-          "gf": 1,
-          "ga": 5,
-          "points": 2
-        }
-      ]
-    },
-    {
-      "name": "I",
-      "teams": [
-        {
-          "name": "France",
-          "code": "FRA",
-          "flag": "🇫🇷"
-        },
-        {
-          "name": "Norway",
-          "code": "NOR",
-          "flag": "🇳🇴"
-        },
-        {
-          "name": "Senegal",
-          "code": "SEN",
-          "flag": "🇸🇳"
-        },
-        {
-          "name": "Iraq",
-          "code": "IRQ",
-          "flag": "🇮🇶"
-        }
-      ],
-      "standings": [
-        {
-          "team": "France",
-          "code": "FRA",
-          "played": 3,
-          "won": 3,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 10,
-          "ga": 2,
-          "points": 9
-        },
-        {
-          "team": "Norway",
-          "code": "NOR",
-          "played": 3,
-          "won": 2,
-          "drawn": 0,
-          "lost": 1,
-          "gf": 8,
-          "ga": 7,
-          "points": 6
-        },
-        {
-          "team": "Senegal",
-          "code": "SEN",
-          "played": 3,
-          "won": 1,
-          "drawn": 0,
-          "lost": 2,
-          "gf": 8,
-          "ga": 6,
-          "points": 3
-        },
-        {
-          "team": "Iraq",
-          "code": "IRQ",
-          "played": 3,
-          "won": 0,
-          "drawn": 0,
-          "lost": 3,
-          "gf": 1,
-          "ga": 12,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "name": "J",
-      "teams": [
-        {
-          "name": "Argentina",
-          "code": "ARG",
-          "flag": "🇦🇷"
-        },
-        {
-          "name": "Austria",
-          "code": "AUT",
-          "flag": "🇦🇹"
-        },
-        {
-          "name": "Algeria",
-          "code": "ALG",
-          "flag": "🇩🇿"
-        },
-        {
-          "name": "Jordan",
-          "code": "JOR",
-          "flag": "🇯🇴"
-        }
-      ],
-      "standings": [
-        {
-          "team": "Argentina",
-          "code": "ARG",
-          "played": 3,
-          "won": 3,
-          "drawn": 0,
-          "lost": 0,
-          "gf": 8,
-          "ga": 1,
-          "points": 9
-        },
-        {
-          "team": "Austria",
-          "code": "AUT",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gf": 6,
-          "ga": 6,
-          "points": 4
-        },
-        {
-          "team": "Algeria",
-          "code": "ALG",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gf": 5,
-          "ga": 7,
-          "points": 4
-        },
-        {
-          "team": "Jordan",
-          "code": "JOR",
-          "played": 3,
-          "won": 0,
-          "drawn": 0,
-          "lost": 3,
-          "gf": 3,
-          "ga": 8,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "name": "K",
-      "teams": [
-        {
-          "name": "Portugal",
-          "code": "POR",
-          "flag": "🇵🇹"
-        },
-        {
-          "name": "Colombia",
-          "code": "COL",
-          "flag": "🇨🇴"
-        },
-        {
-          "name": "Uzbekistan",
-          "code": "UZB",
-          "flag": "🇺🇿"
-        },
-        {
-          "name": "DR Congo",
-          "code": "COD",
-          "flag": "🇨🇩"
-        }
-      ],
-      "standings": [
-        {
-          "team": "Colombia",
-          "code": "COL",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 4,
-          "ga": 1,
-          "points": 7
-        },
-        {
-          "team": "Portugal",
-          "code": "POR",
-          "played": 3,
-          "won": 1,
-          "drawn": 2,
-          "lost": 0,
-          "gf": 6,
-          "ga": 1,
-          "points": 5
-        },
-        {
-          "team": "DR Congo",
-          "code": "COD",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gf": 4,
-          "ga": 3,
-          "points": 4
-        },
-        {
-          "team": "Uzbekistan",
-          "code": "UZB",
-          "played": 3,
-          "won": 0,
-          "drawn": 0,
-          "lost": 3,
-          "gf": 2,
-          "ga": 11,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "name": "L",
-      "teams": [
-        {
-          "name": "England",
-          "code": "ENG",
-          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
-        },
-        {
-          "name": "Croatia",
-          "code": "CRO",
-          "flag": "🇭🇷"
-        },
-        {
-          "name": "Ghana",
-          "code": "GHA",
-          "flag": "🇬🇭"
-        },
-        {
-          "name": "Panama",
-          "code": "PAN",
-          "flag": "🇵🇦"
-        }
-      ],
-      "standings": [
-        {
-          "team": "England",
-          "code": "ENG",
-          "played": 3,
-          "won": 2,
-          "drawn": 1,
-          "lost": 0,
-          "gf": 6,
-          "ga": 2,
-          "points": 7
-        },
-        {
-          "team": "Croatia",
-          "code": "CRO",
-          "played": 3,
-          "won": 2,
-          "drawn": 0,
-          "lost": 1,
-          "gf": 5,
-          "ga": 5,
-          "points": 6
-        },
-        {
-          "team": "Ghana",
-          "code": "GHA",
-          "played": 3,
-          "won": 1,
-          "drawn": 1,
-          "lost": 1,
-          "gf": 2,
-          "ga": 2,
-          "points": 4
-        },
-        {
-          "team": "Panama",
-          "code": "PAN",
-          "played": 3,
-          "won": 0,
-          "drawn": 0,
-          "lost": 3,
-          "gf": 0,
-          "ga": 4,
-          "points": 0
-        }
-      ]
-    }
+ "lastUpdated": "2026-07-02",
+ "_dataNotes": "2026-07-02 갱신: 7/1 32강 3경기 확정 — Match80(잉글랜드 2-1 DR콩고; 시펭가7'·케인75'·케인86'), Match81(미국 2-0 보스니아; 발로건45'·틸먼82' FK, 발로건64' 퇴장), Match82(벨기에 3-2 세네갈 AET; 디아라25'·사르51'·루카쿠86'·틸레망스89'·틸레망스 PK125' 결승 — 월드컵 최다 늦은 시간 득점). ESPN·Sky Sports·FIFA·NBC·CBS·US Soccer 교차검증. 득점왕: 케인 3→5골, 음바페 6골+2도움으로 메시(6골) 제치고 단독 선두, 홀란 5골. 16강 신규 확정 대진 추가 — Match92 멕시코 vs 잉글랜드(에스타디오 아스테카), Match93 미국 vs 벨기에(루멘필드, 시애틀, 7/6 20:00 ET). [주의] 멕시코-잉글랜드 날짜 출처 상충: FOX URL은 7/5, England FA 공식은 7/6(영국시간, =7/5 20:00 ET에 해당), 일부 요약은 7/7. 북미 ET 기준 7/5 20:00로 기록(=영국 7/6 01:00 BST) — 킥오프 확정 시 재확인 권장. 7/2 32강(스페인-오스트리아, 스위스-알제리, 포르투갈-크로아티아)은 다수 출처에서 프리뷰만 확인되어 미종료(scheduled) 유지. 2026-07-01 갱신: Match 77(코트디부아르1-2노르웨이, 누사39'·디알로74'·홀란86'), Match 78(프랑스3-0스웨덴, 음바페45'·바르콜라53'·음바페74'), Match 79(멕시코2-0에콰도르, 키뇨네스22'·히메네스31') 확정. ESPN·Sky Sports·Al Jazeera·Yahoo 교차검증. 득점왕: 음바페 4→6골(메시 공동 선두), 홀란 4→5골. 16강 확정 대진 3경기(캐나다-모로코 7/4, 프랑스-파라과이 7/4, 브라질-노르웨이 7/5) 추가. 7/1 경기 Match 80(잉글랜드-DR콩고)·82(벨기에-세네갈)·81(미국-보스니아) scheduled 유지.",
+ "tournament": {
+  "name": "FIFA World Cup 2026",
+  "hosts": [
+   "United States",
+   "Canada",
+   "Mexico"
   ],
-  "matches": [
-    {
-      "id": 1,
-      "date": "2026-06-11",
-      "time": "18:00 ET",
-      "stage": "Group A",
-      "home": "Mexico",
-      "homeCode": "MEX",
-      "away": "South Africa",
-      "awayCode": "RSA",
-      "homeScore": 2,
-      "awayScore": 0,
-      "venue": "Estadio Azteca, Mexico City",
-      "status": "finished",
-      "highlights": [
-        "Julián Quiñones scored the tournament opening goal in the 9th minute — first CONCACAF player to score the opening goal of a World Cup",
-        "Raúl Jiménez added a second in the 67th minute",
-        "Mexico opened the tournament as co-host in front of a packed Azteca"
-      ]
-    },
-    {
-      "id": 2,
-      "date": "2026-06-11",
-      "time": "21:00 ET",
-      "stage": "Group A",
-      "home": "South Korea",
-      "homeCode": "KOR",
-      "away": "Czech Republic",
-      "awayCode": "CZE",
-      "homeScore": 2,
-      "awayScore": 1,
-      "venue": "Estadio Akron, Zapopan",
-      "status": "finished",
-      "highlights": [
-        "Krejčí gave Czechia the lead in the 59th minute",
-        "Hwang In-beom equalized for South Korea in the 67th minute",
-        "Oh Hyeon-gyu scored the winner in the 80th minute"
-      ]
-    },
-    {
-      "id": 3,
-      "date": "2026-06-12",
-      "time": "15:00 ET",
-      "stage": "Group D",
-      "home": "United States",
-      "homeCode": "USA",
-      "away": "Paraguay",
-      "awayCode": "PAR",
-      "homeScore": 4,
-      "awayScore": 1,
-      "venue": "SoFi Stadium, Inglewood",
-      "status": "finished",
-      "highlights": [
-        "Own goal opened the scoring in the 7th minute after Pulisic and McKennie pressure",
-        "Folarin Balogun scored twice — first American with 2 WC goals in a game since 1930",
-        "Paraguay pulled one back through Mauricio in the 73rd minute",
-        "Gio Reyna sealed it with a stunning stoppage-time strike"
-      ]
-    },
-    {
-      "id": 4,
-      "date": "2026-06-13",
-      "time": "12:00 ET",
-      "stage": "Group D",
-      "home": "Australia",
-      "homeCode": "AUS",
-      "away": "Turkey",
-      "awayCode": "TUR",
-      "homeScore": 2,
-      "awayScore": 0,
-      "venue": "BC Place, Vancouver",
-      "status": "finished",
-      "highlights": [
-        "Australia controlled the match throughout",
-        "Turkey failed to register a shot on target"
-      ]
-    },
-    {
-      "id": 5,
-      "date": "2026-06-12",
-      "time": "21:00 ET",
-      "stage": "Group B",
-      "home": "Canada",
-      "homeCode": "CAN",
-      "away": "Bosnia and Herzegovina",
-      "awayCode": "BIH",
-      "homeScore": 1,
-      "awayScore": 1,
-      "venue": "BMO Field, Toronto",
-      "status": "finished",
-      "highlights": [
-        "Canada drew their opening home World Cup match in front of a passionate Toronto crowd"
-      ]
-    },
-    {
-      "id": 6,
-      "date": "2026-06-13",
-      "time": "21:00 ET",
-      "stage": "Group C",
-      "home": "Brazil",
-      "homeCode": "BRA",
-      "away": "Morocco",
-      "awayCode": "MAR",
-      "homeScore": 1,
-      "awayScore": 1,
-      "venue": "MetLife Stadium, East Rutherford",
-      "status": "finished",
-      "highlights": [
-        "Vinicius Junior scored for Brazil",
-        "Brazil held to a draw by Morocco in a heavyweight opening clash",
-        "Result let Scotland take the Group C lead"
-      ]
-    },
-    {
-      "id": 7,
-      "date": "2026-06-13",
-      "time": "15:00 ET",
-      "stage": "Group C",
-      "home": "Haiti",
-      "homeCode": "HAI",
-      "away": "Scotland",
-      "awayCode": "SCO",
-      "homeScore": 0,
-      "awayScore": 1,
-      "venue": "Gillette Stadium, Foxborough",
-      "status": "finished",
-      "highlights": [
-        "Scotland won their first World Cup match since 1974",
-        "Scotland's first World Cup appearance in 28 years (since France 1998)",
-        "Shock result puts Scotland top of Group C above Brazil and Morocco"
-      ]
-    },
-    {
-      "id": 8,
-      "date": "2026-06-13",
-      "time": "18:00 ET",
-      "stage": "Group B",
-      "home": "Qatar",
-      "homeCode": "QAT",
-      "away": "Switzerland",
-      "awayCode": "SUI",
-      "homeScore": 1,
-      "awayScore": 1,
-      "venue": "Levi's Stadium, Santa Clara",
-      "status": "finished",
-      "highlights": [
-        "Qatar earned their first-ever World Cup point",
-        "Qatar had gone winless as 2022 hosts, exiting in the group stage"
-      ]
-    },
-    {
-      "id": 9,
-      "date": "2026-06-14",
-      "time": "13:00 ET",
-      "stage": "Group E",
-      "home": "Germany",
-      "homeCode": "GER",
-      "away": "Curacao",
-      "awayCode": "CUW",
-      "homeScore": 7,
-      "awayScore": 1,
-      "venue": "NRG Stadium, Houston",
-      "status": "finished",
-      "highlights": [
-        "Germany became the all-time top scorers in World Cup history (239 goals), surpassing Brazil",
-        "Curacao — smallest nation ever at a men's World Cup (pop. ~155,000) — scored their first-ever World Cup goal",
-        "Kai Havertz scored twice; Jamal Musiala also on the scoresheet"
-      ]
-    },
-    {
-      "id": 10,
-      "date": "2026-06-14",
-      "time": "19:00 ET",
-      "stage": "Group E",
-      "home": "Ivory Coast",
-      "homeCode": "CIV",
-      "away": "Ecuador",
-      "awayCode": "ECU",
-      "homeScore": 1,
-      "awayScore": 0,
-      "venue": "Lincoln Financial Field, Philadelphia",
-      "status": "finished",
-      "highlights": [
-        "Amad Diallo scored the winner in the 90th minute from a Wilfried Singo assist",
-        "Ecuador hit the woodwork twice in the first half",
-        "Late drama as Ivory Coast snatched all three points in stoppage time"
-      ]
-    },
-    {
-      "id": 11,
-      "date": "2026-06-14",
-      "time": "13:00 ET",
-      "stage": "Group F",
-      "home": "Netherlands",
-      "homeCode": "NED",
-      "away": "Japan",
-      "awayCode": "JPN",
-      "homeScore": 2,
-      "awayScore": 2,
-      "venue": "AT&T Stadium, Arlington",
-      "status": "finished",
-      "highlights": [
-        "Van Dijk (50') and Summerville (64') scored for the Netherlands",
-        "Nakamura (57') and Kamada (88') scored for Japan",
-        "Japan equalized in the 88th minute through Daichi Kamada",
-        "Attendance: 69,285"
-      ]
-    },
-    {
-      "id": 12,
-      "date": "2026-06-14",
-      "time": "19:00 ET",
-      "stage": "Group F",
-      "home": "Sweden",
-      "homeCode": "SWE",
-      "away": "Tunisia",
-      "awayCode": "TUN",
-      "homeScore": 5,
-      "awayScore": 1,
-      "venue": "Estadio BBVA, Guadalupe",
-      "status": "finished",
-      "highlights": [
-        "Yasin Ayari scored twice including a late long-range stunner",
-        "Viktor Gyökeres and Alexander Isak starred for Sweden",
-        "Svanberg's goal confirmed by VAR after a lengthy review (84')"
-      ]
-    },
-    {
-      "id": 13,
-      "date": "2026-06-15",
-      "time": "12:00 ET",
-      "stage": "Group H",
-      "home": "Spain",
-      "homeCode": "ESP",
-      "away": "Cabo Verde",
-      "awayCode": "CPV",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Mercedes-Benz Stadium, Atlanta",
-      "status": "finished",
-      "highlights": [
-        "Spain held to a shock 0-0 draw by tournament debutants Cabo Verde",
-        "Cabo Verde (pop. ~530,000) earned a famous result against World Cup favorites Spain",
-        "Attendance: 67,640"
-      ]
-    },
-    {
-      "id": 14,
-      "date": "2026-06-15",
-      "time": "18:00 ET",
-      "stage": "Group H",
-      "home": "Saudi Arabia",
-      "homeCode": "KSA",
-      "away": "Uruguay",
-      "awayCode": "URU",
-      "homeScore": 1,
-      "awayScore": 1,
-      "venue": "Hard Rock Stadium, Miami Gardens",
-      "status": "finished",
-      "highlights": [
-        "Al-Amri scored for Saudi Arabia in the 41st minute",
-        "M. Araújo equalized for Uruguay in the 80th minute",
-        "Attendance: 62,764"
-      ]
-    },
-    {
-      "id": 15,
-      "date": "2026-06-15",
-      "time": "12:00 ET",
-      "stage": "Group G",
-      "home": "Belgium",
-      "homeCode": "BEL",
-      "away": "Egypt",
-      "awayCode": "EGY",
-      "homeScore": 1,
-      "awayScore": 1,
-      "venue": "Lumen Field, Seattle",
-      "status": "finished",
-      "highlights": [
-        "Belgium and Egypt played out a 1-1 draw"
-      ]
-    },
-    {
-      "id": 16,
-      "date": "2026-06-15",
-      "time": "18:00 ET",
-      "stage": "Group G",
-      "home": "Iran",
-      "homeCode": "IRN",
-      "away": "New Zealand",
-      "awayCode": "NZL",
-      "homeScore": 2,
-      "awayScore": 2,
-      "venue": "SoFi Stadium, Inglewood",
-      "status": "finished",
-      "highlights": [
-        "Iran and New Zealand played out a 2-2 thriller",
-        "Elijah Just scored for New Zealand"
-      ]
-    },
-    {
-      "id": 17,
-      "date": "2026-06-16",
-      "time": "12:00 ET",
-      "stage": "Group I",
-      "home": "France",
-      "homeCode": "FRA",
-      "away": "Senegal",
-      "awayCode": "SEN",
-      "homeScore": 3,
-      "awayScore": 1,
-      "venue": "MetLife Stadium, East Rutherford",
-      "status": "finished",
-      "highlights": [
-        "Kylian Mbappé became France's all-time top scorer, surpassing Olivier Giroud (58 goals in 99 caps)",
-        "Mbappé scored twice (66', 90+6'); Bradley Barcola added one (82')",
-        "Michael Olise provided two assists",
-        "Ibrahim Mbaye scored a late consolation for Senegal (90+5')"
-      ]
-    },
-    {
-      "id": 18,
-      "date": "2026-06-16",
-      "time": "18:00 ET",
-      "stage": "Group I",
-      "home": "Iraq",
-      "homeCode": "IRQ",
-      "away": "Norway",
-      "awayCode": "NOR",
-      "homeScore": 1,
-      "awayScore": 4,
-      "venue": "Gillette Stadium, Foxborough",
-      "status": "finished",
-      "highlights": [
-        "Erling Haaland scored a brace on his World Cup debut — Norway's first World Cup since 1998",
-        "Haaland's second came after the Iraqi keeper accidentally booted the ball into him",
-        "Iraq scored their first World Cup goal since 1986"
-      ]
-    },
-    {
-      "id": 19,
-      "date": "2026-06-16",
-      "time": "21:00 ET",
-      "stage": "Group J",
-      "home": "Argentina",
-      "homeCode": "ARG",
-      "away": "Algeria",
-      "awayCode": "ALG",
-      "homeScore": 3,
-      "awayScore": 0,
-      "venue": "Arrowhead Stadium, Kansas City",
-      "status": "finished",
-      "highlights": [
-        "Lionel Messi scored a hat trick — his first career World Cup hat trick — tying Miroslav Klose's all-time WC record of 16 goals",
-        "Messi became the oldest player to score a World Cup hat trick (age 38)",
-        "Defending champions Argentina opened their title defense in dominant fashion",
-        "Messi was substituted off in the 80th minute after securing his hat trick"
-      ]
-    },
-    {
-      "id": 20,
-      "date": "2026-06-17",
-      "time": "00:00 ET",
-      "stage": "Group J",
-      "home": "Austria",
-      "homeCode": "AUT",
-      "away": "Jordan",
-      "awayCode": "JOR",
-      "homeScore": 3,
-      "awayScore": 1,
-      "venue": "Levi's Stadium, Santa Clara",
-      "status": "finished",
-      "highlights": [
-        "Romano Schmid opened the scoring in the 21st minute with a long-range right-foot strike",
-        "Ali Iyad Olwan equalized for Jordan in the 50th minute — Jordan's first-ever World Cup goal",
-        "Yazan Al-Arab own goal (76') restored Austria's lead after a corner deflection",
-        "Marco Arnautović converted a stoppage-time penalty to seal 3-1 — Austria's first World Cup win in 36 years"
-      ]
-    },
-    {
-      "id": 21,
-      "date": "2026-06-17",
-      "time": "13:00 ET",
-      "stage": "Group K",
-      "home": "Portugal",
-      "homeCode": "POR",
-      "away": "DR Congo",
-      "awayCode": "COD",
-      "homeScore": 1,
-      "awayScore": 1,
-      "venue": "NRG Stadium, Houston",
-      "status": "finished",
-      "highlights": [
-        "João Neves opened the scoring for Portugal in the 6th minute",
-        "Yoane Wissa equalized for DR Congo in the 45+5th minute — DR Congo's first World Cup point since returning after 52 years (last appeared 1974)",
-        "João Cancelo's spectacular overhead kick in the 55th minute ruled out by VAR for offside",
-        "Portugal frustrated by debutants; Ronaldo started at age 41 as tournament's oldest outfield player"
-      ]
-    },
-    {
-      "id": 22,
-      "date": "2026-06-17",
-      "time": "13:00 ET",
-      "stage": "Group K",
-      "home": "Uzbekistan",
-      "homeCode": "UZB",
-      "away": "Colombia",
-      "awayCode": "COL",
-      "homeScore": 1,
-      "awayScore": 3,
-      "venue": "Estadio Azteca, Mexico City",
-      "status": "finished",
-      "highlights": [
-        "Daniel Muñoz scored for Colombia in the 40th minute",
-        "Abbosbek Fayzullaev equalized for Uzbekistan in the 60th minute — Uzbekistan's first-ever World Cup goal",
-        "Luis Díaz restored Colombia's lead in the 65th minute (goal and assist on the night)",
-        "Jáminton Campaz headed home in the 90+9th minute to seal 3-1 and put Colombia top of Group K"
-      ]
-    },
-    {
-      "id": 23,
-      "date": "2026-06-17",
-      "time": "16:00 ET",
-      "stage": "Group L",
-      "home": "England",
-      "homeCode": "ENG",
-      "away": "Croatia",
-      "awayCode": "CRO",
-      "homeScore": 4,
-      "awayScore": 2,
-      "venue": "AT&T Stadium, Arlington",
-      "status": "finished",
-      "highlights": [
-        "Harry Kane scored twice (12' pen, 42' header) to reach 10 England World Cup goals — equalling Gary Lineker's national record",
-        "Croatia hit back through Martin Baturina (36') and Petar Musa (45+5') to level 2-2 at half-time",
-        "Jude Bellingham drove in to restore England's lead immediately after the break (47')",
-        "Marcus Rashford sealed it with a composed finish (85'); England's dominant second half secured a 4-2 win"
-      ]
-    },
-    {
-      "id": 24,
-      "date": "2026-06-17",
-      "time": "19:00 ET",
-      "stage": "Group L",
-      "home": "Ghana",
-      "homeCode": "GHA",
-      "away": "Panama",
-      "awayCode": "PAN",
-      "homeScore": 1,
-      "awayScore": 0,
-      "venue": "BMO Field, Toronto",
-      "status": "finished",
-      "highlights": [
-        "Caleb Yirenkyi tapped home from Brandon Thomas-Asante's cross in the 95th minute for a dramatic winner",
-        "Panama's disciplined defensive display was undone in stoppage time, denying them a historic first World Cup point",
-        "Ghana join England at the top of Group L on 3 points after matchday 1"
-      ]
-    },
-    {
-      "id": 25,
-      "date": "2026-06-18",
-      "time": "12:00 ET",
-      "stage": "Group A",
-      "home": "Czech Republic",
-      "homeCode": "CZE",
-      "away": "South Africa",
-      "awayCode": "RSA",
-      "homeScore": 1,
-      "awayScore": 1,
-      "venue": "Mercedes-Benz Stadium, Atlanta",
-      "status": "finished",
-      "highlights": [
-        "Michal Sadilek opened the scoring for Czech Republic in the 6th minute",
-        "Pavel Šulc's handball inside the box in the 81st minute conceded a penalty to South Africa",
-        "Teboho Mokoena converted the penalty in the 83rd minute to earn South Africa their first World Cup point",
-        "Czech Republic failed to win despite taking the lead, both teams level on 1 point in Group A"
-      ]
-    },
-    {
-      "id": 26,
-      "date": "2026-06-18",
-      "time": "15:00 ET",
-      "stage": "Group B",
-      "home": "Switzerland",
-      "homeCode": "SUI",
-      "away": "Bosnia and Herzegovina",
-      "awayCode": "BIH",
-      "homeScore": 4,
-      "awayScore": 1,
-      "venue": "SoFi Stadium, Inglewood",
-      "status": "finished",
-      "highlights": [
-        "Johan Manzambi scored just 171 seconds after being introduced as a substitute in the 71st minute",
-        "Tarik Muharemovic was shown a straight red card, leaving Bosnia with 10 men",
-        "Manzambi added a second (90'), Ruben Vargas scored (84'), and Granit Xhaka converted a penalty (90+7')",
-        "Switzerland's four-goal second-half burst puts them top of Group B"
-      ]
-    },
-    {
-      "id": 27,
-      "date": "2026-06-18",
-      "time": "18:00 ET",
-      "stage": "Group B",
-      "home": "Canada",
-      "homeCode": "CAN",
-      "away": "Qatar",
-      "awayCode": "QAT",
-      "homeScore": 6,
-      "awayScore": 0,
-      "venue": "BC Place, Vancouver",
-      "status": "finished",
-      "highlights": [
-        "Jonathan David scored a hat trick (29', 45+3', 90+2') — Canada's first-ever World Cup win",
-        "Cyle Larin (16'), Nathan Saliba (64'), and Mohamed Al Manai own goal (75') completed the rout",
-        "Qatar had two players sent off and finished with nine men",
-        "Biggest win by a CONCACAF team in men's World Cup history"
-      ]
-    },
-    {
-      "id": 28,
-      "date": "2026-06-18",
-      "time": "23:00 ET",
-      "stage": "Group A",
-      "home": "Mexico",
-      "homeCode": "MEX",
-      "away": "South Korea",
-      "awayCode": "KOR",
-      "homeScore": 1,
-      "awayScore": 0,
-      "venue": "Estadio Akron, Zapopan",
-      "status": "finished",
-      "highlights": [
-        "Luis Romo scored in the 50th minute after South Korea goalkeeper Kim Seung-gyu collided with defender Lee Gi-hyuk and dropped the ball",
-        "Mexico became the first team to qualify for the Round of 32 — clinching Group A top spot with two wins",
-        "Goalkeeper Raúl Rangel made two outstanding saves in the 87th minute to deny Cho Gue-sung and Yang Hyun-jun",
-        "Mexico win Group A with 6 points from two games; South Korea drop to third-place battle"
-      ]
-    },
-    {
-      "id": 29,
-      "date": "2026-06-19",
-      "time": "15:00 ET",
-      "stage": "Group D",
-      "home": "United States",
-      "homeCode": "USA",
-      "away": "Australia",
-      "awayCode": "AUS",
-      "homeScore": 2,
-      "awayScore": 0,
-      "venue": "Lumen Field, Seattle",
-      "status": "finished",
-      "highlights": [
-        "Cameron Burgess own goal in the 11th minute — Balogun's cross forced the Australian defender to turn in",
-        "Alex Freeman headed home in the 43rd minute from Sergiño Dest's free-kick; VAR confirmed after a lengthy offside review",
-        "USMNT advance to Round of 32 with 6 points from two wins; Pulisic absent through injury"
-      ]
-    },
-    {
-      "id": 30,
-      "date": "2026-06-19",
-      "time": "18:00 ET",
-      "stage": "Group C",
-      "home": "Scotland",
-      "homeCode": "SCO",
-      "away": "Morocco",
-      "awayCode": "MAR",
-      "homeScore": 0,
-      "awayScore": 1,
-      "venue": "Gillette Stadium, Foxborough",
-      "status": "finished",
-      "highlights": [
-        "Ismael Saibari scored just 70 seconds after kick-off — the fastest winning goal in 2026 World Cup history",
-        "Saibari collected Brahim Diaz's through ball and slammed past Angus Gunn into the roof of the net",
-        "McTominay denied a controversial late penalty; Scotland unable to level",
-        "Morocco top Group C on goal difference ahead of Brazil; Scotland slip to 2nd"
-      ]
-    },
-    {
-      "id": 31,
-      "date": "2026-06-19",
-      "time": "21:00 ET",
-      "stage": "Group C",
-      "home": "Brazil",
-      "homeCode": "BRA",
-      "away": "Haiti",
-      "awayCode": "HAI",
-      "homeScore": 3,
-      "awayScore": 0,
-      "venue": "Lincoln Financial Field, Philadelphia",
-      "status": "finished",
-      "highlights": [
-        "Matheus Cunha tapped home in the 23rd minute after Vinicius Jr's saved effort",
-        "Cunha added a composed left-footed finish in the 36th minute for his brace",
-        "Vinicius Junior completed the rout in the 45+3rd minute after Lucas Paquetá's through ball",
-        "Haiti become the first team eliminated from the 2026 World Cup; Brazil level with Morocco on 4 points, lead on GD"
-      ]
-    },
-    {
-      "id": 32,
-      "date": "2026-06-19",
-      "time": "23:00 ET",
-      "stage": "Group D",
-      "home": "Turkey",
-      "homeCode": "TUR",
-      "away": "Paraguay",
-      "awayCode": "PAR",
-      "homeScore": 0,
-      "awayScore": 1,
-      "venue": "Levi's Stadium, Santa Clara",
-      "status": "finished",
-      "highlights": [
-        "Matías Galarza struck two minutes in — the fastest goal of the tournament so far",
-        "Miguel Almirón received a straight red card in first-half stoppage time under FIFA's new mouth-covering rule",
-        "Ten-man Paraguay held firm through Turkey's relentless second-half pressure to claim a vital 1-0 win",
-        "Turkey eliminated after two consecutive defeats; Paraguay's Round of 32 hopes remain alive"
-      ]
-    },
-    {
-      "id": 33,
-      "date": "2026-06-20",
-      "time": "16:00 ET",
-      "stage": "Group E",
-      "home": "Germany",
-      "homeCode": "GER",
-      "away": "Ivory Coast",
-      "awayCode": "CIV",
-      "homeScore": 2,
-      "awayScore": 1,
-      "venue": "BMO Field, Toronto",
-      "status": "finished",
-      "highlights": [
-        "Franck Kessié gave Ivory Coast a shock lead with a 30th-minute strike against the tournament's top scorers",
-        "Deniz Undav came off the bench to equalise in the 68th minute with a volley from Amiri's cross",
-        "Undav struck again in the 94th minute to complete a stunning comeback — Germany advance to the Round of 32",
-        "Ivory Coast remain in contention; a high-quality display despite the defeat"
-      ]
-    },
-    {
-      "id": 34,
-      "date": "2026-06-20",
-      "time": "20:00 ET",
-      "stage": "Group E",
-      "home": "Ecuador",
-      "homeCode": "ECU",
-      "away": "Curacao",
-      "awayCode": "CUW",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Arrowhead Stadium, Kansas City",
-      "status": "finished",
-      "highlights": [
-        "Goalkeeper Eloy Room made 15 saves to earn Curaçao their first-ever World Cup point",
-        "Ecuador had 15 shots on target without scoring — the most in a World Cup match without a goal since 1966",
-        "One of the great World Cup goalkeeping performances; Room was the undisputed man of the match",
-        "Curaçao earn a historic point; Ecuador's Group E knockout hopes now in serious doubt"
-      ]
-    },
-    {
-      "id": 35,
-      "date": "2026-06-20",
-      "time": "13:00 ET",
-      "stage": "Group F",
-      "home": "Netherlands",
-      "homeCode": "NED",
-      "away": "Sweden",
-      "awayCode": "SWE",
-      "homeScore": 5,
-      "awayScore": 1,
-      "venue": "NRG Stadium, Houston",
-      "status": "finished",
-      "highlights": [
-        "Brian Brobbey scored twice inside 17 minutes (5', 17') — the fourth-fastest brace in World Cup history",
-        "Cody Gakpo added two more in the second half (47', 54'); Anthony Elanga pulled one back for Sweden (59')",
-        "Crysencio Summerville completed the rout with a fifth in the 89th minute",
-        "Netherlands' biggest-ever World Cup win; they move joint-top of Group F with Japan"
-      ]
-    },
-    {
-      "id": 36,
-      "date": "2026-06-21",
-      "time": "00:00 ET",
-      "stage": "Group F",
-      "home": "Tunisia",
-      "homeCode": "TUN",
-      "away": "Japan",
-      "awayCode": "JPN",
-      "homeScore": 0,
-      "awayScore": 4,
-      "venue": "Estadio BBVA, Guadalupe",
-      "status": "finished",
-      "highlights": [
-        "Daichi Kamada struck in the 4th minute to give Japan an immediate lead",
-        "Ayase Ueda scored twice (30', 83') and Junya Ito added Japan's third in the 69th minute",
-        "This was the 1,000th match in FIFA World Cup history — Japan marked it with their biggest-ever World Cup winning margin",
-        "Tunisia eliminated from the tournament; Japan join Netherlands at the top of Group F on 4 points"
-      ]
-    },
-    {
-      "id": 37,
-      "date": "2026-06-21",
-      "time": "12:00 ET",
-      "stage": "Group H",
-      "home": "Spain",
-      "homeCode": "ESP",
-      "away": "Saudi Arabia",
-      "awayCode": "KSA",
-      "homeScore": 4,
-      "awayScore": 0,
-      "venue": "Mercedes-Benz Stadium, Atlanta",
-      "status": "finished",
-      "highlights": [
-        "Lamine Yamal scored his first World Cup goal in the 10th minute at age 17 — the 8th-youngest scorer in World Cup history, surpassing Messi, Mbappé and Ronaldo's age at their first WC goals",
-        "Mikel Oyarzabal added a brace in under three minutes (21' & 24') to make it 3-0 before half-time",
-        "Yamal and Oyarzabal were both substituted at half-time with Spain already in full control",
-        "Hassan Al-Tambakti scored an own goal just after the interval (51') to complete a 4-0 rout — Spain top Group H and advance to the Round of 32"
-      ]
-    },
-    {
-      "id": 38,
-      "date": "2026-06-21",
-      "time": "15:00 ET",
-      "stage": "Group G",
-      "home": "Belgium",
-      "homeCode": "BEL",
-      "away": "Iran",
-      "awayCode": "IRN",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "SoFi Stadium, Inglewood",
-      "status": "finished",
-      "highlights": [
-        "Mehdi Taremi had a goal ruled out by VAR for offside after a well-worked free kick in the first half",
-        "Nathan Ngoy was sent off in the 66th minute after miskicking a back-pass then fouling Taremi who was clean through on goal",
-        "Belgium had 70% possession and 1.82 xG but could not break down Iran's resolute defense even with a man advantage",
-        "Alireza Beiranvand made crucial saves as Iran held 10-man Belgium to a goalless draw — all four Group G teams remain in knockout contention"
-      ]
-    },
-    {
-      "id": 39,
-      "date": "2026-06-21",
-      "time": "18:00 ET",
-      "stage": "Group H",
-      "home": "Uruguay",
-      "homeCode": "URU",
-      "away": "Cabo Verde",
-      "awayCode": "CPV",
-      "homeScore": 2,
-      "awayScore": 2,
-      "venue": "Hard Rock Stadium, Miami Gardens",
-      "status": "finished",
-      "highlights": [
-        "Kevin Pina opened the scoring for Cabo Verde with a powerful free kick in the 21st minute",
-        "Maximiliano Araújo equalized for Uruguay in the 44th minute and Agustín Canobbio struck in first-half stoppage time (45+6') to give Uruguay a 2-1 lead",
-        "Hélio Varela levelled for Cabo Verde in the 61st minute after a defensive error to make it 2-2",
-        "Cabo Verde remain unbeaten at the 2026 World Cup with two draws — both teams still in knockout contention heading into matchday 3"
-      ]
-    },
-    {
-      "id": 40,
-      "date": "2026-06-21",
-      "time": "21:00 ET",
-      "stage": "Group G",
-      "home": "New Zealand",
-      "homeCode": "NZL",
-      "away": "Egypt",
-      "awayCode": "EGY",
-      "homeScore": 1,
-      "awayScore": 3,
-      "venue": "BC Place, Vancouver",
-      "status": "finished",
-      "highlights": [
-        "Finn Surman headed in from a corner in the 15th minute to give New Zealand an early lead",
-        "Ziko equalized for Egypt with a close-range header in the 58th minute to level at 1-1",
-        "Mohamed Salah scored the go-ahead goal in the 67th minute as Egypt's comeback gathered momentum",
-        "Trezeguet sealed Egypt's first-ever World Cup win with a diving header in the 82nd minute — Egypt move top of Group G"
-      ]
-    },
-    {
-      "id": 41,
-      "date": "2026-06-22",
-      "time": "12:00 ET",
-      "stage": "Group I",
-      "home": "France",
-      "homeCode": "FRA",
-      "away": "Iraq",
-      "awayCode": "IRQ",
-      "homeScore": 3,
-      "awayScore": 0,
-      "venue": "Lincoln Financial Field, Philadelphia",
-      "status": "finished",
-      "highlights": [
-        "Kylian Mbappé opened the scoring in the 14th minute",
-        "The match was delayed for approximately 2 hours due to a severe lightning and thunderstorm",
-        "Mbappé added his second goal in the 54th minute after the weather delay",
-        "Ousmane Dembélé completed the scoring in the 66th minute — France 3-0 Iraq, through to Round of 32"
-      ]
-    },
-    {
-      "id": 42,
-      "date": "2026-06-22",
-      "time": "16:00 ET",
-      "stage": "Group I",
-      "home": "Norway",
-      "homeCode": "NOR",
-      "away": "Senegal",
-      "awayCode": "SEN",
-      "homeScore": 3,
-      "awayScore": 2,
-      "venue": "MetLife Stadium, East Rutherford",
-      "status": "finished",
-      "highlights": [
-        "Marcus Holmgren Pedersen gave Norway the lead with a 43rd-minute strike",
-        "Erling Haaland scored twice in quick succession (48' & 58') to make it 3-0",
-        "Ismaïla Sarr pulled two back for Senegal (53' & 90+3') in a frantic finish",
-        "Norway held on 3-2 to advance to the Round of 32 alongside France — both I-group teams through after matchday 2"
-      ]
-    },
-    {
-      "id": 43,
-      "date": "2026-06-22",
-      "time": "20:00 ET",
-      "stage": "Group J",
-      "home": "Argentina",
-      "homeCode": "ARG",
-      "away": "Austria",
-      "awayCode": "AUT",
-      "homeScore": 2,
-      "awayScore": 0,
-      "venue": "AT&T Stadium, Arlington",
-      "status": "finished",
-      "highlights": [
-        "Lionel Messi scored in the 38th minute to become the outright all-time leading scorer in World Cup history — his 17th goal, surpassing Miroslav Klose",
-        "Messi added a second in stoppage time (90+2') — his 18th career World Cup goal, the most ever in men's or women's World Cup history",
-        "Argentina confirmed their place in the Round of 32 with six points from two games",
-        "Messi leads the Golden Boot race with 5 tournament goals"
-      ]
-    },
-    {
-      "id": 44,
-      "date": "2026-06-22",
-      "time": "23:00 ET",
-      "stage": "Group J",
-      "home": "Algeria",
-      "homeCode": "ALG",
-      "away": "Jordan",
-      "awayCode": "JOR",
-      "homeScore": 2,
-      "awayScore": 1,
-      "venue": "Levi's Stadium, Santa Clara",
-      "status": "finished",
-      "highlights": [
-        "Al-Rashdan gave Jordan the lead in the first half",
-        "Djamel Benbouali headed in from a Riyad Mahrez corner in the 68th minute to equalize for Algeria",
-        "Anis Gouiri struck the winner in the 82nd minute — Algeria comeback victory 2-1"
-      ]
-    },
-    {
-      "id": 45,
-      "date": "2026-06-23",
-      "time": "13:00 ET",
-      "stage": "Group K",
-      "home": "Portugal",
-      "homeCode": "POR",
-      "away": "Uzbekistan",
-      "awayCode": "UZB",
-      "homeScore": 5,
-      "awayScore": 0,
-      "venue": "NRG Stadium, Houston",
-      "status": "finished",
-      "highlights": [
-        "Cristiano Ronaldo scored in the 6th minute — becoming the first player ever to score at six different FIFA World Cups",
-        "Nuno Mendes doubled the lead in the 17th minute with a stunning free-kick",
-        "Ronaldo added his second in the 39th minute from Bruno Fernandes' pass — his 10th career World Cup goal; at 41 the oldest player to score twice in a World Cup game",
-        "Abduvohid Nematov own goal (60') made it 4-0; Rafael Leão sealed it in the 87th minute — Portugal advance to the Round of 32"
-      ]
-    },
-    {
-      "id": 46,
-      "date": "2026-06-23",
-      "time": "16:00 ET",
-      "stage": "Group L",
-      "home": "England",
-      "homeCode": "ENG",
-      "away": "Ghana",
-      "awayCode": "GHA",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Gillette Stadium, Foxborough",
-      "status": "finished",
-      "highlights": [
-        "England dominated with 79% possession but failed to score — the highest possession total for a goalless team in a World Cup match in the last 60 years",
-        "England had 19 shots to Ghana's 2; Nico O'Reilly and Harry Kane spurned the best chances",
-        "England and Ghana both finish on 4 points, level at the top of Group L heading into the decisive matchday 3"
-      ]
-    },
-    {
-      "id": 47,
-      "date": "2026-06-23",
-      "time": "19:00 ET",
-      "stage": "Group L",
-      "home": "Panama",
-      "homeCode": "PAN",
-      "away": "Croatia",
-      "awayCode": "CRO",
-      "homeScore": 0,
-      "awayScore": 1,
-      "venue": "BMO Field, Toronto",
-      "status": "finished",
-      "highlights": [
-        "Ante Budimir headed home from Josip Stanišić's cross in the 54th minute to give Croatia their first win of the tournament",
-        "Panama eliminated from the 2026 World Cup — their debut tournament ended without a single goal scored in two games",
-        "Croatia climb to 3 points in Group L and remain in knockout contention heading into matchday 3"
-      ]
-    },
-    {
-      "id": 48,
-      "date": "2026-06-23",
-      "time": "22:00 ET",
-      "stage": "Group K",
-      "home": "Colombia",
-      "homeCode": "COL",
-      "away": "DR Congo",
-      "awayCode": "COD",
-      "homeScore": 1,
-      "awayScore": 0,
-      "venue": "Estadio Akron, Guadalajara",
-      "status": "finished",
-      "highlights": [
-        "Daniel Muñoz's deflected shot in the 76th minute (Quintero assist) gave Colombia the vital breakthrough",
-        "Colombia qualified for the Round of 32 — top of Group K with 6 points from 2 games",
-        "DR Congo remain on 1 point and must beat Uzbekistan in their final group game to have any chance of advancing"
-      ]
-    },
-    {
-      "id": 49,
-      "date": "2026-06-24",
-      "time": "15:00 ET",
-      "stage": "Group B",
-      "home": "Switzerland",
-      "homeCode": "SUI",
-      "away": "Canada",
-      "awayCode": "CAN",
-      "homeScore": 2,
-      "awayScore": 1,
-      "venue": "BC Place, Vancouver",
-      "status": "finished",
-      "highlights": [
-        "Ruben Vargas broke the deadlock just after half-time (46') with a crisp finish to give Switzerland the lead",
-        "Johan Manzambi doubled Switzerland's advantage in the 57th minute — his third goal of the tournament",
-        "Jonathan David pulled one back for Canada in the 76th minute but the Swiss held on to win 2-1",
-        "Switzerland top Group B with 7 points; Canada advance as runners-up — both teams through to the Round of 32"
-      ]
-    },
-    {
-      "id": 50,
-      "date": "2026-06-24",
-      "time": "15:00 ET",
-      "stage": "Group B",
-      "home": "Bosnia and Herzegovina",
-      "homeCode": "BIH",
-      "away": "Qatar",
-      "awayCode": "QAT",
-      "homeScore": 3,
-      "awayScore": 1,
-      "venue": "Lumen Field, Seattle",
-      "status": "finished",
-      "highlights": [
-        "Kerim Alajbegovic opened the scoring for Bosnia with a stunning long-range strike in the 30th minute",
-        "An Al Brake own goal doubled Bosnia's lead in the 35th minute",
-        "Hassan Al-Haydos pulled one back for Qatar before half-time to make it 2-1",
-        "Ermin Mahmic sealed Bosnia's victory in the 80th minute — Bosnia's first-ever World Cup win boosts their 3rd-place qualification hopes"
-      ]
-    },
-    {
-      "id": 51,
-      "date": "2026-06-24",
-      "time": "18:00 ET",
-      "stage": "Group C",
-      "home": "Scotland",
-      "homeCode": "SCO",
-      "away": "Brazil",
-      "awayCode": "BRA",
-      "homeScore": 0,
-      "awayScore": 3,
-      "venue": "Hard Rock Stadium, Miami Gardens",
-      "status": "finished",
-      "highlights": [
-        "Vinícius Júnior pounced on a Scott McKenna error in the 7th minute to give Brazil an early lead",
-        "Vinícius headed home from a Bruno Guimarães cross before half-time to make it 2-0 — his 4th goal of the tournament",
-        "Matheus Cunha added Brazil's third goal midway through the second half to complete Scotland's heavy defeat",
-        "Brazil top Group C with 7 points; Scotland eliminated with 3 points from 3 games"
-      ]
-    },
-    {
-      "id": 52,
-      "date": "2026-06-24",
-      "time": "18:00 ET",
-      "stage": "Group C",
-      "home": "Morocco",
-      "homeCode": "MAR",
-      "away": "Haiti",
-      "awayCode": "HAI",
-      "homeScore": 4,
-      "awayScore": 2,
-      "venue": "Mercedes-Benz Stadium, Atlanta",
-      "status": "finished",
-      "highlights": [
-        "Lenny Joseph scored with a back-heeled flick in the 10th minute — Haiti's first World Cup goal since Emmanuel Sanon in 1974",
-        "Achraf Hakimi equalized for Morocco (39'); Wilson Isidor put Haiti back in front (43') — an incredible first half",
-        "Ismael Saibari levelled again for Morocco (45+1') from Hakimi's cross to make it 2-2 at half-time",
-        "Soufiane Rahimi (78') and Gessime Yassine (89') sealed Morocco's dramatic comeback — Morocco finish 2nd in Group C"
-      ]
-    },
-    {
-      "id": 53,
-      "date": "2026-06-24",
-      "time": "21:00 ET",
-      "stage": "Group A",
-      "home": "Czech Republic",
-      "homeCode": "CZE",
-      "away": "Mexico",
-      "awayCode": "MEX",
-      "homeScore": 0,
-      "awayScore": 3,
-      "venue": "Estadio Azteca, Mexico City",
-      "status": "finished",
-      "highlights": [
-        "Mateo Chávez broke the deadlock 10 minutes after half-time (55'), set up by Luis Romo, with a composed finish into the bottom corner",
-        "Julián Quiñones added Mexico's second in the 61st minute — his second goal of the tournament",
-        "Álvaro Fidalgo completed the rout in stoppage time; legendary goalkeeper Guillermo Ochoa made a special late cameo",
-        "Mexico finish Group A with a perfect record: 9 points, 6 goals scored, zero conceded — first team to win all three group games at the 2026 World Cup"
-      ]
-    },
-    {
-      "id": 54,
-      "date": "2026-06-24",
-      "time": "21:00 ET",
-      "stage": "Group A",
-      "home": "South Africa",
-      "homeCode": "RSA",
-      "away": "South Korea",
-      "awayCode": "KOR",
-      "homeScore": 1,
-      "awayScore": 0,
-      "venue": "Estadio BBVA, Guadalupe",
-      "status": "finished",
-      "highlights": [
-        "Thapelo Maseko's powerful strike in the 63rd minute was the only goal — a moment of history for South Africa",
-        "South Africa qualify for the knockout stage for the first time ever, finishing 2nd in Group A with 4 points",
-        "South Korea eliminated — despite 1W in 3 games, not enough to advance; a first World Cup exit in the group stage since 2010",
-        "Bafana Bafana set to face Canada in the Round of 32 — a landmark achievement for African football"
-      ]
-    },
-    {
-      "id": 55,
-      "date": "2026-06-25",
-      "time": "16:00 ET",
-      "stage": "Group E",
-      "home": "Ecuador",
-      "homeCode": "ECU",
-      "away": "Germany",
-      "awayCode": "GER",
-      "homeScore": 2,
-      "awayScore": 1,
-      "venue": "MetLife Stadium, East Rutherford",
-      "status": "finished",
-      "highlights": [
-        "레로이 자네 2분 선제골로 독일이 에콰도르전 리드 (비르츠 어시스트)",
-        "닐손 앙굴로 9분 동점골로 에콰도르 즉시 추격",
-        "곤살로 플라타 77분 역전 결승골 (켄드리 로드리게스 어시스트) — 에콰도르 이변 완성",
-        "에콰도르, 조 3위(4점)로 최우수 3위 팀으로 32강 진출 확정; 독일은 6점으로 그룹 E 1위"
-      ]
-    },
-    {
-      "id": 56,
-      "date": "2026-06-25",
-      "time": "16:00 ET",
-      "stage": "Group E",
-      "home": "Curacao",
-      "homeCode": "CUW",
-      "away": "Ivory Coast",
-      "awayCode": "CIV",
-      "homeScore": 0,
-      "awayScore": 2,
-      "venue": "Lincoln Financial Field, Philadelphia",
-      "status": "finished",
-      "highlights": [
-        "니콜라 페페 7분 선제골 — 상고아레의 패스를 받아 침착한 마무리",
-        "페페 64분 추가골로 쐐기 — 이브라힘 상가레의 스루 패스를 받아 침착하게 마무리",
-        "코트디부아르 대회 첫 32강 진출 확정; 퀴라소 탈락, 16만 소국의 첫 월드컵 도전 마감"
-      ]
-    },
-    {
-      "id": 57,
-      "date": "2026-06-25",
-      "time": "19:00 ET",
-      "stage": "Group F",
-      "home": "Japan",
-      "homeCode": "JPN",
-      "away": "Sweden",
-      "awayCode": "SWE",
-      "homeScore": 1,
-      "awayScore": 1,
-      "venue": "AT&T Stadium, Arlington",
-      "status": "finished",
-      "highlights": [
-        "다이젠 마에다 56분 선제골 — 도안의 패스를 받은 우에다의 리턴에 이어 마에다가 마무리",
-        "앤서니 엘란가 62분 동점골 — 코너에서 왼발 감아찬 환상적인 마무리로 스웨덴 동점",
-        "일본 2위(5점)·스웨덴 3위(4점)로 모두 32강 진출; 빅토르 기외케레스는 결정적 기회 살리지 못해"
-      ]
-    },
-    {
-      "id": 58,
-      "date": "2026-06-25",
-      "time": "19:00 ET",
-      "stage": "Group F",
-      "home": "Tunisia",
-      "homeCode": "TUN",
-      "away": "Netherlands",
-      "awayCode": "NED",
-      "homeScore": 1,
-      "awayScore": 3,
-      "venue": "Arrowhead Stadium, Kansas City",
-      "status": "finished",
-      "highlights": [
-        "엘리에스 스히리 자책골 3분, 브라이언 브로비 7분 — 네덜란드 7분 만에 2-0 리드",
-        "하젬 마스투리 54분 코너킥 헤더로 튀니지 한 골 만회",
-        "얀파울 판헤케 62분 헤더 쐐기골로 네덜란드 3-1 확정 — 브로비 이번 대회 3번째 골 달성",
-        "네덜란드 그룹 F 1위(7점) 통과; 튀니지 3전 전패(0점) 탈락"
-      ]
-    },
-    {
-      "id": 59,
-      "date": "2026-06-25",
-      "time": "22:00 ET",
-      "stage": "Group D",
-      "home": "Turkey",
-      "homeCode": "TUR",
-      "away": "United States",
-      "awayCode": "USA",
-      "homeScore": 3,
-      "awayScore": 2,
-      "venue": "SoFi Stadium, Inglewood",
-      "status": "finished",
-      "highlights": [
-        "오스턴 트러스티 3분 선제골 — 미국 3경기 연속 선제 성공, 이 대회 두 번째 빠른 미국 골",
-        "아르다 귈레르 10분·레스파트 코크추 31분으로 터키 역전 2-1",
-        "세바스티안 버할터 49분 동점골로 미국 2-2 추격",
-        "칸 아얀 90+8분 극적 결승골 — 터키 스탑리지 타임 이변, 미국은 조 1위로 32강 진출"
-      ]
-    },
-    {
-      "id": 60,
-      "date": "2026-06-25",
-      "time": "22:00 ET",
-      "stage": "Group D",
-      "home": "Paraguay",
-      "homeCode": "PAR",
-      "away": "Australia",
-      "awayCode": "AUS",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Levi's Stadium, Santa Clara",
-      "status": "finished",
-      "highlights": [
-        "양 팀 모두 신중한 경기 운영으로 0-0 무득점 무승부",
-        "호주, 조 2위(4점·GD 0)로 32강 진출 확정 — 2006·2022에 이은 세 번째 토너먼트 진출",
-        "파라과이 3위(4점·GD -2)로 최우수 3위 경쟁 진입"
-      ]
-    },
-    {
-      "id": 61,
-      "date": "2026-06-26",
-      "time": "15:00 ET",
-      "stage": "Group I",
-      "home": "Norway",
-      "homeCode": "NOR",
-      "away": "France",
-      "awayCode": "FRA",
-      "homeScore": 1,
-      "awayScore": 4,
-      "venue": "Gillette Stadium, Foxborough",
-      "status": "finished",
-      "highlights": [
-        "뎀벨레 전반 해트트릭(7'·20'·32') — 월드컵 역사상 가장 이른 해트트릭 중 하나",
-        "오스고르 21분 노르웨이 만회골",
-        "두에 90+4분 쐐기골로 최종 1-4 확정",
-        "프랑스 그룹 I 1위 확정(9점), 노르웨이 로테이션 출전"
-      ]
-    },
-    {
-      "id": 62,
-      "date": "2026-06-26",
-      "time": "15:00 ET",
-      "stage": "Group I",
-      "home": "Senegal",
-      "homeCode": "SEN",
-      "away": "Iraq",
-      "awayCode": "IRQ",
-      "homeScore": 5,
-      "awayScore": 0,
-      "venue": "BMO Field, Toronto",
-      "status": "finished",
-      "highlights": [
-        "아비브 디아라 4분 선제골, 이스마일라 사르 56분 추가골",
-        "이라크 수비수 레빈 술라카 10분 퇴장으로 10명 진행",
-        "파프 게예 멀티골, 일리만 은디아예 5번째 골 마무리",
-        "세네갈 최우수 3위 진출 희망 유지(득실 +5)"
-      ]
-    },
-    {
-      "id": 63,
-      "date": "2026-06-26",
-      "time": "20:00 ET",
-      "stage": "Group H",
-      "home": "Cabo Verde",
-      "homeCode": "CPV",
-      "away": "Saudi Arabia",
-      "awayCode": "KSA",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "NRG Stadium, Houston",
-      "status": "finished",
-      "highlights": [
-        "카보베르데 데뷔 월드컵 16강 진출 확정 — 사상 최소 인구 국가의 녹아웃 진출",
-        "3경기 전부 무승부로 그룹 H 2위 마감",
-        "사우디아라비아 탈락 확정"
-      ]
-    },
-    {
-      "id": 64,
-      "date": "2026-06-26",
-      "time": "20:00 ET",
-      "stage": "Group H",
-      "home": "Uruguay",
-      "homeCode": "URU",
-      "away": "Spain",
-      "awayCode": "ESP",
-      "homeScore": 0,
-      "awayScore": 1,
-      "venue": "Estadio Akron, Guadalajara",
-      "status": "finished",
-      "highlights": [
-        "알렉스 바에나 42분 결승골 — 우루과이 GK 무슬레라 실책 이용",
-        "스페인 그룹 H 1위 확정(9점)",
-        "우루과이(비엘사 감독) 탈락 확정"
-      ]
-    },
-    {
-      "id": 65,
-      "date": "2026-06-26",
-      "time": "23:00 ET",
-      "stage": "Group G",
-      "home": "Egypt",
-      "homeCode": "EGY",
-      "away": "Iran",
-      "awayCode": "IRN",
-      "homeScore": 1,
-      "awayScore": 1,
-      "venue": "Lumen Field, Seattle",
-      "status": "finished",
-      "highlights": [
-        "마흐무드 사베르 5분 선제골(살라 연계)",
-        "라민 레자에이안 14분 동점골",
-        "이란 칼릴자데 93분 결승골이 VAR 오프사이드로 취소되는 극적 마무리",
-        "이집트 그룹 G 2위로 16강 진출 확정"
-      ]
-    },
-    {
-      "id": 66,
-      "date": "2026-06-26",
-      "time": "23:00 ET",
-      "stage": "Group G",
-      "home": "New Zealand",
-      "homeCode": "NZL",
-      "away": "Belgium",
-      "awayCode": "BEL",
-      "homeScore": 1,
-      "awayScore": 5,
-      "venue": "BC Place, Vancouver",
-      "status": "finished",
-      "highlights": [
-        "트로사르 멀티골, 더 브라위너 66분 중거리 강타",
-        "루카쿠 86분 헤더 추가 — 벨기에 압도적 승리",
-        "엘라이자 저스트 84분 뉴질랜드 만회골",
-        "벨기에 그룹 G 1위로 16강 진출, 뉴질랜드 탈락"
-      ]
-    },
-    {
-      "id": 67,
-      "date": "2026-06-27",
-      "time": "17:00 ET",
-      "stage": "Group L",
-      "home": "Panama",
-      "homeCode": "PAN",
-      "away": "England",
-      "awayCode": "ENG",
-      "homeScore": 0,
-      "awayScore": 2,
-      "venue": "MetLife Stadium, East Rutherford",
-      "status": "finished",
-      "highlights": [
-        "벨링엄 62분 선제골(사카 코너킥 헤더)",
-        "케인 67분 추가골(벨링엄 크로스 헤더) — 월드컵 통산 11호골로 라인커 제치고 잉글랜드 월드컵 최다 득점자 등극",
-        "파나마 무득점·무승점 탈락 — 16년 만에 월드컵 1골도 못 넣은 팀",
-        "잉글랜드 그룹 L 1위 확정(9점)"
-      ]
-    },
-    {
-      "id": 68,
-      "date": "2026-06-27",
-      "time": "17:00 ET",
-      "stage": "Group L",
-      "home": "Croatia",
-      "homeCode": "CRO",
-      "away": "Ghana",
-      "awayCode": "GHA",
-      "homeScore": 2,
-      "awayScore": 1,
-      "venue": "Lincoln Financial Field, Philadelphia",
-      "status": "finished",
-      "highlights": [
-        "페타르 수치치 31분 선제골 — 박스 밖 강슛(코바치치 연계)",
-        "데릭 루카센 73분 동점골 — VAR 확인 후 인정",
-        "니콜라 블라시치 83분 결승 헤더(모드리치 코너킥) — 크로아티아 2위로 16강",
-        "모드리치 1966년 이후 최고령 월드컵 도움 기록"
-      ]
-    },
-    {
-      "id": 69,
-      "date": "2026-06-27",
-      "time": "19:30 ET",
-      "stage": "Group K",
-      "home": "Colombia",
-      "homeCode": "COL",
-      "away": "Portugal",
-      "awayCode": "POR",
-      "homeScore": 0,
-      "awayScore": 0,
-      "venue": "Hard Rock Stadium, Miami Gardens",
-      "status": "finished",
-      "highlights": [
-        "콜롬비아 0-0 포르투갈 무득점 무승부",
-        "양 팀 모두 16강 진출 확정 후 로테이션 성격 경기",
-        "콜롬비아 그룹 K 1위(7점), 포르투갈 2위(5점) 마감"
-      ]
-    },
-    {
-      "id": 70,
-      "date": "2026-06-27",
-      "time": "19:30 ET",
-      "stage": "Group K",
-      "home": "DR Congo",
-      "homeCode": "COD",
-      "away": "Uzbekistan",
-      "awayCode": "UZB",
-      "homeScore": 3,
-      "awayScore": 1,
-      "venue": "Mercedes-Benz Stadium, Atlanta",
-      "status": "finished",
-      "highlights": [
-        "엘도르 쇼무로도프 10분 우즈베키스탄 선제골 — 월드컵 첫 리드",
-        "요안 위사 68분 PK 동점골",
-        "피스통 마옐레 78분 역전골",
-        "위사 90+1분 추가골(멀티골)로 3-1 역전승 — DR콩고 16강 진출, 잉글랜드와 32강 대진"
-      ]
-    },
-    {
-      "id": 71,
-      "date": "2026-06-27",
-      "time": "22:00 ET",
-      "stage": "Group J",
-      "home": "Algeria",
-      "homeCode": "ALG",
-      "away": "Austria",
-      "awayCode": "AUT",
-      "homeScore": 3,
-      "awayScore": 3,
-      "venue": "Arrowhead Stadium, Kansas City",
-      "status": "finished",
-      "highlights": [
-        "아르나우토비치 28분 선제골 — 오스트리아 대표팀 통산 49호골",
-        "라피크 벨갈리 45분 동점골, 사비처 55분 오스트리아 재역전",
-        "마흐레즈 60분·90+3분 멀티골로 알제리 역전",
-        "사샤 칼라이지치 90+6분(96분) 극장 동점 헤더 — 양 팀 모두 녹아웃 진출, 이란 탈락 확정"
-      ]
-    },
-    {
-      "id": 72,
-      "date": "2026-06-27",
-      "time": "22:00 ET",
-      "stage": "Group J",
-      "home": "Jordan",
-      "homeCode": "JOR",
-      "away": "Argentina",
-      "awayCode": "ARG",
-      "homeScore": 1,
-      "awayScore": 3,
-      "venue": "AT&T Stadium, Arlington",
-      "status": "finished",
-      "highlights": [
-        "로 셀소 19분 프리킥 선제골",
-        "라우타로 마르티네스 30분대 PK 추가골",
-        "무사 알타마리 요르단 만회골(하다드 크로스 마무리)",
-        "메시 80분 프리킥 골 — 월드컵 7경기 연속 득점 사상 첫 기록, 조별리그 6호골",
-        "아르헨티나 전승으로 그룹 J 1위, 32강 카보베르데와 대진(7/3 마이애미)"
-      ]
-    },
-    {
-      "id": 73,
-      "date": "2026-06-28",
-      "time": "15:00 ET",
-      "stage": "Round of 32",
-      "home": "South Africa",
-      "homeCode": "RSA",
-      "away": "Canada",
-      "awayCode": "CAN",
-      "homeScore": 0,
-      "awayScore": 1,
-      "venue": "SoFi Stadium, Inglewood",
-      "status": "finished",
-      "highlights": [
-        "Stephen Eustaquio scored the winner deep in stoppage time (90+5') to send Canada through to the Round of 16 for the first time in their history",
-        "The first-ever World Cup knockout match for both South Africa and Canada — a historic occasion for two nations meeting at this stage for the first time",
-        "South Africa, in their first-ever knockout appearance, were undone by a single late goal after a tight, low-scoring contest at SoFi Stadium",
-        "Canada advance as the sole match played on the opening day of the Round of 32"
-      ]
-    },
-    {
-      "id": 76,
-      "date": "2026-06-29",
-      "time": "13:00 ET",
-      "stage": "Round of 32",
-      "home": "Brazil",
-      "homeCode": "BRA",
-      "away": "Japan",
-      "awayCode": "JPN",
-      "homeScore": 2,
-      "awayScore": 1,
-      "venue": "NRG Stadium, Houston",
-      "status": "finished",
-      "highlights": [
-        "가이슈 사노 29분 선제골 — 빠른 공 가로채기로 일본이 브라질을 상대로 충격적인 리드",
-        "카세미루 56분 동점 헤더(가브리엘 마갈량이스 크로스) — 브라질 하프타임 직후 추격",
-        "가브리엘 마르티넬리 96분(90+6') 역전 결승골(브루누 기마랑이스 연계) — 브라질 극적 컴백 완성",
-        "브라질 16강 진출; 일본 월드컵 사상 첫 32강 돌파 일보 직전 아쉽게 탈락"
-      ]
-    },
-    {
-      "id": 74,
-      "date": "2026-06-29",
-      "time": "16:30 ET",
-      "stage": "Round of 32",
-      "home": "Germany",
-      "homeCode": "GER",
-      "away": "Paraguay",
-      "awayCode": "PAR",
-      "homeScore": 1,
-      "awayScore": 1,
-      "venue": "Gillette Stadium, Foxborough",
-      "status": "finished",
-      "highlights": [
-        "훌리오 엔시소 42분 헤더 선제골(갈라르사 크로스) — 파라과이가 독일 상대로 전반에 리드",
-        "카이 하버츠 54분 동점 헤더(비르츠 크로스) — 독일 하프타임 직후 즉시 동점",
-        "요나탄 타 연장전 결승 헤더, VAR 재검토 끝에 골키퍼 방해 반칙으로 취소(논란)",
-        "승부차기 4-3 파라과이 승리 — 힐 골키퍼 하버츠·볼테마데 PK 선방, 타 PK 상단 실축. 독일 사상 첫 월드컵 승부차기 탈락, 4강 강호의 32강 충격 탈락"
-      ]
-    },
-    {
-      "id": 75,
-      "date": "2026-06-29",
-      "time": "21:00 ET",
-      "stage": "Round of 32",
-      "home": "Netherlands",
-      "homeCode": "NED",
-      "away": "Morocco",
-      "awayCode": "MAR",
-      "homeScore": 1,
-      "awayScore": 1,
-      "venue": "Estadio BBVA, Guadalupe",
-      "status": "finished",
-      "highlights": [
-        "코디 가크포 72분 선제골 — 네덜란드가 전반 압도적 경기 후 후반 리드",
-        "이사 디오프 90+1분 극적 동점 헤더 — 모로코가 이사 하킴의 크로스를 받아 막판 기적의 동점 연출",
-        "승부차기 3-2 모로코 승리 — 부누 골키퍼 서머빌 PK 선방, 클루이베르트·팀버 실축; 사이바리 결승 PK 성공",
-        "모로코 16강 진출(캐나다와 맞대결); 네덜란드 2연속 월드컵 승부차기 탈락(2022년 아르헨티나 이후)"
-      ]
-    },
-    {
-      "id": 77,
-      "date": "2026-06-30",
-      "time": "13:00 ET",
-      "stage": "Round of 32",
-      "home": "Ivory Coast",
-      "homeCode": "CIV",
-      "away": "Norway",
-      "awayCode": "NOR",
-      "homeScore": 1,
-      "awayScore": 2,
-      "venue": "AT&T Stadium, Arlington",
-      "status": "finished",
-      "highlights": [
-        "안토니오 누사(NOR) 39분 오데고르 연계 왼발 감아찬 원더골로 선제 — 노르웨이의 88년 만의 첫 월드컵 녹아웃 골",
-        "아마드 디알로(CIV) 74분 솔로 드리블 동점골로 코트디부아르 추격",
-        "엘링 홀란(NOR) 86분 결승골 — 홀란 대회 5호골·노르웨이 사상 첫 월드컵 16강 진출 확정",
-        "노르웨이, 7월 5일 뉴저지 메트라이프 스타디움에서 브라질과 16강 맞대결"
-      ]
-    },
-    {
-      "id": 78,
-      "date": "2026-06-30",
-      "time": "16:00 ET",
-      "stage": "Round of 32",
-      "home": "France",
-      "homeCode": "FRA",
-      "away": "Sweden",
-      "awayCode": "SWE",
-      "homeScore": 3,
-      "awayScore": 0,
-      "venue": "MetLife Stadium, East Rutherford",
-      "status": "finished",
-      "highlights": [
-        "킬리앙 음바페(FRA) 45분 선제골 — 기외케레스를 제치고 대각 마무리(올리스·뎀벨레 연계)",
-        "브래들리 바르콜라(FRA) 53분 추가골 — 올리스의 절묘한 컷백 패스를 받아 냉정 마무리",
-        "음바페 74분 쐐기골(올리스 스루패스) — 이번 대회 6호골, 메시와 공동 골든부트 선두",
-        "마이클 올리스 2도움 추가로 대회 통산 5도움 — 남자 월드컵 단일 대회 어시스트 기록 경신 기록"
-      ]
-    },
-    {
-      "id": 79,
-      "date": "2026-06-30",
-      "time": "21:00 ET",
-      "stage": "Round of 32",
-      "home": "Mexico",
-      "homeCode": "MEX",
-      "away": "Ecuador",
-      "awayCode": "ECU",
-      "homeScore": 2,
-      "awayScore": 0,
-      "venue": "Estadio Azteca, Mexico City",
-      "status": "finished",
-      "highlights": [
-        "훌리안 키뇨네스(MEX) 22분 선제골 — 박스 안으로 파고들어 상단 구석 강슛 마무리",
-        "라울 히메네스(MEX) 31분 추가골 — 에콰도르 GK 오르도녜스 실책을 키뇨네스와 연계해 마무리",
-        "피에로 힌카피에(ECU) 후반 추가시간 퇴장 — 골 마우스 가리기 규정 위반 적색 카드",
-        "멕시코, 40년 만의 첫 월드컵 녹아웃 승리 — 공동 개최국 자존심 회복, 7월 5일 아즈테카서 잉글랜드/DR콩고 승자와 16강"
-      ]
-    },
-    {
-      "id": 80,
-      "date": "2026-07-01",
-      "time": "13:00 ET",
-      "stage": "Round of 32",
-      "home": "England",
-      "homeCode": "ENG",
-      "away": "DR Congo",
-      "awayCode": "COD",
-      "homeScore": null,
-      "awayScore": null,
-      "venue": "Mercedes-Benz Stadium, Atlanta",
-      "status": "scheduled",
-      "highlights": []
-    },
-    {
-      "id": 82,
-      "date": "2026-07-01",
-      "time": "16:00 ET",
-      "stage": "Round of 32",
-      "home": "Belgium",
-      "homeCode": "BEL",
-      "away": "Senegal",
-      "awayCode": "SEN",
-      "homeScore": null,
-      "awayScore": null,
-      "venue": "Lumen Field, Seattle",
-      "status": "scheduled",
-      "highlights": []
-    },
-    {
-      "id": 81,
-      "date": "2026-07-01",
-      "time": "20:00 ET",
-      "stage": "Round of 32",
-      "home": "United States",
-      "homeCode": "USA",
-      "away": "Bosnia and Herzegovina",
-      "awayCode": "BIH",
-      "homeScore": null,
-      "awayScore": null,
-      "venue": "Levi's Stadium, Santa Clara",
-      "status": "scheduled",
-      "highlights": []
-    },
-    {
-      "id": 83,
-      "date": "2026-07-02",
-      "time": "15:00 ET",
-      "stage": "Round of 32",
-      "home": "Spain",
-      "homeCode": "ESP",
-      "away": "Austria",
-      "awayCode": "AUT",
-      "homeScore": null,
-      "awayScore": null,
-      "venue": "SoFi Stadium, Inglewood",
-      "status": "scheduled",
-      "highlights": []
-    },
-    {
-      "id": 84,
-      "date": "2026-07-02",
-      "time": "17:00 ET",
-      "stage": "Round of 32",
-      "home": "Switzerland",
-      "homeCode": "SUI",
-      "away": "Algeria",
-      "awayCode": "ALG",
-      "homeScore": null,
-      "awayScore": null,
-      "venue": "BC Place, Vancouver",
-      "status": "scheduled",
-      "highlights": []
-    },
-    {
-      "id": 85,
-      "date": "2026-07-02",
-      "time": "19:00 ET",
-      "stage": "Round of 32",
-      "home": "Portugal",
-      "homeCode": "POR",
-      "away": "Croatia",
-      "awayCode": "CRO",
-      "homeScore": null,
-      "awayScore": null,
-      "venue": "BMO Field, Toronto",
-      "status": "scheduled",
-      "highlights": []
-    },
-    {
-      "id": 86,
-      "date": "2026-07-03",
-      "time": "14:00 ET",
-      "stage": "Round of 32",
-      "home": "Australia",
-      "homeCode": "AUS",
-      "away": "Egypt",
-      "awayCode": "EGY",
-      "homeScore": null,
-      "awayScore": null,
-      "venue": "AT&T Stadium, Arlington",
-      "status": "scheduled",
-      "highlights": []
-    },
-    {
-      "id": 87,
-      "date": "2026-07-03",
-      "time": "18:00 ET",
-      "stage": "Round of 32",
-      "home": "Argentina",
-      "homeCode": "ARG",
-      "away": "Cabo Verde",
-      "awayCode": "CPV",
-      "homeScore": null,
-      "awayScore": null,
-      "venue": "Hard Rock Stadium, Miami Gardens",
-      "status": "scheduled",
-      "highlights": []
-    },
-    {
-      "id": 88,
-      "date": "2026-07-03",
-      "time": "21:30 ET",
-      "stage": "Round of 32",
-      "home": "Colombia",
-      "homeCode": "COL",
-      "away": "Ghana",
-      "awayCode": "GHA",
-      "homeScore": null,
-      "awayScore": null,
-      "venue": "Arrowhead Stadium, Kansas City",
-      "status": "scheduled",
-      "highlights": []
-    },
-    {
-      "id": 90,
-      "date": "2026-07-04",
-      "time": "13:00 ET",
-      "stage": "Round of 16",
-      "home": "Canada",
-      "homeCode": "CAN",
-      "away": "Morocco",
-      "awayCode": "MAR",
-      "homeScore": null,
-      "awayScore": null,
-      "venue": "NRG Stadium, Houston",
-      "status": "scheduled",
-      "highlights": []
-    },
-    {
-      "id": 89,
-      "date": "2026-07-04",
-      "time": "17:00 ET",
-      "stage": "Round of 16",
-      "home": "France",
-      "homeCode": "FRA",
-      "away": "Paraguay",
-      "awayCode": "PAR",
-      "homeScore": null,
-      "awayScore": null,
-      "venue": "Lincoln Financial Field, Philadelphia",
-      "status": "scheduled",
-      "highlights": []
-    },
-    {
-      "id": 91,
-      "date": "2026-07-05",
-      "time": "16:00 ET",
-      "stage": "Round of 16",
-      "home": "Brazil",
-      "homeCode": "BRA",
-      "away": "Norway",
-      "awayCode": "NOR",
-      "homeScore": null,
-      "awayScore": null,
-      "venue": "MetLife Stadium, East Rutherford",
-      "status": "scheduled",
-      "highlights": []
-    }
-  ],
-  "storylines": [
-    "Lionel Messi scored a hat trick vs Algeria (June 16) — his first WC hat trick — tying Miroslav Klose's all-time record of 16 World Cup goals. At 38, he is the oldest player to score a WC hat trick.",
-    "Kylian Mbappé became France's all-time top international scorer (surpassing Olivier Giroud) with a brace vs Senegal, reaching 58 goals in 99 caps.",
-    "Scotland — back at the World Cup for the first time since 1998 — sit top of Group C above Brazil and Morocco after beating Haiti 1-0.",
-    "Cabo Verde (pop. ~530,000) held favorite Spain to a 0-0 draw on their tournament debut — one of the biggest shocks of the opening week.",
-    "Curacao became the smallest nation in men's World Cup history (pop. ~155,000) and scored their first-ever World Cup goal against Germany despite losing 7-1.",
-    "Erling Haaland made his World Cup debut with a brace in Norway's 4-1 win over Iraq — Norway's first World Cup since 1998.",
-    "Germany became the all-time top scorers in World Cup history (239 goals), surpassing Brazil, with their 7-1 rout of Curacao.",
-    "Folarin Balogun became the first American to score two goals in a World Cup game since the inaugural 1930 tournament, in the USMNT's 4-1 win over Paraguay.",
-    "Qatar earned their first-ever World Cup point with a 1-1 draw against Switzerland, having gone 0-3 as 2022 hosts.",
-    "Julián Quiñones scored the tournament's opening goal for Mexico — the first CONCACAF player to score a World Cup opener.",
-    "Italy missed out on the tournament — the first former champion to miss three consecutive World Cups.",
-    "This is the first World Cup co-hosted by three nations, the first with 48 teams, and the first in North America since 1994.",
-    "As of June 16, 19 matches had produced 58 goals (3.05 per match) with average attendance of 65,322.",
-    "Austria defeated Jordan 3-1 on June 17 — Austria's first World Cup win since 1990 (36 years). Jordan made their World Cup debut and scored their first-ever World Cup goal through Ali Iyad Olwan.",
-    "England beat Croatia 4-2 in their Group L opener on June 17 — Harry Kane scored twice to reach 10 England World Cup goals, equalling Gary Lineker's national record.",
-    "Colombia topped Group K after a 3-1 win over Uzbekistan at the Estadio Azteca on June 17. Abbosbek Fayzullaev scored Uzbekistan's first-ever World Cup goal.",
-    "Ghana's Caleb Yirenkyi scored a 95th-minute winner to beat Panama 1-0 in Group L on June 17 — Ghana join England at the top on 3 points.",
-    "Portugal were held to a 1-1 draw by DR Congo on June 17 — Yoane Wissa's 45+5 equalizer earned DR Congo their first World Cup point since their only previous appearance in 1974.",
-    "Jonathan David scored a hat trick as Canada beat Qatar 6-0 on June 18 — Canada's first-ever World Cup win and the biggest margin of victory by a CONCACAF team in men's World Cup history. Qatar had two players sent off.",
-    "Mexico became the first team to clinch a place in the Round of 32, defeating South Korea 1-0 on June 18 thanks to Luis Romo's 50th-minute goal after a goalkeeper error. Mexico top Group A with 6 points from 2 games.",
-    "Switzerland's Johan Manzambi scored twice as a substitute in a stunning 4-1 comeback win over Bosnia and Herzegovina on June 18 (trailing 0-0 at 70 mins). Switzerland top Group B level on points with Canada.",
-    "USA beat Australia 2-0 on June 19 (Burgess OG 11', Freeman header 43') — USMNT advance to Round of 32 with 6 points from two games. Christian Pulisic missed the match through injury.",
-    "Morocco beat Scotland 1-0 with Ismael Saibari's goal after just 70 seconds — the fastest winning goal in 2026 World Cup history. Morocco top Group C on goal difference ahead of Brazil.",
-    "Brazil crushed Haiti 3-0 on June 19 (Cunha 23', 36'; Vinicius Jr 45+3') — Haiti become the first team eliminated from the 2026 World Cup.",
-    "Paraguay beat Turkey 1-0 on June 19 despite having Miguel Almirón sent off under FIFA's new mouth-covering rule — Galarza's 2nd-minute strike was enough; Turkey eliminated after two straight defeats.",
-    "Deniz Undav scored twice off the bench as Germany came from behind to beat Ivory Coast 2-1 on June 20 (Kessié 30' for CIV; Undav 68', 94') — Germany advance to the Round of 32 with a 94th-minute winner.",
-    "Curaçao earned their first-ever World Cup point on June 20 with a 0-0 draw against Ecuador — goalkeeper Eloy Room made 15 saves in one of the great individual World Cup goalkeeping performances.",
-    "Netherlands crushed Sweden 5-1 on June 20 (Brobbey 5',17'; Gakpo 47',54'; Summerville 89') — their biggest-ever World Cup win. Brian Brobbey's two goals inside 17 minutes were the fourth-fastest brace in World Cup history.",
-    "Japan defeated Tunisia 4-0 on June 21 (Kamada 4'; Ueda 30',83'; Ito 69') in the 1,000th match in World Cup history — Japan's biggest-ever World Cup winning margin; they join Netherlands at the top of Group F.",
-    "Lamine Yamal (17) scored his first World Cup goal as Spain thrashed Saudi Arabia 4-0 on June 21 in Atlanta (Yamal 10', Oyarzabal 21'&24', Al-Tambakti OG 51'). Yamal becomes the 8th-youngest scorer in World Cup history, surpassing Messi, Mbappé and Ronaldo's debut WC goal ages. Spain top Group H and advance to the Round of 32.",
-    "Egypt claimed their first-ever World Cup win on June 21, beating New Zealand 3-1 in Vancouver (Surman 15' for NZL; Ziko 58', Salah 67', Trezeguet 82'). Mohamed Salah was decisive as Egypt move top of Group G with 4 points.",
-    "Belgium and Iran drew 0-0 on June 21 in Los Angeles — Belgium finished with 10 men after Nathan Ngoy's red card (66' for fouling Taremi). Taremi also had a goal chalked off by VAR. All four Group G teams remain in knockout contention heading into matchday 3.",
-    "Uruguay and Cabo Verde drew 2-2 on June 21 in Miami (Pina 21', Araújo 44', Canobbio 45+6', H. Varela 61'). Cabo Verde remain unbeaten at the 2026 World Cup; Group H's bottom three are separated by just one point.",
-    "Lionel Messi scored twice vs Austria on June 22 (38' & 90+2') to reach 18 World Cup goals — the most by any player in men's or women's World Cup history. His 17th goal broke Miroslav Klose's men's record; his 18th surpassed the overall record. Argentina advance to Round of 32 with 6 points.",
-    "France and Norway both advance from Group I after June 22 matchday-2 wins: France beat Iraq 3-0 (Mbappé 14' & 54', Dembélé 66'; match delayed ~2 hours by lightning), Norway edged Senegal 3-2 (Pedersen 43', Haaland 48' & 58'; Sarr 53' & 90+3').",
-    "Kylian Mbappé and Erling Haaland are tied on 4 tournament goals each after June 22 matchday 2 — both chasing Messi (5 goals) in the Golden Boot race.",
-    "Algeria came from behind to beat Jordan 2-1 on June 22 (Al-Rashdan first half for Jordan; Benbouali 68', Gouiri 82') — Algeria stay in contention in Group J with 3 points.",
-    "Cristiano Ronaldo scored twice vs Uzbekistan on June 23 (6' & 39') to become the first player ever to score at six different FIFA World Cups. Nuno Mendes (17' FK), Nematov OG (60') and Leão (87') completed Portugal's 5-0 rout. Portugal advance to the Round of 32.",
-    "England and Ghana drew 0-0 on June 23 in Foxborough — England dominated with 79% possession and 19 shots but could not score. Both teams on 4 points at the top of Group L ahead of the decisive final matchday.",
-    "Croatia beat Panama 1-0 on June 23 (Budimir 54' header) — Croatia's first win of the tournament. Panama eliminated after failing to score in either of their two matches at their debut World Cup.",
-    "Colombia beat DR Congo 1-0 on June 23 (Muñoz 76') to seal their place in the Round of 32 as Group K winners with 6 points. DR Congo must beat Uzbekistan in the final group game to have any chance of advancing.",
-    "멕시코, 그룹 A 전승(9점) 마감 — 6골 무실점으로 완벽한 조별리그를 기록한 첫 팀. 6월 24일 체코 3-0 완파, 오초아 전설적 카메오 출전.",
-    "남아공, 6월 24일 한국을 1-0(마세코 63')으로 꺾고 월드컵 사상 최초 16강(32강) 진출 — 아프리카 축구 역사에 남을 이변.",
-    "스위스, 캐나다를 2-1(바르가스 46', 만잠비 57')로 꺾고 그룹 B 1위 — 만잠비 이번 대회 3골째; 캐나다도 2위로 32강 통과.",
-    "보스니아, 카타르를 3-1로 격파(알라이베고비치 30', OG 35', 마미치 80') — 보스니아 첫 월드컵 승리; 3위권 탈락 경쟁 생존.",
-    "브라질, 스코틀랜드 3-0 대파(비니시우스 7'·38', 쿠냐 ~65')로 그룹 C 1위 — 비니시우스 주니오르 이번 대회 4골 메시 추격.",
-    "모로코, 아이티에게 두 차례 리드를 내줬지만 劇的 역전 4-2 승리. 아이티 레니 조셉이 1974년 엠마누엘 사논 이후 첫 월드컵 골을 넣어 역사적 순간 연출.",
-    "에콰도르 2-1 독일 이변(6월 25일) — 앙굴로 9분·플라타 77분 역전으로 남미 팀이 8강 강호 독일을 탈락 일보 직전까지 몰았고, 에콰도르는 조 3위(4점)로 최우수 3위 팀 자격 32강 진출 확정.",
-    "터키, 아얀 90+8분 결승골로 미국을 3-2 격파(6월 25일) — 대회 최후반 극적 역전극. 미국은 조 1위로 7월 1일 보스니아와 32강 맞대결 확정.",
-    "페페, 퀴라소전 2골 폭발로 코트디부아르 그룹 E 2위 32강 진출(6월 25일) — 전 아스날 공격수가 7분·64분 두 골을 넣으며 역대 첫 32강 진출 이끌어.",
-    "그룹 F 최종 확정(6월 25일): 네덜란드 1위(7점)·일본 2위(5점)·스웨덴 3위(4점) 모두 32강 진출, 튀니지 3전 전패 탈락. 네덜란드 vs 모로코, 브라질 vs 일본 32강 맞대결 확정.",
-    "뎀벨레 노르웨이전 전반 해트트릭(6월 26일) — 총 4골로 골든부트 경쟁 합류. 메시(5골)·음바페·홀란·비니시우스(각 4골)와 초접전",
-    "카보베르데, 데뷔 월드컵 16강 진출 쾌거(6월 26일) — 인구 약 53만 명의 사상 최소 인구 국가 녹아웃 진출. 16강에서 강호와 맞대결 예정",
-    "스페인, 우루과이를 1-0으로 꺾고 그룹 H 1위 확정(6월 26일) — 비엘사 감독의 우루과이 조별리그 탈락",
-    "벨기에 뉴질랜드 5-1 대파, 이집트 이란과 1-1 무승부로 그룹 G 각각 1·2위 확정(6월 26일)",
-    "해리 케인, 파나마전(6월 27일) 골로 잉글랜드 월드컵 통산 11호골 기록 — 게리 라인커 제치고 잉글랜드 역대 월드컵 최다 득점자 등극. 잉글랜드 7점 그룹 L 1위 마감.",
-    "알제리-오스트리아 3-3 스릴러(6월 27일) — 마흐레즈 90+3분 결승골처럼 보였던 순간을 칼라이지치가 90+6분 헤더로 무산시키며 양 팀 모두 16강 진출. 이란 그룹스테이지 탈락 확정.",
-    "메시, 월드컵 7경기 연속 득점 세계 최초 기록(6월 27일) — 요르단전 80분 프리킥으로 조별리그 6호골, 골든부트 선두 독주. 아르헨티나 그룹 J 전승(9점) 마감.",
-    "DR콩고, 위사 멀티골로 우즈베키스탄 3-1 역전 격파(6월 27일) — 사상 첫 32강(녹아웃) 진출 쾌거. 잉글랜드와 맞대결 예정. 모든 12개조 조별리그 완료, 32강 막오른다.",
-    "캐나다, 남아공을 1-0으로 꺾고 사상 첫 월드컵 16강 진출(6월 28일) — 스티븐 에우스타키오가 후반 추가시간(90+5')에 결승골. 32강 개막전이자 양국 모두 첫 월드컵 녹아웃 경기였던 역사적 맞대결에서 캐나다가 막판 한 방으로 승리. 남아공의 첫 녹아웃 도전은 종료.",
-    "32강 개막일(6월 28일)에는 남아공-캐나다 단 한 경기만 치러졌고, 6월 29일부터 브라질-일본·독일-파라과이·네덜란드-모로코로 본격 라운드가 시작된다.",
-    "32강 골든부트 판도: 조별리그 종료 시점 메시(아르헨티나) 6골 단독 선두, 음바페·뎀벨레(프랑스)·홀란(노르웨이)·비니시우스(브라질)·조너선 데이비드(캐나다)가 4골로 추격. 6월 28일 에우스타키오의 결승골은 토너먼트 첫 녹아웃 골이었으나 1골로 상위권 변동은 없음.",
-    "브라질, 일본에 0-1로 뒤지다 카세미루(56')·마르티넬리(96') 연속골로 극적 역전 2-1 승리(6월 29일) — 사상 첫 월드컵 탈락 위기에서 탈출한 브라질. 일본은 32강에서 역대 첫 WC 16강 진출 일보 직전 아쉽게 탈락.",
-    "파라과이, 독일을 1-1 후 승부차기 4-3으로 격파(6월 29일) — 월드컵 역사상 최대 이변 중 하나. 4회 우승 독일 사상 첫 WC 승부차기 탈락. 힐 골키퍼 선방이 결정적; 타 VAR 취소 골도 논란. 파라과이 사상 첫 16강.",
-    "모로코, 디오프 90+1분 극적 동점 헤더 후 승부차기 3-2로 네덜란드 격파(6월 29일) — 아프리카 팀의 또 다른 기적. 부누 서머빌 PK 선방으로 결판. 6/29에만 독일·네덜란드 나란히 32강 탈락 — 대회 사상 최대 이변의 날.",
-    "노르웨이, 누사(39') 원더골·홀란(86') 결승골로 코트디부아르를 2-1 격파(6월 30일) — 노르웨이 사상 첫 월드컵 16강 진출 쾌거. 홀란 대회 5호골·누사 이번 대회 최고의 골 후보. 7/5 브라질과 메트라이프 스타디움 맞대결.",
-    "프랑스, 스웨덴을 3-0 대파(6월 30일) — 음바페 멀티골(45'·74')·바르콜라(53')·올리스 2도움. 음바페 이번 대회 6호골로 메시와 공동 골든부트 선두. 올리스 대회 통산 5도움 남자 월드컵 어시스트 신기록. 7/4 파라과이와 필라델피아 16강.",
-    "멕시코, 에콰도르를 2-0 격파(6월 30일) — 키뇨네스(22')·히메네스(31') 활약. 공동 개최국 40년 만의 첫 녹아웃 승리. 힌카피에 추가시간 퇴장. 7/5 아즈테카서 잉글랜드/DR콩고 승자와 16강."
-  ],
-  "topScorers": [
-    {
-      "player": "Lionel Messi",
-      "team": "Argentina",
-      "teamCode": "ARG",
-      "goals": 6,
-      "assists": 0
-    },
-    {
-      "player": "Kylian Mbappé",
-      "team": "France",
-      "teamCode": "FRA",
-      "goals": 6,
-      "assists": 0
-    },
-    {
-      "player": "Erling Haaland",
-      "team": "Norway",
-      "teamCode": "NOR",
-      "goals": 5,
-      "assists": 0
-    },
-    {
-      "player": "Vinícius Júnior",
-      "team": "Brazil",
-      "teamCode": "BRA",
-      "goals": 4,
-      "assists": 0
-    },
-    {
-      "player": "Ousmane Dembélé",
-      "team": "France",
-      "teamCode": "FRA",
-      "goals": 4,
-      "assists": 0
-    },
-    {
-      "player": "Jonathan David",
-      "team": "Canada",
-      "teamCode": "CAN",
-      "goals": 4,
-      "assists": 0
-    },
-    {
-      "player": "Deniz Undav",
-      "team": "Germany",
-      "teamCode": "GER",
-      "goals": 3,
-      "assists": 0
-    },
-    {
-      "player": "Cristiano Ronaldo",
-      "team": "Portugal",
-      "teamCode": "POR",
-      "goals": 3,
-      "assists": 0
-    },
-    {
-      "player": "Harry Kane",
-      "team": "England",
-      "teamCode": "ENG",
-      "goals": 3,
-      "assists": 0
-    },
-    {
-      "player": "Yoane Wissa",
-      "team": "DR Congo",
-      "teamCode": "COD",
-      "goals": 3,
-      "assists": 0
-    }
-  ],
-  "knockoutRounds": [
-    {
-      "round": "32강",
-      "stage": "Round of 32",
-      "dates": "6/28 ~ 7/3",
-      "matchCount": 16
-    },
-    {
-      "round": "16강",
-      "stage": "Round of 16",
-      "dates": "7/4 ~ 7/7",
-      "matchCount": 8
-    },
-    {
-      "round": "8강",
-      "stage": "Quarter-final",
-      "dates": "7/9 ~ 7/11",
-      "matchCount": 4
-    },
-    {
-      "round": "4강",
-      "stage": "Semi-final",
-      "dates": "7/14 ~ 7/15",
-      "matchCount": 2
-    },
-    {
-      "round": "3·4위전",
-      "stage": "Third place",
-      "dates": "7/18",
-      "matchCount": 1
-    },
-    {
-      "round": "결승",
-      "stage": "Final",
-      "dates": "7/19 · MetLife Stadium",
-      "matchCount": 1
-    }
+  "dates": "June 11 – July 19, 2026",
+  "format": "48 teams, 12 groups of 4. Top 2 from each group plus 8 best 3rd-place teams advance to Round of 32. Then knockout rounds through to the Final.",
+  "teamCount": 48,
+  "totalMatches": 104,
+  "venues": [
+   {
+    "city": "Mexico City",
+    "country": "Mexico",
+    "stadium": "Estadio Azteca"
+   },
+   {
+    "city": "Guadalajara (Zapopan)",
+    "country": "Mexico",
+    "stadium": "Estadio Akron"
+   },
+   {
+    "city": "Monterrey (Guadalupe)",
+    "country": "Mexico",
+    "stadium": "Estadio BBVA"
+   },
+   {
+    "city": "Los Angeles (Inglewood)",
+    "country": "USA",
+    "stadium": "SoFi Stadium"
+   },
+   {
+    "city": "Dallas (Arlington)",
+    "country": "USA",
+    "stadium": "AT&T Stadium"
+   },
+   {
+    "city": "Houston",
+    "country": "USA",
+    "stadium": "NRG Stadium"
+   },
+   {
+    "city": "New York/New Jersey (East Rutherford)",
+    "country": "USA",
+    "stadium": "MetLife Stadium"
+   },
+   {
+    "city": "San Francisco (Santa Clara)",
+    "country": "USA",
+    "stadium": "Levi's Stadium"
+   },
+   {
+    "city": "Miami (Miami Gardens)",
+    "country": "USA",
+    "stadium": "Hard Rock Stadium"
+   },
+   {
+    "city": "Atlanta",
+    "country": "USA",
+    "stadium": "Mercedes-Benz Stadium"
+   },
+   {
+    "city": "Seattle",
+    "country": "USA",
+    "stadium": "Lumen Field"
+   },
+   {
+    "city": "Kansas City",
+    "country": "USA",
+    "stadium": "Arrowhead Stadium"
+   },
+   {
+    "city": "Boston (Foxborough)",
+    "country": "USA",
+    "stadium": "Gillette Stadium"
+   },
+   {
+    "city": "Philadelphia",
+    "country": "USA",
+    "stadium": "Lincoln Financial Field"
+   },
+   {
+    "city": "Toronto",
+    "country": "Canada",
+    "stadium": "BMO Field"
+   },
+   {
+    "city": "Vancouver",
+    "country": "Canada",
+    "stadium": "BC Place"
+   }
   ]
+ },
+ "groups": [
+  {
+   "name": "A",
+   "teams": [
+    {
+     "name": "Mexico",
+     "code": "MEX",
+     "flag": "🇲🇽"
+    },
+    {
+     "name": "South Korea",
+     "code": "KOR",
+     "flag": "🇰🇷"
+    },
+    {
+     "name": "Czech Republic",
+     "code": "CZE",
+     "flag": "🇨🇿"
+    },
+    {
+     "name": "South Africa",
+     "code": "RSA",
+     "flag": "🇿🇦"
+    }
+   ],
+   "standings": [
+    {
+     "team": "Mexico",
+     "code": "MEX",
+     "played": 3,
+     "won": 3,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 6,
+     "ga": 0,
+     "points": 9
+    },
+    {
+     "team": "South Africa",
+     "code": "RSA",
+     "played": 3,
+     "won": 1,
+     "drawn": 1,
+     "lost": 1,
+     "gf": 2,
+     "ga": 3,
+     "points": 4
+    },
+    {
+     "team": "South Korea",
+     "code": "KOR",
+     "played": 3,
+     "won": 1,
+     "drawn": 0,
+     "lost": 2,
+     "gf": 2,
+     "ga": 3,
+     "points": 3
+    },
+    {
+     "team": "Czech Republic",
+     "code": "CZE",
+     "played": 3,
+     "won": 0,
+     "drawn": 1,
+     "lost": 2,
+     "gf": 2,
+     "ga": 6,
+     "points": 1
+    }
+   ]
+  },
+  {
+   "name": "B",
+   "teams": [
+    {
+     "name": "Canada",
+     "code": "CAN",
+     "flag": "🇨🇦"
+    },
+    {
+     "name": "Switzerland",
+     "code": "SUI",
+     "flag": "🇨🇭"
+    },
+    {
+     "name": "Bosnia and Herzegovina",
+     "code": "BIH",
+     "flag": "🇧🇦"
+    },
+    {
+     "name": "Qatar",
+     "code": "QAT",
+     "flag": "🇶🇦"
+    }
+   ],
+   "standings": [
+    {
+     "team": "Switzerland",
+     "code": "SUI",
+     "played": 3,
+     "won": 2,
+     "drawn": 1,
+     "lost": 0,
+     "gf": 7,
+     "ga": 3,
+     "points": 7
+    },
+    {
+     "team": "Canada",
+     "code": "CAN",
+     "played": 3,
+     "won": 1,
+     "drawn": 1,
+     "lost": 1,
+     "gf": 8,
+     "ga": 3,
+     "points": 4
+    },
+    {
+     "team": "Bosnia and Herzegovina",
+     "code": "BIH",
+     "played": 3,
+     "won": 1,
+     "drawn": 1,
+     "lost": 1,
+     "gf": 5,
+     "ga": 6,
+     "points": 4
+    },
+    {
+     "team": "Qatar",
+     "code": "QAT",
+     "played": 3,
+     "won": 0,
+     "drawn": 1,
+     "lost": 2,
+     "gf": 2,
+     "ga": 10,
+     "points": 1
+    }
+   ]
+  },
+  {
+   "name": "C",
+   "teams": [
+    {
+     "name": "Brazil",
+     "code": "BRA",
+     "flag": "🇧🇷"
+    },
+    {
+     "name": "Morocco",
+     "code": "MAR",
+     "flag": "🇲🇦"
+    },
+    {
+     "name": "Scotland",
+     "code": "SCO",
+     "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+    },
+    {
+     "name": "Haiti",
+     "code": "HAI",
+     "flag": "🇭🇹"
+    }
+   ],
+   "standings": [
+    {
+     "team": "Brazil",
+     "code": "BRA",
+     "played": 3,
+     "won": 2,
+     "drawn": 1,
+     "lost": 0,
+     "gf": 7,
+     "ga": 1,
+     "points": 7
+    },
+    {
+     "team": "Morocco",
+     "code": "MAR",
+     "played": 3,
+     "won": 2,
+     "drawn": 1,
+     "lost": 0,
+     "gf": 6,
+     "ga": 3,
+     "points": 7
+    },
+    {
+     "team": "Scotland",
+     "code": "SCO",
+     "played": 3,
+     "won": 1,
+     "drawn": 0,
+     "lost": 2,
+     "gf": 1,
+     "ga": 4,
+     "points": 3
+    },
+    {
+     "team": "Haiti",
+     "code": "HAI",
+     "played": 3,
+     "won": 0,
+     "drawn": 0,
+     "lost": 3,
+     "gf": 2,
+     "ga": 8,
+     "points": 0
+    }
+   ]
+  },
+  {
+   "name": "D",
+   "teams": [
+    {
+     "name": "United States",
+     "code": "USA",
+     "flag": "🇺🇸"
+    },
+    {
+     "name": "Australia",
+     "code": "AUS",
+     "flag": "🇦🇺"
+    },
+    {
+     "name": "Turkey",
+     "code": "TUR",
+     "flag": "🇹🇷"
+    },
+    {
+     "name": "Paraguay",
+     "code": "PAR",
+     "flag": "🇵🇾"
+    }
+   ],
+   "standings": [
+    {
+     "team": "United States",
+     "code": "USA",
+     "played": 3,
+     "won": 2,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 8,
+     "ga": 4,
+     "points": 6
+    },
+    {
+     "team": "Australia",
+     "code": "AUS",
+     "played": 3,
+     "won": 1,
+     "drawn": 1,
+     "lost": 1,
+     "gf": 2,
+     "ga": 2,
+     "points": 4
+    },
+    {
+     "team": "Paraguay",
+     "code": "PAR",
+     "played": 3,
+     "won": 1,
+     "drawn": 1,
+     "lost": 1,
+     "gf": 2,
+     "ga": 4,
+     "points": 4
+    },
+    {
+     "team": "Turkey",
+     "code": "TUR",
+     "played": 3,
+     "won": 1,
+     "drawn": 0,
+     "lost": 2,
+     "gf": 3,
+     "ga": 5,
+     "points": 3
+    }
+   ]
+  },
+  {
+   "name": "E",
+   "teams": [
+    {
+     "name": "Germany",
+     "code": "GER",
+     "flag": "🇩🇪"
+    },
+    {
+     "name": "Ivory Coast",
+     "code": "CIV",
+     "flag": "🇨🇮"
+    },
+    {
+     "name": "Ecuador",
+     "code": "ECU",
+     "flag": "🇪🇨"
+    },
+    {
+     "name": "Curacao",
+     "code": "CUW",
+     "flag": "🇨🇼"
+    }
+   ],
+   "standings": [
+    {
+     "team": "Germany",
+     "code": "GER",
+     "played": 3,
+     "won": 2,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 10,
+     "ga": 4,
+     "points": 6
+    },
+    {
+     "team": "Ivory Coast",
+     "code": "CIV",
+     "played": 3,
+     "won": 2,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 4,
+     "ga": 3,
+     "points": 6
+    },
+    {
+     "team": "Ecuador",
+     "code": "ECU",
+     "played": 3,
+     "won": 1,
+     "drawn": 1,
+     "lost": 1,
+     "gf": 2,
+     "ga": 2,
+     "points": 4
+    },
+    {
+     "team": "Curacao",
+     "code": "CUW",
+     "played": 3,
+     "won": 0,
+     "drawn": 1,
+     "lost": 2,
+     "gf": 1,
+     "ga": 9,
+     "points": 1
+    }
+   ]
+  },
+  {
+   "name": "F",
+   "teams": [
+    {
+     "name": "Netherlands",
+     "code": "NED",
+     "flag": "🇳🇱"
+    },
+    {
+     "name": "Japan",
+     "code": "JPN",
+     "flag": "🇯🇵"
+    },
+    {
+     "name": "Sweden",
+     "code": "SWE",
+     "flag": "🇸🇪"
+    },
+    {
+     "name": "Tunisia",
+     "code": "TUN",
+     "flag": "🇹🇳"
+    }
+   ],
+   "standings": [
+    {
+     "team": "Netherlands",
+     "code": "NED",
+     "played": 3,
+     "won": 2,
+     "drawn": 1,
+     "lost": 0,
+     "gf": 10,
+     "ga": 4,
+     "points": 7
+    },
+    {
+     "team": "Japan",
+     "code": "JPN",
+     "played": 3,
+     "won": 1,
+     "drawn": 2,
+     "lost": 0,
+     "gf": 7,
+     "ga": 3,
+     "points": 5
+    },
+    {
+     "team": "Sweden",
+     "code": "SWE",
+     "played": 3,
+     "won": 1,
+     "drawn": 1,
+     "lost": 1,
+     "gf": 7,
+     "ga": 7,
+     "points": 4
+    },
+    {
+     "team": "Tunisia",
+     "code": "TUN",
+     "played": 3,
+     "won": 0,
+     "drawn": 0,
+     "lost": 3,
+     "gf": 2,
+     "ga": 12,
+     "points": 0
+    }
+   ]
+  },
+  {
+   "name": "G",
+   "teams": [
+    {
+     "name": "Belgium",
+     "code": "BEL",
+     "flag": "🇧🇪"
+    },
+    {
+     "name": "Iran",
+     "code": "IRN",
+     "flag": "🇮🇷"
+    },
+    {
+     "name": "Egypt",
+     "code": "EGY",
+     "flag": "🇪🇬"
+    },
+    {
+     "name": "New Zealand",
+     "code": "NZL",
+     "flag": "🇳🇿"
+    }
+   ],
+   "standings": [
+    {
+     "team": "Belgium",
+     "code": "BEL",
+     "played": 3,
+     "won": 1,
+     "drawn": 2,
+     "lost": 0,
+     "gf": 6,
+     "ga": 2,
+     "points": 5
+    },
+    {
+     "team": "Egypt",
+     "code": "EGY",
+     "played": 3,
+     "won": 1,
+     "drawn": 2,
+     "lost": 0,
+     "gf": 5,
+     "ga": 3,
+     "points": 5
+    },
+    {
+     "team": "Iran",
+     "code": "IRN",
+     "played": 3,
+     "won": 0,
+     "drawn": 3,
+     "lost": 0,
+     "gf": 3,
+     "ga": 3,
+     "points": 3
+    },
+    {
+     "team": "New Zealand",
+     "code": "NZL",
+     "played": 3,
+     "won": 0,
+     "drawn": 1,
+     "lost": 2,
+     "gf": 4,
+     "ga": 10,
+     "points": 1
+    }
+   ]
+  },
+  {
+   "name": "H",
+   "teams": [
+    {
+     "name": "Spain",
+     "code": "ESP",
+     "flag": "🇪🇸"
+    },
+    {
+     "name": "Uruguay",
+     "code": "URU",
+     "flag": "🇺🇾"
+    },
+    {
+     "name": "Saudi Arabia",
+     "code": "KSA",
+     "flag": "🇸🇦"
+    },
+    {
+     "name": "Cabo Verde",
+     "code": "CPV",
+     "flag": "🇨🇻"
+    }
+   ],
+   "standings": [
+    {
+     "team": "Spain",
+     "code": "ESP",
+     "played": 3,
+     "won": 2,
+     "drawn": 1,
+     "lost": 0,
+     "gf": 5,
+     "ga": 0,
+     "points": 7
+    },
+    {
+     "team": "Cabo Verde",
+     "code": "CPV",
+     "played": 3,
+     "won": 0,
+     "drawn": 3,
+     "lost": 0,
+     "gf": 2,
+     "ga": 2,
+     "points": 3
+    },
+    {
+     "team": "Uruguay",
+     "code": "URU",
+     "played": 3,
+     "won": 0,
+     "drawn": 2,
+     "lost": 1,
+     "gf": 3,
+     "ga": 4,
+     "points": 2
+    },
+    {
+     "team": "Saudi Arabia",
+     "code": "KSA",
+     "played": 3,
+     "won": 0,
+     "drawn": 2,
+     "lost": 1,
+     "gf": 1,
+     "ga": 5,
+     "points": 2
+    }
+   ]
+  },
+  {
+   "name": "I",
+   "teams": [
+    {
+     "name": "France",
+     "code": "FRA",
+     "flag": "🇫🇷"
+    },
+    {
+     "name": "Norway",
+     "code": "NOR",
+     "flag": "🇳🇴"
+    },
+    {
+     "name": "Senegal",
+     "code": "SEN",
+     "flag": "🇸🇳"
+    },
+    {
+     "name": "Iraq",
+     "code": "IRQ",
+     "flag": "🇮🇶"
+    }
+   ],
+   "standings": [
+    {
+     "team": "France",
+     "code": "FRA",
+     "played": 3,
+     "won": 3,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 10,
+     "ga": 2,
+     "points": 9
+    },
+    {
+     "team": "Norway",
+     "code": "NOR",
+     "played": 3,
+     "won": 2,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 8,
+     "ga": 7,
+     "points": 6
+    },
+    {
+     "team": "Senegal",
+     "code": "SEN",
+     "played": 3,
+     "won": 1,
+     "drawn": 0,
+     "lost": 2,
+     "gf": 8,
+     "ga": 6,
+     "points": 3
+    },
+    {
+     "team": "Iraq",
+     "code": "IRQ",
+     "played": 3,
+     "won": 0,
+     "drawn": 0,
+     "lost": 3,
+     "gf": 1,
+     "ga": 12,
+     "points": 0
+    }
+   ]
+  },
+  {
+   "name": "J",
+   "teams": [
+    {
+     "name": "Argentina",
+     "code": "ARG",
+     "flag": "🇦🇷"
+    },
+    {
+     "name": "Austria",
+     "code": "AUT",
+     "flag": "🇦🇹"
+    },
+    {
+     "name": "Algeria",
+     "code": "ALG",
+     "flag": "🇩🇿"
+    },
+    {
+     "name": "Jordan",
+     "code": "JOR",
+     "flag": "🇯🇴"
+    }
+   ],
+   "standings": [
+    {
+     "team": "Argentina",
+     "code": "ARG",
+     "played": 3,
+     "won": 3,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 8,
+     "ga": 1,
+     "points": 9
+    },
+    {
+     "team": "Austria",
+     "code": "AUT",
+     "played": 3,
+     "won": 1,
+     "drawn": 1,
+     "lost": 1,
+     "gf": 6,
+     "ga": 6,
+     "points": 4
+    },
+    {
+     "team": "Algeria",
+     "code": "ALG",
+     "played": 3,
+     "won": 1,
+     "drawn": 1,
+     "lost": 1,
+     "gf": 5,
+     "ga": 7,
+     "points": 4
+    },
+    {
+     "team": "Jordan",
+     "code": "JOR",
+     "played": 3,
+     "won": 0,
+     "drawn": 0,
+     "lost": 3,
+     "gf": 3,
+     "ga": 8,
+     "points": 0
+    }
+   ]
+  },
+  {
+   "name": "K",
+   "teams": [
+    {
+     "name": "Portugal",
+     "code": "POR",
+     "flag": "🇵🇹"
+    },
+    {
+     "name": "Colombia",
+     "code": "COL",
+     "flag": "🇨🇴"
+    },
+    {
+     "name": "Uzbekistan",
+     "code": "UZB",
+     "flag": "🇺🇿"
+    },
+    {
+     "name": "DR Congo",
+     "code": "COD",
+     "flag": "🇨🇩"
+    }
+   ],
+   "standings": [
+    {
+     "team": "Colombia",
+     "code": "COL",
+     "played": 3,
+     "won": 2,
+     "drawn": 1,
+     "lost": 0,
+     "gf": 4,
+     "ga": 1,
+     "points": 7
+    },
+    {
+     "team": "Portugal",
+     "code": "POR",
+     "played": 3,
+     "won": 1,
+     "drawn": 2,
+     "lost": 0,
+     "gf": 6,
+     "ga": 1,
+     "points": 5
+    },
+    {
+     "team": "DR Congo",
+     "code": "COD",
+     "played": 3,
+     "won": 1,
+     "drawn": 1,
+     "lost": 1,
+     "gf": 4,
+     "ga": 3,
+     "points": 4
+    },
+    {
+     "team": "Uzbekistan",
+     "code": "UZB",
+     "played": 3,
+     "won": 0,
+     "drawn": 0,
+     "lost": 3,
+     "gf": 2,
+     "ga": 11,
+     "points": 0
+    }
+   ]
+  },
+  {
+   "name": "L",
+   "teams": [
+    {
+     "name": "England",
+     "code": "ENG",
+     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    {
+     "name": "Croatia",
+     "code": "CRO",
+     "flag": "🇭🇷"
+    },
+    {
+     "name": "Ghana",
+     "code": "GHA",
+     "flag": "🇬🇭"
+    },
+    {
+     "name": "Panama",
+     "code": "PAN",
+     "flag": "🇵🇦"
+    }
+   ],
+   "standings": [
+    {
+     "team": "England",
+     "code": "ENG",
+     "played": 3,
+     "won": 2,
+     "drawn": 1,
+     "lost": 0,
+     "gf": 6,
+     "ga": 2,
+     "points": 7
+    },
+    {
+     "team": "Croatia",
+     "code": "CRO",
+     "played": 3,
+     "won": 2,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 5,
+     "ga": 5,
+     "points": 6
+    },
+    {
+     "team": "Ghana",
+     "code": "GHA",
+     "played": 3,
+     "won": 1,
+     "drawn": 1,
+     "lost": 1,
+     "gf": 2,
+     "ga": 2,
+     "points": 4
+    },
+    {
+     "team": "Panama",
+     "code": "PAN",
+     "played": 3,
+     "won": 0,
+     "drawn": 0,
+     "lost": 3,
+     "gf": 0,
+     "ga": 4,
+     "points": 0
+    }
+   ]
+  }
+ ],
+ "matches": [
+  {
+   "id": 1,
+   "date": "2026-06-11",
+   "time": "18:00 ET",
+   "stage": "Group A",
+   "home": "Mexico",
+   "homeCode": "MEX",
+   "away": "South Africa",
+   "awayCode": "RSA",
+   "homeScore": 2,
+   "awayScore": 0,
+   "venue": "Estadio Azteca, Mexico City",
+   "status": "finished",
+   "highlights": [
+    "Julián Quiñones scored the tournament opening goal in the 9th minute — first CONCACAF player to score the opening goal of a World Cup",
+    "Raúl Jiménez added a second in the 67th minute",
+    "Mexico opened the tournament as co-host in front of a packed Azteca"
+   ]
+  },
+  {
+   "id": 2,
+   "date": "2026-06-11",
+   "time": "21:00 ET",
+   "stage": "Group A",
+   "home": "South Korea",
+   "homeCode": "KOR",
+   "away": "Czech Republic",
+   "awayCode": "CZE",
+   "homeScore": 2,
+   "awayScore": 1,
+   "venue": "Estadio Akron, Zapopan",
+   "status": "finished",
+   "highlights": [
+    "Krejčí gave Czechia the lead in the 59th minute",
+    "Hwang In-beom equalized for South Korea in the 67th minute",
+    "Oh Hyeon-gyu scored the winner in the 80th minute"
+   ]
+  },
+  {
+   "id": 3,
+   "date": "2026-06-12",
+   "time": "15:00 ET",
+   "stage": "Group D",
+   "home": "United States",
+   "homeCode": "USA",
+   "away": "Paraguay",
+   "awayCode": "PAR",
+   "homeScore": 4,
+   "awayScore": 1,
+   "venue": "SoFi Stadium, Inglewood",
+   "status": "finished",
+   "highlights": [
+    "Own goal opened the scoring in the 7th minute after Pulisic and McKennie pressure",
+    "Folarin Balogun scored twice — first American with 2 WC goals in a game since 1930",
+    "Paraguay pulled one back through Mauricio in the 73rd minute",
+    "Gio Reyna sealed it with a stunning stoppage-time strike"
+   ]
+  },
+  {
+   "id": 4,
+   "date": "2026-06-13",
+   "time": "12:00 ET",
+   "stage": "Group D",
+   "home": "Australia",
+   "homeCode": "AUS",
+   "away": "Turkey",
+   "awayCode": "TUR",
+   "homeScore": 2,
+   "awayScore": 0,
+   "venue": "BC Place, Vancouver",
+   "status": "finished",
+   "highlights": [
+    "Australia controlled the match throughout",
+    "Turkey failed to register a shot on target"
+   ]
+  },
+  {
+   "id": 5,
+   "date": "2026-06-12",
+   "time": "21:00 ET",
+   "stage": "Group B",
+   "home": "Canada",
+   "homeCode": "CAN",
+   "away": "Bosnia and Herzegovina",
+   "awayCode": "BIH",
+   "homeScore": 1,
+   "awayScore": 1,
+   "venue": "BMO Field, Toronto",
+   "status": "finished",
+   "highlights": [
+    "Canada drew their opening home World Cup match in front of a passionate Toronto crowd"
+   ]
+  },
+  {
+   "id": 6,
+   "date": "2026-06-13",
+   "time": "21:00 ET",
+   "stage": "Group C",
+   "home": "Brazil",
+   "homeCode": "BRA",
+   "away": "Morocco",
+   "awayCode": "MAR",
+   "homeScore": 1,
+   "awayScore": 1,
+   "venue": "MetLife Stadium, East Rutherford",
+   "status": "finished",
+   "highlights": [
+    "Vinicius Junior scored for Brazil",
+    "Brazil held to a draw by Morocco in a heavyweight opening clash",
+    "Result let Scotland take the Group C lead"
+   ]
+  },
+  {
+   "id": 7,
+   "date": "2026-06-13",
+   "time": "15:00 ET",
+   "stage": "Group C",
+   "home": "Haiti",
+   "homeCode": "HAI",
+   "away": "Scotland",
+   "awayCode": "SCO",
+   "homeScore": 0,
+   "awayScore": 1,
+   "venue": "Gillette Stadium, Foxborough",
+   "status": "finished",
+   "highlights": [
+    "Scotland won their first World Cup match since 1974",
+    "Scotland's first World Cup appearance in 28 years (since France 1998)",
+    "Shock result puts Scotland top of Group C above Brazil and Morocco"
+   ]
+  },
+  {
+   "id": 8,
+   "date": "2026-06-13",
+   "time": "18:00 ET",
+   "stage": "Group B",
+   "home": "Qatar",
+   "homeCode": "QAT",
+   "away": "Switzerland",
+   "awayCode": "SUI",
+   "homeScore": 1,
+   "awayScore": 1,
+   "venue": "Levi's Stadium, Santa Clara",
+   "status": "finished",
+   "highlights": [
+    "Qatar earned their first-ever World Cup point",
+    "Qatar had gone winless as 2022 hosts, exiting in the group stage"
+   ]
+  },
+  {
+   "id": 9,
+   "date": "2026-06-14",
+   "time": "13:00 ET",
+   "stage": "Group E",
+   "home": "Germany",
+   "homeCode": "GER",
+   "away": "Curacao",
+   "awayCode": "CUW",
+   "homeScore": 7,
+   "awayScore": 1,
+   "venue": "NRG Stadium, Houston",
+   "status": "finished",
+   "highlights": [
+    "Germany became the all-time top scorers in World Cup history (239 goals), surpassing Brazil",
+    "Curacao — smallest nation ever at a men's World Cup (pop. ~155,000) — scored their first-ever World Cup goal",
+    "Kai Havertz scored twice; Jamal Musiala also on the scoresheet"
+   ]
+  },
+  {
+   "id": 10,
+   "date": "2026-06-14",
+   "time": "19:00 ET",
+   "stage": "Group E",
+   "home": "Ivory Coast",
+   "homeCode": "CIV",
+   "away": "Ecuador",
+   "awayCode": "ECU",
+   "homeScore": 1,
+   "awayScore": 0,
+   "venue": "Lincoln Financial Field, Philadelphia",
+   "status": "finished",
+   "highlights": [
+    "Amad Diallo scored the winner in the 90th minute from a Wilfried Singo assist",
+    "Ecuador hit the woodwork twice in the first half",
+    "Late drama as Ivory Coast snatched all three points in stoppage time"
+   ]
+  },
+  {
+   "id": 11,
+   "date": "2026-06-14",
+   "time": "13:00 ET",
+   "stage": "Group F",
+   "home": "Netherlands",
+   "homeCode": "NED",
+   "away": "Japan",
+   "awayCode": "JPN",
+   "homeScore": 2,
+   "awayScore": 2,
+   "venue": "AT&T Stadium, Arlington",
+   "status": "finished",
+   "highlights": [
+    "Van Dijk (50') and Summerville (64') scored for the Netherlands",
+    "Nakamura (57') and Kamada (88') scored for Japan",
+    "Japan equalized in the 88th minute through Daichi Kamada",
+    "Attendance: 69,285"
+   ]
+  },
+  {
+   "id": 12,
+   "date": "2026-06-14",
+   "time": "19:00 ET",
+   "stage": "Group F",
+   "home": "Sweden",
+   "homeCode": "SWE",
+   "away": "Tunisia",
+   "awayCode": "TUN",
+   "homeScore": 5,
+   "awayScore": 1,
+   "venue": "Estadio BBVA, Guadalupe",
+   "status": "finished",
+   "highlights": [
+    "Yasin Ayari scored twice including a late long-range stunner",
+    "Viktor Gyökeres and Alexander Isak starred for Sweden",
+    "Svanberg's goal confirmed by VAR after a lengthy review (84')"
+   ]
+  },
+  {
+   "id": 13,
+   "date": "2026-06-15",
+   "time": "12:00 ET",
+   "stage": "Group H",
+   "home": "Spain",
+   "homeCode": "ESP",
+   "away": "Cabo Verde",
+   "awayCode": "CPV",
+   "homeScore": 0,
+   "awayScore": 0,
+   "venue": "Mercedes-Benz Stadium, Atlanta",
+   "status": "finished",
+   "highlights": [
+    "Spain held to a shock 0-0 draw by tournament debutants Cabo Verde",
+    "Cabo Verde (pop. ~530,000) earned a famous result against World Cup favorites Spain",
+    "Attendance: 67,640"
+   ]
+  },
+  {
+   "id": 14,
+   "date": "2026-06-15",
+   "time": "18:00 ET",
+   "stage": "Group H",
+   "home": "Saudi Arabia",
+   "homeCode": "KSA",
+   "away": "Uruguay",
+   "awayCode": "URU",
+   "homeScore": 1,
+   "awayScore": 1,
+   "venue": "Hard Rock Stadium, Miami Gardens",
+   "status": "finished",
+   "highlights": [
+    "Al-Amri scored for Saudi Arabia in the 41st minute",
+    "M. Araújo equalized for Uruguay in the 80th minute",
+    "Attendance: 62,764"
+   ]
+  },
+  {
+   "id": 15,
+   "date": "2026-06-15",
+   "time": "12:00 ET",
+   "stage": "Group G",
+   "home": "Belgium",
+   "homeCode": "BEL",
+   "away": "Egypt",
+   "awayCode": "EGY",
+   "homeScore": 1,
+   "awayScore": 1,
+   "venue": "Lumen Field, Seattle",
+   "status": "finished",
+   "highlights": [
+    "Belgium and Egypt played out a 1-1 draw"
+   ]
+  },
+  {
+   "id": 16,
+   "date": "2026-06-15",
+   "time": "18:00 ET",
+   "stage": "Group G",
+   "home": "Iran",
+   "homeCode": "IRN",
+   "away": "New Zealand",
+   "awayCode": "NZL",
+   "homeScore": 2,
+   "awayScore": 2,
+   "venue": "SoFi Stadium, Inglewood",
+   "status": "finished",
+   "highlights": [
+    "Iran and New Zealand played out a 2-2 thriller",
+    "Elijah Just scored for New Zealand"
+   ]
+  },
+  {
+   "id": 17,
+   "date": "2026-06-16",
+   "time": "12:00 ET",
+   "stage": "Group I",
+   "home": "France",
+   "homeCode": "FRA",
+   "away": "Senegal",
+   "awayCode": "SEN",
+   "homeScore": 3,
+   "awayScore": 1,
+   "venue": "MetLife Stadium, East Rutherford",
+   "status": "finished",
+   "highlights": [
+    "Kylian Mbappé became France's all-time top scorer, surpassing Olivier Giroud (58 goals in 99 caps)",
+    "Mbappé scored twice (66', 90+6'); Bradley Barcola added one (82')",
+    "Michael Olise provided two assists",
+    "Ibrahim Mbaye scored a late consolation for Senegal (90+5')"
+   ]
+  },
+  {
+   "id": 18,
+   "date": "2026-06-16",
+   "time": "18:00 ET",
+   "stage": "Group I",
+   "home": "Iraq",
+   "homeCode": "IRQ",
+   "away": "Norway",
+   "awayCode": "NOR",
+   "homeScore": 1,
+   "awayScore": 4,
+   "venue": "Gillette Stadium, Foxborough",
+   "status": "finished",
+   "highlights": [
+    "Erling Haaland scored a brace on his World Cup debut — Norway's first World Cup since 1998",
+    "Haaland's second came after the Iraqi keeper accidentally booted the ball into him",
+    "Iraq scored their first World Cup goal since 1986"
+   ]
+  },
+  {
+   "id": 19,
+   "date": "2026-06-16",
+   "time": "21:00 ET",
+   "stage": "Group J",
+   "home": "Argentina",
+   "homeCode": "ARG",
+   "away": "Algeria",
+   "awayCode": "ALG",
+   "homeScore": 3,
+   "awayScore": 0,
+   "venue": "Arrowhead Stadium, Kansas City",
+   "status": "finished",
+   "highlights": [
+    "Lionel Messi scored a hat trick — his first career World Cup hat trick — tying Miroslav Klose's all-time WC record of 16 goals",
+    "Messi became the oldest player to score a World Cup hat trick (age 38)",
+    "Defending champions Argentina opened their title defense in dominant fashion",
+    "Messi was substituted off in the 80th minute after securing his hat trick"
+   ]
+  },
+  {
+   "id": 20,
+   "date": "2026-06-17",
+   "time": "00:00 ET",
+   "stage": "Group J",
+   "home": "Austria",
+   "homeCode": "AUT",
+   "away": "Jordan",
+   "awayCode": "JOR",
+   "homeScore": 3,
+   "awayScore": 1,
+   "venue": "Levi's Stadium, Santa Clara",
+   "status": "finished",
+   "highlights": [
+    "Romano Schmid opened the scoring in the 21st minute with a long-range right-foot strike",
+    "Ali Iyad Olwan equalized for Jordan in the 50th minute — Jordan's first-ever World Cup goal",
+    "Yazan Al-Arab own goal (76') restored Austria's lead after a corner deflection",
+    "Marco Arnautović converted a stoppage-time penalty to seal 3-1 — Austria's first World Cup win in 36 years"
+   ]
+  },
+  {
+   "id": 21,
+   "date": "2026-06-17",
+   "time": "13:00 ET",
+   "stage": "Group K",
+   "home": "Portugal",
+   "homeCode": "POR",
+   "away": "DR Congo",
+   "awayCode": "COD",
+   "homeScore": 1,
+   "awayScore": 1,
+   "venue": "NRG Stadium, Houston",
+   "status": "finished",
+   "highlights": [
+    "João Neves opened the scoring for Portugal in the 6th minute",
+    "Yoane Wissa equalized for DR Congo in the 45+5th minute — DR Congo's first World Cup point since returning after 52 years (last appeared 1974)",
+    "João Cancelo's spectacular overhead kick in the 55th minute ruled out by VAR for offside",
+    "Portugal frustrated by debutants; Ronaldo started at age 41 as tournament's oldest outfield player"
+   ]
+  },
+  {
+   "id": 22,
+   "date": "2026-06-17",
+   "time": "13:00 ET",
+   "stage": "Group K",
+   "home": "Uzbekistan",
+   "homeCode": "UZB",
+   "away": "Colombia",
+   "awayCode": "COL",
+   "homeScore": 1,
+   "awayScore": 3,
+   "venue": "Estadio Azteca, Mexico City",
+   "status": "finished",
+   "highlights": [
+    "Daniel Muñoz scored for Colombia in the 40th minute",
+    "Abbosbek Fayzullaev equalized for Uzbekistan in the 60th minute — Uzbekistan's first-ever World Cup goal",
+    "Luis Díaz restored Colombia's lead in the 65th minute (goal and assist on the night)",
+    "Jáminton Campaz headed home in the 90+9th minute to seal 3-1 and put Colombia top of Group K"
+   ]
+  },
+  {
+   "id": 23,
+   "date": "2026-06-17",
+   "time": "16:00 ET",
+   "stage": "Group L",
+   "home": "England",
+   "homeCode": "ENG",
+   "away": "Croatia",
+   "awayCode": "CRO",
+   "homeScore": 4,
+   "awayScore": 2,
+   "venue": "AT&T Stadium, Arlington",
+   "status": "finished",
+   "highlights": [
+    "Harry Kane scored twice (12' pen, 42' header) to reach 10 England World Cup goals — equalling Gary Lineker's national record",
+    "Croatia hit back through Martin Baturina (36') and Petar Musa (45+5') to level 2-2 at half-time",
+    "Jude Bellingham drove in to restore England's lead immediately after the break (47')",
+    "Marcus Rashford sealed it with a composed finish (85'); England's dominant second half secured a 4-2 win"
+   ]
+  },
+  {
+   "id": 24,
+   "date": "2026-06-17",
+   "time": "19:00 ET",
+   "stage": "Group L",
+   "home": "Ghana",
+   "homeCode": "GHA",
+   "away": "Panama",
+   "awayCode": "PAN",
+   "homeScore": 1,
+   "awayScore": 0,
+   "venue": "BMO Field, Toronto",
+   "status": "finished",
+   "highlights": [
+    "Caleb Yirenkyi tapped home from Brandon Thomas-Asante's cross in the 95th minute for a dramatic winner",
+    "Panama's disciplined defensive display was undone in stoppage time, denying them a historic first World Cup point",
+    "Ghana join England at the top of Group L on 3 points after matchday 1"
+   ]
+  },
+  {
+   "id": 25,
+   "date": "2026-06-18",
+   "time": "12:00 ET",
+   "stage": "Group A",
+   "home": "Czech Republic",
+   "homeCode": "CZE",
+   "away": "South Africa",
+   "awayCode": "RSA",
+   "homeScore": 1,
+   "awayScore": 1,
+   "venue": "Mercedes-Benz Stadium, Atlanta",
+   "status": "finished",
+   "highlights": [
+    "Michal Sadilek opened the scoring for Czech Republic in the 6th minute",
+    "Pavel Šulc's handball inside the box in the 81st minute conceded a penalty to South Africa",
+    "Teboho Mokoena converted the penalty in the 83rd minute to earn South Africa their first World Cup point",
+    "Czech Republic failed to win despite taking the lead, both teams level on 1 point in Group A"
+   ]
+  },
+  {
+   "id": 26,
+   "date": "2026-06-18",
+   "time": "15:00 ET",
+   "stage": "Group B",
+   "home": "Switzerland",
+   "homeCode": "SUI",
+   "away": "Bosnia and Herzegovina",
+   "awayCode": "BIH",
+   "homeScore": 4,
+   "awayScore": 1,
+   "venue": "SoFi Stadium, Inglewood",
+   "status": "finished",
+   "highlights": [
+    "Johan Manzambi scored just 171 seconds after being introduced as a substitute in the 71st minute",
+    "Tarik Muharemovic was shown a straight red card, leaving Bosnia with 10 men",
+    "Manzambi added a second (90'), Ruben Vargas scored (84'), and Granit Xhaka converted a penalty (90+7')",
+    "Switzerland's four-goal second-half burst puts them top of Group B"
+   ]
+  },
+  {
+   "id": 27,
+   "date": "2026-06-18",
+   "time": "18:00 ET",
+   "stage": "Group B",
+   "home": "Canada",
+   "homeCode": "CAN",
+   "away": "Qatar",
+   "awayCode": "QAT",
+   "homeScore": 6,
+   "awayScore": 0,
+   "venue": "BC Place, Vancouver",
+   "status": "finished",
+   "highlights": [
+    "Jonathan David scored a hat trick (29', 45+3', 90+2') — Canada's first-ever World Cup win",
+    "Cyle Larin (16'), Nathan Saliba (64'), and Mohamed Al Manai own goal (75') completed the rout",
+    "Qatar had two players sent off and finished with nine men",
+    "Biggest win by a CONCACAF team in men's World Cup history"
+   ]
+  },
+  {
+   "id": 28,
+   "date": "2026-06-18",
+   "time": "23:00 ET",
+   "stage": "Group A",
+   "home": "Mexico",
+   "homeCode": "MEX",
+   "away": "South Korea",
+   "awayCode": "KOR",
+   "homeScore": 1,
+   "awayScore": 0,
+   "venue": "Estadio Akron, Zapopan",
+   "status": "finished",
+   "highlights": [
+    "Luis Romo scored in the 50th minute after South Korea goalkeeper Kim Seung-gyu collided with defender Lee Gi-hyuk and dropped the ball",
+    "Mexico became the first team to qualify for the Round of 32 — clinching Group A top spot with two wins",
+    "Goalkeeper Raúl Rangel made two outstanding saves in the 87th minute to deny Cho Gue-sung and Yang Hyun-jun",
+    "Mexico win Group A with 6 points from two games; South Korea drop to third-place battle"
+   ]
+  },
+  {
+   "id": 29,
+   "date": "2026-06-19",
+   "time": "15:00 ET",
+   "stage": "Group D",
+   "home": "United States",
+   "homeCode": "USA",
+   "away": "Australia",
+   "awayCode": "AUS",
+   "homeScore": 2,
+   "awayScore": 0,
+   "venue": "Lumen Field, Seattle",
+   "status": "finished",
+   "highlights": [
+    "Cameron Burgess own goal in the 11th minute — Balogun's cross forced the Australian defender to turn in",
+    "Alex Freeman headed home in the 43rd minute from Sergiño Dest's free-kick; VAR confirmed after a lengthy offside review",
+    "USMNT advance to Round of 32 with 6 points from two wins; Pulisic absent through injury"
+   ]
+  },
+  {
+   "id": 30,
+   "date": "2026-06-19",
+   "time": "18:00 ET",
+   "stage": "Group C",
+   "home": "Scotland",
+   "homeCode": "SCO",
+   "away": "Morocco",
+   "awayCode": "MAR",
+   "homeScore": 0,
+   "awayScore": 1,
+   "venue": "Gillette Stadium, Foxborough",
+   "status": "finished",
+   "highlights": [
+    "Ismael Saibari scored just 70 seconds after kick-off — the fastest winning goal in 2026 World Cup history",
+    "Saibari collected Brahim Diaz's through ball and slammed past Angus Gunn into the roof of the net",
+    "McTominay denied a controversial late penalty; Scotland unable to level",
+    "Morocco top Group C on goal difference ahead of Brazil; Scotland slip to 2nd"
+   ]
+  },
+  {
+   "id": 31,
+   "date": "2026-06-19",
+   "time": "21:00 ET",
+   "stage": "Group C",
+   "home": "Brazil",
+   "homeCode": "BRA",
+   "away": "Haiti",
+   "awayCode": "HAI",
+   "homeScore": 3,
+   "awayScore": 0,
+   "venue": "Lincoln Financial Field, Philadelphia",
+   "status": "finished",
+   "highlights": [
+    "Matheus Cunha tapped home in the 23rd minute after Vinicius Jr's saved effort",
+    "Cunha added a composed left-footed finish in the 36th minute for his brace",
+    "Vinicius Junior completed the rout in the 45+3rd minute after Lucas Paquetá's through ball",
+    "Haiti become the first team eliminated from the 2026 World Cup; Brazil level with Morocco on 4 points, lead on GD"
+   ]
+  },
+  {
+   "id": 32,
+   "date": "2026-06-19",
+   "time": "23:00 ET",
+   "stage": "Group D",
+   "home": "Turkey",
+   "homeCode": "TUR",
+   "away": "Paraguay",
+   "awayCode": "PAR",
+   "homeScore": 0,
+   "awayScore": 1,
+   "venue": "Levi's Stadium, Santa Clara",
+   "status": "finished",
+   "highlights": [
+    "Matías Galarza struck two minutes in — the fastest goal of the tournament so far",
+    "Miguel Almirón received a straight red card in first-half stoppage time under FIFA's new mouth-covering rule",
+    "Ten-man Paraguay held firm through Turkey's relentless second-half pressure to claim a vital 1-0 win",
+    "Turkey eliminated after two consecutive defeats; Paraguay's Round of 32 hopes remain alive"
+   ]
+  },
+  {
+   "id": 33,
+   "date": "2026-06-20",
+   "time": "16:00 ET",
+   "stage": "Group E",
+   "home": "Germany",
+   "homeCode": "GER",
+   "away": "Ivory Coast",
+   "awayCode": "CIV",
+   "homeScore": 2,
+   "awayScore": 1,
+   "venue": "BMO Field, Toronto",
+   "status": "finished",
+   "highlights": [
+    "Franck Kessié gave Ivory Coast a shock lead with a 30th-minute strike against the tournament's top scorers",
+    "Deniz Undav came off the bench to equalise in the 68th minute with a volley from Amiri's cross",
+    "Undav struck again in the 94th minute to complete a stunning comeback — Germany advance to the Round of 32",
+    "Ivory Coast remain in contention; a high-quality display despite the defeat"
+   ]
+  },
+  {
+   "id": 34,
+   "date": "2026-06-20",
+   "time": "20:00 ET",
+   "stage": "Group E",
+   "home": "Ecuador",
+   "homeCode": "ECU",
+   "away": "Curacao",
+   "awayCode": "CUW",
+   "homeScore": 0,
+   "awayScore": 0,
+   "venue": "Arrowhead Stadium, Kansas City",
+   "status": "finished",
+   "highlights": [
+    "Goalkeeper Eloy Room made 15 saves to earn Curaçao their first-ever World Cup point",
+    "Ecuador had 15 shots on target without scoring — the most in a World Cup match without a goal since 1966",
+    "One of the great World Cup goalkeeping performances; Room was the undisputed man of the match",
+    "Curaçao earn a historic point; Ecuador's Group E knockout hopes now in serious doubt"
+   ]
+  },
+  {
+   "id": 35,
+   "date": "2026-06-20",
+   "time": "13:00 ET",
+   "stage": "Group F",
+   "home": "Netherlands",
+   "homeCode": "NED",
+   "away": "Sweden",
+   "awayCode": "SWE",
+   "homeScore": 5,
+   "awayScore": 1,
+   "venue": "NRG Stadium, Houston",
+   "status": "finished",
+   "highlights": [
+    "Brian Brobbey scored twice inside 17 minutes (5', 17') — the fourth-fastest brace in World Cup history",
+    "Cody Gakpo added two more in the second half (47', 54'); Anthony Elanga pulled one back for Sweden (59')",
+    "Crysencio Summerville completed the rout with a fifth in the 89th minute",
+    "Netherlands' biggest-ever World Cup win; they move joint-top of Group F with Japan"
+   ]
+  },
+  {
+   "id": 36,
+   "date": "2026-06-21",
+   "time": "00:00 ET",
+   "stage": "Group F",
+   "home": "Tunisia",
+   "homeCode": "TUN",
+   "away": "Japan",
+   "awayCode": "JPN",
+   "homeScore": 0,
+   "awayScore": 4,
+   "venue": "Estadio BBVA, Guadalupe",
+   "status": "finished",
+   "highlights": [
+    "Daichi Kamada struck in the 4th minute to give Japan an immediate lead",
+    "Ayase Ueda scored twice (30', 83') and Junya Ito added Japan's third in the 69th minute",
+    "This was the 1,000th match in FIFA World Cup history — Japan marked it with their biggest-ever World Cup winning margin",
+    "Tunisia eliminated from the tournament; Japan join Netherlands at the top of Group F on 4 points"
+   ]
+  },
+  {
+   "id": 37,
+   "date": "2026-06-21",
+   "time": "12:00 ET",
+   "stage": "Group H",
+   "home": "Spain",
+   "homeCode": "ESP",
+   "away": "Saudi Arabia",
+   "awayCode": "KSA",
+   "homeScore": 4,
+   "awayScore": 0,
+   "venue": "Mercedes-Benz Stadium, Atlanta",
+   "status": "finished",
+   "highlights": [
+    "Lamine Yamal scored his first World Cup goal in the 10th minute at age 17 — the 8th-youngest scorer in World Cup history, surpassing Messi, Mbappé and Ronaldo's age at their first WC goals",
+    "Mikel Oyarzabal added a brace in under three minutes (21' & 24') to make it 3-0 before half-time",
+    "Yamal and Oyarzabal were both substituted at half-time with Spain already in full control",
+    "Hassan Al-Tambakti scored an own goal just after the interval (51') to complete a 4-0 rout — Spain top Group H and advance to the Round of 32"
+   ]
+  },
+  {
+   "id": 38,
+   "date": "2026-06-21",
+   "time": "15:00 ET",
+   "stage": "Group G",
+   "home": "Belgium",
+   "homeCode": "BEL",
+   "away": "Iran",
+   "awayCode": "IRN",
+   "homeScore": 0,
+   "awayScore": 0,
+   "venue": "SoFi Stadium, Inglewood",
+   "status": "finished",
+   "highlights": [
+    "Mehdi Taremi had a goal ruled out by VAR for offside after a well-worked free kick in the first half",
+    "Nathan Ngoy was sent off in the 66th minute after miskicking a back-pass then fouling Taremi who was clean through on goal",
+    "Belgium had 70% possession and 1.82 xG but could not break down Iran's resolute defense even with a man advantage",
+    "Alireza Beiranvand made crucial saves as Iran held 10-man Belgium to a goalless draw — all four Group G teams remain in knockout contention"
+   ]
+  },
+  {
+   "id": 39,
+   "date": "2026-06-21",
+   "time": "18:00 ET",
+   "stage": "Group H",
+   "home": "Uruguay",
+   "homeCode": "URU",
+   "away": "Cabo Verde",
+   "awayCode": "CPV",
+   "homeScore": 2,
+   "awayScore": 2,
+   "venue": "Hard Rock Stadium, Miami Gardens",
+   "status": "finished",
+   "highlights": [
+    "Kevin Pina opened the scoring for Cabo Verde with a powerful free kick in the 21st minute",
+    "Maximiliano Araújo equalized for Uruguay in the 44th minute and Agustín Canobbio struck in first-half stoppage time (45+6') to give Uruguay a 2-1 lead",
+    "Hélio Varela levelled for Cabo Verde in the 61st minute after a defensive error to make it 2-2",
+    "Cabo Verde remain unbeaten at the 2026 World Cup with two draws — both teams still in knockout contention heading into matchday 3"
+   ]
+  },
+  {
+   "id": 40,
+   "date": "2026-06-21",
+   "time": "21:00 ET",
+   "stage": "Group G",
+   "home": "New Zealand",
+   "homeCode": "NZL",
+   "away": "Egypt",
+   "awayCode": "EGY",
+   "homeScore": 1,
+   "awayScore": 3,
+   "venue": "BC Place, Vancouver",
+   "status": "finished",
+   "highlights": [
+    "Finn Surman headed in from a corner in the 15th minute to give New Zealand an early lead",
+    "Ziko equalized for Egypt with a close-range header in the 58th minute to level at 1-1",
+    "Mohamed Salah scored the go-ahead goal in the 67th minute as Egypt's comeback gathered momentum",
+    "Trezeguet sealed Egypt's first-ever World Cup win with a diving header in the 82nd minute — Egypt move top of Group G"
+   ]
+  },
+  {
+   "id": 41,
+   "date": "2026-06-22",
+   "time": "12:00 ET",
+   "stage": "Group I",
+   "home": "France",
+   "homeCode": "FRA",
+   "away": "Iraq",
+   "awayCode": "IRQ",
+   "homeScore": 3,
+   "awayScore": 0,
+   "venue": "Lincoln Financial Field, Philadelphia",
+   "status": "finished",
+   "highlights": [
+    "Kylian Mbappé opened the scoring in the 14th minute",
+    "The match was delayed for approximately 2 hours due to a severe lightning and thunderstorm",
+    "Mbappé added his second goal in the 54th minute after the weather delay",
+    "Ousmane Dembélé completed the scoring in the 66th minute — France 3-0 Iraq, through to Round of 32"
+   ]
+  },
+  {
+   "id": 42,
+   "date": "2026-06-22",
+   "time": "16:00 ET",
+   "stage": "Group I",
+   "home": "Norway",
+   "homeCode": "NOR",
+   "away": "Senegal",
+   "awayCode": "SEN",
+   "homeScore": 3,
+   "awayScore": 2,
+   "venue": "MetLife Stadium, East Rutherford",
+   "status": "finished",
+   "highlights": [
+    "Marcus Holmgren Pedersen gave Norway the lead with a 43rd-minute strike",
+    "Erling Haaland scored twice in quick succession (48' & 58') to make it 3-0",
+    "Ismaïla Sarr pulled two back for Senegal (53' & 90+3') in a frantic finish",
+    "Norway held on 3-2 to advance to the Round of 32 alongside France — both I-group teams through after matchday 2"
+   ]
+  },
+  {
+   "id": 43,
+   "date": "2026-06-22",
+   "time": "20:00 ET",
+   "stage": "Group J",
+   "home": "Argentina",
+   "homeCode": "ARG",
+   "away": "Austria",
+   "awayCode": "AUT",
+   "homeScore": 2,
+   "awayScore": 0,
+   "venue": "AT&T Stadium, Arlington",
+   "status": "finished",
+   "highlights": [
+    "Lionel Messi scored in the 38th minute to become the outright all-time leading scorer in World Cup history — his 17th goal, surpassing Miroslav Klose",
+    "Messi added a second in stoppage time (90+2') — his 18th career World Cup goal, the most ever in men's or women's World Cup history",
+    "Argentina confirmed their place in the Round of 32 with six points from two games",
+    "Messi leads the Golden Boot race with 5 tournament goals"
+   ]
+  },
+  {
+   "id": 44,
+   "date": "2026-06-22",
+   "time": "23:00 ET",
+   "stage": "Group J",
+   "home": "Algeria",
+   "homeCode": "ALG",
+   "away": "Jordan",
+   "awayCode": "JOR",
+   "homeScore": 2,
+   "awayScore": 1,
+   "venue": "Levi's Stadium, Santa Clara",
+   "status": "finished",
+   "highlights": [
+    "Al-Rashdan gave Jordan the lead in the first half",
+    "Djamel Benbouali headed in from a Riyad Mahrez corner in the 68th minute to equalize for Algeria",
+    "Anis Gouiri struck the winner in the 82nd minute — Algeria comeback victory 2-1"
+   ]
+  },
+  {
+   "id": 45,
+   "date": "2026-06-23",
+   "time": "13:00 ET",
+   "stage": "Group K",
+   "home": "Portugal",
+   "homeCode": "POR",
+   "away": "Uzbekistan",
+   "awayCode": "UZB",
+   "homeScore": 5,
+   "awayScore": 0,
+   "venue": "NRG Stadium, Houston",
+   "status": "finished",
+   "highlights": [
+    "Cristiano Ronaldo scored in the 6th minute — becoming the first player ever to score at six different FIFA World Cups",
+    "Nuno Mendes doubled the lead in the 17th minute with a stunning free-kick",
+    "Ronaldo added his second in the 39th minute from Bruno Fernandes' pass — his 10th career World Cup goal; at 41 the oldest player to score twice in a World Cup game",
+    "Abduvohid Nematov own goal (60') made it 4-0; Rafael Leão sealed it in the 87th minute — Portugal advance to the Round of 32"
+   ]
+  },
+  {
+   "id": 46,
+   "date": "2026-06-23",
+   "time": "16:00 ET",
+   "stage": "Group L",
+   "home": "England",
+   "homeCode": "ENG",
+   "away": "Ghana",
+   "awayCode": "GHA",
+   "homeScore": 0,
+   "awayScore": 0,
+   "venue": "Gillette Stadium, Foxborough",
+   "status": "finished",
+   "highlights": [
+    "England dominated with 79% possession but failed to score — the highest possession total for a goalless team in a World Cup match in the last 60 years",
+    "England had 19 shots to Ghana's 2; Nico O'Reilly and Harry Kane spurned the best chances",
+    "England and Ghana both finish on 4 points, level at the top of Group L heading into the decisive matchday 3"
+   ]
+  },
+  {
+   "id": 47,
+   "date": "2026-06-23",
+   "time": "19:00 ET",
+   "stage": "Group L",
+   "home": "Panama",
+   "homeCode": "PAN",
+   "away": "Croatia",
+   "awayCode": "CRO",
+   "homeScore": 0,
+   "awayScore": 1,
+   "venue": "BMO Field, Toronto",
+   "status": "finished",
+   "highlights": [
+    "Ante Budimir headed home from Josip Stanišić's cross in the 54th minute to give Croatia their first win of the tournament",
+    "Panama eliminated from the 2026 World Cup — their debut tournament ended without a single goal scored in two games",
+    "Croatia climb to 3 points in Group L and remain in knockout contention heading into matchday 3"
+   ]
+  },
+  {
+   "id": 48,
+   "date": "2026-06-23",
+   "time": "22:00 ET",
+   "stage": "Group K",
+   "home": "Colombia",
+   "homeCode": "COL",
+   "away": "DR Congo",
+   "awayCode": "COD",
+   "homeScore": 1,
+   "awayScore": 0,
+   "venue": "Estadio Akron, Guadalajara",
+   "status": "finished",
+   "highlights": [
+    "Daniel Muñoz's deflected shot in the 76th minute (Quintero assist) gave Colombia the vital breakthrough",
+    "Colombia qualified for the Round of 32 — top of Group K with 6 points from 2 games",
+    "DR Congo remain on 1 point and must beat Uzbekistan in their final group game to have any chance of advancing"
+   ]
+  },
+  {
+   "id": 49,
+   "date": "2026-06-24",
+   "time": "15:00 ET",
+   "stage": "Group B",
+   "home": "Switzerland",
+   "homeCode": "SUI",
+   "away": "Canada",
+   "awayCode": "CAN",
+   "homeScore": 2,
+   "awayScore": 1,
+   "venue": "BC Place, Vancouver",
+   "status": "finished",
+   "highlights": [
+    "Ruben Vargas broke the deadlock just after half-time (46') with a crisp finish to give Switzerland the lead",
+    "Johan Manzambi doubled Switzerland's advantage in the 57th minute — his third goal of the tournament",
+    "Jonathan David pulled one back for Canada in the 76th minute but the Swiss held on to win 2-1",
+    "Switzerland top Group B with 7 points; Canada advance as runners-up — both teams through to the Round of 32"
+   ]
+  },
+  {
+   "id": 50,
+   "date": "2026-06-24",
+   "time": "15:00 ET",
+   "stage": "Group B",
+   "home": "Bosnia and Herzegovina",
+   "homeCode": "BIH",
+   "away": "Qatar",
+   "awayCode": "QAT",
+   "homeScore": 3,
+   "awayScore": 1,
+   "venue": "Lumen Field, Seattle",
+   "status": "finished",
+   "highlights": [
+    "Kerim Alajbegovic opened the scoring for Bosnia with a stunning long-range strike in the 30th minute",
+    "An Al Brake own goal doubled Bosnia's lead in the 35th minute",
+    "Hassan Al-Haydos pulled one back for Qatar before half-time to make it 2-1",
+    "Ermin Mahmic sealed Bosnia's victory in the 80th minute — Bosnia's first-ever World Cup win boosts their 3rd-place qualification hopes"
+   ]
+  },
+  {
+   "id": 51,
+   "date": "2026-06-24",
+   "time": "18:00 ET",
+   "stage": "Group C",
+   "home": "Scotland",
+   "homeCode": "SCO",
+   "away": "Brazil",
+   "awayCode": "BRA",
+   "homeScore": 0,
+   "awayScore": 3,
+   "venue": "Hard Rock Stadium, Miami Gardens",
+   "status": "finished",
+   "highlights": [
+    "Vinícius Júnior pounced on a Scott McKenna error in the 7th minute to give Brazil an early lead",
+    "Vinícius headed home from a Bruno Guimarães cross before half-time to make it 2-0 — his 4th goal of the tournament",
+    "Matheus Cunha added Brazil's third goal midway through the second half to complete Scotland's heavy defeat",
+    "Brazil top Group C with 7 points; Scotland eliminated with 3 points from 3 games"
+   ]
+  },
+  {
+   "id": 52,
+   "date": "2026-06-24",
+   "time": "18:00 ET",
+   "stage": "Group C",
+   "home": "Morocco",
+   "homeCode": "MAR",
+   "away": "Haiti",
+   "awayCode": "HAI",
+   "homeScore": 4,
+   "awayScore": 2,
+   "venue": "Mercedes-Benz Stadium, Atlanta",
+   "status": "finished",
+   "highlights": [
+    "Lenny Joseph scored with a back-heeled flick in the 10th minute — Haiti's first World Cup goal since Emmanuel Sanon in 1974",
+    "Achraf Hakimi equalized for Morocco (39'); Wilson Isidor put Haiti back in front (43') — an incredible first half",
+    "Ismael Saibari levelled again for Morocco (45+1') from Hakimi's cross to make it 2-2 at half-time",
+    "Soufiane Rahimi (78') and Gessime Yassine (89') sealed Morocco's dramatic comeback — Morocco finish 2nd in Group C"
+   ]
+  },
+  {
+   "id": 53,
+   "date": "2026-06-24",
+   "time": "21:00 ET",
+   "stage": "Group A",
+   "home": "Czech Republic",
+   "homeCode": "CZE",
+   "away": "Mexico",
+   "awayCode": "MEX",
+   "homeScore": 0,
+   "awayScore": 3,
+   "venue": "Estadio Azteca, Mexico City",
+   "status": "finished",
+   "highlights": [
+    "Mateo Chávez broke the deadlock 10 minutes after half-time (55'), set up by Luis Romo, with a composed finish into the bottom corner",
+    "Julián Quiñones added Mexico's second in the 61st minute — his second goal of the tournament",
+    "Álvaro Fidalgo completed the rout in stoppage time; legendary goalkeeper Guillermo Ochoa made a special late cameo",
+    "Mexico finish Group A with a perfect record: 9 points, 6 goals scored, zero conceded — first team to win all three group games at the 2026 World Cup"
+   ]
+  },
+  {
+   "id": 54,
+   "date": "2026-06-24",
+   "time": "21:00 ET",
+   "stage": "Group A",
+   "home": "South Africa",
+   "homeCode": "RSA",
+   "away": "South Korea",
+   "awayCode": "KOR",
+   "homeScore": 1,
+   "awayScore": 0,
+   "venue": "Estadio BBVA, Guadalupe",
+   "status": "finished",
+   "highlights": [
+    "Thapelo Maseko's powerful strike in the 63rd minute was the only goal — a moment of history for South Africa",
+    "South Africa qualify for the knockout stage for the first time ever, finishing 2nd in Group A with 4 points",
+    "South Korea eliminated — despite 1W in 3 games, not enough to advance; a first World Cup exit in the group stage since 2010",
+    "Bafana Bafana set to face Canada in the Round of 32 — a landmark achievement for African football"
+   ]
+  },
+  {
+   "id": 55,
+   "date": "2026-06-25",
+   "time": "16:00 ET",
+   "stage": "Group E",
+   "home": "Ecuador",
+   "homeCode": "ECU",
+   "away": "Germany",
+   "awayCode": "GER",
+   "homeScore": 2,
+   "awayScore": 1,
+   "venue": "MetLife Stadium, East Rutherford",
+   "status": "finished",
+   "highlights": [
+    "레로이 자네 2분 선제골로 독일이 에콰도르전 리드 (비르츠 어시스트)",
+    "닐손 앙굴로 9분 동점골로 에콰도르 즉시 추격",
+    "곤살로 플라타 77분 역전 결승골 (켄드리 로드리게스 어시스트) — 에콰도르 이변 완성",
+    "에콰도르, 조 3위(4점)로 최우수 3위 팀으로 32강 진출 확정; 독일은 6점으로 그룹 E 1위"
+   ]
+  },
+  {
+   "id": 56,
+   "date": "2026-06-25",
+   "time": "16:00 ET",
+   "stage": "Group E",
+   "home": "Curacao",
+   "homeCode": "CUW",
+   "away": "Ivory Coast",
+   "awayCode": "CIV",
+   "homeScore": 0,
+   "awayScore": 2,
+   "venue": "Lincoln Financial Field, Philadelphia",
+   "status": "finished",
+   "highlights": [
+    "니콜라 페페 7분 선제골 — 상고아레의 패스를 받아 침착한 마무리",
+    "페페 64분 추가골로 쐐기 — 이브라힘 상가레의 스루 패스를 받아 침착하게 마무리",
+    "코트디부아르 대회 첫 32강 진출 확정; 퀴라소 탈락, 16만 소국의 첫 월드컵 도전 마감"
+   ]
+  },
+  {
+   "id": 57,
+   "date": "2026-06-25",
+   "time": "19:00 ET",
+   "stage": "Group F",
+   "home": "Japan",
+   "homeCode": "JPN",
+   "away": "Sweden",
+   "awayCode": "SWE",
+   "homeScore": 1,
+   "awayScore": 1,
+   "venue": "AT&T Stadium, Arlington",
+   "status": "finished",
+   "highlights": [
+    "다이젠 마에다 56분 선제골 — 도안의 패스를 받은 우에다의 리턴에 이어 마에다가 마무리",
+    "앤서니 엘란가 62분 동점골 — 코너에서 왼발 감아찬 환상적인 마무리로 스웨덴 동점",
+    "일본 2위(5점)·스웨덴 3위(4점)로 모두 32강 진출; 빅토르 기외케레스는 결정적 기회 살리지 못해"
+   ]
+  },
+  {
+   "id": 58,
+   "date": "2026-06-25",
+   "time": "19:00 ET",
+   "stage": "Group F",
+   "home": "Tunisia",
+   "homeCode": "TUN",
+   "away": "Netherlands",
+   "awayCode": "NED",
+   "homeScore": 1,
+   "awayScore": 3,
+   "venue": "Arrowhead Stadium, Kansas City",
+   "status": "finished",
+   "highlights": [
+    "엘리에스 스히리 자책골 3분, 브라이언 브로비 7분 — 네덜란드 7분 만에 2-0 리드",
+    "하젬 마스투리 54분 코너킥 헤더로 튀니지 한 골 만회",
+    "얀파울 판헤케 62분 헤더 쐐기골로 네덜란드 3-1 확정 — 브로비 이번 대회 3번째 골 달성",
+    "네덜란드 그룹 F 1위(7점) 통과; 튀니지 3전 전패(0점) 탈락"
+   ]
+  },
+  {
+   "id": 59,
+   "date": "2026-06-25",
+   "time": "22:00 ET",
+   "stage": "Group D",
+   "home": "Turkey",
+   "homeCode": "TUR",
+   "away": "United States",
+   "awayCode": "USA",
+   "homeScore": 3,
+   "awayScore": 2,
+   "venue": "SoFi Stadium, Inglewood",
+   "status": "finished",
+   "highlights": [
+    "오스턴 트러스티 3분 선제골 — 미국 3경기 연속 선제 성공, 이 대회 두 번째 빠른 미국 골",
+    "아르다 귈레르 10분·레스파트 코크추 31분으로 터키 역전 2-1",
+    "세바스티안 버할터 49분 동점골로 미국 2-2 추격",
+    "칸 아얀 90+8분 극적 결승골 — 터키 스탑리지 타임 이변, 미국은 조 1위로 32강 진출"
+   ]
+  },
+  {
+   "id": 60,
+   "date": "2026-06-25",
+   "time": "22:00 ET",
+   "stage": "Group D",
+   "home": "Paraguay",
+   "homeCode": "PAR",
+   "away": "Australia",
+   "awayCode": "AUS",
+   "homeScore": 0,
+   "awayScore": 0,
+   "venue": "Levi's Stadium, Santa Clara",
+   "status": "finished",
+   "highlights": [
+    "양 팀 모두 신중한 경기 운영으로 0-0 무득점 무승부",
+    "호주, 조 2위(4점·GD 0)로 32강 진출 확정 — 2006·2022에 이은 세 번째 토너먼트 진출",
+    "파라과이 3위(4점·GD -2)로 최우수 3위 경쟁 진입"
+   ]
+  },
+  {
+   "id": 61,
+   "date": "2026-06-26",
+   "time": "15:00 ET",
+   "stage": "Group I",
+   "home": "Norway",
+   "homeCode": "NOR",
+   "away": "France",
+   "awayCode": "FRA",
+   "homeScore": 1,
+   "awayScore": 4,
+   "venue": "Gillette Stadium, Foxborough",
+   "status": "finished",
+   "highlights": [
+    "뎀벨레 전반 해트트릭(7'·20'·32') — 월드컵 역사상 가장 이른 해트트릭 중 하나",
+    "오스고르 21분 노르웨이 만회골",
+    "두에 90+4분 쐐기골로 최종 1-4 확정",
+    "프랑스 그룹 I 1위 확정(9점), 노르웨이 로테이션 출전"
+   ]
+  },
+  {
+   "id": 62,
+   "date": "2026-06-26",
+   "time": "15:00 ET",
+   "stage": "Group I",
+   "home": "Senegal",
+   "homeCode": "SEN",
+   "away": "Iraq",
+   "awayCode": "IRQ",
+   "homeScore": 5,
+   "awayScore": 0,
+   "venue": "BMO Field, Toronto",
+   "status": "finished",
+   "highlights": [
+    "아비브 디아라 4분 선제골, 이스마일라 사르 56분 추가골",
+    "이라크 수비수 레빈 술라카 10분 퇴장으로 10명 진행",
+    "파프 게예 멀티골, 일리만 은디아예 5번째 골 마무리",
+    "세네갈 최우수 3위 진출 희망 유지(득실 +5)"
+   ]
+  },
+  {
+   "id": 63,
+   "date": "2026-06-26",
+   "time": "20:00 ET",
+   "stage": "Group H",
+   "home": "Cabo Verde",
+   "homeCode": "CPV",
+   "away": "Saudi Arabia",
+   "awayCode": "KSA",
+   "homeScore": 0,
+   "awayScore": 0,
+   "venue": "NRG Stadium, Houston",
+   "status": "finished",
+   "highlights": [
+    "카보베르데 데뷔 월드컵 16강 진출 확정 — 사상 최소 인구 국가의 녹아웃 진출",
+    "3경기 전부 무승부로 그룹 H 2위 마감",
+    "사우디아라비아 탈락 확정"
+   ]
+  },
+  {
+   "id": 64,
+   "date": "2026-06-26",
+   "time": "20:00 ET",
+   "stage": "Group H",
+   "home": "Uruguay",
+   "homeCode": "URU",
+   "away": "Spain",
+   "awayCode": "ESP",
+   "homeScore": 0,
+   "awayScore": 1,
+   "venue": "Estadio Akron, Guadalajara",
+   "status": "finished",
+   "highlights": [
+    "알렉스 바에나 42분 결승골 — 우루과이 GK 무슬레라 실책 이용",
+    "스페인 그룹 H 1위 확정(9점)",
+    "우루과이(비엘사 감독) 탈락 확정"
+   ]
+  },
+  {
+   "id": 65,
+   "date": "2026-06-26",
+   "time": "23:00 ET",
+   "stage": "Group G",
+   "home": "Egypt",
+   "homeCode": "EGY",
+   "away": "Iran",
+   "awayCode": "IRN",
+   "homeScore": 1,
+   "awayScore": 1,
+   "venue": "Lumen Field, Seattle",
+   "status": "finished",
+   "highlights": [
+    "마흐무드 사베르 5분 선제골(살라 연계)",
+    "라민 레자에이안 14분 동점골",
+    "이란 칼릴자데 93분 결승골이 VAR 오프사이드로 취소되는 극적 마무리",
+    "이집트 그룹 G 2위로 16강 진출 확정"
+   ]
+  },
+  {
+   "id": 66,
+   "date": "2026-06-26",
+   "time": "23:00 ET",
+   "stage": "Group G",
+   "home": "New Zealand",
+   "homeCode": "NZL",
+   "away": "Belgium",
+   "awayCode": "BEL",
+   "homeScore": 1,
+   "awayScore": 5,
+   "venue": "BC Place, Vancouver",
+   "status": "finished",
+   "highlights": [
+    "트로사르 멀티골, 더 브라위너 66분 중거리 강타",
+    "루카쿠 86분 헤더 추가 — 벨기에 압도적 승리",
+    "엘라이자 저스트 84분 뉴질랜드 만회골",
+    "벨기에 그룹 G 1위로 16강 진출, 뉴질랜드 탈락"
+   ]
+  },
+  {
+   "id": 67,
+   "date": "2026-06-27",
+   "time": "17:00 ET",
+   "stage": "Group L",
+   "home": "Panama",
+   "homeCode": "PAN",
+   "away": "England",
+   "awayCode": "ENG",
+   "homeScore": 0,
+   "awayScore": 2,
+   "venue": "MetLife Stadium, East Rutherford",
+   "status": "finished",
+   "highlights": [
+    "벨링엄 62분 선제골(사카 코너킥 헤더)",
+    "케인 67분 추가골(벨링엄 크로스 헤더) — 월드컵 통산 11호골로 라인커 제치고 잉글랜드 월드컵 최다 득점자 등극",
+    "파나마 무득점·무승점 탈락 — 16년 만에 월드컵 1골도 못 넣은 팀",
+    "잉글랜드 그룹 L 1위 확정(9점)"
+   ]
+  },
+  {
+   "id": 68,
+   "date": "2026-06-27",
+   "time": "17:00 ET",
+   "stage": "Group L",
+   "home": "Croatia",
+   "homeCode": "CRO",
+   "away": "Ghana",
+   "awayCode": "GHA",
+   "homeScore": 2,
+   "awayScore": 1,
+   "venue": "Lincoln Financial Field, Philadelphia",
+   "status": "finished",
+   "highlights": [
+    "페타르 수치치 31분 선제골 — 박스 밖 강슛(코바치치 연계)",
+    "데릭 루카센 73분 동점골 — VAR 확인 후 인정",
+    "니콜라 블라시치 83분 결승 헤더(모드리치 코너킥) — 크로아티아 2위로 16강",
+    "모드리치 1966년 이후 최고령 월드컵 도움 기록"
+   ]
+  },
+  {
+   "id": 69,
+   "date": "2026-06-27",
+   "time": "19:30 ET",
+   "stage": "Group K",
+   "home": "Colombia",
+   "homeCode": "COL",
+   "away": "Portugal",
+   "awayCode": "POR",
+   "homeScore": 0,
+   "awayScore": 0,
+   "venue": "Hard Rock Stadium, Miami Gardens",
+   "status": "finished",
+   "highlights": [
+    "콜롬비아 0-0 포르투갈 무득점 무승부",
+    "양 팀 모두 16강 진출 확정 후 로테이션 성격 경기",
+    "콜롬비아 그룹 K 1위(7점), 포르투갈 2위(5점) 마감"
+   ]
+  },
+  {
+   "id": 70,
+   "date": "2026-06-27",
+   "time": "19:30 ET",
+   "stage": "Group K",
+   "home": "DR Congo",
+   "homeCode": "COD",
+   "away": "Uzbekistan",
+   "awayCode": "UZB",
+   "homeScore": 3,
+   "awayScore": 1,
+   "venue": "Mercedes-Benz Stadium, Atlanta",
+   "status": "finished",
+   "highlights": [
+    "엘도르 쇼무로도프 10분 우즈베키스탄 선제골 — 월드컵 첫 리드",
+    "요안 위사 68분 PK 동점골",
+    "피스통 마옐레 78분 역전골",
+    "위사 90+1분 추가골(멀티골)로 3-1 역전승 — DR콩고 16강 진출, 잉글랜드와 32강 대진"
+   ]
+  },
+  {
+   "id": 71,
+   "date": "2026-06-27",
+   "time": "22:00 ET",
+   "stage": "Group J",
+   "home": "Algeria",
+   "homeCode": "ALG",
+   "away": "Austria",
+   "awayCode": "AUT",
+   "homeScore": 3,
+   "awayScore": 3,
+   "venue": "Arrowhead Stadium, Kansas City",
+   "status": "finished",
+   "highlights": [
+    "아르나우토비치 28분 선제골 — 오스트리아 대표팀 통산 49호골",
+    "라피크 벨갈리 45분 동점골, 사비처 55분 오스트리아 재역전",
+    "마흐레즈 60분·90+3분 멀티골로 알제리 역전",
+    "사샤 칼라이지치 90+6분(96분) 극장 동점 헤더 — 양 팀 모두 녹아웃 진출, 이란 탈락 확정"
+   ]
+  },
+  {
+   "id": 72,
+   "date": "2026-06-27",
+   "time": "22:00 ET",
+   "stage": "Group J",
+   "home": "Jordan",
+   "homeCode": "JOR",
+   "away": "Argentina",
+   "awayCode": "ARG",
+   "homeScore": 1,
+   "awayScore": 3,
+   "venue": "AT&T Stadium, Arlington",
+   "status": "finished",
+   "highlights": [
+    "로 셀소 19분 프리킥 선제골",
+    "라우타로 마르티네스 30분대 PK 추가골",
+    "무사 알타마리 요르단 만회골(하다드 크로스 마무리)",
+    "메시 80분 프리킥 골 — 월드컵 7경기 연속 득점 사상 첫 기록, 조별리그 6호골",
+    "아르헨티나 전승으로 그룹 J 1위, 32강 카보베르데와 대진(7/3 마이애미)"
+   ]
+  },
+  {
+   "id": 73,
+   "date": "2026-06-28",
+   "time": "15:00 ET",
+   "stage": "Round of 32",
+   "home": "South Africa",
+   "homeCode": "RSA",
+   "away": "Canada",
+   "awayCode": "CAN",
+   "homeScore": 0,
+   "awayScore": 1,
+   "venue": "SoFi Stadium, Inglewood",
+   "status": "finished",
+   "highlights": [
+    "Stephen Eustaquio scored the winner deep in stoppage time (90+5') to send Canada through to the Round of 16 for the first time in their history",
+    "The first-ever World Cup knockout match for both South Africa and Canada — a historic occasion for two nations meeting at this stage for the first time",
+    "South Africa, in their first-ever knockout appearance, were undone by a single late goal after a tight, low-scoring contest at SoFi Stadium",
+    "Canada advance as the sole match played on the opening day of the Round of 32"
+   ]
+  },
+  {
+   "id": 76,
+   "date": "2026-06-29",
+   "time": "13:00 ET",
+   "stage": "Round of 32",
+   "home": "Brazil",
+   "homeCode": "BRA",
+   "away": "Japan",
+   "awayCode": "JPN",
+   "homeScore": 2,
+   "awayScore": 1,
+   "venue": "NRG Stadium, Houston",
+   "status": "finished",
+   "highlights": [
+    "가이슈 사노 29분 선제골 — 빠른 공 가로채기로 일본이 브라질을 상대로 충격적인 리드",
+    "카세미루 56분 동점 헤더(가브리엘 마갈량이스 크로스) — 브라질 하프타임 직후 추격",
+    "가브리엘 마르티넬리 96분(90+6') 역전 결승골(브루누 기마랑이스 연계) — 브라질 극적 컴백 완성",
+    "브라질 16강 진출; 일본 월드컵 사상 첫 32강 돌파 일보 직전 아쉽게 탈락"
+   ]
+  },
+  {
+   "id": 74,
+   "date": "2026-06-29",
+   "time": "16:30 ET",
+   "stage": "Round of 32",
+   "home": "Germany",
+   "homeCode": "GER",
+   "away": "Paraguay",
+   "awayCode": "PAR",
+   "homeScore": 1,
+   "awayScore": 1,
+   "venue": "Gillette Stadium, Foxborough",
+   "status": "finished",
+   "highlights": [
+    "훌리오 엔시소 42분 헤더 선제골(갈라르사 크로스) — 파라과이가 독일 상대로 전반에 리드",
+    "카이 하버츠 54분 동점 헤더(비르츠 크로스) — 독일 하프타임 직후 즉시 동점",
+    "요나탄 타 연장전 결승 헤더, VAR 재검토 끝에 골키퍼 방해 반칙으로 취소(논란)",
+    "승부차기 4-3 파라과이 승리 — 힐 골키퍼 하버츠·볼테마데 PK 선방, 타 PK 상단 실축. 독일 사상 첫 월드컵 승부차기 탈락, 4강 강호의 32강 충격 탈락"
+   ]
+  },
+  {
+   "id": 75,
+   "date": "2026-06-29",
+   "time": "21:00 ET",
+   "stage": "Round of 32",
+   "home": "Netherlands",
+   "homeCode": "NED",
+   "away": "Morocco",
+   "awayCode": "MAR",
+   "homeScore": 1,
+   "awayScore": 1,
+   "venue": "Estadio BBVA, Guadalupe",
+   "status": "finished",
+   "highlights": [
+    "코디 가크포 72분 선제골 — 네덜란드가 전반 압도적 경기 후 후반 리드",
+    "이사 디오프 90+1분 극적 동점 헤더 — 모로코가 이사 하킴의 크로스를 받아 막판 기적의 동점 연출",
+    "승부차기 3-2 모로코 승리 — 부누 골키퍼 서머빌 PK 선방, 클루이베르트·팀버 실축; 사이바리 결승 PK 성공",
+    "모로코 16강 진출(캐나다와 맞대결); 네덜란드 2연속 월드컵 승부차기 탈락(2022년 아르헨티나 이후)"
+   ]
+  },
+  {
+   "id": 77,
+   "date": "2026-06-30",
+   "time": "13:00 ET",
+   "stage": "Round of 32",
+   "home": "Ivory Coast",
+   "homeCode": "CIV",
+   "away": "Norway",
+   "awayCode": "NOR",
+   "homeScore": 1,
+   "awayScore": 2,
+   "venue": "AT&T Stadium, Arlington",
+   "status": "finished",
+   "highlights": [
+    "안토니오 누사(NOR) 39분 오데고르 연계 왼발 감아찬 원더골로 선제 — 노르웨이의 88년 만의 첫 월드컵 녹아웃 골",
+    "아마드 디알로(CIV) 74분 솔로 드리블 동점골로 코트디부아르 추격",
+    "엘링 홀란(NOR) 86분 결승골 — 홀란 대회 5호골·노르웨이 사상 첫 월드컵 16강 진출 확정",
+    "노르웨이, 7월 5일 뉴저지 메트라이프 스타디움에서 브라질과 16강 맞대결"
+   ]
+  },
+  {
+   "id": 78,
+   "date": "2026-06-30",
+   "time": "16:00 ET",
+   "stage": "Round of 32",
+   "home": "France",
+   "homeCode": "FRA",
+   "away": "Sweden",
+   "awayCode": "SWE",
+   "homeScore": 3,
+   "awayScore": 0,
+   "venue": "MetLife Stadium, East Rutherford",
+   "status": "finished",
+   "highlights": [
+    "킬리앙 음바페(FRA) 45분 선제골 — 기외케레스를 제치고 대각 마무리(올리스·뎀벨레 연계)",
+    "브래들리 바르콜라(FRA) 53분 추가골 — 올리스의 절묘한 컷백 패스를 받아 냉정 마무리",
+    "음바페 74분 쐐기골(올리스 스루패스) — 이번 대회 6호골, 메시와 공동 골든부트 선두",
+    "마이클 올리스 2도움 추가로 대회 통산 5도움 — 남자 월드컵 단일 대회 어시스트 기록 경신 기록"
+   ]
+  },
+  {
+   "id": 79,
+   "date": "2026-06-30",
+   "time": "21:00 ET",
+   "stage": "Round of 32",
+   "home": "Mexico",
+   "homeCode": "MEX",
+   "away": "Ecuador",
+   "awayCode": "ECU",
+   "homeScore": 2,
+   "awayScore": 0,
+   "venue": "Estadio Azteca, Mexico City",
+   "status": "finished",
+   "highlights": [
+    "훌리안 키뇨네스(MEX) 22분 선제골 — 박스 안으로 파고들어 상단 구석 강슛 마무리",
+    "라울 히메네스(MEX) 31분 추가골 — 에콰도르 GK 오르도녜스 실책을 키뇨네스와 연계해 마무리",
+    "피에로 힌카피에(ECU) 후반 추가시간 퇴장 — 골 마우스 가리기 규정 위반 적색 카드",
+    "멕시코, 40년 만의 첫 월드컵 녹아웃 승리 — 공동 개최국 자존심 회복, 7월 5일 아즈테카서 잉글랜드/DR콩고 승자와 16강"
+   ]
+  },
+  {
+   "id": 80,
+   "date": "2026-07-01",
+   "time": "13:00 ET",
+   "stage": "Round of 32",
+   "home": "England",
+   "homeCode": "ENG",
+   "away": "DR Congo",
+   "awayCode": "COD",
+   "homeScore": 2,
+   "awayScore": 1,
+   "venue": "Mercedes-Benz Stadium, Atlanta",
+   "status": "finished",
+   "highlights": [
+    "브라이언 시펭가(COD) 7분 선제골 — DR콩고가 이른 시간 리드",
+    "해리 케인(ENG) 75분 동점골로 삼사자 군단 추격 시작",
+    "해리 케인(ENG) 86분 역전 결승골 — 케인 대회 5호골, 잉글랜드 극적 역전승",
+    "잉글랜드, 멕시코시티 에스타디오 아스테카에서 개최국 멕시코와 16강 격돌"
+   ]
+  },
+  {
+   "id": 82,
+   "date": "2026-07-01",
+   "time": "16:00 ET",
+   "stage": "Round of 32",
+   "home": "Belgium",
+   "homeCode": "BEL",
+   "away": "Senegal",
+   "awayCode": "SEN",
+   "homeScore": 3,
+   "awayScore": 2,
+   "venue": "Lumen Field, Seattle",
+   "status": "finished",
+   "highlights": [
+    "아비브 디아라(SEN) 25분 선제골 — 사르 헤더가 골포스트 맞고 나온 리바운드 마무리",
+    "이스마일라 사르(SEN) 51분 추가골로 세네갈 2-0 리드",
+    "로멜루 루카쿠(BEL) 86분 만회골로 추격 (뫼니에 크로스 니어포스트 마무리)",
+    "유리 틸레망스(BEL) 89분 동점 헤더로 승부를 연장으로",
+    "틸레망스(BEL) 125분 논란의 페널티킥 결승골 — 남자 월드컵 역사상 가장 늦은 시간 득점(124분 44초), 벨기에 2골차 대역전승",
+    "벨기에, 7월 6일 시애틀에서 미국과 16강 대결"
+   ]
+  },
+  {
+   "id": 81,
+   "date": "2026-07-01",
+   "time": "20:00 ET",
+   "stage": "Round of 32",
+   "home": "United States",
+   "homeCode": "USA",
+   "away": "Bosnia and Herzegovina",
+   "awayCode": "BIH",
+   "homeScore": 2,
+   "awayScore": 0,
+   "venue": "Levi's Stadium, Santa Clara",
+   "status": "finished",
+   "highlights": [
+    "폴라린 발로건(USA) 45분 선제골로 개최국 미국 리드",
+    "발로건(USA) 64분 퇴장 — 미국은 후반 상당 시간을 10명으로 소화",
+    "말릭 틸먼(USA) 82분 직접 프리킥 추가골로 쐐기",
+    "미국, 2002년 이후 첫 월드컵 녹아웃 승리 — 7월 6일 시애틀 루멘필드에서 벨기에와 16강"
+   ]
+  },
+  {
+   "id": 83,
+   "date": "2026-07-02",
+   "time": "15:00 ET",
+   "stage": "Round of 32",
+   "home": "Spain",
+   "homeCode": "ESP",
+   "away": "Austria",
+   "awayCode": "AUT",
+   "homeScore": null,
+   "awayScore": null,
+   "venue": "SoFi Stadium, Inglewood",
+   "status": "scheduled",
+   "highlights": []
+  },
+  {
+   "id": 84,
+   "date": "2026-07-02",
+   "time": "17:00 ET",
+   "stage": "Round of 32",
+   "home": "Switzerland",
+   "homeCode": "SUI",
+   "away": "Algeria",
+   "awayCode": "ALG",
+   "homeScore": null,
+   "awayScore": null,
+   "venue": "BC Place, Vancouver",
+   "status": "scheduled",
+   "highlights": []
+  },
+  {
+   "id": 85,
+   "date": "2026-07-02",
+   "time": "19:00 ET",
+   "stage": "Round of 32",
+   "home": "Portugal",
+   "homeCode": "POR",
+   "away": "Croatia",
+   "awayCode": "CRO",
+   "homeScore": null,
+   "awayScore": null,
+   "venue": "BMO Field, Toronto",
+   "status": "scheduled",
+   "highlights": []
+  },
+  {
+   "id": 86,
+   "date": "2026-07-03",
+   "time": "14:00 ET",
+   "stage": "Round of 32",
+   "home": "Australia",
+   "homeCode": "AUS",
+   "away": "Egypt",
+   "awayCode": "EGY",
+   "homeScore": null,
+   "awayScore": null,
+   "venue": "AT&T Stadium, Arlington",
+   "status": "scheduled",
+   "highlights": []
+  },
+  {
+   "id": 87,
+   "date": "2026-07-03",
+   "time": "18:00 ET",
+   "stage": "Round of 32",
+   "home": "Argentina",
+   "homeCode": "ARG",
+   "away": "Cabo Verde",
+   "awayCode": "CPV",
+   "homeScore": null,
+   "awayScore": null,
+   "venue": "Hard Rock Stadium, Miami Gardens",
+   "status": "scheduled",
+   "highlights": []
+  },
+  {
+   "id": 88,
+   "date": "2026-07-03",
+   "time": "21:30 ET",
+   "stage": "Round of 32",
+   "home": "Colombia",
+   "homeCode": "COL",
+   "away": "Ghana",
+   "awayCode": "GHA",
+   "homeScore": null,
+   "awayScore": null,
+   "venue": "Arrowhead Stadium, Kansas City",
+   "status": "scheduled",
+   "highlights": []
+  },
+  {
+   "id": 90,
+   "date": "2026-07-04",
+   "time": "13:00 ET",
+   "stage": "Round of 16",
+   "home": "Canada",
+   "homeCode": "CAN",
+   "away": "Morocco",
+   "awayCode": "MAR",
+   "homeScore": null,
+   "awayScore": null,
+   "venue": "NRG Stadium, Houston",
+   "status": "scheduled",
+   "highlights": []
+  },
+  {
+   "id": 89,
+   "date": "2026-07-04",
+   "time": "17:00 ET",
+   "stage": "Round of 16",
+   "home": "France",
+   "homeCode": "FRA",
+   "away": "Paraguay",
+   "awayCode": "PAR",
+   "homeScore": null,
+   "awayScore": null,
+   "venue": "Lincoln Financial Field, Philadelphia",
+   "status": "scheduled",
+   "highlights": []
+  },
+  {
+   "id": 91,
+   "date": "2026-07-05",
+   "time": "16:00 ET",
+   "stage": "Round of 16",
+   "home": "Brazil",
+   "homeCode": "BRA",
+   "away": "Norway",
+   "awayCode": "NOR",
+   "homeScore": null,
+   "awayScore": null,
+   "venue": "MetLife Stadium, East Rutherford",
+   "status": "scheduled",
+   "highlights": []
+  },
+  {
+   "id": 92,
+   "date": "2026-07-05",
+   "time": "20:00 ET",
+   "stage": "Round of 16",
+   "home": "Mexico",
+   "homeCode": "MEX",
+   "away": "England",
+   "awayCode": "ENG",
+   "homeScore": null,
+   "awayScore": null,
+   "venue": "Estadio Azteca, Mexico City",
+   "status": "scheduled",
+   "highlights": []
+  },
+  {
+   "id": 93,
+   "date": "2026-07-06",
+   "time": "20:00 ET",
+   "stage": "Round of 16",
+   "home": "United States",
+   "homeCode": "USA",
+   "away": "Belgium",
+   "awayCode": "BEL",
+   "homeScore": null,
+   "awayScore": null,
+   "venue": "Lumen Field, Seattle",
+   "status": "scheduled",
+   "highlights": []
+  }
+ ],
+ "storylines": [
+  "Lionel Messi scored a hat trick vs Algeria (June 16) — his first WC hat trick — tying Miroslav Klose's all-time record of 16 World Cup goals. At 38, he is the oldest player to score a WC hat trick.",
+  "Kylian Mbappé became France's all-time top international scorer (surpassing Olivier Giroud) with a brace vs Senegal, reaching 58 goals in 99 caps.",
+  "Scotland — back at the World Cup for the first time since 1998 — sit top of Group C above Brazil and Morocco after beating Haiti 1-0.",
+  "Cabo Verde (pop. ~530,000) held favorite Spain to a 0-0 draw on their tournament debut — one of the biggest shocks of the opening week.",
+  "Curacao became the smallest nation in men's World Cup history (pop. ~155,000) and scored their first-ever World Cup goal against Germany despite losing 7-1.",
+  "Erling Haaland made his World Cup debut with a brace in Norway's 4-1 win over Iraq — Norway's first World Cup since 1998.",
+  "Germany became the all-time top scorers in World Cup history (239 goals), surpassing Brazil, with their 7-1 rout of Curacao.",
+  "Folarin Balogun became the first American to score two goals in a World Cup game since the inaugural 1930 tournament, in the USMNT's 4-1 win over Paraguay.",
+  "Qatar earned their first-ever World Cup point with a 1-1 draw against Switzerland, having gone 0-3 as 2022 hosts.",
+  "Julián Quiñones scored the tournament's opening goal for Mexico — the first CONCACAF player to score a World Cup opener.",
+  "Italy missed out on the tournament — the first former champion to miss three consecutive World Cups.",
+  "This is the first World Cup co-hosted by three nations, the first with 48 teams, and the first in North America since 1994.",
+  "As of June 16, 19 matches had produced 58 goals (3.05 per match) with average attendance of 65,322.",
+  "Austria defeated Jordan 3-1 on June 17 — Austria's first World Cup win since 1990 (36 years). Jordan made their World Cup debut and scored their first-ever World Cup goal through Ali Iyad Olwan.",
+  "England beat Croatia 4-2 in their Group L opener on June 17 — Harry Kane scored twice to reach 10 England World Cup goals, equalling Gary Lineker's national record.",
+  "Colombia topped Group K after a 3-1 win over Uzbekistan at the Estadio Azteca on June 17. Abbosbek Fayzullaev scored Uzbekistan's first-ever World Cup goal.",
+  "Ghana's Caleb Yirenkyi scored a 95th-minute winner to beat Panama 1-0 in Group L on June 17 — Ghana join England at the top on 3 points.",
+  "Portugal were held to a 1-1 draw by DR Congo on June 17 — Yoane Wissa's 45+5 equalizer earned DR Congo their first World Cup point since their only previous appearance in 1974.",
+  "Jonathan David scored a hat trick as Canada beat Qatar 6-0 on June 18 — Canada's first-ever World Cup win and the biggest margin of victory by a CONCACAF team in men's World Cup history. Qatar had two players sent off.",
+  "Mexico became the first team to clinch a place in the Round of 32, defeating South Korea 1-0 on June 18 thanks to Luis Romo's 50th-minute goal after a goalkeeper error. Mexico top Group A with 6 points from 2 games.",
+  "Switzerland's Johan Manzambi scored twice as a substitute in a stunning 4-1 comeback win over Bosnia and Herzegovina on June 18 (trailing 0-0 at 70 mins). Switzerland top Group B level on points with Canada.",
+  "USA beat Australia 2-0 on June 19 (Burgess OG 11', Freeman header 43') — USMNT advance to Round of 32 with 6 points from two games. Christian Pulisic missed the match through injury.",
+  "Morocco beat Scotland 1-0 with Ismael Saibari's goal after just 70 seconds — the fastest winning goal in 2026 World Cup history. Morocco top Group C on goal difference ahead of Brazil.",
+  "Brazil crushed Haiti 3-0 on June 19 (Cunha 23', 36'; Vinicius Jr 45+3') — Haiti become the first team eliminated from the 2026 World Cup.",
+  "Paraguay beat Turkey 1-0 on June 19 despite having Miguel Almirón sent off under FIFA's new mouth-covering rule — Galarza's 2nd-minute strike was enough; Turkey eliminated after two straight defeats.",
+  "Deniz Undav scored twice off the bench as Germany came from behind to beat Ivory Coast 2-1 on June 20 (Kessié 30' for CIV; Undav 68', 94') — Germany advance to the Round of 32 with a 94th-minute winner.",
+  "Curaçao earned their first-ever World Cup point on June 20 with a 0-0 draw against Ecuador — goalkeeper Eloy Room made 15 saves in one of the great individual World Cup goalkeeping performances.",
+  "Netherlands crushed Sweden 5-1 on June 20 (Brobbey 5',17'; Gakpo 47',54'; Summerville 89') — their biggest-ever World Cup win. Brian Brobbey's two goals inside 17 minutes were the fourth-fastest brace in World Cup history.",
+  "Japan defeated Tunisia 4-0 on June 21 (Kamada 4'; Ueda 30',83'; Ito 69') in the 1,000th match in World Cup history — Japan's biggest-ever World Cup winning margin; they join Netherlands at the top of Group F.",
+  "Lamine Yamal (17) scored his first World Cup goal as Spain thrashed Saudi Arabia 4-0 on June 21 in Atlanta (Yamal 10', Oyarzabal 21'&24', Al-Tambakti OG 51'). Yamal becomes the 8th-youngest scorer in World Cup history, surpassing Messi, Mbappé and Ronaldo's debut WC goal ages. Spain top Group H and advance to the Round of 32.",
+  "Egypt claimed their first-ever World Cup win on June 21, beating New Zealand 3-1 in Vancouver (Surman 15' for NZL; Ziko 58', Salah 67', Trezeguet 82'). Mohamed Salah was decisive as Egypt move top of Group G with 4 points.",
+  "Belgium and Iran drew 0-0 on June 21 in Los Angeles — Belgium finished with 10 men after Nathan Ngoy's red card (66' for fouling Taremi). Taremi also had a goal chalked off by VAR. All four Group G teams remain in knockout contention heading into matchday 3.",
+  "Uruguay and Cabo Verde drew 2-2 on June 21 in Miami (Pina 21', Araújo 44', Canobbio 45+6', H. Varela 61'). Cabo Verde remain unbeaten at the 2026 World Cup; Group H's bottom three are separated by just one point.",
+  "Lionel Messi scored twice vs Austria on June 22 (38' & 90+2') to reach 18 World Cup goals — the most by any player in men's or women's World Cup history. His 17th goal broke Miroslav Klose's men's record; his 18th surpassed the overall record. Argentina advance to Round of 32 with 6 points.",
+  "France and Norway both advance from Group I after June 22 matchday-2 wins: France beat Iraq 3-0 (Mbappé 14' & 54', Dembélé 66'; match delayed ~2 hours by lightning), Norway edged Senegal 3-2 (Pedersen 43', Haaland 48' & 58'; Sarr 53' & 90+3').",
+  "Kylian Mbappé and Erling Haaland are tied on 4 tournament goals each after June 22 matchday 2 — both chasing Messi (5 goals) in the Golden Boot race.",
+  "Algeria came from behind to beat Jordan 2-1 on June 22 (Al-Rashdan first half for Jordan; Benbouali 68', Gouiri 82') — Algeria stay in contention in Group J with 3 points.",
+  "Cristiano Ronaldo scored twice vs Uzbekistan on June 23 (6' & 39') to become the first player ever to score at six different FIFA World Cups. Nuno Mendes (17' FK), Nematov OG (60') and Leão (87') completed Portugal's 5-0 rout. Portugal advance to the Round of 32.",
+  "England and Ghana drew 0-0 on June 23 in Foxborough — England dominated with 79% possession and 19 shots but could not score. Both teams on 4 points at the top of Group L ahead of the decisive final matchday.",
+  "Croatia beat Panama 1-0 on June 23 (Budimir 54' header) — Croatia's first win of the tournament. Panama eliminated after failing to score in either of their two matches at their debut World Cup.",
+  "Colombia beat DR Congo 1-0 on June 23 (Muñoz 76') to seal their place in the Round of 32 as Group K winners with 6 points. DR Congo must beat Uzbekistan in the final group game to have any chance of advancing.",
+  "멕시코, 그룹 A 전승(9점) 마감 — 6골 무실점으로 완벽한 조별리그를 기록한 첫 팀. 6월 24일 체코 3-0 완파, 오초아 전설적 카메오 출전.",
+  "남아공, 6월 24일 한국을 1-0(마세코 63')으로 꺾고 월드컵 사상 최초 16강(32강) 진출 — 아프리카 축구 역사에 남을 이변.",
+  "스위스, 캐나다를 2-1(바르가스 46', 만잠비 57')로 꺾고 그룹 B 1위 — 만잠비 이번 대회 3골째; 캐나다도 2위로 32강 통과.",
+  "보스니아, 카타르를 3-1로 격파(알라이베고비치 30', OG 35', 마미치 80') — 보스니아 첫 월드컵 승리; 3위권 탈락 경쟁 생존.",
+  "브라질, 스코틀랜드 3-0 대파(비니시우스 7'·38', 쿠냐 ~65')로 그룹 C 1위 — 비니시우스 주니오르 이번 대회 4골 메시 추격.",
+  "모로코, 아이티에게 두 차례 리드를 내줬지만 劇的 역전 4-2 승리. 아이티 레니 조셉이 1974년 엠마누엘 사논 이후 첫 월드컵 골을 넣어 역사적 순간 연출.",
+  "에콰도르 2-1 독일 이변(6월 25일) — 앙굴로 9분·플라타 77분 역전으로 남미 팀이 8강 강호 독일을 탈락 일보 직전까지 몰았고, 에콰도르는 조 3위(4점)로 최우수 3위 팀 자격 32강 진출 확정.",
+  "터키, 아얀 90+8분 결승골로 미국을 3-2 격파(6월 25일) — 대회 최후반 극적 역전극. 미국은 조 1위로 7월 1일 보스니아와 32강 맞대결 확정.",
+  "페페, 퀴라소전 2골 폭발로 코트디부아르 그룹 E 2위 32강 진출(6월 25일) — 전 아스날 공격수가 7분·64분 두 골을 넣으며 역대 첫 32강 진출 이끌어.",
+  "그룹 F 최종 확정(6월 25일): 네덜란드 1위(7점)·일본 2위(5점)·스웨덴 3위(4점) 모두 32강 진출, 튀니지 3전 전패 탈락. 네덜란드 vs 모로코, 브라질 vs 일본 32강 맞대결 확정.",
+  "뎀벨레 노르웨이전 전반 해트트릭(6월 26일) — 총 4골로 골든부트 경쟁 합류. 메시(5골)·음바페·홀란·비니시우스(각 4골)와 초접전",
+  "카보베르데, 데뷔 월드컵 16강 진출 쾌거(6월 26일) — 인구 약 53만 명의 사상 최소 인구 국가 녹아웃 진출. 16강에서 강호와 맞대결 예정",
+  "스페인, 우루과이를 1-0으로 꺾고 그룹 H 1위 확정(6월 26일) — 비엘사 감독의 우루과이 조별리그 탈락",
+  "벨기에 뉴질랜드 5-1 대파, 이집트 이란과 1-1 무승부로 그룹 G 각각 1·2위 확정(6월 26일)",
+  "해리 케인, 파나마전(6월 27일) 골로 잉글랜드 월드컵 통산 11호골 기록 — 게리 라인커 제치고 잉글랜드 역대 월드컵 최다 득점자 등극. 잉글랜드 7점 그룹 L 1위 마감.",
+  "알제리-오스트리아 3-3 스릴러(6월 27일) — 마흐레즈 90+3분 결승골처럼 보였던 순간을 칼라이지치가 90+6분 헤더로 무산시키며 양 팀 모두 16강 진출. 이란 그룹스테이지 탈락 확정.",
+  "메시, 월드컵 7경기 연속 득점 세계 최초 기록(6월 27일) — 요르단전 80분 프리킥으로 조별리그 6호골, 골든부트 선두 독주. 아르헨티나 그룹 J 전승(9점) 마감.",
+  "DR콩고, 위사 멀티골로 우즈베키스탄 3-1 역전 격파(6월 27일) — 사상 첫 32강(녹아웃) 진출 쾌거. 잉글랜드와 맞대결 예정. 모든 12개조 조별리그 완료, 32강 막오른다.",
+  "캐나다, 남아공을 1-0으로 꺾고 사상 첫 월드컵 16강 진출(6월 28일) — 스티븐 에우스타키오가 후반 추가시간(90+5')에 결승골. 32강 개막전이자 양국 모두 첫 월드컵 녹아웃 경기였던 역사적 맞대결에서 캐나다가 막판 한 방으로 승리. 남아공의 첫 녹아웃 도전은 종료.",
+  "32강 개막일(6월 28일)에는 남아공-캐나다 단 한 경기만 치러졌고, 6월 29일부터 브라질-일본·독일-파라과이·네덜란드-모로코로 본격 라운드가 시작된다.",
+  "32강 골든부트 판도: 조별리그 종료 시점 메시(아르헨티나) 6골 단독 선두, 음바페·뎀벨레(프랑스)·홀란(노르웨이)·비니시우스(브라질)·조너선 데이비드(캐나다)가 4골로 추격. 6월 28일 에우스타키오의 결승골은 토너먼트 첫 녹아웃 골이었으나 1골로 상위권 변동은 없음.",
+  "브라질, 일본에 0-1로 뒤지다 카세미루(56')·마르티넬리(96') 연속골로 극적 역전 2-1 승리(6월 29일) — 사상 첫 월드컵 탈락 위기에서 탈출한 브라질. 일본은 32강에서 역대 첫 WC 16강 진출 일보 직전 아쉽게 탈락.",
+  "파라과이, 독일을 1-1 후 승부차기 4-3으로 격파(6월 29일) — 월드컵 역사상 최대 이변 중 하나. 4회 우승 독일 사상 첫 WC 승부차기 탈락. 힐 골키퍼 선방이 결정적; 타 VAR 취소 골도 논란. 파라과이 사상 첫 16강.",
+  "모로코, 디오프 90+1분 극적 동점 헤더 후 승부차기 3-2로 네덜란드 격파(6월 29일) — 아프리카 팀의 또 다른 기적. 부누 서머빌 PK 선방으로 결판. 6/29에만 독일·네덜란드 나란히 32강 탈락 — 대회 사상 최대 이변의 날.",
+  "노르웨이, 누사(39') 원더골·홀란(86') 결승골로 코트디부아르를 2-1 격파(6월 30일) — 노르웨이 사상 첫 월드컵 16강 진출 쾌거. 홀란 대회 5호골·누사 이번 대회 최고의 골 후보. 7/5 브라질과 메트라이프 스타디움 맞대결.",
+  "프랑스, 스웨덴을 3-0 대파(6월 30일) — 음바페 멀티골(45'·74')·바르콜라(53')·올리스 2도움. 음바페 이번 대회 6호골로 메시와 공동 골든부트 선두. 올리스 대회 통산 5도움 남자 월드컵 어시스트 신기록. 7/4 파라과이와 필라델피아 16강.",
+  "멕시코, 에콰도르를 2-0 격파(6월 30일) — 키뇨네스(22')·히메네스(31') 활약. 공동 개최국 40년 만의 첫 녹아웃 승리. 힌카피에 추가시간 퇴장. 7/5 아즈테카서 잉글랜드/DR콩고 승자와 16강.",
+  "잉글랜드, DR콩고에 7분 실점 후 케인 2골(75'·86')로 극적 2-1 역전 승리(7월 1일) — 월드컵 최초 하프타임 뒤지다 역전한 잉글랜드. 케인 대회 5호골, 16강에서 개최국 멕시코와 아즈테카 맞대결.",
+  "벨기에, 세네갈에 0-2 끌려다니다 루카쿠(86')·틸레망스(89') 연속골로 연장 후 틸레망스 125분 PK 결승골 — 남자 월드컵 역대 최후반 결승골(7월 1일). 2골차 대역전 드라마로 벨기에 16강.",
+  "10명 미국, 발로건 선제골(45') 후 발로건 퇴장(64') 위기에서도 틸먼 FK(82')로 보스니아 2-0 완파 16강 진출(7월 1일) — 2002년 이후 첫 WC 녹아웃 승리. 7/6 시애틀서 벨기에와 16강 미국 더비."
+ ],
+ "topScorers": [
+  {
+   "player": "Kylian Mbappé",
+   "team": "France",
+   "teamCode": "FRA",
+   "goals": 6,
+   "assists": 2
+  },
+  {
+   "player": "Lionel Messi",
+   "team": "Argentina",
+   "teamCode": "ARG",
+   "goals": 6,
+   "assists": 0
+  },
+  {
+   "player": "Erling Haaland",
+   "team": "Norway",
+   "teamCode": "NOR",
+   "goals": 5,
+   "assists": 0
+  },
+  {
+   "player": "Harry Kane",
+   "team": "England",
+   "teamCode": "ENG",
+   "goals": 5,
+   "assists": 0
+  },
+  {
+   "player": "Vinícius Júnior",
+   "team": "Brazil",
+   "teamCode": "BRA",
+   "goals": 4,
+   "assists": 0
+  },
+  {
+   "player": "Ousmane Dembélé",
+   "team": "France",
+   "teamCode": "FRA",
+   "goals": 4,
+   "assists": 0
+  },
+  {
+   "player": "Jonathan David",
+   "team": "Canada",
+   "teamCode": "CAN",
+   "goals": 4,
+   "assists": 0
+  },
+  {
+   "player": "Deniz Undav",
+   "team": "Germany",
+   "teamCode": "GER",
+   "goals": 3,
+   "assists": 0
+  },
+  {
+   "player": "Cristiano Ronaldo",
+   "team": "Portugal",
+   "teamCode": "POR",
+   "goals": 3,
+   "assists": 0
+  },
+  {
+   "player": "Yoane Wissa",
+   "team": "DR Congo",
+   "teamCode": "COD",
+   "goals": 3,
+   "assists": 0
+  }
+ ],
+ "knockoutRounds": [
+  {
+   "round": "32강",
+   "stage": "Round of 32",
+   "dates": "6/28 ~ 7/3",
+   "matchCount": 16
+  },
+  {
+   "round": "16강",
+   "stage": "Round of 16",
+   "dates": "7/4 ~ 7/7",
+   "matchCount": 8
+  },
+  {
+   "round": "8강",
+   "stage": "Quarter-final",
+   "dates": "7/9 ~ 7/11",
+   "matchCount": 4
+  },
+  {
+   "round": "4강",
+   "stage": "Semi-final",
+   "dates": "7/14 ~ 7/15",
+   "matchCount": 2
+  },
+  {
+   "round": "3·4위전",
+   "stage": "Third place",
+   "dates": "7/18",
+   "matchCount": 1
+  },
+  {
+   "round": "결승",
+   "stage": "Final",
+   "dates": "7/19 · MetLife Stadium",
+   "matchCount": 1
+  }
+ ]
 }
